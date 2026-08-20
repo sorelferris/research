@@ -1,0 +1,991 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2608.16885",
+  "figure_plan": {
+    "paper_id": "arxiv:2608.16885",
+    "figures": [
+      {
+        "id": "Algorithm 1",
+        "caption": "Closed-loop system inference",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_algorithm_1.png",
+          "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_006_fig_algorithm_1.png",
+          "width": 350,
+          "height": 314,
+          "size_bytes": 30690,
+          "label": "Algorithm 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected",
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.127839,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 573,
+            "table_body_rows": 0,
+            "caption_text_chars": 40,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "algorithm 1",
+              "closed-loop",
+              "system",
+              "inference"
+            ],
+            "snippet": ". The resulting real observation is incorporated into memory at the next inference step. Algorithm 1 presents these logical dependencies as a se- quential procedure. In deployment, the high-",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_algorithm_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_006_fig_algorithm_1.png",
+                "width": 350,
+                "height": 314,
+                "size_bytes": 30690,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.127839,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 573,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "closed-loop",
+              "system",
+              "inference"
+            ],
+            "snippet": "0% 10/10 95.00% tion (TTC) and assess whether these gains lead to higher success rates in closed-loop real-robot evaluation. Our TTC experiments cover the following tasks: Make Milk Tea, Book",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_4.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4.png",
+                "width": 696,
+                "height": 199,
+                "size_bytes": 47911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.161509,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.88892,
+                  "paragraph_text_chars": 705,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 255,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "closed-loop",
+              "inference"
+            ],
+            "snippet": "antially improves next-subtask prediction accuracy, and these gains translate into higher closed-loop success on long-horizon robot manipulation tasks. I. INTRODUCTION Long-horizon manipulati",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_01.jpeg",
+                "width": 119,
+                "height": 86,
+                "size_bytes": 2638
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_02.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2562
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_03.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2983
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1.png",
+                "width": 734,
+                "height": 332,
+                "size_bytes": 171878,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283512,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 811,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "Overview of τ0-VLA. The high-level policy uses world-model-guided test-time computation to search over subtask",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_fig_1.png",
+          "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1.png",
+          "width": 734,
+          "height": 332,
+          "size_bytes": 171878,
+          "label": "Fig. 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.283512,
+            "visual_rect_count": 60,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 811,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "high-level",
+              "policy",
+              "uses",
+              "world-model-guided",
+              "test-time"
+            ],
+            "snippet": "1 Depth 2 P W V P W V F VLM reflects over retained branches Vision-Language-Action Model Fig. 1: Overview of τ0-VLA. The high-level policy uses world-model-guided test-time computation",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_01.jpeg",
+                "width": 119,
+                "height": 86,
+                "size_bytes": 2638
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_02.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2562
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_03.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2983
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1.png",
+                "width": 734,
+                "height": 332,
+                "size_bytes": 171878,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283512,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 811,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "high-level",
+              "policy",
+              "world-model-guided",
+              "test-time"
+            ],
+            "snippet": "a. High-Level Policy Vision-Language Model Qwen3.5-9B Observation multi-view Task Instruction “Make Mil",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_img_01.jpeg",
+                "width": 71,
+                "height": 47,
+                "size_bytes": 1902
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_img_02.jpeg",
+                "width": 71,
+                "height": 48,
+                "size_bytes": 1813
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_img_03.png",
+                "width": 615,
+                "height": 83,
+                "size_bytes": 471
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_fig_fig_2.png",
+                "width": 682,
+                "height": 287,
+                "size_bytes": 68853,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227438,
+                  "visual_rect_count": 51,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1507,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "high-level",
+              "policy",
+              "test-time"
+            ],
+            "snippet": "ix C-B provides the full loss and sampling details. D. System Inference At inference, the high-level policy and low-level policy form a closed loop. At each logical inference step, the propo",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_algorithm_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_006_fig_algorithm_1.png",
+                "width": 350,
+                "height": 314,
+                "size_bytes": 30690,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.127839,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 573,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "The hierarchical τ0-VLA architecture. (a) At a high-level inference step t, the proposal model P conditions on the",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_fig_2.png",
+          "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_fig_fig_2.png",
+          "width": 682,
+          "height": 287,
+          "size_bytes": 68853,
+          "label": "Fig. 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.227438,
+            "visual_rect_count": 51,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 1507,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "hierarchical",
+              "architecture",
+              "high-level",
+              "inference",
+              "step"
+            ],
+            "snippet": "le Retained Branch: Pick Up Spoon →Scoop Jelly →Pour Jelly Beam Search High- Level Policy Fig. 2: The hierarchical τ0-VLA architecture. (a) At a high-level inference step t, the proposal",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_img_01.jpeg",
+                "width": 71,
+                "height": 47,
+                "size_bytes": 1902
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_img_02.jpeg",
+                "width": 71,
+                "height": 48,
+                "size_bytes": 1813
+              },
+              {
+                "filename": "page_005_img_03.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_img_03.png",
+                "width": 615,
+                "height": 83,
+                "size_bytes": 471
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_fig_2.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_fig_fig_2.png",
+                "width": 682,
+                "height": 287,
+                "size_bytes": 68853,
+                "label": "Fig. 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227438,
+                  "visual_rect_count": 51,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1507,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "hierarchical",
+              "high-level",
+              "inference",
+              "step"
+            ],
+            "snippet": "τ0-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation Xiaowei Cai2, Yunuo",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_01.jpeg",
+                "width": 119,
+                "height": 86,
+                "size_bytes": 2638
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_02.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2562
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_03.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2983
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1.png",
+                "width": 734,
+                "height": 332,
+                "size_bytes": 171878,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283512,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 811,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "high-level",
+              "inference",
+              "step"
+            ],
+            "snippet": "ix C-B provides the full loss and sampling details. D. System Inference At inference, the high-level policy and low-level policy form a closed loop. At each logical inference step, the propo",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_algorithm_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_006_fig_algorithm_1.png",
+                "width": 350,
+                "height": 314,
+                "size_bytes": 30690,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.127839,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 573,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Next-subtask prediction accuracy under different",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_fig_4.png",
+          "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4.png",
+          "width": 696,
+          "height": 199,
+          "size_bytes": 47911,
+          "label": "Fig. 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.161509,
+            "visual_rect_count": 14,
+            "visual_body_ratio": 0.88892,
+            "paragraph_text_chars": 705,
+            "table_body_rows": 0,
+            "caption_text_chars": 255,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "next-subtask",
+              "prediction",
+              "accuracy",
+              "under",
+              "different"
+            ],
+            "snippet": "4.7 66.0 50.0 72.0 70.0 83.0 57.5 74.0 87.3 88.0 74.0 87.0 Plan Once Best-of-N TTC (Ours) Fig. 4: Next-subtask prediction accuracy under different high-level inference methods. We compar",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_4.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4.png",
+                "width": 696,
+                "height": 199,
+                "size_bytes": 47911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.161509,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.88892,
+                  "paragraph_text_chars": 705,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 255,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "next-subtask",
+              "prediction",
+              "accuracy"
+            ],
+            "snippet": "n- shifted settings, allocating additional test-time computation sub- stantially improves next-subtask prediction accuracy, and these gains translate into higher closed-loop success on long-ho",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_01.jpeg",
+                "width": 119,
+                "height": 86,
+                "size_bytes": 2638
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_02.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2562
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_img_03.jpeg",
+                "width": 118,
+                "height": 87,
+                "size_bytes": 2983
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_fig_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1.png",
+                "width": 734,
+                "height": 332,
+                "size_bytes": 171878,
+                "label": "Fig. 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283512,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 811,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "next-subtask",
+              "prediction",
+              "accuracy",
+              "under",
+              "different"
+            ],
+            "snippet": "fine-tuning, TTC evaluates candidate consequences at decision time, resulting in improved next-subtask prediction accuracy. Although Best-of-N evaluates sampled candidates using the same world",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_5.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_011_fig_fig_5.png",
+                "width": 559,
+                "height": 241,
+                "size_bytes": 28805,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156426,
+                  "visual_rect_count": 5,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Relationship between computational cost and subtask-prediction accuracy. The accuracy increases with additional",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_fig_5.png",
+          "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_011_fig_fig_5.png",
+          "width": 559,
+          "height": 241,
+          "size_bytes": 28805,
+          "label": "Fig. 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.156426,
+            "visual_rect_count": 5,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 438,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "relationship",
+              "between",
+              "computational",
+              "cost",
+              "subtask-prediction"
+            ],
+            "snippet": "80 Accuracy (%) (b) Book Organization Plan Once (55.3%) TTC Result Fitted Curve Plan Once Fig. 5: Relationship between computational cost and subtask-prediction accuracy. The accuracy in",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_fig_5.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_011_fig_fig_5.png",
+                "width": 559,
+                "height": 241,
+                "size_bytes": 28805,
+                "label": "Fig. 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.156426,
+                  "visual_rect_count": 5,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 438,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "relationship",
+              "between",
+              "computational",
+              "cost"
+            ],
+            "snippet": "setting, then evaluate TTC in closed-loop real- robot execution, and finally examine the relationship between computational cost and prediction accuracy. TABLE III: Closed-loop physical-robot",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_4.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4.png",
+                "width": 696,
+                "height": 199,
+                "size_bytes": 47911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.161509,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.88892,
+                  "paragraph_text_chars": 705,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 255,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Representative physical-robot evaluation tasks. (a) Clean Room requires collecting two dirty garments, placing them",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_fig_3.png",
+          "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_008_fig_fig_3.png",
+          "width": 696,
+          "height": 459,
+          "size_bytes": 593148,
+          "label": "Fig. 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.370978,
+            "visual_rect_count": 6,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 903,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 3",
+              "representative",
+              "physical-robot",
+              "evaluation",
+              "tasks",
+              "clean"
+            ],
+            "snippet": "r Fry (d) Make Milk Tea (e) Collect Laundry (f) Tidy Makeup Table (b) Prepare Ingredients Fig. 3: Representative physical-robot evaluation tasks. (a) Clean Room requires collecting two d",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_008_img_01.jpeg",
+                "width": 1996,
+                "height": 1348,
+                "size_bytes": 395241
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_fig_3.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_008_fig_fig_3.png",
+                "width": 696,
+                "height": 459,
+                "size_bytes": 593148,
+                "label": "Fig. 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.370978,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 903,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "evaluation",
+              "tasks",
+              "clean"
+            ],
+            "snippet": "e supervise only active channels and project inactive channels before each velocity-field evaluation and at the final output. Appendix C-B provides the full loss and sampling details. D. Sys",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_algorithm_1.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_006_fig_algorithm_1.png",
+                "width": 350,
+                "height": 314,
+                "size_bytes": 30690,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected",
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.127839,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 573,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 40,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "physical-robot",
+              "evaluation",
+              "tasks",
+              "clean"
+            ],
+            "snippet": ": Long-horizon task performance. Each method–task setting uses 10 independently collected physical-robot trials. SR reports successful trials as x/10, and Progress is the normalized milestone-co",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_fig_4.png",
+                "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4.png",
+                "width": 696,
+                "height": 199,
+                "size_bytes": 47911,
+                "label": "Fig. 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.161509,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.88892,
+                  "paragraph_text_chars": 705,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 255,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

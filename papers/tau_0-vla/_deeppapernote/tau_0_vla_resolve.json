@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "source_type": "arxiv_id",
+  "source_url": "https://arxiv.org/abs/2608.16885",
+  "arxiv_id": "2608.16885",
+  "pdf_url": "https://arxiv.org/pdf/2608.16885.pdf",
+  "metadata_sources": [
+    "arxiv_id"
+  ],
+  "paper_id": "arxiv:2608.16885",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present"
+  ],
+  "zotero_lookup": {
+    "mode": "auto",
+    "status": "error",
+    "match_kind": "arxiv_id",
+    "error": {
+      "code": "zotero_timeout",
+      "message": "Timed out while connecting to the Zotero Local API.",
+      "retryable": true
+    }
+  },
+  "script": "resolve_paper.py"
+}

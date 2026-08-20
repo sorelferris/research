@@ -1,0 +1,200 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "artifact_type": "identity_repair_trace",
+  "schema_version": 2,
+  "paper_id": "arxiv:2608.16885",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "repair_attempts": [],
+  "accepted_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.16885"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.16885v1",
+        "url": "http://arxiv.org/abs/2608.16885v1",
+        "arxiv_id": "2608.16885",
+        "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+        "abstract": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce $τ_0$-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through world-model-guided test-time computation. At each inference step, the high-level policy uses execution memory to generate a subtask and, when needed, searches over alternatives before committing to its output. A low-level policy then executes the generated subtask across multiple robot embodiments. The policy is trained on 40,115 hours of heterogeneous real-world data with multimodal co-training. Across in-domain and distribution-shifted settings, allocating additional test-time computation substantially improves next-subtask prediction accuracy, and these gains translate into higher closed-loop success on long-horizon robot manipulation tasks.",
+        "authors": [
+          "Xiaowei Cai",
+          "Yunuo Cai",
+          "Bingao Chen",
+          "Jingxiao Chen",
+          "Zhi Chen",
+          "Siyuan Feng",
+          "Tengyu Hou",
+          "Jingshun Huang",
+          "Han Jiang",
+          "Runkun Ju",
+          "Dong Li",
+          "Mingxiang Li",
+          "Shaowei Li",
+          "Xinchen Li",
+          "Yifan Li",
+          "Yi Liu",
+          "Zhongyuan Liu",
+          "Jianlan Luo",
+          "Junwen Miao",
+          "Ruiqi Ni",
+          "Buqing Nie",
+          "Mingjie Pan",
+          "Xinlin Ren",
+          "Jianheng Song",
+          "Jiaxu Wang",
+          "Peiqi Wang",
+          "Sen Wang",
+          "Xiaoyan Wang",
+          "Dafeng Wei",
+          "Dongming Wu",
+          "Pengwei Xie",
+          "Pu Yang",
+          "Hangjian Ye",
+          "Xiangyu Yue",
+          "Jinyu Zhang",
+          "Qinglin Zhang",
+          "Xueyong Zhao",
+          "Pengfei Zhou",
+          "Yue Zhou"
+        ],
+        "published": "2026-08-17T17:59:11Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.16885v1"
+      }
+    }
+  ],
+  "rejected_observations": [],
+  "bound_sources": [
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.16885.pdf",
+      "provider": "arxiv_id",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.16885v1",
+      "provider": "arxiv",
+      "binding_reason": "shared_identifier"
+    }
+  ],
+  "field_provenance": {
+    "arxiv_id": {
+      "provider": "arxiv_id",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.16885"
+      }
+    },
+    "source_url": {
+      "provider": "arxiv_id",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.16885"
+      }
+    },
+    "pdf_url": {
+      "provider": "arxiv_id",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.16885"
+      }
+    },
+    "title": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.16885"
+      }
+    },
+    "authors": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.16885"
+      }
+    },
+    "year": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.16885"
+      }
+    },
+    "abstract": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.16885"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "arxiv_id",
+      "value": "2608.16885",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.16885.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "https://arxiv.org/abs/2608.16885",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.16885.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "source_url",
+      "value": "https://arxiv.org/abs/2608.16885",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2608.16885"
+      }
+    ]
+  },
+  "warnings": [],
+  "unresolved_risks": [],
+  "failure_summary": "",
+  "provenance": {
+    "resolve_artifact_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_resolve.json",
+    "metadata_artifact_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_metadata.json"
+  }
+}

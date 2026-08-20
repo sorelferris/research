@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "stage": "final_readability_review",
+  "paper_id": "arxiv:2608.16885",
+  "note_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\tau_0-VLA_精读笔记.md",
+  "checks": {
+    "natural_chinese_prose": true,
+    "no_ordinary_english_phrase_leftovers": true,
+    "no_mechanical_translation_artifacts": true,
+    "no_suspicious_mid_sentence_linebreaks": true,
+    "formulas_are_renderable_math": true,
+    "no_new_facts_introduced_during_polish": true
+  },
+  "notes": "保留的英文仅用于论文标题、作者、方法名和数学符号等稳定专名或元数据。"
+}

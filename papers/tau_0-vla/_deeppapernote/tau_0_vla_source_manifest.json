@@ -1,0 +1,1382 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2608.16885",
+  "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_raw_sections.jsonl",
+  "full_text_md_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_full_text.md",
+  "pdf": {
+    "path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\pdfs\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation.pdf",
+    "total_pages": 18,
+    "text_pages_extracted": 18,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 18,
+    "text_max_pages": null,
+    "text_pages_extracted": 18,
+    "text_pages_scanned": 18,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 6,
+    "references_start_page": 11
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 3420,
+      "text_hash_sha256": "efbb245b163f0f8cc70021f7ed3872fa0df43ca4642d78de65112fcadd15bfb9"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "I. INTRODUCTION",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 6685,
+      "text_hash_sha256": "01b2f7740201ec12c54d2de8cf5ca9692e7eeb2d8cb74c31a5c47de2fba9c96d"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "II. RELATED WORK",
+      "page_start": 3,
+      "page_end": 3,
+      "char_count": 5177,
+      "text_hash_sha256": "e10b6d7505ba895daac104944d4ce6f1cfc497848f72609fbb0e92c11c89109b"
+    },
+    {
+      "section_id": "sec:preliminaries",
+      "kind": "introduction",
+      "title": "III. PRELIMINARIES",
+      "page_start": 3,
+      "page_end": 4,
+      "char_count": 2327,
+      "text_hash_sha256": "002761ec21fecc7da712ff265120beb707ec816e7662b37f75957b5424a3bf42"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "IV. METHOD",
+      "page_start": 4,
+      "page_end": 5,
+      "char_count": 4477,
+      "text_hash_sha256": "ea748445138638c06969ae224022ecba0205dc69241667fd06b4341e4b08efa3"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 5,
+      "page_end": 5,
+      "char_count": 5,
+      "text_hash_sha256": "8e37953d23daca5ff01b8282c33f4e0a2152f1d1885f94c06418617e3ee1d24e"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 5,
+      "page_end": 6,
+      "char_count": 6325,
+      "text_hash_sha256": "dd4763978b6f5b3f55638763556cd85568e61d6a69d2671f3e77798d1beb6894"
+    },
+    {
+      "section_id": "sec:appendix-c-f-the-same-routing-statistics-are-used-across",
+      "kind": "appendix",
+      "title": "Appendix C-F. The same routing statistics are used across",
+      "page_start": 6,
+      "page_end": 7,
+      "char_count": 6208,
+      "text_hash_sha256": "3c1723f0a2bde36f7f1f0d79db0cabc76b808451981f4fbd864a997281ce7fd5"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "VI. EXPERIMENTS",
+      "page_start": 7,
+      "page_end": 9,
+      "char_count": 6974,
+      "text_hash_sha256": "c56abee6011c21eda2af87c5d83d044880ff8f8824ff23c5b1c9c13a301022dc"
+    },
+    {
+      "section_id": "sec:appendix-c-c",
+      "kind": "appendix",
+      "title": "Appendix C-C.",
+      "page_start": 9,
+      "page_end": 10,
+      "char_count": 4711,
+      "text_hash_sha256": "33923b6891f19e7bc73d4bd8fa506d1dbda57256c581a9025fddc9d188cbd7b3"
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 916,
+      "text_hash_sha256": "8b408a7fdbd2af3f0888c074bd85ddbe286da7d7849b22a9e2a2883c9ceb8930"
+    },
+    {
+      "section_id": "sec:method-3",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 10,
+      "page_end": 10,
+      "char_count": 1453,
+      "text_hash_sha256": "abe084b898ae25d36d7357ace298a0c1a55300ed74ec9c0deb0878012cac0406"
+    },
+    {
+      "section_id": "sec:method-4",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 10,
+      "page_end": 11,
+      "char_count": 4953,
+      "text_hash_sha256": "365a27488a2aff6a9fbdb78ed1c5caeb7c64fd5ae7699ea0ad15f9e7994b5430"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "VII. CONCLUSION",
+      "page_start": 11,
+      "page_end": 11,
+      "char_count": 595,
+      "text_hash_sha256": "2245c4107164f47537161dc56a800415cebf14181c4e2777fdef1e50d53b0bcb"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "REFERENCES",
+      "page_start": 11,
+      "page_end": 14,
+      "char_count": 13397,
+      "text_hash_sha256": "04e7108e96d778646b29e50c43750e876cafa54e61f6eb8396ee0e566fc518a0"
+    },
+    {
+      "section_id": "sec:appendix-a",
+      "kind": "appendix",
+      "title": "APPENDIX A",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 1013,
+      "text_hash_sha256": "db24ba07e03fe31a7d88e8e76f829efb7d91a91401e8542aecd68a477644fc42"
+    },
+    {
+      "section_id": "sec:acknowledgments",
+      "kind": "acknowledgments",
+      "title": "ACKNOWLEDGMENTS",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 574,
+      "text_hash_sha256": "78245dec313e22cc4273238bf473b460b39254b28fb259868439904aebd5c895"
+    },
+    {
+      "section_id": "sec:appendix-c",
+      "kind": "appendix",
+      "title": "APPENDIX C",
+      "page_start": 14,
+      "page_end": 18,
+      "char_count": 20398,
+      "text_hash_sha256": "d33ee97722fd1c45df8c3b208a6db5a050ec70195b5aa045e818266535ea6f2f"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3688,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 6473,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 6068,
+      "section_ids": [
+        "sec:related-work",
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 5371,
+      "section_ids": [
+        "sec:preliminaries",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4265,
+      "section_ids": [
+        "sec:method",
+        "sec:model",
+        "sec:model-2"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 5373,
+      "section_ids": [
+        "sec:model-2",
+        "sec:appendix-c-f-the-same-routing-statistics-are-used-across"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 5954,
+      "section_ids": [
+        "sec:appendix-c-f-the-same-routing-statistics-are-used-across",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2884,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 6167,
+      "section_ids": [
+        "sec:experiments",
+        "sec:appendix-c-c"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 4310,
+      "section_ids": [
+        "sec:appendix-c-c",
+        "sec:method-2",
+        "sec:method-3",
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 4547,
+      "section_ids": [
+        "sec:method-4",
+        "sec:conclusion",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 5462,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 5563,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 5017,
+      "section_ids": [
+        "sec:references",
+        "sec:appendix-a",
+        "sec:acknowledgments",
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 5472,
+      "section_ids": [
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 5913,
+      "section_ids": [
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 5681,
+      "section_ids": [
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 1962,
+      "section_ids": [
+        "sec:appendix-c"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Overview of τ0-VLA. The high-level policy uses world-model-guided test-time computation to search over subtask",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "The hierarchical τ0-VLA architecture. (a) At a high-level inference step t, the proposal model P conditions on the",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "Closed-loop system inference",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:model-2"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Representative physical-robot evaluation tasks. (a) Clean Room requires collecting two dirty garments, placing them",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Next-subtask prediction accuracy under different",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:appendix-c-c"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Relationship between computational cost and subtask-prediction accuracy. The accuracy increases with additional",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:method-4"
+      }
+    ],
+    "tables": []
+  },
+  "math_index": [
+    {
+      "text": "candidate expansion with N = 3; recursive beam expansion to depth D is omitted for brevity. The selected subtask then",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 1
+    },
+    {
+      "text": "at:t+H−1 = πθ(ot, st, ct, η),",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "is used throughout the episode, so ct = ℓ. The policy must",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "0 = ∅. At inference step t, µ",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "ht =",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "t ) = µ(ht).",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "ct = z⋆",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "at:t+H−1 = πθ(ot, st, z⋆",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 4
+    },
+    {
+      "text": "= P(ht).",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "pass, the adaptive router computes gt ∈{0, 1}. Here gt = 0",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "selects the fast route and gt = 1 invokes TTC. The routing",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "ˆo = W(˜o, z),",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "v = V (ℓ, z, ˆo).",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "When gt = 1, the high-level policy",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "Ct = Search (ht, P, W, V, N, B, D) .",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "path is the empty sequence ρ(broot) = (), and whose score is",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "S(broot) = 0.",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "At each depth d ∈{1, . . . , D}, we independently invoke the",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "proposal model N times for every retained branch b ∈Qt,d−1:",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "i = 1, . . . , N.",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "memory. For the root branch, h(broot) = ht, so the proposal",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "<think>",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "illustrates the root expansion with N = 3 and B = 2, where local and cumulative scores coincide. Deeper expansion is omitted",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "when b = broot and ˆo(b) otherwise. For each indexed proposal,",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "= W",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "= V",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "= S(b) + v",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "At,d =",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "b∈Qt,d−1",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "i=1,...,N",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "Qt,d = TopB(At,d, S) .",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "Ct =",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "b∈Qt,D ,",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "summaries Ct and the observation-aligned real context ¯ht =",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "t = F(¯ht, Ct).",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "the action dimension and let M ∈{0, 1}da×da be a diagonal",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "action-mask matrix, where [M]ii = 1 if channel i is active",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "and [M]ii = 0 otherwise. The same matrix is applied to every",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "action vector in the chunk. For each j ∈{0, . . . , H −1},",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "let at+j, ϵt+j ∈Rda, where ϵt+j ∼N(0, Ida) and Ida",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "τ ∈[0, 1] is shared across the chunk, with τ = 1 denoting",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "noise and τ = 0 denoting a clean action. The interpolated",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "t+j = τMϵt+j + (1 −τ)Mat+j,",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "ut+j = M(ϵt+j −at+j).",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "When gt = 0, this direct proposal becomes the final subtask",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "t . When gt = 1, test-time search produces Ct, and the",
+      "section_id": "sec:model-2",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "2: for t = 1, 2, . . . until task termination do",
+      "section_id": "sec:appendix-c-f-the-same-routing-statistics-are-used-across",
+      "page_start": 6,
+      "page_end": 7
+    },
+    {
+      "text": "if gt = 0 then",
+      "section_id": "sec:appendix-c-f-the-same-routing-statistics-are-used-across",
+      "page_start": 6,
+      "page_end": 7
+    },
+    {
+      "text": "2024. URL https://openreview.net/forum?id=c0chJTSbci.",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "volume 38, 2025. URL https://openreview.net/forum?id=",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "//openreview.net/forum?id=9pKtcJcMP3.",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "https://openreview.net/forum?id=yAzN4tz7oI.",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "agents. https://qwen.ai/blog?id=qwen3.5, February 2026.",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "https://openreview.net/forum?id=1dH4ARGdwD.",
+      "section_id": "sec:references",
+      "page_start": 11,
+      "page_end": 14
+    },
+    {
+      "text": "for j ∈{0, . . . , H −1}, lie in R40. The stacked action chunk",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "sions are one-indexed. For a rotation matrix R = [r1, r2, r3],",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "we use Rot6D(R) = [r⊤",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "Robot type: <embodiment>",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "Control mode: <eef/eef_wbc/joint>",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "Whole-body control: <enabled/disabled>",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "Task: <language command>",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "∈Rda for each action token. The masked flow-",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "LFM = E",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "j=0",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "= 0.001 + 0.999x with x ∼Beta(1.5, 1). The",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "from τ = 1 to τ = 0. We apply the action mask to the",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "an action horizon of H = 30 and ten uniform Euler updates.",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "prerequisite graph G = (V, E) from its original fine-grained",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "annotations. Each index i ∈V identifies one required mile-",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "stone. A directed edge (i, j) ∈E means that milestone i must",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "For trial r, let er,i = 1 when every milestone in Anc(i)",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "er,i = 0 otherwise. The local credit αr,i ∈{0, 0.5, 1} is 1 for",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "sr,i = er,iαr,i.",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "Progress = 100",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "r=1",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "i∈V",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "The graph sizes used in Table I are |V| = 25, 14, 22, and",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "|V| = 3, and Collect Laundry uses |V| = 5. The three Tidy",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "Makeup Table groups use |V| = 2, 2, and 4 and are evaluated",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "the annotator, we generate a <think> field that summarizes",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "a <memory> field that compresses completed stages while",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "<memory> is aligned with the current observation, while the",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "target <subtask> reuses the executable-subtask annotation",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "For error-think, the <think> field first flags the failure and",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "ples marked restorable=false are skipped, and rollback",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "nation filter, an empty-<subtask> detector, and a memory-",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "dirty-data filtering additionally removes empty-<subtask>",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "from the demonstration. Mn is the memory upon entering segment n. A single unified <think>/<memory>/<subtask>",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "have only their empty-<subtask> samples removed). This",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "JSON:”label”:”equivalent—adjacent—wrong”,”reason”:”¡=16",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "mi = λ(1)",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "mean logit margin within the <memory> field:",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "i∈Iall",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "i∈Imem",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "tokens in the <memory> field. The binary routing decision is",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "gt = 1",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "≤δall ∨umem",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "≤δmem",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "When gt = 0, the system sends zdir",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    },
+    {
+      "text": "level policy. When gt = 1, it searches over candidate subtasks,",
+      "section_id": "sec:appendix-c",
+      "page_start": 14,
+      "page_end": 18
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 6,
+    "sections": [
+      {
+        "title": "D. System Inference",
+        "page": 6
+      },
+      {
+        "title": "a closed loop. At each logical inference step, the proposal",
+        "page": 6
+      },
+      {
+        "title": "t . When gt = 1, test-time search produces Ct, and the",
+        "page": 6
+      },
+      {
+        "title": "t from the observation-aligned",
+        "page": 6
+      },
+      {
+        "title": "t . The resulting real observation is incorporated into memory",
+        "page": 6
+      },
+      {
+        "title": "t , Mt) ←P(ht)",
+        "page": 6
+      },
+      {
+        "title": "t ←zdir",
+        "page": 6
+      },
+      {
+        "title": "t ←F(¯ht, Ct)",
+        "page": 6
+      },
+      {
+        "title": "t , η)",
+        "page": 6
+      },
+      {
+        "title": "V. TRAINING",
+        "page": 6
+      },
+      {
+        "title": "A. Data Sources",
+        "page": 6
+      },
+      {
+        "title": "B. Low-Level Policy Training",
+        "page": 6
+      },
+      {
+        "title": "C. High-Level Policy Training",
+        "page": 7
+      },
+      {
+        "title": "A. Evaluation Setup",
+        "page": 7
+      },
+      {
+        "title": "A typical successful rollout lasts approximately 3 min.",
+        "page": 8
+      },
+      {
+        "title": "A trial is successful only when every required milestone is",
+        "page": 9
+      },
+      {
+        "title": "B. Overall System Evaluation",
+        "page": 9
+      },
+      {
+        "title": "C. Evaluation Across Embodiments",
+        "page": 9
+      },
+      {
+        "title": "D. Test-Time Computation Experiments",
+        "page": 9
+      },
+      {
+        "title": "a variant of the high-level policy and is distinct from direct",
+        "page": 10
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Algorithm 1",
+        "caption": "Closed-loop system inference",
+        "page_hint": "p.6"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Representative physical-robot evaluation tasks. (a) Clean Room requires collecting two dirty garments, placing them",
+        "page_hint": "p.8"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "Next-subtask prediction accuracy under different",
+        "page_hint": "p.10"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Relationship between computational cost and subtask-prediction accuracy. The accuracy increases with additional",
+        "page_hint": "p.11"
+      }
+    ],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "fe16d643f0c989d09a0fecbdc561b3eb43f576a518e99b323657062e249eb784",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2608.16885",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "translated_title": "",
+      "authors": [
+        "Xiaowei Cai",
+        "Yunuo Cai",
+        "Bingao Chen",
+        "Jingxiao Chen",
+        "Zhi Chen",
+        "Siyuan Feng",
+        "Tengyu Hou",
+        "Jingshun Huang",
+        "Han Jiang",
+        "Runkun Ju",
+        "Dong Li",
+        "Mingxiang Li",
+        "Shaowei Li",
+        "Xinchen Li",
+        "Yifan Li",
+        "Yi Liu",
+        "Zhongyuan Liu",
+        "Jianlan Luo",
+        "Junwen Miao",
+        "Ruiqi Ni",
+        "Buqing Nie",
+        "Mingjie Pan",
+        "Xinlin Ren",
+        "Jianheng Song",
+        "Jiaxu Wang",
+        "Peiqi Wang",
+        "Sen Wang",
+        "Xiaoyan Wang",
+        "Dafeng Wei",
+        "Dongming Wu",
+        "Pengwei Xie",
+        "Pu Yang",
+        "Hangjian Ye",
+        "Xiangyu Yue",
+        "Jinyu Zhang",
+        "Qinglin Zhang",
+        "Xueyong Zhao",
+        "Pengfei Zhou",
+        "Yue Zhou"
+      ],
+      "year": "2026",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2608.16885",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "arxiv_id",
+      "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "year": "",
+      "venue": "",
+      "source_url": "https://arxiv.org/abs/2608.16885",
+      "pdf_url": "https://arxiv.org/pdf/2608.16885.pdf",
+      "local_pdf_path": "",
+      "doi": "",
+      "arxiv_id": "2608.16885",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "arxiv_id",
+      "source_url": "https://arxiv.org/abs/2608.16885",
+      "arxiv_id": "2608.16885",
+      "pdf_url": "https://arxiv.org/pdf/2608.16885.pdf",
+      "metadata_sources": [
+        "arxiv_id",
+        "arxiv"
+      ],
+      "paper_id": "arxiv:2608.16885",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present"
+      ],
+      "zotero_lookup": {
+        "mode": "auto",
+        "status": "error",
+        "match_kind": "arxiv_id",
+        "error": {
+          "code": "zotero_timeout",
+          "message": "Timed out while connecting to the Zotero Local API.",
+          "retryable": true
+        }
+      },
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2608.16885v1",
+      "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "abstract": "Long-horizon robot manipulation requires a robot to both execute individual skills reliably and sequence them coherently over extended tasks. Most hierarchical vision-language-action (VLA) models make each such decision with a single forward pass, leaving no mechanism to allocate additional computation to difficult or consequential choices. We introduce $τ_0$-VLA, a hierarchical robot foundation model that formulates high-level subtask generation as a compute-scalable inference problem through world-model-guided test-time computation. At each inference step, the high-level policy uses execution memory to generate a subtask and, when needed, searches over alternatives before committing to its output. A low-level policy then executes the generated subtask across multiple robot embodiments. The policy is trained on 40,115 hours of heterogeneous real-world data with multimodal co-training. Across in-domain and distribution-shifted settings, allocating additional test-time computation substantially improves next-subtask prediction accuracy, and these gains translate into higher closed-loop success on long-horizon robot manipulation tasks.",
+      "authors": [
+        "Xiaowei Cai",
+        "Yunuo Cai",
+        "Bingao Chen",
+        "Jingxiao Chen",
+        "Zhi Chen",
+        "Siyuan Feng",
+        "Tengyu Hou",
+        "Jingshun Huang",
+        "Han Jiang",
+        "Runkun Ju",
+        "Dong Li",
+        "Mingxiang Li",
+        "Shaowei Li",
+        "Xinchen Li",
+        "Yifan Li",
+        "Yi Liu",
+        "Zhongyuan Liu",
+        "Jianlan Luo",
+        "Junwen Miao",
+        "Ruiqi Ni",
+        "Buqing Nie",
+        "Mingjie Pan",
+        "Xinlin Ren",
+        "Jianheng Song",
+        "Jiaxu Wang",
+        "Peiqi Wang",
+        "Sen Wang",
+        "Xiaoyan Wang",
+        "Dafeng Wei",
+        "Dongming Wu",
+        "Pengwei Xie",
+        "Pu Yang",
+        "Hangjian Ye",
+        "Xiangyu Yue",
+        "Jinyu Zhang",
+        "Qinglin Zhang",
+        "Xueyong Zhao",
+        "Pengfei Zhou",
+        "Yue Zhou"
+      ],
+      "published": "2026-08-17T17:59:11Z",
+      "year": "2026"
+    },
+    "bound_sources": [
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16885.pdf",
+        "provider": "arxiv_id",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16885v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "arxiv_id": {
+        "provider": "arxiv_id",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16885"
+        }
+      },
+      "source_url": {
+        "provider": "arxiv_id",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16885"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv_id",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16885"
+        }
+      },
+      "title": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16885"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16885"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16885"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16885"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2608.16885",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16885.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/2608.16885",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16885.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "https://arxiv.org/abs/2608.16885",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2608.16885"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_resolve.json",
+      "metadata_artifact_path": "D:\\Workspace\\research\\papers\\tau_0-vla\\_deeppapernote\\tau_0_vla_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "arxiv_id",
+    "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+    "year": "",
+    "venue": "",
+    "source_url": "https://arxiv.org/abs/2608.16885",
+    "pdf_url": "https://arxiv.org/pdf/2608.16885.pdf",
+    "local_pdf_path": "",
+    "doi": "",
+    "arxiv_id": "2608.16885",
+    "zotero_key": ""
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2608.16885",
+  "decisions": [
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Overview of τ0-VLA. The high-level policy uses world-model-guided test-time computation to search over subtask",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_001_fig_fig_1_review.png",
+      "relative_markdown_embed": "![Fig 1](images/page_001_fig_fig_1_review.png)",
+      "source_image_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "aec35bb25f022e1c9b33dbdb5c4679f4d718fc0b300d1a7c8be560833b9e051a",
+      "review_evidence": {
+        "candidate_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_001_fig_fig_1_review.png",
+        "page_preview_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\page_previews\\page_001.png",
+        "source_pdf_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\pdfs\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation.pdf",
+        "source_page": 1,
+        "caption": "Overview of τ0-VLA. The high-level policy uses world-model-guided test-time computation to search over subtask",
+        "bbox_pt": [
+          10.940000534057617,
+          234.30398559570312,
+          561.895751953125,
+          483.72393798828125
+        ],
+        "normalized_bbox": [
+          0.017876,
+          0.295838,
+          0.91813,
+          0.610763
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "aec35bb25f022e1c9b33dbdb5c4679f4d718fc0b300d1a7c8be560833b9e051a",
+        "preserved_scientific_elements": [
+          "训练数据来源",
+          "高层搜索循环",
+          "低层控制接口",
+          "跨本体能力示例"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "图号与内容相符；裁剪包含完整系统结构，文字和关键箭头可读。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "The hierarchical τ0-VLA architecture. (a) At a high-level inference step t, the proposal model P conditions on the",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:method",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_fig_2_review.png",
+      "relative_markdown_embed": "![Fig 2](images/page_005_fig_fig_2_review.png)",
+      "source_image_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_fig_fig_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "29d4b31812ee5aa9e7492fc67a21fb2adbf4d928fa46461074c6b66b38ef07ca",
+      "review_evidence": {
+        "candidate_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_005_fig_fig_2_review.png",
+        "page_preview_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\page_previews\\page_005.png",
+        "source_pdf_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\pdfs\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation.pdf",
+        "source_page": 5,
+        "caption": "The hierarchical τ0-VLA architecture. (a) At a high-level inference step t, the proposal model P conditions on the",
+        "bbox_pt": [
+          50.10100173950195,
+          49.9993896484375,
+          561.8932495117188,
+          265.399169921875
+        ],
+        "normalized_bbox": [
+          0.081864,
+          0.063131,
+          0.918126,
+          0.3351
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "29d4b31812ee5aa9e7492fc67a21fb2adbf4d928fa46461074c6b66b38ef07ca",
+        "preserved_scientific_elements": [
+          "高层输入与记忆更新",
+          "候选扩展和筛选",
+          "世界模型预测",
+          "低层动作生成"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "图号与内容相符；完整展示分层模型和测试时搜索链路。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Algorithm 1",
+      "source_id": "Algorithm 1",
+      "kind": "figure",
+      "label": "Algorithm 1",
+      "caption": "Closed-loop system inference",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:model-2",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_006_fig_algorithm_1.png",
+      "relative_markdown_embed": "![Algorithm 1](images/page_006_fig_algorithm_1.png)",
+      "source_image_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_006_fig_algorithm_1.png"
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Representative physical-robot evaluation tasks. (a) Clean Room requires collecting two dirty garments, placing them",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_008_fig_fig_3_review.png",
+      "relative_markdown_embed": "![Fig 3](images/page_008_fig_fig_3_review.png)",
+      "source_image_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_008_fig_fig_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "792f66380f2dc5f9e6d0101393639abf1eef5bff39a931662965dd98c4a11c80",
+      "review_evidence": {
+        "candidate_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_008_fig_fig_3_review.png",
+        "page_preview_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\page_previews\\page_008.png",
+        "source_pdf_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\pdfs\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation.pdf",
+        "source_page": 8,
+        "caption": "Representative physical-robot evaluation tasks. (a) Clean Room requires collecting two dirty garments, placing them",
+        "bbox_pt": [
+          44.95899963378906,
+          49.997344970703125,
+          567.03564453125,
+          394.4194030761719
+        ],
+        "normalized_bbox": [
+          0.073462,
+          0.063128,
+          0.926529,
+          0.498004
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "792f66380f2dc5f9e6d0101393639abf1eef5bff39a931662965dd98c4a11c80",
+        "preserved_scientific_elements": [
+          "六类实体机器人任务",
+          "任务阶段视觉证据",
+          "移动与双臂场景"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "图号与内容相符；整张任务拼图可读，适合作为评测范围的视觉索引。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "Next-subtask prediction accuracy under different",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:appendix-c-c",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "surrounding_prose_contamination",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_fig_4_review_repair1.png",
+      "relative_markdown_embed": "![Fig 4](images/page_010_fig_fig_4_review_repair1.png)",
+      "source_image_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4_review_repair1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "d13ebb562c9a129779f10f15b453903ae67d88004c86bc99f49400cb6d6cda15",
+      "review_evidence": {
+        "candidate_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_010_fig_fig_4_review_repair1.png",
+        "page_preview_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\page_previews\\page_010.png",
+        "source_pdf_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\pdfs\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation.pdf",
+        "source_page": 10,
+        "caption": "Next-subtask prediction accuracy under different",
+        "bbox_pt": [
+          293.76,
+          348.48,
+          569.16,
+          522.72
+        ],
+        "normalized_bbox": [
+          0.48,
+          0.44,
+          0.93,
+          0.66
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "d13ebb562c9a129779f10f15b453903ae67d88004c86bc99f49400cb6d6cda15",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "重裁剪后仍含相邻正文和说明文字；达到一次允许重裁剪上限，最终不插入。",
+        "failure_reason": "surrounding_prose_contamination",
+        "repair_attempts": 1,
+        "revised_bbox": [
+          0.48,
+          0.44,
+          0.93,
+          0.66
+        ]
+      }
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Relationship between computational cost and subtask-prediction accuracy. The accuracy increases with additional",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:method-4",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_fig_5_review.png",
+      "relative_markdown_embed": "![Fig 5](images/page_011_fig_fig_5_review.png)",
+      "source_image_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_011_fig_fig_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "07921079c13c60be20fcd616e444d2f59eca69b6e070efaa6da8ef377c326903",
+      "review_evidence": {
+        "candidate_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\images\\page_011_fig_fig_5_review.png",
+        "page_preview_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\assets\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation\\page_previews\\page_011.png",
+        "source_pdf_path": "D:\\Workspace\\research\\tmp\\DeepPaperNote\\pdfs\\τ_0_VLA_a_Hierarchical_Robot_Foundation_Model_with_World_Model_Guided_Test_Time_Computation.pdf",
+        "source_page": 11,
+        "caption": "Relationship between computational cost and subtask-prediction accuracy. The accuracy increases with additional",
+        "bbox_pt": [
+          96.36599731445312,
+          49.99943542480469,
+          515.6293640136719,
+          230.84100341796875
+        ],
+        "normalized_bbox": [
+          0.157461,
+          0.063131,
+          0.842532,
+          0.291466
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "07921079c13c60be20fcd616e444d2f59eca69b6e070efaa6da8ef377c326903",
+        "preserved_scientific_elements": [
+          "两项任务的算力横轴",
+          "预测准确率纵轴",
+          "饱和趋势",
+          "单次规划基线"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "图号与内容相符；两张曲线完整且坐标、图例和基线均可读。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 6,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 0,
+      "review_pending": 5,
+      "skip": 0,
+      "visual_defect": 1
+    }
+  }
+}
