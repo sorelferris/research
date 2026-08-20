@@ -1,0 +1,9 @@
+/node_modules
+/dist
+/.vs
+/.vscode
+/.marscode
+/tmp
+.venv
+__pycache__
+__pycache__/
