@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "stage": "final_quality_review",
+  "paper_id": "arxiv:2608.16837",
+  "note_path": "/home/sorel/workspace/research/papers/HAF/HAF_精读笔记.md",
+  "checks": {
+    "central_claims_are_supported_by_raw_sections_or_pages": true,
+    "key_experimental_settings_and_numbers_are_present": true,
+    "mechanisms_or_protocol_choices_are_mapped_to_results": true,
+    "comparisons_explain_positioning_against_alternatives": true,
+    "discussion_or_limitation_claims_are_explained_mechanistically": true,
+    "proven_claims_are_separated_from_unproven_or_unvalidated_claims": true,
+    "research_or_engineering_takeaways_are_specific_and_reusable": true,
+    "followup_questions_are_specific_to_replication_or_extension": true
+  },
+  "evidence_chain": "HAF-VLA 三阶段动作流 + 跨阶段键值缓存的开放环路分层收益在表 2 的四组消融里被隔离；HAF-VLA 与 SOTA 在 7 个 loco-manipulation 任务上的真实机器人对比在表 1 中给出 normalized task score；HAF-Steer 的 DCT 谱潜空间 + 混合离线在线 SAC 在图 8 与 8 行数值表里覆盖了 4 个变体 × 2 个主干 × 2 个分布设置；OOD 泛化在表 3（视觉椅子 + 起始位移）中给出 HAF-VLA 显著优于 π0.5 的对比。",
+  "boundaries_checked": [
+    "每个方法-任务组合仅 10 次 rollout，未覆盖更长时段或多人干预",
+    "三阶段去噪的额外延迟（0.075s→0.115s）只对 π0.5 给出，HAF-VLA 的端到端延迟未单独报告",
+    "HAF-Steer 的 K=8 是论文选择，未给出 K 的消融",
+    "TienKung 2.0/3.0 之外的人形平台未验证",
+    "现实部署在受控家庭场景，未引入动态障碍或光照漂移"
+  ]
+}

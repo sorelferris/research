@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/haf-work/HAF.pdf",
+  "local_pdf_path": "/tmp/haf-work/HAF.pdf",
+  "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2608.16837",
+  "paper_id": "arxiv:2608.16837",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

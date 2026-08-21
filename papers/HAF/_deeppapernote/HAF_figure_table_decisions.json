@@ -1,0 +1,577 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.48550/arxiv.2608.16837",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Overview of HAF. We demonstrate seven humanoid loco-manipulation tasks in real-world",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_002_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_002_fig_figure_1_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_002_fig_figure_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "a45c732324713050ed528a999d1f65140be8baf5e8475a340a388aba496fdb0d",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_002_fig_figure_1_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_002.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 2,
+        "caption": "Overview of HAF. We demonstrate seven humanoid loco-manipulation tasks in real-world",
+        "bbox_pt": [
+          109.94000244140625,
+          48.069976806640625,
+          502.0366516113281,
+          431.64190673828125
+        ],
+        "normalized_bbox": [
+          0.179641,
+          0.060694,
+          0.820321,
+          0.545002
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "a45c732324713050ed528a999d1f65140be8baf5e8475a340a388aba496fdb0d",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "HAF 整体概览：四象限（7 个任务实拍 + HAF-VLA/HAF-Steer 架构 + 两个性能柱状图）。视觉主体完整，无 caption 污染。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Overview of HAF-VLA. A shared action expert progressively expands the active action",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:related-work",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_005_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_005_fig_figure_2_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_005_fig_figure_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "a9c9f46704a88c112c2dc4e4e9614cd2337601051d5eb61443c3bf875babe758",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_005_fig_figure_2_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_005.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 5,
+        "caption": "Overview of HAF-VLA. A shared action expert progressively expands the active action",
+        "bbox_pt": [
+          104.25199127197266,
+          68.2617416381836,
+          533.7735595703125,
+          205.22799682617188
+        ],
+        "normalized_bbox": [
+          0.170346,
+          0.086189,
+          0.872179,
+          0.259126
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "a9c9f46704a88c112c2dc4e4e9614cd2337601051d5eb61443c3bf875babe758",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "HAF-VLA 分层动作流架构。三阶段去噪 (Stage1→2→3) + KV cache + Deploy 闭环。底部 legend 含 token 类型色码。视觉主体完整。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Overview of HAF-Steer. (a) A conventional flow-matching VLA samples full-dimensional",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:related-work",
+      "decision": "insert",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_007_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_007_fig_figure_3_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_007_fig_figure_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "d4cf045c1b32da83d0f9df14537c535f7d5bdb0dc8b9607c29b5d7fefcae18df",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_007_fig_figure_3_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_007.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 7,
+        "caption": "Overview of HAF-Steer. (a) A conventional flow-matching VLA samples full-dimensional",
+        "bbox_pt": [
+          104.0,
+          67.99900817871094,
+          508.20843505859375,
+          260.7847595214844
+        ],
+        "normalized_bbox": [
+          0.169935,
+          0.085857,
+          0.830406,
+          0.329274
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "d4cf045c1b32da83d0f9df14537c535f7d5bdb0dc8b9607c29b5d7fefcae18df",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "HAF-Steer 潜空间 RL 流程。上下两路：上为传统噪声采样 (a)；下为离线→在线双 buffer + DCT Top-K + RL πφ + IDCT + 冻结 VLA Flow Matching + Online Rollout 闭环。无 caption 污染。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Robot teleoperation data collection",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:model",
+      "decision": "insert",
+      "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task_overview",
+      "source_image_filename": "page_009_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_009_fig_figure_4_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_009_fig_figure_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "45e398699a8caab8d3d344d04e11016745b9e2c31022aa7ec3cfab3140ed44e2",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_009_fig_figure_4_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_009.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 9,
+        "caption": "Robot teleoperation data collection",
+        "bbox_pt": [
+          104.0,
+          258.4253234863281,
+          507.98590087890625,
+          427.2664489746094
+        ],
+        "normalized_bbox": [
+          0.169935,
+          0.326295,
+          0.830042,
+          0.539478
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "45e398699a8caab8d3d344d04e11016745b9e2c31022aa7ec3cfab3140ed44e2",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "遥操作硬件三联图：TwistUp 1.0 操作员 → 中间硬件 (MU / Kinematics-Matched Master Arm / Unitree Z1 + Arm) → TwinUp 1.0 机器人。清晰展示数据采集链路。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Seven real-world humanoid loco-manipulation tasks. Each row depicts a representative",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_010_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_010_fig_figure_5_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_010_fig_figure_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b3084f9d6d270da5ea5ba2d9623ccbfe5dc36e42ebd39b1eb0590da86c570567",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_010_fig_figure_5_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_010.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 10,
+        "caption": "Seven real-world humanoid loco-manipulation tasks. Each row depicts a representative",
+        "bbox_pt": [
+          104.0,
+          67.99649047851562,
+          508.00128173828125,
+          364.000732421875
+        ],
+        "normalized_bbox": [
+          0.169935,
+          0.085854,
+          0.830067,
+          0.459597
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "b3084f9d6d270da5ea5ba2d9623ccbfe5dc36e42ebd39b1eb0590da86c570567",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "七个真实 loco-manipulation 任务展示 (Laundry Loading / Clothes Retrieval / Table Tidy / Basket Transfer / Toy Storage / Ball Tossing / Box Transfer)。每行含文字指令 + 3-4 关键帧图像序列。无 caption 混入。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "Generalization experiments. Left: object-distraction test during Laundry Loading. Right:",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_011_fig_figure_6_review.png",
+      "relative_markdown_embed": "![Figure 6](images/page_011_fig_figure_6_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_011_fig_figure_6_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "c2fe6cbd213a82581630a961e981033decc995d705d6e07db8130e4b93965ac6",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_011_fig_figure_6_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 11,
+        "caption": "Generalization experiments. Left: object-distraction test during Laundry Loading. Right:",
+        "bbox_pt": [
+          90.0447998046875,
+          543.8546752929688,
+          525.8659057617188,
+          625.968017578125
+        ],
+        "normalized_bbox": [
+          0.147132,
+          0.686685,
+          0.859258,
+          0.790364
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "c2fe6cbd213a82581630a961e981033decc995d705d6e07db8130e4b93965ac6",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "OOD 鲁棒性测试。左：物体干扰（可乐罐/黄锥）；右：位姿扰动 (35cm/55cm 偏移)。对话气泡为 VLM CoT 输出，非 caption 污染。适合作为深度分析支持图。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "In-distribution and out-of-distribution eval-",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "scientific_content_clipped",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_012_fig_figure_7_review.png",
+      "relative_markdown_embed": "![Figure 7](images/page_012_fig_figure_7_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_012_fig_figure_7_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b498dc043c4c72a034ba45c9209f3cea8af9b5facbffd3d0fe35375b78d405b4",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_012_fig_figure_7_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_012.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 12,
+        "caption": "In-distribution and out-of-distribution eval-",
+        "bbox_pt": [
+          103.64099884033203,
+          349.568359375,
+          507.99017333984375,
+          522.7974243164062
+        ],
+        "normalized_bbox": [
+          0.169348,
+          0.441374,
+          0.830049,
+          0.660098
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "b498dc043c4c72a034ba45c9209f3cea8af9b5facbffd3d0fe35375b78d405b4",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "PDF 截图左侧 'Baselines and Variants' 文本被截断，影响可读性。视觉主体 2x2 网格 (Toy Storage / Basket Transfer × ID/OOD) 完整，但左侧说明文本丢失。改用 placeholder + Markdown 表格复述 OOD 设置。",
+        "failure_reason": "scientific_content_clipped",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "HAF-Steer performance under in-distribution and out-of-distribution settings. We",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:experiments",
+      "decision": "insert",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_013_fig_figure_8_review.png",
+      "relative_markdown_embed": "![Figure 8](images/page_013_fig_figure_8_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_013_fig_figure_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ebc39cfd5ba5700cf891cee44b5408d99621cb35fad3201592e3502e2fcfa901",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_013_fig_figure_8_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_013.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 13,
+        "caption": "HAF-Steer performance under in-distribution and out-of-distribution settings. We",
+        "bbox_pt": [
+          104.0,
+          158.72421264648438,
+          507.99951171875,
+          449.37701416015625
+        ],
+        "normalized_bbox": [
+          0.169935,
+          0.200409,
+          0.830065,
+          0.567395
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "ebc39cfd5ba5700cf891cee44b5408d99621cb35fad3201592e3502e2fcfa901",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "HAF-Steer 在 Toy Storage / Basket Transfer 的 ID/OOD 性能柱状图。Y 轴 success rate (%)，每柱标注 x/10。脚注说明 DSRL 因 unsafe exploration 训练失败。视觉主体完整。",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Main HAF-VLA results on seven long-horizon humanoid loco–manipulation tasks. We",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_table_1_review.png",
+      "relative_markdown_embed": "![Table 1](images/page_011_fig_table_1_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_011_fig_table_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0e4e9743b7ec92e46066e9d68e65376ec888ba2036d63bd2124161af8b31c1f9",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_011_fig_table_1_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 11,
+        "caption": "Main HAF-VLA results on seven long-horizon humanoid loco–manipulation tasks. We",
+        "bbox_pt": [
+          151.09300231933594,
+          110.42448425292969,
+          460.9033508300781,
+          233.6654052734375
+        ],
+        "normalized_bbox": [
+          0.246884,
+          0.139425,
+          0.75311,
+          0.295032
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "0e4e9743b7ec92e46066e9d68e65376ec888ba2036d63bd2124161af8b31c1f9",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Reconstructed as Markdown table in note body; raw PNG was readable but inline table is more useful for the 7-task comparison and the 4-variant ablation.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Ablation study of HAF-VLA’s hierarchical action-flow design. We report the average",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_table_2_review.png",
+      "relative_markdown_embed": "![Table 2](images/page_011_fig_table_2_review.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_011_fig_table_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b7da980b58be4d5ef4c45be1995a5ec5fcf8fcafe49b115056979c272f8db0d1",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_011_fig_table_2_review.png",
+        "page_preview_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/haf-work/HAF.pdf",
+        "source_page": 11,
+        "caption": "Ablation study of HAF-VLA’s hierarchical action-flow design. We report the average",
+        "bbox_pt": [
+          102.0,
+          110.42448425292969,
+          510.002685546875,
+          280.8381042480469
+        ],
+        "normalized_bbox": [
+          0.166667,
+          0.139425,
+          0.833338,
+          0.354594
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "b7da980b58be4d5ef4c45be1995a5ec5fcf8fcafe49b115056979c272f8db0d1",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "Reconstructed as Markdown table in note body; raw PNG was readable but inline table is more useful for the 7-task comparison and the 4-variant ablation.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "HAF-VLA maintains higher task performance under both visual distraction and positional",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_012_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_012_fig_table_3.png)",
+      "source_image_path": "/home/sorel/.hermes/skills/research/deeppapernote/tmp/DeepPaperNote/assets/HAF_Adapting_Generalist_VLAs_to_Humanoid_Whole_Body_Loco_manipulation_via_Hierarchical_Action_Flow_and_Spectral_Latent_RL/images/page_012_fig_table_3.png",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "f29f0682dbbd289c47fe5c0cf63f97c674b287ab3007591880621bc59fe12e9c",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "asset rejected by extraction (Table 3 PNG 544B empty file); reconstructed as Markdown table in note body.",
+        "failure_reason": "visual_quality_gate_rejected_candidate",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "source_image_sha256": "f29f0682dbbd289c47fe5c0cf63f97c674b287ab3007591880621bc59fe12e9c"
+    }
+  ],
+  "summary": {
+    "total": 11,
+    "insert": 7,
+    "placeholder": 0,
+    "skip": 0,
+    "visual_defect": 4,
+    "review_pending": 0
+  }
+}

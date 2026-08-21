@@ -1,0 +1,906 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.48550/arxiv.2608.16837",
+  "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/haf-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/haf-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/haf-work/HAF.pdf",
+    "total_pages": 17,
+    "text_pages_extracted": 17,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 17,
+    "text_max_pages": null,
+    "text_pages_extracted": 17,
+    "text_pages_scanned": 17,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 619,
+      "text_hash_sha256": "a5747a87e65f413395bc37f4af8569c4a8ca43d19010913554629c8958272608"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract:",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1999,
+      "text_hash_sha256": "dd8cfea468a31be0f6272c2014e97893a5ca8c06e50a724ae9a2b0a768970417"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 1,
+      "page_end": 3,
+      "char_count": 6656,
+      "text_hash_sha256": "e1975a7710a30ff5d1b77c81f62a1b4b65aa0b7e5590184e0c03b8d25e2c7b54"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 3,
+      "page_end": 7,
+      "char_count": 15831,
+      "text_hash_sha256": "9cbdf236756c4fbc853c1dcda4494b8f308e6467179fa4add90de121b37d4b35"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "model. ϵ∗",
+      "page_start": 7,
+      "page_end": 9,
+      "char_count": 5070,
+      "text_hash_sha256": "beee3f2bfebea8445e798389faa41737a49bed58932114976982e684c03c62ad"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 9,
+      "page_end": 13,
+      "char_count": 14565,
+      "text_hash_sha256": "acc0f0a89ed83f3ea27078780e38d3a60e0bd94998fb2b4a59d39071bd20a668"
+    },
+    {
+      "section_id": "sec:acknowledgements",
+      "kind": "acknowledgments",
+      "title": "Acknowledgements",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 227,
+      "text_hash_sha256": "821354fa152f569b9f9da62781d62f85588cf592ed2175534818e6556eef8a6c"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 14,
+      "page_end": 17,
+      "char_count": 11631,
+      "text_hash_sha256": "5e3daf0c1060d16f11c7a513f74a456c1681d42a83083384869803f17cc2fb99"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 3172,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 2821,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4212,
+      "section_ids": [
+        "sec:introduction",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4418,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4197,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3439,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3700,
+      "section_ids": [
+        "sec:related-work",
+        "sec:model"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3609,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3550,
+      "section_ids": [
+        "sec:model",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2779,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 2871,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3627,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 2683,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3100,
+      "section_ids": [
+        "sec:acknowledgements",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3629,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 3463,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 1704,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of HAF. We demonstrate seven humanoid loco-manipulation tasks in real-world",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Overview of HAF-VLA. A shared action expert progressively expands the active action",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Overview of HAF-Steer. (a) A conventional flow-matching VLA samples full-dimensional",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Robot teleoperation data collection",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Seven real-world humanoid loco-manipulation tasks. Each row depicts a representative",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Generalization experiments. Left: object-distraction test during Laundry Loading. Right:",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "In-distribution and out-of-distribution eval-",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "HAF-Steer performance under in-distribution and out-of-distribution settings. We",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:experiments"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Main HAF-VLA results on seven long-horizon humanoid loco–manipulation tasks. We",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Ablation study of HAF-VLA’s hierarchical action-flow design. We report the average",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 3",
+        "caption": "HAF-VLA maintains higher task performance under both visual distraction and positional",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:experiments"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "Conditioned on the current observation ot = (It, qt), which consists of the egocentric RGB image It",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "steps: At = [at, . . . , at+H−1] ∈RH×D, where H denotes the predicted action horizon length and D",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "denotes the dimension of per-step whole-body action. In our implementation, H = 100 and the robot",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "whole-body loco-manipulation, each instantaneous action at ∈RD is explicitly decomposed into",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "four orthogonal kinematic sub-components: at = [amove",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = Amove",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = A1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = A2",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "and reused across all stages of hierarchical inference: Pt = Fprefix(ot, ℓ), where Pt is the shared",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "behavior is modulated via a trainable stage embedding es for stage index s ∈{1, 2, 3}. The full",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = Fθ(ϵ1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = Cacheθ(A1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = Fθ(ϵ2",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = Cacheθ(A2",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = Fθ(ϵ3",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "Let ms ∈{0, 1}D be the binary indicator of the active action set As",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = (Pt, e1),",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = (Pt, C1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = (Pt, C1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t , e3). Given a clean action chunk At ∈RH×D, each Stage",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "τ s,t = [(1 −τ s)ϵs",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = (At −ϵs",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "LHAF = EAt,{ϵs",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "s=1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "s=1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "whole-body action chunks via a deterministic flow mapping: At = Fθ (ϵt | ζt) ,",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "ϵt ∈RH×D,",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "where H is the action chunk length, D is the dimension of robot action, At ∈RH×D denotes the",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "discrete cosine transform (DCT) bases. In our practice, we empirically choose K = 8, which greatly",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "i = F −1",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "i = DCTK(ϵ∗",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "i = c∗",
+      "section_id": "sec:related-work",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "i ∈RK×D truncates the first K DCT temporal",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "Doff = {(xi, z∗",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "i=1 ,",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "training: terminal transitions of successful trajectories are assigned ri = 1, while all intermediate",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "transitions receive ri = 0. This simple yet effective reward formulation drives the policy to learn",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "LBC = E(xi,z∗",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "data: only successful terminal steps receive r = 1, while all other transitions yield r = 0. In each",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "training iteration, we sample mixed mini-batches B = Boff ∪Bon from both buffers. All samples",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "Lπ = Exi∼B, zi∼πψ(·|xi)",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "ct = µc + (σc + δ) ⊙zt,",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "ϵt = IDCTK(ct),",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "At = Fθ(ϵt | ζt)",
+      "section_id": "sec:model",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "Score(%) = sachieved",
+      "section_id": "sec:experiments",
+      "page_start": 9,
+      "page_end": 13
+    },
+    {
+      "text": "https://openreview.net/forum?id=OCJmVjyzN7.",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 17
+    },
+    {
+      "text": "//openreview.net/forum?id=wPEIStHxYH.",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 17
+    },
+    {
+      "text": "Learning Representations, 2026. URL https://openreview.net/forum?id=kt51kZH4aG.",
+      "section_id": "sec:references",
+      "page_start": 14,
+      "page_end": 17
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "7a265d3d4043c46623031840835ec73601209ae9da89f61613d8ca154e7fd52f",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.48550/arxiv.2608.16837",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+      "translated_title": "",
+      "authors": [
+        "Langzhe Gu",
+        "Chengkai Hou",
+        "Meng Li",
+        "Xinhua Wang",
+        "Jiaming Liu",
+        "Xinyuan Lv",
+        "Bowei Zhang",
+        "Shuanghao Bai",
+        "Guangrun Li",
+        "Jingyang He",
+        "Gaole Dai",
+        "Ziluo Ding",
+        "Zhiyuan Xu",
+        "Kuan Cheng",
+        "Jian Tang",
+        "Zhengping Che",
+        "Shanghang Zhang"
+      ],
+      "year": "2026",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2608.16837",
+      "arxiv_id": "2608.16837",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/haf-work/HAF.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2608.16837v1",
+      "local_pdf_path": "/tmp/haf-work/HAF.pdf",
+      "doi": "",
+      "arxiv_id": "2608.16837",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/haf-work/HAF.pdf",
+      "local_pdf_path": "/tmp/haf-work/HAF.pdf",
+      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv",
+        "openalex"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2608.16837",
+      "paper_id": "doi:10.48550/arxiv.2608.16837",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "doi_present"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2608.16837v1",
+      "abstract": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively. Moreover, policies trained through offline behavior cloning can remain suboptimal during real-world deployment. Although online reinforcement learning can refine policies through real-world interaction, directly tuning large VLA backbones demands excessive computation and may introduce safety risks during real-robot exploration. To address these bottlenecks, we introduce HAF (Humanoid Adaptation Framework), a two-part framework consisting of HAF-VLA and HAF-Steer that transfers off-the-shelf generalist VLA foundation models to humanoid whole-body loco-manipulation. HAF-VLA is a hierarchical action-flow generator built on a pretrained flow-matching VLA. It splits full-body action denoising into three sequential stages with stage embeddings and cross-stage KV caches that retain kinematic dependencies, avoiding incoherent whole-body actions from one-shot generation. On top of the frozen HAF-VLA, HAF-Steer is a latent offline-to-online RL pipeline that leverages flow-matching invertibility and DCT-based dimensionality reduction to restrict RL optimization to a compact noise subspace and train a regularized SAC policy. This avoids updating the large VLA backbone and enables efficient real-world policy refinement. Evaluated on seven real-world humanoid loco-manipulation tasks, HAF surpasses vanilla single-stage VLA baselines and improves whole-body coordination and task performance. Project website: https://grange007.github.io/HAF .",
+      "authors": [
+        "Langzhe Gu",
+        "Chengkai Hou",
+        "Meng Li",
+        "Xinhua Wang",
+        "Jiaming Liu",
+        "Xinyuan Lv",
+        "Bowei Zhang",
+        "Shuanghao Bai",
+        "Guangrun Li",
+        "Jingyang He",
+        "Gaole Dai",
+        "Ziluo Ding",
+        "Zhiyuan Xu",
+        "Kuan Cheng",
+        "Jian Tang",
+        "Zhengping Che",
+        "Shanghang Zhang"
+      ],
+      "published": "2026-08-17T17:22:33Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2608.16837v1",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2608.16837"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/haf-work/HAF.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/haf-work/HAF.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16837.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16837v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16837"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16837"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16837"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.16837"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16837"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16837"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16837"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.16837"
+        }
+      },
+      "venue": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL"
+        }
+      },
+      "doi": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2608.16837",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2608.16837",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/haf-work/HAF.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.16837v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/haf-work/HAF.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/haf-work/HAF.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2608.16837"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+          "work_value": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/haf-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/haf-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/haf-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/haf-work/HAF.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.16837v1",
+    "local_pdf_path": "/tmp/haf-work/HAF.pdf",
+    "doi": "",
+    "arxiv_id": "2608.16837",
+    "zotero_key": ""
+  }
+}

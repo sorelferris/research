@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "stage": "final_readability_review",
+  "paper_id": "arxiv:2608.16837",
+  "note_path": "/home/sorel/workspace/research/papers/HAF/HAF_精读笔记.md",
+  "checks": {
+    "natural_chinese_prose": true,
+    "no_ordinary_english_phrase_leftovers": true,
+    "no_mechanical_translation_artifacts": true,
+    "no_suspicious_mid_sentence_linebreaks": true,
+    "formulas_are_renderable_math": true,
+    "no_new_facts_introduced_during_polish": true
+  },
+  "notes": "保留的英文仅用于论文标题、作者、方法名、数学符号与人形机器人系列名等稳定专名。中文段落尽量用短句拆开，每个图注与表格都附中文说明。所有混合语句都通过了 lint_note.py 的 passes_style_gate（无 mixed_language_lines 与 mechanical_translation_artifacts 命中）。"
+}

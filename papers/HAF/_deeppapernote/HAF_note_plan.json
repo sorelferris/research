@@ -1,0 +1,142 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "论文提出并真实硬件评测了由 HAF-VLA（分层动作流生成器）与 HAF-Steer（DCT 潜空间 offline-to-online RL）两部分组成的人形机器人适配方法。",
+  "dominant_domain": "具身智能 / 人形机器人全身运动-操作 (loco-manipulation)",
+  "must_cover": [
+    "把通用 VLA（π0.5）的单阶段全身动作生成重写为按人体运动学依赖递进的三阶段动作流：Locomotion+Head → +Waist → +Arm，并使用跨阶段 KV cache 维持动作一致性。",
+    "解释 HAF-Steer 如何利用 flow matching 的可逆性回放专家动作，再用 DCT 沿时间维压缩到 K=8 个谱系数，从而在低维潜空间做 offline BC + mixed offline-online SAC 微调而不动 VLA 主干。",
+    "交代 TienKung 2.0/3.0 双平台、IMU+主臂+手柄的同构遥操作数据采集、120 trajectories/task、normalized score 评价指标和 10 rollouts/方法的实验协议。",
+    "用主结果（Table 1, 8 个方法 × 7 任务）、分层消融（Table 2, 4 变体）、OOD 泛化（Table 3）与 HAF-Steer 主结果（Figure 8, 4 子图 × 4 变体 × 2 backbone）共同限定结论。"
+  ],
+  "key_numbers": [
+    "低层 backbone：π0.5（Physical Intelligence, arXiv 2024）。HAF-VLA 在其上做三阶段动作流（10 步/阶段，共 30 步）。",
+    "HAF-VLA 在 7 个任务上的平均 normalized task score 为 70.5%，最强 baseline π0.5 仅 53.3%；其余 GR00T N1.7 38.1%、Cosmos Policy 27.6%、ACT 25.2%。",
+    "Box Transfer：HAF-VLA 93.3% vs π0.5 60.0%（最大提升任务）；Laundry Loading 66.7% vs 53.3%；Toy Storage 80.0% vs 53.3%。",
+    "HAF-VLA 消融（Laundry Loading）：HAF-VLA 66.7% > All-Joint Denoising 53.3% > Arm-First Hierarchy 50.0% > π0.5-30steps 20.0%。π0.5 30 步推理延迟 0.115s vs 10 步 0.075s。",
+    "OOD 泛化：Laundry Loading（视觉椅子干扰）40.0% vs π0.5 26.7%；Clothes Retrieval（起始位姿 −20cm）43.3% vs π0.5 36.7%。",
+    "HAF-Steer 在 Toy Storage / Basket Transfer × ID/OOD × {π0.5, HAF-VLA} 上对 Base Model 普遍提升，例如 Toy Storage OOD: π0.5 2/10 → HAF-Steer 8/10；HAF-VLA 8/10 → HAF-Steer 10/10。",
+    "DSRL 在多次真实机器人 rollout 中因 unsafe exploratory motion 触发训练提前终止（N/A 标记），证明其重复使用单噪声向量的做法在 humanoid 上不够安全。",
+    "HAF-Steer 训练仅更新 spectral actor / critics / target critics / 熵温度；整个 flow-matching VLA 主干全程冻结。"
+  ],
+  "real_comparisons": [
+    "主结果：在 TienKung 2.0/3.0 上以 normalized task score 比较 HAF-VLA 与 π0.5、GR00T N1.7、Cosmos Policy、ACT 在 7 个 loco-manipulation 任务上的平均表现。",
+    "分层消融：在 Laundry Loading 上比较 All-Joint Denoising、Arm-First Hierarchy、π0.5-30steps 与完整 HAF-VLA，控制总去噪步数为 30。",
+    "OOD 泛化：在 Laundry Loading 视觉椅子干扰与 Clothes Retrieval −20cm 起始位移下比较 HAF-VLA 与 π0.5。",
+    "HAF-Steer：在 Toy Storage / Basket Transfer × ID/OOD × {π0.5, HAF-VLA} backbone × {Base Model, DSRL, Noise BC, HAF-Steer} 上比较 32 个数据点（Figure 8）。"
+  ],
+  "central_claims": [
+    {
+      "claim": "按人体运动学依赖递进的三阶段动作流，配合跨阶段 KV cache 条件化，可在不重训通用 VLA 主干的前提下显著提高 humanoid 全身 loco-manipulation 的成功率。",
+      "supporting_evidence": [
+        "sec:introduction",
+        "sec:experiments"
+      ],
+      "what_it_actually_proves": "在 7 个真实任务、10 rollouts/方法/任务的条件下，HAF-VLA 平均 70.5% 显著高于最强 baseline π0.5 的 53.3%；Box Transfer 等任务提升 ≥30 个百分点。",
+      "what_it_does_not_prove": "并未证明该分层方式对其他 humanoid 平台或非家庭场景同样有效；也未给出阶段数 K=3、每阶段 10 步的超参数搜索与延迟报告。"
+    },
+    {
+      "claim": "把 RL 优化约束到 DCT 时间系数（K=8）构成的潜空间，可以在完全冻结 VLA 主干的前提下稳定地把 offline BC 提升到 mixed offline-online SAC，并保留多频率时序模式。",
+      "supporting_evidence": [
+        "sec:model",
+        "sec:experiments"
+      ],
+      "what_it_actually_proves": "在 Toy Storage / Basket Transfer 的 ID 与 OOD 上，HAF-Steer 对 π0.5 与 HAF-VLA backbone 都提升成功率；DSRL 因缺乏时序变化在真实 rollout 中失败。",
+      "what_it_does_not_prove": "没有给出对 K=8 的敏感性分析，也没有直接比较潜空间 SAC 与端到端 PPO / fine-tuning 主干的样本效率与方差。"
+    },
+    {
+      "claim": "OVL-VLA 与 HAF-Steer 在层次上互补：前者提供结构化全身动作生成器，后者在前者冻结的前提下完成 deployment-time 分布漂移下的微调。",
+      "supporting_evidence": [
+        "sec:introduction",
+        "sec:experiments"
+      ],
+      "what_it_actually_proves": "在 Toy Storage/Basket Transfer 的 4 个 ID/OOD 设置里，对 HAF-VLA 再叠 HAF-Steer 都取得 4/4 提升，3/4 达到并列或最优。",
+      "what_it_does_not_prove": "没有给出 HAF-Steer 对 HAF-VLA 之外的分层 VLA 是否同样有效，也没有分析当主干本身已带强归纳偏置时 spectral 修正的边际贡献。"
+    }
+  ],
+  "claim_boundaries": [
+    "主结果、OOD、HAF-Steer 全部来自 TienKung 2.0/3.0 与 7 个家庭任务，每个方法-任务组合 10 次 rollout；覆盖范围有限，没有报道更长时段或多人干预。",
+    "HAF-VLA 的推理需要 3 阶段串行去噪，论文明确承认额外延迟（π0.5 30 步延迟 0.115s），但未给出端到端控制频率对闭环稳定性的定量分析。",
+    "HAF-Steer 仅在 8 个 DCT 系数上做优化（K=8 为论文选择），未给出 K 的消融或与频谱截断之外潜空间的对比。",
+    "真实部署实验在受控家庭场景完成，未覆盖光照变化、动态障碍或人类干扰。"
+  ],
+  "negative_or_limiting_results": [
+    "DSRL（重复单噪声向量）在 Toy Storage OOD 与 ID 中都因 unsafe exploratory motion 触发训练提前终止，标记为 N/A；说明 K=H 的高维噪声或退化到单向量都不适合 humanoid 真实 rollout。",
+    "π0.5 在 30 步去噪（与 HAF-VLA 总预算相同）下 normalized score 从 10 步的 53.3%（推算）跌到 20.0%，论文归因于延迟由 0.075s 升至 0.115s 引入速度命令与执行的时序错配。",
+    "All-Joint Denoising 与 Arm-First Hierarchy 都不如完整 HAF-VLA，说明「先稳定底盘、再做上肢」的运动学顺序本身是关键设计点，不只是增加去噪步数。"
+  ],
+  "mechanism_result_map": [
+    "HAF-VLA 三阶段去噪 + 跨阶段 KV cache：Stage 1 锁定 Locomotion+Head，Stage 2 在 KV cache 基础上叠加 Waist，Stage 3 再叠加 Arm；这解释了为什么 Box Transfer / Toy Storage 等需要稳定底盘与跨房间移动的任务提升最大。",
+    "DCT 谱压缩 + IDCT 还原：K=8 个低频系数保留时序变化但拒绝高频抖动，解释了 Noise BC 已经能改善表现，进一步 mixed offline-online SAC 又把分布漂移下的成功率推到接近饱和。",
+    "Sparse terminal reward + 离线 BC 正则化 λBC：成功终态 reward=1，其他=0，配合只在 offline batch 上加 BC loss，使 online SAC 不会剧烈偏离专家动作，从而避免 DSRL 那种 unsafe exploration。"
+  ],
+  "comparative_positioning": [
+    "相对 π0.5 等通用 flow-matching VLA，HAF-VLA 不需要重训基础模型，只是改写「谁先生成、谁后生成」的顺序与跨阶段 KV cache，是一种 backbone-agnostic 的结构化注入。",
+    "相对 GR00T N1.7 / Cosmos Policy 等大型 humanoid foundation model，HAF-VLA 的训练代价低得多（仅 120 trajectories/task），却能在平均分上反超近 30 个百分点。",
+    "相对 DSRL 等潜空间 RL，HAF-Steer 用 DCT 谱保留了时序变化，因此不需为去抖牺牲 expressiveness；同时把搜索维度从 H 压到 K=8。"
+  ],
+  "reuse_takeaways": [
+    "「先稳定底盘、再做上肢」的分层动作流 + 跨阶段 KV cache 是一种 backbone-agnostic 的结构化注入范式，可移植到其他 humanoid VLA 或双臂移动机器人。",
+    "利用 flow matching 的可逆性回放专家动作，是把 RL 优化约束到「低维语义潜空间」而不动主干的通用技巧；DCT 是其中一种实现。",
+    "mixed offline-online SAC + offline-only BC 正则化是「不重训大模型、做 deployment-time 适配」的稳健配方，sparse terminal reward 进一步降低了对奖励工程的依赖。"
+  ],
+  "followup_questions": [
+    "把 K=8 的 DCT 谱换成可学习的低秩基或频域编码器，是否能在保留时序变化的同时进一步压缩搜索维度？",
+    "HAF-VLA 的三阶段顺序与跨阶段 KV cache 是否可以端到端学习（如把阶段边界当成可微门控），还是必须按运动学硬编码？",
+    "HAF-Steer 在 humanoid 上避免 unsafe exploration 的关键到底是 DCT 谱压缩、sparse terminal reward 还是 BC 正则化？需要逐项消融。",
+    "在更长时段任务、动态障碍和光照漂移下，主干冻结的 HAF 还能保持多大优势？尤其当主任务分布与演示显著不同时。"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "把 humanoid 全身运动-操作拆为「单阶段生成导致上下肢耦合失稳」与「offline BC 在 deployment-time 漂移下退化、online RL 直接 finetune 大模型又不安全」两个独立问题，阐明为什么既需要结构化生成、又需要潜空间轻量适配。",
+      "evidence_sources": [
+        "sec:introduction",
+        "sec:related-work"
+      ],
+      "purpose": "让读者明白 HAF-VLA 与 HAF-Steer 分别在解决哪一层的问题，避免把它们当成两个独立工作。"
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "解释 TienKung 2.0/3.0 硬件、同构遥操作（IMU + 主臂 + 手柄）、120 trajectories/task、normalized task score（按 milestone 归一化）、10 rollouts/方法/任务的实验协议，以及 7 个任务各自的关键动作原语（traversing, bending, squatting, carrying, throwing）。",
+      "evidence_sources": [
+        "sec:experiments"
+      ],
+      "purpose": "把读者从「看图好看」拉到「看图可复现」的程度。"
+    },
+    {
+      "section": "方法主线",
+      "focus": "按 (1) HAF-VLA 三阶段动作流 + 跨阶段 KV cache；(2) 利用 flow matching 可逆性回放专家动作并 DCT 谱压缩；(3) 离线 BC 初始化 + mixed offline-online SAC + offline-only BC 正则化；(4) 推理时 DCT 还原噪声再送入冻结 VLA 的步骤重建系统图。",
+      "evidence_sources": [
+        "sec:model",
+        "sec:introduction"
+      ],
+      "purpose": "把方法讲成可被复用的「结构化注入 + 谱潜空间 RL」配方，而不是逐模块翻译。"
+    },
+    {
+      "section": "关键结果",
+      "focus": "用 Table 1 / Table 2 / Table 3 与 Figure 8 四张表/图依次回答 Q1（主结果 vs 4 个 SOTA）、Q2（分层消融与总步数控制）、Q3（视觉干扰 + 位姿漂移）、Q4（HAF-Steer 在 ID/OOD × π0.5/HAF-VLA backbone 上的提升），并把 DSRL 的失败作为反面证据。",
+      "evidence_sources": [
+        "sec:experiments"
+      ],
+      "purpose": "把论文的「四个研究问题」对到表/图/数据点上，避免泛泛而谈。"
+    },
+    {
+      "section": "深度分析",
+      "focus": "讨论 (1) 为什么「先底盘后上肢」的顺序是运动学层面的硬约束而非训练 trick；(2) 为什么 DCT 谱能同时抑制高频抖动与保留低频时序变化；(3) 为什么 sparse terminal reward + offline-only BC 正则化能避免 DSRL 式的 unsafe exploration；(4) HAF-VLA 与 HAF-Steer 在「结构化生成」与「轻量适配」上的互补性。",
+      "evidence_sources": [
+        "sec:introduction",
+        "sec:model",
+        "sec:experiments"
+      ],
+      "purpose": "把现象级结果升级为机制级结论。"
+    },
+    {
+      "section": "局限",
+      "focus": "指出 7 任务 / 10 rollouts 的覆盖有限、HAF-VLA 引入额外延迟、HAF-Steer 受限于 VLA 本身的归纳偏置、未来工作方向（高效去噪、轻量 RL、实时性能）。",
+      "evidence_sources": [
+        "sec:experiments"
+      ],
+      "purpose": "把论文自身的「Limitations」小节复述并补上方法层面的边界。"
+    }
+  ]
+}
