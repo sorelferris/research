@@ -1,0 +1,256 @@
+{
+  "paper_id": "arxiv:2607.00272",
+  "paper_type": "AI_method",
+  "paper_type_rationale": "ASPIRE introduces a new robotic agentic coding framework with three novel components (closed-loop execution engine, skill library, evolutionary search). This is a methods/system paper: the contribution is the architecture itself, validated by quantitative experiments on multiple benchmarks.",
+  "dominant_domain": "robotics",
+  "must_cover": [
+    "Three-component architecture (execution engine / skill library / evolutionary search)",
+    "Multimodal trace mechanism for failure attribution",
+    "Skill library as accumulated cross-task knowledge",
+    "Evolutionary search vs single-trajectory refinement",
+    "Quantitative results on LIBERO-Pro / Robosuite / BEHAVIOR-1K / LIBERO-Pro Long",
+    "Sim-to-real skill transfer experiments",
+    "Zero-shot generalization on unseen long-horizon tasks",
+    "Comparison to prior coding agents (CaP-Agent0, OpenVLA, pi0, pi0.5)"
+  ],
+  "key_numbers": [
+    "+77% success rate improvement on LIBERO-Pro perturbation",
+    "+72% on Robosuite bimanual handover",
+    "+32% on BEHAVIOR-1K long-horizon household",
+    "31% vs 4% zero-shot on LIBERO-Pro Long",
+    "150+ sim tasks used to build the skill library",
+    "N=90 skill library size for zero-shot transfer",
+    "Library size N=0 -> 90 monotone scaling in zero-shot success"
+  ],
+  "real_comparisons": [
+    "ASPIRE vs CaP-Agent0 (Fu et al. 2026): prior code-as-policy baseline across all benchmarks",
+    "ASPIRE vs OpenVLA / pi0 / pi0.5 (VLA model baselines) on LIBERO suite",
+    "ASPIRE vs pi0-s (zero-shot variant) on LIBERO",
+    "With-skills vs without-skills (ablation on real-robot tokens and success rate)",
+    "Library size N=0/25/50/90 scaling (ablation on accumulated experience)"
+  ],
+  "central_claims": [
+    {
+      "claim": "Closed-loop multimodal trace execution engines dramatically improve failure localization compared to coarse rollout-level feedback",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method"
+        },
+        {
+          "section_id": "sec:experiments"
+        },
+        {
+          "section_id": "sec:method",
+          "pages": {
+            "start": 3,
+            "end": 7
+          }
+        }
+      ],
+      "what_it_actually_proves": "Per-primitive trace inspection enables targeted repairs validated by +77% gain on LIBERO-Pro perturbation",
+      "what_it_does_not_prove": "That traces alone suffice — ASPIRE combines traces with skill library and evolutionary search"
+    },
+    {
+      "claim": "A continually growing skill library transfers validated fixes across tasks, simulation, and embodiments",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method"
+        },
+        {
+          "section_id": "sec:experiments"
+        },
+        {
+          "section_id": "sec:method",
+          "pages": {
+            "start": 3,
+            "end": 9
+          }
+        }
+      ],
+      "what_it_actually_proves": "Library N=0 -> 90 monotonically improves zero-shot success; 31% vs 4% on LIBERO-Pro Long zero-shot",
+      "what_it_does_not_prove": "Full library transfer to a new embodiment — only 3 skills validated on real bimanual robot"
+    },
+    {
+      "claim": "Evolutionary search over diverse program candidates explores beyond single-trajectory refinement",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method"
+        },
+        {
+          "section_id": "sec:experiments"
+        },
+        {
+          "section_id": "sec:method",
+          "pages": {
+            "start": 3,
+            "end": 9
+          }
+        }
+      ],
+      "what_it_actually_proves": "+32% on BEHAVIOR-1K long-horizon procedural layouts where single-trajectory debugging plateaus",
+      "what_it_does_not_prove": "Compute cost advantage — no wall-clock vs accuracy tradeoff reported"
+    },
+    {
+      "claim": "The combination of execution engine + skill library + evolutionary search yields +32-77% gains on short-horizon manipulation and 7-8x zero-shot on long-horizon tasks",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:experiments"
+        },
+        {
+          "section_id": "sec:experiments",
+          "pages": {
+            "start": 7,
+            "end": 9
+          }
+        }
+      ],
+      "what_it_actually_proves": "Combined system beats strongest baselines (CaP-Agent0, OpenVLA, pi0) on every benchmark evaluated",
+      "what_it_does_not_prove": "Generalization to entirely new task domains without library seeding"
+    }
+  ],
+  "claim_boundaries": [
+    "Real-robot transfer evidence is limited to three simulation-discovered skills on a single bimanual embodiment",
+    "Comparison set on LIBERO includes strong but dated VLA baselines (OpenVLA, pi0); newer VLAs (pi0.5, GR00T N1) absent",
+    "Skill library quality depends on accumulated experience — bootstrapping on a new domain starts cold",
+    "Evolutionary search is compute-intensive; no wall-clock vs accuracy tradeoff reported"
+  ],
+  "negative_or_limiting_results": [
+    "OpenVLA and pi0 achieve 0% success on LIBERO object/goal/spatial positional tasks — strong negative baseline",
+    "Skill transfer on real robot only validated for 3 specific skills, not full skill library",
+    "No comparison against recent pi0.5 / GR00T-N1 / Helix on LIBERO-Pro"
+  ],
+  "mechanism_result_map": [
+    {
+      "claim_id": "mechanism_traces",
+      "mechanism": "multimodal_traces",
+      "result": "Enables per-primitive failure attribution -> enables targeted repairs -> validates the +77% gain on LIBERO-Pro perturbation tasks"
+    },
+    {
+      "claim_id": "mechanism_traces",
+      "mechanism": "skill_library",
+      "result": "Distills validated fixes as transferable knowledge -> grows monotonically with N -> yields 31% zero-shot LIBERO-Pro Long success vs 4% baseline"
+    },
+    {
+      "claim_id": "mechanism_traces",
+      "mechanism": "evolutionary_search",
+      "result": "Samples diverse candidate programs -> explores beyond single-trajectory refinement -> validates +32% on BEHAVIOR-1K long-horizon"
+    }
+  ],
+  "comparative_positioning": [
+    "Differs from CaP-Agent0 (Fu et al. 2026) by adding per-primitive multimodal traces (vs coarse rollout feedback) and a persistent cross-task skill library (vs per-task fixes)",
+    "Differs from prior code-as-policy (HiP, ProgPrompt) by accumulating experience into reusable skills rather than re-prompting per task",
+    "Aligns with agentic coding trend (Anthropic / OpenAI / SWE-bench agents) by applying software-engineering-style iterative debugging to robotics",
+    "Complementary to VLA models (pi0, pi0.5, OpenVLA) — VLA provides manipulation primitives; ASPIRE composes them via code"
+  ],
+  "reuse_takeaways": [
+    "Pattern: closed-loop execution with multimodal traces > naive rollout feedback for any agentic robot code-generation system",
+    "Pattern: explicit skill library as a first-class persistent artifact across sessions and embodiments",
+    "Pattern: evolutionary search over diverse program candidates complements single-trajectory self-improvement",
+    "Anti-pattern: per-task fixes discarded at task completion — kills cumulative learning",
+    "Anti-pattern: relying on coarse task-level success/fail signal alone for failure diagnosis"
+  ],
+  "followup_questions": [
+    "How does skill library quality scale with simulator diversity (Isaac Sim only vs multiple physics backends)?",
+    "What is the compute cost of evolutionary search per task vs baseline agent debugging time?",
+    "Does skill transfer generalize across different robot embodiments (Franka vs ALOHA vs Unitree)?",
+    "Can the skill library be pre-seeded from human demonstrations rather than autonomous exploration?",
+    "How does ASPIRE compare against pi0.5 / GR00T-N1 / Helix on the same LIBERO-Pro benchmarks?"
+  ],
+  "section_plan": [
+    {
+      "section": "核心信息",
+      "focus": "Title, authors, affiliations, venue, arXiv id, date — 12 fixed metadata fields in canonical order.",
+      "evidence_sources": [
+        "sec:preamble",
+        "sec:abstract"
+      ]
+    },
+    {
+      "section": "原文摘要翻译",
+      "focus": "Faithful Chinese translation of the abstract, preserving the three-component claim and all key numerical gains (+77%, +72%, +32%, 31% vs 4%).",
+      "evidence_sources": [
+        "sec:abstract"
+      ]
+    },
+    {
+      "section": "创新点",
+      "focus": "4-6 numbered innovations: (1) closed-loop multimodal trace engine, (2) persistent cross-task skill library, (3) evolutionary search over programs, (4) coordinator-actor parallel learning, (5) sim-to-real cross-embodiment skill transfer.",
+      "evidence_sources": [
+        "sec:introduction",
+        "sec:method"
+      ]
+    },
+    {
+      "section": "一句话总结",
+      "focus": "One paragraph synthesis: ASPIRE = closed-loop execution + skill library + evolutionary search, yielding +32-77% on short-horizon and 7-8x zero-shot on long-horizon manipulation tasks.",
+      "evidence_sources": [
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "section": "研究问题",
+      "focus": "Two sub-problems: (a) naive execution environments provide only pass/fail, hindering failure diagnosis; (b) existing systems discard experience across tasks, so the hundredth task is no easier than the first.",
+      "evidence_sources": [
+        "sec:introduction",
+        "sec:related-work"
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "Benchmarks: LIBERO-Pro (perturbation), Robosuite (contact-rich bimanual), BEHAVIOR-1K (long-horizon household with procedural layouts), LIBERO-Pro Long (zero-shot unseen). Hardware: Franka + bimanual setup. Simulation: Isaac Sim + LIFE.",
+      "evidence_sources": [
+        "sec:experiments",
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "section": "方法主线",
+      "focus": "Three components: (1) closed-loop execution engine exposes per-primitive multimodal traces; (2) skill library distills validated fixes as reusable cross-task knowledge; (3) evolutionary search samples diverse program candidates and conditions next generation on survivors.",
+      "evidence_sources": [
+        "sec:method",
+        "sec:method-2",
+        "sec:method-3"
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "+77% on LIBERO-Pro perturbation; +72% on Robosuite bimanual handover; +32% on BEHAVIOR-1K; 31% vs 4% zero-shot on LIBERO-Pro Long; library size N=0 -> 90 monotone scaling; real-robot tokens reduction with skills.",
+      "evidence_sources": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "Why multimodal traces work (per-primitive attribution vs coarse feedback); why skill library transfers across tasks and embodiments; where evolutionary search adds value; what ASPIRE does NOT solve (compute cost, cold-start, comparison to newer VLAs).",
+      "evidence_sources": [
+        "sec:method",
+        "sec:experiments",
+        "sec:limitations"
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "Limited real-robot evidence (3 skills, 1 embodiment); dated VLA comparison set; no compute cost analysis; no library seeding from human demonstrations.",
+      "evidence_sources": [
+        "sec:limitations"
+      ]
+    },
+    {
+      "section": "我的笔记",
+      "focus": "Reusable patterns (closed-loop traces, persistent skill library, evolutionary search); replication suggestions (start with execution engine + small library); followup reading (CaP-Agent0, agentless, Anthropic SWE-bench).",
+      "evidence_sources": [
+        "sec:method",
+        "sec:experiments",
+        "sec:conclusion"
+      ]
+    },
+    {
+      "section": "引用",
+      "focus": "Primary citation (Lu et al. 2026); key related work (Anthropic 2025, OpenAI 2025, Fu et al. 2026 CaP-Agent0, OpenVLA, pi0/pi0.5, LIBERO benchmarks).",
+      "evidence_sources": [
+        "sec:references"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2175 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2607.00272",
+  "figure_plan": {
+    "paper_id": "arxiv:2607.00272",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Aspire system overview. A coordinator spawns an actor agent (coding agent) per",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_002_fig_figure_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+          "width": 641,
+          "height": 393,
+          "size_bytes": 244857,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.283317,
+            "visual_rect_count": 60,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 469,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 2,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "aspire",
+              "system",
+              "coordinator",
+              "spawns",
+              "actor"
+            ],
+            "snippet": "Motion Plan Grasp . . . 1 2 3 4 1 3 4 2 ASPIRE Physical Engine Multimodal Traces /skills Figure 1: Aspire system overview. A coordinator spawns an actor agent (coding agent) per task, ena",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_01.jpeg",
+                "width": 734,
+                "height": 536,
+                "size_bytes": 38311
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_02.jpeg",
+                "width": 800,
+                "height": 512,
+                "size_bytes": 55906
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_03.jpeg",
+                "width": 2340,
+                "height": 1572,
+                "size_bytes": 713897
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+                "width": 641,
+                "height": 393,
+                "size_bytes": 244857,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283317,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 469,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 18,
+            "score": 6,
+            "matched_terms": [
+              "figure 1",
+              "aspire"
+            ],
+            "snippet": "ing Box (small-flat centroid grasp) 2 ... Air-Grasp Detection (post-close verification) 3 Figure 10: Strategic grasping skills. Representative entries for choosing task-appropriate grasp p",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_01.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_018_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_02.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_018_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_03.jpeg",
+                "width": 211,
+                "height": 99,
+                "size_bytes": 1249
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_9.png",
+                "width": 606,
+                "height": 246,
+                "size_bytes": 44183,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.168143,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 712,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 142,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_10.png",
+                "width": 606,
+                "height": 226,
+                "size_bytes": 36830,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154543,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 555,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_11.png",
+                "width": 606,
+                "height": 207,
+                "size_bytes": 37253,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141575,
+                  "visual_rect_count": 26,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 511,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 151,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 19,
+            "score": 6,
+            "matched_terms": [
+              "figure 1",
+              "aspire"
+            ],
+            "snippet": "# Book: align along minor axis grasp_yaw_book = np.arctan2(minor_axis[1], minor_axis[0]) Figure 12: Scene-reasoning skills. Representative entries for reasoning over spatial relations, su",
+            "images": [
+              {
+                "filename": "page_019_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_019_img_01.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_019_fig_figure_12.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_019_fig_figure_12.png",
+                "width": 606,
+                "height": 207,
+                "size_bytes": 38902,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141575,
+                  "visual_rect_count": 25,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 723,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 159,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "Evolutionary search over programs",
+        "kind": "method_detail",
+        "section": "方法主线",
+        "reason": "这张图解释方法内部机制或关键执行状态，适合放在方法主线部分作为机制细节占位。",
+        "priority": 2,
+        "anchor_text": "方法主线",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_algorithm_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+          "width": 505,
+          "height": 297,
+          "size_bytes": 31007,
+          "label": "Algorithm 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "low_visual_body_ratio"
+            ],
+            "page_coverage_ratio": 0.168782,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 429,
+            "table_body_rows": 0,
+            "caption_text_chars": 45,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "algorithm 1",
+              "evolutionary",
+              "search",
+              "over",
+              "programs"
+            ],
+            "snippet": "ASPIRE: Agentic /Skills Discovery for Robotics Algorithm 1 Evolutionary search over programs Require: task 𝜏, program 𝑃0, sets 𝑆dbg, 𝑆val, skill lib",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_algorithm_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+                "width": 505,
+                "height": 297,
+                "size_bytes": 31007,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.168782,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 429,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 45,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "evolutionary",
+              "search",
+              "over",
+              "programs"
+            ],
+            "snippet": "y that distills validated fixes into reusable, transferable robotic knowledge; and (3) an evolutionary search procedure that generates diverse task sequences and control programs, systematical",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "evolutionary",
+              "search",
+              "over",
+              "programs"
+            ],
+            "snippet": "on Engine Agentic Coding Skill Library Multimodal Traces Programs Coordinator Actor Agent Evolutionary Search Iterative Debugging Sim-to-Real Diverse Skills Learned across 150+ Sim Tasks bowl_",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_01.jpeg",
+                "width": 734,
+                "height": 536,
+                "size_bytes": 38311
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_02.jpeg",
+                "width": 800,
+                "height": 512,
+                "size_bytes": 55906
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_03.jpeg",
+                "width": 2340,
+                "height": 1572,
+                "size_bytes": 713897
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+                "width": 641,
+                "height": 393,
+                "size_bytes": 244857,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283317,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 469,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Robot execution engine and evolutionary search ablations on LIBERO-Pro.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_figure_6.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_011_fig_figure_6.png",
+          "width": 638,
+          "height": 152,
+          "size_bytes": 19691,
+          "label": "Figure 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.109317,
+            "visual_rect_count": 17,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 637,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "figure 6",
+              "robot",
+              "execution",
+              "engine",
+              "evolutionary",
+              "search"
+            ],
+            "snippet": "rch, which explores additional repair candidates after robot- execution-engine debugging. Figure 6(a) and Figure 6(b) decompose success into a base system without either component, the gai",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_010_fig_table_1.png",
+                "width": 644,
+                "height": 190,
+                "size_bytes": 28564,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.138022,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 660,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 413,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "figure 6",
+              "robot",
+              "execution",
+              "engine",
+              "evolutionary",
+              "search"
+            ],
+            "snippet": "Evo (b) Task perturbation. 1 2 3 4 5 20% 40% 60% 80% Mean SR (c) Per-iteration progress. Figure 6: Robot execution engine and evolutionary search ablations on LIBERO-Pro. Figures (a) and",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_011_fig_figure_6.png",
+                "width": 638,
+                "height": 152,
+                "size_bytes": 19691,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.109317,
+                  "visual_rect_count": 17,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 637,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "robot",
+              "execution",
+              "engine",
+              "evolutionary",
+              "search"
+            ],
+            "snippet": "2026-7-2 ASPIRE: Agentic /Skills Discovery for Robotics Runyu Lu1 2 * †, Yubo Wu1 3 *, Ethan Kou1 4 * Letian Fu1 4, Wenli Xiao1 5, Ajay Mandle",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "LIBERO-Pro [Zhou et al., 2025] performance of OpenVLA [Kim et al., 2024], 𝜋0 [Black",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_020_fig_table_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_2.png",
+          "width": 445,
+          "height": 129,
+          "size_bytes": 13721,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.064947,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 258,
+            "table_body_rows": 7,
+            "caption_text_chars": 555,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 20,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "libero-pro",
+              "zhou",
+              "performance",
+              "openvla",
+              "black"
+            ],
+            "snippet": "This section reports the exact numerical values visualized in Figure 4 of the main paper. Table 2: LIBERO-Pro [Zhou et al., 2025] performance of OpenVLA [Kim et al., 2024], 𝜋0 [Black et a",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_020_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_2.png",
+                "width": 445,
+                "height": 129,
+                "size_bytes": 13721,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.064947,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 258,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 555,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_3.png",
+                "width": 307,
+                "height": 159,
+                "size_bytes": 10620,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055014,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 241,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_4.png",
+                "width": 307,
+                "height": 159,
+                "size_bytes": 10620,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055014,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 360,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "zhou",
+              "openvla",
+              "black"
+            ],
+            "snippet": "ccess rate. 3.2. Benchmarks and Baselines We evaluate Aspire on three benchmark families: LIBERO-Pro [Zhou et al., 2025] for short-horizon robustness under object, goal, and spatial perturba",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_algorithm_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+                "width": 505,
+                "height": 297,
+                "size_bytes": 31007,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.168782,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 429,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 45,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "zhou",
+              "performance",
+              "openvla"
+            ],
+            "snippet": "8 95 Pos Task Goal 0 0 0 0 38 0 26 17 81 45 Pos Task Spatial 0 0 0 0 20 1 12 14 51 60 (a) LIBERO-Pro [Zhou et al., 2025]: macro-averaged success over 10 tasks × 50 held-out environment seeds",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_008_fig_figure_4.png",
+                "width": 638,
+                "height": 542,
+                "size_bytes": 70098,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.388598,
+                  "visual_rect_count": 25,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 471,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 583,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Robosuite [Zhu et al., 2020] performance of CaP-Agent0 [Fu et al., 2026] and Aspire on 7",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_020_fig_table_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_3.png",
+          "width": 307,
+          "height": 159,
+          "size_bytes": 10620,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.055014,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 157,
+            "table_body_rows": 9,
+            "caption_text_chars": 241,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 20,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "robosuite",
+              "performance",
+              "cap-agent",
+              "aspire"
+            ],
+            "snippet": "18 0.26 0.17 0.12 0.14 0.20 0.16 0.18 Aspire 0.98 0.95 0.81 0.45 0.51 0.60 0.77 0.67 0.72 Table 3: Robosuite [Zhu et al., 2020] performance of CaP-Agent0 [Fu et al., 2026] and Aspire on 7",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_020_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_2.png",
+                "width": 445,
+                "height": 129,
+                "size_bytes": 13721,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.064947,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 258,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 555,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_3.png",
+                "width": 307,
+                "height": 159,
+                "size_bytes": 10620,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055014,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 241,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_4.png",
+                "width": 307,
+                "height": 159,
+                "size_bytes": 10620,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055014,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 360,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "robosuite",
+              "cap-agent",
+              "aspire"
+            ],
+            "snippet": "et al., 2025] for short-horizon robustness under object, goal, and spatial perturbations; Robosuite [Zhu et al., 2020] for contact-rich single- and dual-arm manipulation; and BEHAVIOR-1K [L",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_algorithm_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+                "width": 505,
+                "height": 297,
+                "size_bytes": 31007,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.168782,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 429,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 45,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "robosuite",
+              "performance",
+              "cap-agent",
+              "aspire"
+            ],
+            "snippet": "ft Stack Restack Wipe 20 74 0 97 98 89 100 91 94 80 93 73 47 100 92 71 9 97 99 100 99 (b) Robosuite [Zhu et al., 2020]: success over 100 held-out trials per task. Aspire learns on seeds 101",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_008_fig_figure_4.png",
+                "width": 638,
+                "height": 542,
+                "size_bytes": 70098,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.388598,
+                  "visual_rect_count": 25,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 471,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 583,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "BEHAVIOR-1K [Li et al., 2024] performance on two representative household tasks: Soda",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_020_fig_table_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_4.png",
+          "width": 307,
+          "height": 159,
+          "size_bytes": 10620,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.055014,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 157,
+            "table_body_rows": 9,
+            "caption_text_chars": 360,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 20,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "behavior-",
+              "performance",
+              "representative",
+              "household",
+              "tasks"
+            ],
+            "snippet": "9 two_arm_handover 0.20 0.92 two_arm_lift 0.74 0.71 nut_assembly 0.00 0.09 Mean 0.68 0.81 Table 4: BEHAVIOR-1K [Li et al., 2024] performance on two representative household tasks: Soda Ca",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_020_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_2.png",
+                "width": 445,
+                "height": 129,
+                "size_bytes": 13721,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.064947,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 258,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 555,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_3.png",
+                "width": 307,
+                "height": 159,
+                "size_bytes": 10620,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055014,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 241,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_020_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_4.png",
+                "width": 307,
+                "height": 159,
+                "size_bytes": 10620,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.055014,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 157,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 360,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "behavior-",
+              "representative",
+              "household",
+              "tasks"
+            ],
+            "snippet": "72% on Robosuite’s bimanual handover task, and up to 32% on long-horizon household tasks (BEHAVIOR-1K). The accumulated skill library further enables strong zero-shot generalization: on rep",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "behavior-",
+              "household",
+              "tasks"
+            ],
+            "snippet": "ons; Robosuite [Zhu et al., 2020] for contact-rich single- and dual-arm manipulation; and BEHAVIOR-1K [Li et al., 2024] for long-horizon household mobile manipulation on navigate-and-pick-u",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_algorithm_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+                "width": 505,
+                "height": 297,
+                "size_bytes": 31007,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.168782,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 429,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 45,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Macro-averaged zero-shot transfer of the Aspire skill library (accumulated on",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_021_fig_table_5.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_5.png",
+          "width": 511,
+          "height": 213,
+          "size_bytes": 15492,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.122266,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 258,
+            "table_body_rows": 11,
+            "caption_text_chars": 400,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 21,
+            "score": 8,
+            "matched_terms": [
+              "table 5",
+              "macro-averaged",
+              "zero-shot",
+              "transfer",
+              "aspire",
+              "skill"
+            ],
+            "snippet": "overy for Robotics C. LIBERO-Pro Long Zero-Shot Transfer C.1. Macro-Averaged Main Results Table 5: Macro-averaged zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90)",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_021_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_5.png",
+                "width": 511,
+                "height": 213,
+                "size_bytes": 15492,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122266,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 258,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 400,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_021_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_6.png",
+                "width": 423,
+                "height": 199,
+                "size_bytes": 17952,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.094953,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 576,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 225,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "zero-shot",
+              "transfer",
+              "aspire",
+              "skill"
+            ],
+            "snippet": "rizon household tasks (BEHAVIOR-1K). The accumulated skill library further enables strong zero-shot generalization: on representative unseen long-horizon tasks (LIBERO-Pro Long), Aspire ach",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "transfer",
+              "aspire",
+              "skill"
+            ],
+            "snippet": "Learned across 150+ Sim Tasks bowl_on_plate() handover() can_in_trash() . . . Sim Skills Transfer to Real open_drawer() Depth SAM3 Motion Plan Grasp . . . 1 2 3 4 1 3 4 2 ASPIRE Physical",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_01.jpeg",
+                "width": 734,
+                "height": 536,
+                "size_bytes": 38311
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_02.jpeg",
+                "width": 800,
+                "height": 512,
+                "size_bytes": 55906
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_03.jpeg",
+                "width": 2340,
+                "height": 1572,
+                "size_bytes": 713897
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+                "width": 641,
+                "height": 393,
+                "size_bytes": 244857,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283317,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 469,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_021_fig_table_6.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_6.png",
+          "width": 423,
+          "height": 199,
+          "size_bytes": 17952,
+          "label": "Table 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.094953,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 576,
+            "table_body_rows": 11,
+            "caption_text_chars": 225,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 21,
+            "score": 8,
+            "matched_terms": [
+              "table 6",
+              "zero-shot",
+              "transfer",
+              "aspire",
+              "skill",
+              "library"
+            ],
+            "snippet": "hot) 0.138 0.292 0.215 Aspire (𝑁=90, zero-shot) 0.226 0.383 0.305 C.2. Per-Task Breakdown Table 6: Zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to LIBERO-Pro",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_021_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_5.png",
+                "width": 511,
+                "height": 213,
+                "size_bytes": 15492,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.122266,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 258,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 400,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_021_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_6.png",
+                "width": 423,
+                "height": 199,
+                "size_bytes": 17952,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.094953,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 576,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 225,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "zero-shot",
+              "transfer",
+              "aspire",
+              "skill",
+              "library"
+            ],
+            "snippet": "rizon household tasks (BEHAVIOR-1K). The accumulated skill library further enables strong zero-shot generalization: on representative unseen long-horizon tasks (LIBERO-Pro Long), Aspire ach",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 2,
+            "score": 3,
+            "matched_terms": [
+              "transfer",
+              "aspire",
+              "skill",
+              "library"
+            ],
+            "snippet": "Learned across 150+ Sim Tasks bowl_on_plate() handover() can_in_trash() . . . Sim Skills Transfer to Real open_drawer() Depth SAM3 Motion Plan Grasp . . . 1 2 3 4 1 3 4 2 ASPIRE Physical",
+            "images": [
+              {
+                "filename": "page_002_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_01.jpeg",
+                "width": 734,
+                "height": 536,
+                "size_bytes": 38311
+              },
+              {
+                "filename": "page_002_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_02.jpeg",
+                "width": 800,
+                "height": 512,
+                "size_bytes": 55906
+              },
+              {
+                "filename": "page_002_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_img_03.jpeg",
+                "width": 2340,
+                "height": 1572,
+                "size_bytes": 713897
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_002_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+                "width": 641,
+                "height": 393,
+                "size_bytes": 244857,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.283317,
+                  "visual_rect_count": 60,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 469,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 7",
+        "caption": "LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50).",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_022_fig_table_7.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_022_fig_table_7.png",
+          "width": 531,
+          "height": 110,
+          "size_bytes": 9931,
+          "label": "Table 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.065676,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 3,
+            "caption_text_chars": 558,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 7",
+              "libero-pro",
+              "per-task",
+              "ablation",
+              "position",
+              "perturbation"
+            ],
+            "snippet": "otics D. Ablation Details D.1. LIBERO-Pro Position Perturbation (Swap) Per-Task Breakdown Table 7: LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50). Aspire w/o Robot",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_022_fig_table_7.png",
+                "width": 531,
+                "height": 110,
+                "size_bytes": 9931,
+                "label": "Table 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065676,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 3,
+                  "caption_text_chars": 558,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "per-task",
+              "perturbation"
+            ],
+            "snippet": "8 95 Pos Task Goal 0 0 0 0 38 0 26 17 81 45 Pos Task Spatial 0 0 0 0 20 1 12 14 51 60 (a) LIBERO-Pro [Zhou et al., 2025]: macro-averaged success over 10 tasks × 50 held-out environment seeds",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_008_fig_figure_4.png",
+                "width": 638,
+                "height": 542,
+                "size_bytes": 70098,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.388598,
+                  "visual_rect_count": 25,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 471,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 583,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "per-task",
+              "position",
+              "perturbation"
+            ],
+            "snippet": "cess improves as skill-library size increases. Figure 5: Cross-task zero-shot transfer on LIBERO-Pro Long. Skills accumulated on LIBERO-90 improve zero-shot performance on held-out long-hori",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_009_fig_figure_5.png",
+                "width": 638,
+                "height": 248,
+                "size_bytes": 29886,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178046,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 386,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 8",
+        "caption": "LIBERO-Pro per-task ablation, Task perturbation (seeds 1–50, 𝑛=50). Aspire w/o",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "task",
+              "perturbation"
+            ],
+            "snippet": "ly, Aspire surpasses prior methods by up to 77% on manipulation tasks under perturbation (LIBERO-Pro), 72% on Robosuite’s bimanual handover task, and up to 32% on long-horizon household task",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "task",
+              "perturbation"
+            ],
+            "snippet": "ccess rate. 3.2. Benchmarks and Baselines We evaluate Aspire on three benchmark families: LIBERO-Pro [Zhou et al., 2025] for short-horizon robustness under object, goal, and spatial perturba",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_algorithm_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+                "width": 505,
+                "height": 297,
+                "size_bytes": 31007,
+                "label": "Algorithm 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "low_visual_body_ratio"
+                  ],
+                  "page_coverage_ratio": 0.168782,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 429,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 45,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "per-task",
+              "task",
+              "perturbation"
+            ],
+            "snippet": "8 95 Pos Task Goal 0 0 0 0 38 0 26 17 81 45 Pos Task Spatial 0 0 0 0 20 1 12 14 51 60 (a) LIBERO-Pro [Zhou et al., 2025]: macro-averaged success over 10 tasks × 50 held-out environment seeds",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_008_fig_figure_4.png",
+                "width": 638,
+                "height": 542,
+                "size_bytes": 70098,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.388598,
+                  "visual_rect_count": 25,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 471,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 583,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "Strategic grasping skills. Representative entries for choosing task-appropriate grasp",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_018_fig_figure_10.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_10.png",
+          "width": 606,
+          "height": 226,
+          "size_bytes": 36830,
+          "label": "Figure 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.154543,
+            "visual_rect_count": 28,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 555,
+            "table_body_rows": 0,
+            "caption_text_chars": 169,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 18,
+            "score": 8,
+            "matched_terms": [
+              "figure 10",
+              "strategic",
+              "grasping",
+              "skills",
+              "representative",
+              "entries"
+            ],
+            "snippet": "ing Box (small-flat centroid grasp) 2 ... Air-Grasp Detection (post-close verification) 3 Figure 10: Strategic grasping skills. Representative entries for choosing task-appropriate grasp po",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_01.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_018_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_02.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_018_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_03.jpeg",
+                "width": 211,
+                "height": 99,
+                "size_bytes": 1249
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_9.png",
+                "width": 606,
+                "height": 246,
+                "size_bytes": 44183,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.168143,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 712,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 142,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_10.png",
+                "width": 606,
+                "height": 226,
+                "size_bytes": 36830,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154543,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 555,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_11.png",
+                "width": 606,
+                "height": 207,
+                "size_bytes": 37253,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141575,
+                  "visual_rect_count": 26,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 511,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 151,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "grasping",
+              "skills",
+              "representative",
+              "entries"
+            ],
+            "snippet": "lation Skills Transfer to Real ●LOCALIZATION ●MOTION PRIMITIVES ●NAVIGATION ●OBJECT-LEVEL GRASPING Localization Multi-Object Disambiguation: front / back / left / right Disambiguate by spa",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_img_01.jpeg",
+                "width": 404,
+                "height": 392,
+                "size_bytes": 34998
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_img_02.jpeg",
+                "width": 205,
+                "height": 234,
+                "size_bytes": 12423
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_img_03.jpeg",
+                "width": 406,
+                "height": 260,
+                "size_bytes": 25422
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_fig_figure_3.png",
+                "width": 678,
+                "height": 611,
+                "size_bytes": 427894,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.465541,
+                  "visual_rect_count": 108,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 356,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 717,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 3,
+            "matched_terms": [
+              "skills",
+              "representative",
+              "entries"
+            ],
+            "snippet": "ASPIRE: Agentic /Skills Discovery for Robotics A. Skill Library Details This appendix expands the representative",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_img_01.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_017_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_img_02.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_fig_figure_7.png",
+                "width": 606,
+                "height": 207,
+                "size_bytes": 38658,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141575,
+                  "visual_rect_count": 25,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 542,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 190,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_017_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_fig_figure_8.png",
+                "width": 606,
+                "height": 207,
+                "size_bytes": 43567,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141048,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 624,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 158,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Motion-primitive skills. Representative entries for reusable low-level motion patterns,",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_018_fig_figure_11.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_11.png",
+          "width": 606,
+          "height": 207,
+          "size_bytes": 37253,
+          "label": "Figure 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.141575,
+            "visual_rect_count": 26,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 511,
+            "table_body_rows": 0,
+            "caption_text_chars": 151,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 18,
+            "score": 8,
+            "matched_terms": [
+              "figure 11",
+              "motion-primitive",
+              "skills",
+              "representative",
+              "entries",
+              "reusable"
+            ],
+            "snippet": "pre_push[1], obj_pos[2]]) move_to([post_push[0], post_push[1], obj_pos[2]]) # linear push Figure 11: Motion-primitive skills. Representative entries for reusable low-level motion patterns,",
+            "images": [
+              {
+                "filename": "page_018_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_01.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_018_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_02.jpeg",
+                "width": 212,
+                "height": 99,
+                "size_bytes": 1249
+              },
+              {
+                "filename": "page_018_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_img_03.jpeg",
+                "width": 211,
+                "height": 99,
+                "size_bytes": 1249
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_018_fig_figure_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_9.png",
+                "width": 606,
+                "height": 246,
+                "size_bytes": 44183,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.168143,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 712,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 142,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_10.png",
+                "width": 606,
+                "height": 226,
+                "size_bytes": 36830,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.154543,
+                  "visual_rect_count": 28,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 555,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 169,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_018_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_11.png",
+                "width": 606,
+                "height": 207,
+                "size_bytes": 37253,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.141575,
+                  "visual_rect_count": 26,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 511,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 151,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "skills",
+              "representative",
+              "reusable"
+            ],
+            "snippet": "2026-7-2 ASPIRE: Agentic /Skills Discovery for Robotics Runyu Lu1 2 * †, Yubo Wu1 3 *, Ethan Kou1 4 * Letian Fu1 4, Wenli",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_001_img_01.png",
+                "width": 1056,
+                "height": 215,
+                "size_bytes": 37721
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "motion-primitive",
+              "skills",
+              "representative",
+              "entries",
+              "reusable"
+            ],
+            "snippet": "tives. Top: representative entries show learned skills about localization disambiguation, motion-primitive construction, and navigation recovery. Middle: the library grows across heterogeneous cat",
+            "images": [
+              {
+                "filename": "page_005_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_img_01.jpeg",
+                "width": 404,
+                "height": 392,
+                "size_bytes": 34998
+              },
+              {
+                "filename": "page_005_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_img_02.jpeg",
+                "width": 205,
+                "height": 234,
+                "size_bytes": 12423
+              },
+              {
+                "filename": "page_005_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_img_03.jpeg",
+                "width": 406,
+                "height": 260,
+                "size_bytes": 25422
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_fig_figure_3.png",
+                "width": 678,
+                "height": 611,
+                "size_bytes": 427894,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.465541,
+                  "visual_rect_count": 108,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 356,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 717,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

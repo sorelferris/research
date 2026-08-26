@@ -1,0 +1,1111 @@
+{
+  "status": "ok",
+  "script": "manual_decisions_v2",
+  "paper_id": "arxiv:2607.00272",
+  "summary": {
+    "total_decisions": 22,
+    "insert_count": 12,
+    "visual_defect_count": 8,
+    "skip_count": 2
+  },
+  "decisions": [
+    {
+      "label": "Figure 1",
+      "filename": "page_002_fig_figure_1.png",
+      "source_id": "Figure 1",
+      "kind": "method_overview",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+      "source_image_sha256": "060558d65c29bc21ff3ac745a77c24d15b175dba629c448e583fe8f512f3092e",
+      "caption": "Figure 1: Aspire system overview. A coordinator spawns an actor agent (coding agent) per task, enabling parallel learning across tasks. Each actor refines and validates robot programs through iterative debugging with the robot execution engine, which exposes per-primitive multimodal traces for failure attribution and repair. Evolutionary search samples diverse candidate programs (𝜋0, . . . , 𝜋𝑘), sends each through the engine, and conditions the next generation (𝜋′",
+      "caption_source": "pdf_extraction",
+      "page_number": 2,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 1 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "060558d65c29bc21ff3ac745a77c24d15b175dba629c448e583fe8f512f3092e",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 1 body_ratio=1.0 page_coverage=0.283317. Caption-free variant stored at page_002_fig_figure_1.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_002_fig_figure_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_002.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 2,
+        "caption": "Figure 1: Aspire system overview. A coordinator spawns an actor agent (coding agent) per task, enabling parallel learning across tasks. Each actor refines and validates robot programs through iterative debugging with the robot execution engine, which exposes per-primitive multimodal traces for failure attribution and repair. Evolutionary search samples diverse candidate programs (𝜋0, . . . , 𝜋𝑘), sends each through the engine, and conditions the next generation (𝜋′",
+        "bbox_pt": [
+          58.36199951171875,
+          81.037353515625,
+          539.361083984375,
+          376.22723388671875
+        ],
+        "normalized_bbox": [
+          0.09804191570964509,
+          0.09625646118331165,
+          0.9060689211383326,
+          0.4468840672066011
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 2",
+      "filename": "page_004_fig_figure_2.png",
+      "source_id": "Figure 2",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_004_fig_figure_2.png",
+      "source_image_sha256": "dc9fe35e050509e48ef72339660bdb0bf6183a577f902bdbedd9ddc73af04ef7",
+      "caption": "Figure 2: Robot execution engine. Trace-guided debugging on a BEHAVIOR-1K navigate-and-pick-up-radio task. (a) Ego-view keyframes and overlays show the robot locating the radio but failing to approach it. (b) The primitive trace localizes the failure to repeated PLANNING_ERRORs: candidate navigation goals fall inside the table’s collision-avoidance buffer. (c) The agent patches the program with a multi-angle approach routine, re-perceives the radio from",
+      "caption_source": "pdf_extraction",
+      "page_number": 4,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 2 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "dc9fe35e050509e48ef72339660bdb0bf6183a577f902bdbedd9ddc73af04ef7",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 2 body_ratio=1.0 page_coverage=0.251014. Caption-free variant stored at page_004_fig_figure_2.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_004_fig_figure_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_004.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 4,
+        "caption": "Figure 2: Robot execution engine. Trace-guided debugging on a BEHAVIOR-1K navigate-and-pick-up-radio task. (a) Ego-view keyframes and overlays show the robot locating the radio but failing to approach it. (b) The primitive trace localizes the failure to repeated PLANNING_ERRORs: candidate navigation goals fall inside the table’s collision-avoidance buffer. (c) The agent patches the program with a multi-angle approach routine, re-perceives the radio from",
+        "bbox_pt": [
+          58.36199951171875,
+          81.04014587402344,
+          536.8817138671875,
+          343.9288024902344
+        ],
+        "normalized_bbox": [
+          0.09804191570964509,
+          0.09625977795670229,
+          0.9019038445803661,
+          0.4085198737436679
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 3",
+      "filename": "page_005_fig_figure_3.png",
+      "source_id": "Figure 3",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_fig_figure_3.png",
+      "source_image_sha256": "c8fd002a19a1510ef0fe61a598be75aaf393805482bd6ab245740337bc22a0ab",
+      "caption": "Figure 3: Skill library. Aspire stores validated, agent-discovered repair knowledge as reusable in-context skills rather than a fixed set of human-written primitives. Top: representative entries show learned skills about localization disambiguation, motion-primitive construction, and navigation recovery. Middle: the library grows across heterogeneous categories, including localization, navigation, motion primitives, object-level grasping, scene understanding, and debugging workflows. Bottom: selected skills discovered in sim are used as in-context guidance for real-robot programming, providing evidence that skills can transfer across embodiments. Additional skill examples and prompts are shown in Appendix A.",
+      "caption_source": "pdf_extraction",
+      "page_number": 5,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 3 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "c8fd002a19a1510ef0fe61a598be75aaf393805482bd6ab245740337bc22a0ab",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 3 body_ratio=1.0 page_coverage=0.465541. Caption-free variant stored at page_005_fig_figure_3.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_005_fig_figure_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_005.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 5,
+        "caption": "Figure 3: Skill library. Aspire stores validated, agent-discovered repair knowledge as reusable in-context skills rather than a fixed set of human-written primitives. Top: representative entries show learned skills about localization disambiguation, motion-primitive construction, and navigation recovery. Middle: the library grows across heterogeneous categories, including localization, navigation, motion primitives, object-level grasping, scene understanding, and debugging workflows. Bottom: selected skills discovered in sim are used as in-context guidance for real-robot programming, providing evidence that skills can transfer across embodiments. Additional skill examples and prompts are shown in Appendix A.",
+        "bbox_pt": [
+          35.252296447753906,
+          134.81106567382812,
+          543.8570556640625,
+          593.5352172851562
+        ],
+        "normalized_bbox": [
+          0.05922008679994119,
+          0.16012907069591922,
+          0.913621672588604,
+          0.7050032747246788
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Algorithm 1",
+      "filename": "page_007_fig_algorithm_1.png",
+      "source_id": "Algorithm 1",
+      "kind": "method_detail",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+      "source_image_sha256": "28f5ca7e1a2eca613f4ed524c87a601dbfc93cc5457e49149836e42db4321ad6",
+      "caption": "Algorithm 1 Evolutionary search over programs",
+      "caption_source": "pdf_extraction",
+      "page_number": 7,
+      "candidate_status": "rejected_candidate",
+      "visual_quality_status": "reject",
+      "decision": "skip",
+      "decision_rationale": "Algorithm not extractable as figure; full text in dpn_full_text.md is sufficient.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "28f5ca7e1a2eca613f4ed524c87a601dbfc93cc5457e49149836e42db4321ad6",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "algorithm_body"
+        ],
+        "notes": "Algorithm body not extractable. Skip image; cite algorithm in prose.",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_007_fig_algorithm_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_007.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 7,
+        "caption": "Algorithm 1 Evolutionary search over programs",
+        "bbox_pt": [
+          56.36195373535156,
+          98.851806640625,
+          435.80340576171875,
+          321.7743835449219
+        ],
+        "normalized_bbox": [
+          0.09468205276693269,
+          0.11741653294451325,
+          0.732103100153163,
+          0.3822047749067207
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 4",
+      "filename": "page_008_fig_figure_4.png",
+      "source_id": "Figure 4",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_008_fig_figure_4.png",
+      "source_image_sha256": "f51b5b89a4674c41a5ffcb246b96d13afed2e59c209b3095c2e03db717232b2a",
+      "caption": "Figure 4: Aspire improves over prior coding agents and end-to-end VLAs across three benchmark families. (a) Short-horizon manipulation on LIBERO-Pro; (b) contact-rich manipulation on Robosuite; (c) long-horizon mobile manipulation on BEHAVIOR-1K. Aspire evaluates one generated program per task across held-out seeds, while CaP-Agent0 regenerates a separate program per seed with test-time reasoning and retries. Aspire improves performance across all benchmarks, with several results surpassing programs written by human experts. Detailed per-task results are in Appendix B and D.1.",
+      "caption_source": "pdf_extraction",
+      "page_number": 8,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 4 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "f51b5b89a4674c41a5ffcb246b96d13afed2e59c209b3095c2e03db717232b2a",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 4 body_ratio=1.0 page_coverage=0.388598. Caption-free variant stored at page_008_fig_figure_4.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_008_fig_figure_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_008.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 8,
+        "caption": "Figure 4: Aspire improves over prior coding agents and end-to-end VLAs across three benchmark families. (a) Short-horizon manipulation on LIBERO-Pro; (b) contact-rich manipulation on Robosuite; (c) long-horizon mobile manipulation on BEHAVIOR-1K. Aspire evaluates one generated program per task across held-out seeds, while CaP-Agent0 regenerates a separate program per seed with test-time reasoning and retries. Aspire improves performance across all benchmarks, with several results surpassing programs written by human experts. Detailed per-task results are in Appendix B and D.1.",
+        "bbox_pt": [
+          58.22164535522461,
+          81.03941345214844,
+          536.93701171875,
+          487.8548583984375
+        ],
+        "normalized_bbox": [
+          0.09780613574159013,
+          0.09625890798335393,
+          0.9019967390553185,
+          0.5794757627600079
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 5",
+      "filename": "page_009_fig_figure_5.png",
+      "source_id": "Figure 5",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_009_fig_figure_5.png",
+      "source_image_sha256": "800d238efb20fc008d0f6e9f58ba34c08842007258be87086e416f383d61e0b7",
+      "caption": "Figure 5: Cross-task zero-shot transfer on LIBERO-Pro Long. Skills accumulated on LIBERO-90 improve zero-shot performance on held-out long-horizon tasks. Figure (a) compares the full 𝑁=90 library with baselines. Figure (b) shows Pos/Task success as the size of the skill library increases. All success rates are macro-averaged over 10 tasks per axis. Per-task results are in Appendix C.",
+      "caption_source": "pdf_extraction",
+      "page_number": 9,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 5 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "800d238efb20fc008d0f6e9f58ba34c08842007258be87086e416f383d61e0b7",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 5 body_ratio=1.0 page_coverage=0.178046. Caption-free variant stored at page_009_fig_figure_5.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_009_fig_figure_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_009.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 9,
+        "caption": "Figure 5: Cross-task zero-shot transfer on LIBERO-Pro Long. Skills accumulated on LIBERO-90 improve zero-shot performance on held-out long-horizon tasks. Figure (a) compares the full 𝑁=90 library with baselines. Figure (b) shows Pos/Task success as the size of the skill library increases. All success rates are macro-averaged over 10 tasks per axis. Per-task results are in Appendix C.",
+        "bbox_pt": [
+          58.36199951171875,
+          81.03898620605469,
+          536.9169921875,
+          267.49383544921875
+        ],
+        "normalized_bbox": [
+          0.09804191570964509,
+          0.09625840049890072,
+          0.9019631083844748,
+          0.31773014383704357
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 1",
+      "filename": "page_010_fig_table_1.png",
+      "source_id": "Table 1",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_010_fig_table_1.png",
+      "source_image_sha256": "73ee3c9ed96726f0545b9bb661c4c113da20213e9138a1e3029d04a1f0ff6d92",
+      "caption": "Table 1: Real-robot cross-embodiment skill transfer. For each task, we compare real-robot debugging with and without retrieving a corresponding simulation-discovered skill from Aspire’s library. Token counts are measured until the first successful real-robot program, or until the debugging budget is exhausted for runs that do not reach success. Success rate reports evaluation trials for the generated programs.",
+      "caption_source": "pdf_extraction",
+      "page_number": 10,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "73ee3c9ed96726f0545b9bb661c4c113da20213e9138a1e3029d04a1f0ff6d92",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 1 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_010_fig_table_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_010.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 10,
+        "caption": "Table 1: Real-robot cross-embodiment skill transfer. For each task, we compare real-robot debugging with and without retrieving a corresponding simulation-discovered skill from Aspire’s library. Token counts are measured until the first successful real-robot program, or until the debugging budget is exhausted for runs that do not reach success. Success rate reports evaluation trials for the generated programs.",
+        "bbox_pt": [
+          55.805999755859375,
+          164.2128143310547,
+          539.1591796875,
+          307.31915283203125
+        ],
+        "normalized_bbox": [
+          0.09374810955642171,
+          0.19505257393939737,
+          0.9057297435189698,
+          0.36503479965891245
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 6",
+      "filename": "page_011_fig_figure_6.png",
+      "source_id": "Figure 6",
+      "kind": "main_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_011_fig_figure_6.png",
+      "source_image_sha256": "d401a235102f8409edcd903823681f759ddcc73d96f0ef794331776b14d11fe0",
+      "caption": "Figure 6: Robot execution engine and evolutionary search ablations on LIBERO-Pro. Figures (a) and (b) show stacked bars for position and task perturbations: the base system without the robot execution engine or evolutionary search, the gain from adding the robot execution engine, and the additional gain from evolutionary search. On average, the robot execution engine provides the largest gain, raising macro-average success from 14% to 62%; evolutionary search further improves remaining hard tasks. Figure (c) shows average progress over low-performing tasks across evolutionary-search iterations. Per-task results are in Appendix D.",
+      "caption_source": "pdf_extraction",
+      "page_number": 11,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 6 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "d401a235102f8409edcd903823681f759ddcc73d96f0ef794331776b14d11fe0",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 6 body_ratio=1.0 page_coverage=0.109317. Caption-free variant stored at page_011_fig_figure_6.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_011_fig_figure_6.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 11,
+        "caption": "Figure 6: Robot execution engine and evolutionary search ablations on LIBERO-Pro. Figures (a) and (b) show stacked bars for position and task perturbations: the base system without the robot execution engine or evolutionary search, the gain from adding the robot execution engine, and the additional gain from evolutionary search. On average, the robot execution engine provides the largest gain, raising macro-average success from 14% to 62%; evolutionary search further improves remaining hard tasks. Figure (c) shows average progress over low-performing tasks across evolutionary-search iterations. Per-task results are in Appendix D.",
+        "bbox_pt": [
+          58.36199951171875,
+          81.04003143310547,
+          536.9161376953125,
+          195.51983642578125
+        ],
+        "normalized_bbox": [
+          0.09804191570964509,
+          0.09625964202336662,
+          0.901961672929012,
+          0.23223916785309281
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 7",
+      "filename": "page_017_fig_figure_7.png",
+      "source_id": "Figure 7",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_fig_figure_7.png",
+      "source_image_sha256": "9175dee474f08dafd498aeee1a1ad9a2ca73129540555f7036d8d11d376114b6",
+      "caption": "Figure 7: Debugging skills. Representative skill-library entries that encode reusable debugging strategies, including failure signatures, when-to-apply guards, and validated repair sketches.",
+      "caption_source": "pdf_extraction",
+      "page_number": 17,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 7 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "9175dee474f08dafd498aeee1a1ad9a2ca73129540555f7036d8d11d376114b6",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 7 body_ratio=1.0 page_coverage=0.141575. Caption-free variant stored at page_017_fig_figure_7.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_fig_figure_7.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_017.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 17,
+        "caption": "Figure 7: Debugging skills. Representative skill-library entries that encode reusable debugging strategies, including failure signatures, when-to-apply guards, and validated repair sketches.",
+        "bbox_pt": [
+          70.12699890136719,
+          173.62994384765625,
+          525.158203125,
+          329.556640625
+        ],
+        "normalized_bbox": [
+          0.11780585608410621,
+          0.20623827439046405,
+          0.8822096006952526,
+          0.39144856797312017
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 8",
+      "filename": "page_017_fig_figure_8.png",
+      "source_id": "Figure 8",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_fig_figure_8.png",
+      "source_image_sha256": "ff833eba64e70327d73d03e10fe2dafa8486465c277163180f76114b508e6491",
+      "caption": "Figure 8: Localization skills. Representative entries for grounding ambiguous language and object references into robust perception and localization routines.",
+      "caption_source": "pdf_extraction",
+      "page_number": 17,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 8 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "ff833eba64e70327d73d03e10fe2dafa8486465c277163180f76114b508e6491",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 8 body_ratio=1.0 page_coverage=0.141048. Caption-free variant stored at page_017_fig_figure_8.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_017_fig_figure_8.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_017.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 17,
+        "caption": "Figure 8: Localization skills. Representative entries for grounding ambiguous language and object references into robust perception and localization routines.",
+        "bbox_pt": [
+          70.12699890136719,
+          383.54315185546875,
+          525.158203125,
+          538.8892822265625
+        ],
+        "normalized_bbox": [
+          0.11780585608410621,
+          0.4555739409923177,
+          0.8822096006952526,
+          0.6400946357008354
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 9",
+      "filename": "page_018_fig_figure_9.png",
+      "source_id": "Figure 9",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_9.png",
+      "source_image_sha256": "de77ca964630cdc6d73753fa583ff2ef968ff8a058dc0011000536a8d5f87b81",
+      "caption": "Figure 9: Navigation skills. Representative entries for recovering from motion-planning failures and selecting collision-aware approach poses.",
+      "caption_source": "pdf_extraction",
+      "page_number": 18,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 9 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "de77ca964630cdc6d73753fa583ff2ef968ff8a058dc0011000536a8d5f87b81",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 9 body_ratio=1.0 page_coverage=0.168143. Caption-free variant stored at page_018_fig_figure_9.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_9.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_018.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 18,
+        "caption": "Figure 9: Navigation skills. Representative entries for recovering from motion-planning failures and selecting collision-aware approach poses.",
+        "bbox_pt": [
+          70.12699890136719,
+          81.0390625,
+          525.158203125,
+          266.2259826660156
+        ],
+        "normalized_bbox": [
+          0.11780585608410621,
+          0.0962584911211245,
+          0.8822096006952526,
+          0.3162241837221317
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 10",
+      "filename": "page_018_fig_figure_10.png",
+      "source_id": "Figure 10",
+      "kind": "data_or_task",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_10.png",
+      "source_image_sha256": "9e330f54d333a54b14b238a077d80a352609f770aef104682264efc57d331698",
+      "caption": "Figure 10: Strategic grasping skills. Representative entries for choosing task-appropriate grasp points and adapting grasp strategy to object geometry and scene context.",
+      "caption_source": "pdf_extraction",
+      "page_number": 18,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 10 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "9e330f54d333a54b14b238a077d80a352609f770aef104682264efc57d331698",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 10 body_ratio=1.0 page_coverage=0.154543. Caption-free variant stored at page_018_fig_figure_10.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_10.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_018.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 18,
+        "caption": "Figure 10: Strategic grasping skills. Representative entries for choosing task-appropriate grasp points and adapting grasp strategy to object geometry and scene context.",
+        "bbox_pt": [
+          70.12699890136719,
+          320.2231140136719,
+          525.158203125,
+          490.43157958984375
+        ],
+        "normalized_bbox": [
+          0.11780585608410621,
+          0.38036217135488054,
+          0.8822096006952526,
+          0.5825364014973401
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 11",
+      "filename": "page_018_fig_figure_11.png",
+      "source_id": "Figure 11",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_11.png",
+      "source_image_sha256": "0b8e235925ed9dfb9704116ac490267a66aeb7fd4bada7dcea3009daba1e7f01",
+      "caption": "Figure 11: Motion-primitive skills. Representative entries for reusable low-level motion patterns, contact-rich alignment, and execution-time recovery.",
+      "caption_source": "pdf_extraction",
+      "page_number": 18,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 11 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "0b8e235925ed9dfb9704116ac490267a66aeb7fd4bada7dcea3009daba1e7f01",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 11 body_ratio=1.0 page_coverage=0.141575. Caption-free variant stored at page_018_fig_figure_11.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_018_fig_figure_11.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_018.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 18,
+        "caption": "Figure 11: Motion-primitive skills. Representative entries for reusable low-level motion patterns, contact-rich alignment, and execution-time recovery.",
+        "bbox_pt": [
+          70.12699890136719,
+          544.5050048828125,
+          525.158203125,
+          700.4317016601562
+        ],
+        "normalized_bbox": [
+          0.11780585608410621,
+          0.6467650113538772,
+          0.8822096006952526,
+          0.8319753049365333
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Figure 12",
+      "filename": "page_019_fig_figure_12.png",
+      "source_id": "Figure 12",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_019_fig_figure_12.png",
+      "source_image_sha256": "4e5912be55e426d8f2d426cbec78bc0ddd9f990470d46143ebd31ec300652d46",
+      "caption": "Figure 12: Scene-reasoning skills. Representative entries for reasoning over spatial relations, support surfaces, occlusions, and scene-level task constraints.",
+      "caption_source": "pdf_extraction",
+      "page_number": 19,
+      "candidate_status": "usable_candidate",
+      "visual_quality_status": "usable",
+      "decision": "insert",
+      "decision_rationale": "Figure 12 extracted with body_ratio=1.0 and clean page boundary; vision_analyze confirmed caption-free, visual body complete, scientific elements preserved, and identity match.",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "4e5912be55e426d8f2d426cbec78bc0ddd9f990470d46143ebd31ec300652d46",
+        "preserved_scientific_elements": [
+          "arrows",
+          "boxes",
+          "labels",
+          "code_blocks",
+          "modality_icons"
+        ],
+        "omitted_scientific_elements": [],
+        "notes": "Figure 12 body_ratio=1.0 page_coverage=0.141575. Caption-free variant stored at page_019_fig_figure_12.png.",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_019_fig_figure_12.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_019.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 19,
+        "caption": "Figure 12: Scene-reasoning skills. Representative entries for reasoning over spatial relations, support surfaces, occlusions, and scene-level task constraints.",
+        "bbox_pt": [
+          70.12699890136719,
+          81.0389404296875,
+          525.158203125,
+          236.96563720703125
+        ],
+        "normalized_bbox": [
+          0.11780585608410621,
+          0.09625834612556644,
+          0.8822096006952526,
+          0.28146863970822256
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 2",
+      "filename": "page_020_fig_table_2.png",
+      "source_id": "Table 2",
+      "kind": "main_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_2.png",
+      "source_image_sha256": "ab1c76233ad698500b808522c4f4528da4712c71ae2fe6eb969129c6c2693811",
+      "caption": "Table 2: LIBERO-Pro [Zhou et al., 2025] performance of OpenVLA [Kim et al., 2024], 𝜋0 [Black et al., 2025], 𝜋0.5 [Physical Intelligence et al., 2025], CaP-Agent0 [Fu et al., 2026], and Aspire on the libero-object, libero-goal, and libero-spatial benchmarks under initial position perturbations (Pos) and instruction perturbations (Task), macro-averaged across 10 tasks per suite. Overall columns are macro-averaged across the three suites. All Aspire numbers are on the 50-seed held-out evaluation (seeds 1–50). See the per-task breakdown in Appendix D.1.",
+      "caption_source": "pdf_extraction",
+      "page_number": 20,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "ab1c76233ad698500b808522c4f4528da4712c71ae2fe6eb969129c6c2693811",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 2 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_020.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 20,
+        "caption": "Table 2: LIBERO-Pro [Zhou et al., 2025] performance of OpenVLA [Kim et al., 2024], 𝜋0 [Black et al., 2025], 𝜋0.5 [Physical Intelligence et al., 2025], CaP-Agent0 [Fu et al., 2026], and Aspire on the libero-object, libero-goal, and libero-spatial benchmarks under initial position perturbations (Pos) and instruction perturbations (Task), macro-averaged across 10 tasks per suite. Overall columns are macro-averaged across the three suites. All Aspire numbers are on the 50-seed held-out evaluation (seeds 1–50). See the per-task breakdown in Appendix D.1.",
+        "bbox_pt": [
+          130.6840057373047,
+          249.63636779785156,
+          464.6903381347656,
+          347.085693359375
+        ],
+        "normalized_bbox": [
+          0.21953514928019086,
+          0.2965189792660702,
+          0.7806300562637022,
+          0.41226964011957495
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 3",
+      "filename": "page_020_fig_table_3.png",
+      "source_id": "Table 3",
+      "kind": "main_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_3.png",
+      "source_image_sha256": "44e1f794d9033126969a442c7dd696b767d1a64cc913204f1955b5eba14e39eb",
+      "caption": "Table 3: Robosuite [Zhu et al., 2020] performance of CaP-Agent0 [Fu et al., 2026] and Aspire on 7 manipulation tasks (100-trial held-out evaluation). Values are task success rates in [0, 1]. Average is the unweighted mean across all 7 tasks.",
+      "caption_source": "pdf_extraction",
+      "page_number": 20,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "44e1f794d9033126969a442c7dd696b767d1a64cc913204f1955b5eba14e39eb",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 3 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_020.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 20,
+        "caption": "Table 3: Robosuite [Zhu et al., 2020] performance of CaP-Agent0 [Fu et al., 2026] and Aspire on 7 manipulation tasks (100-trial held-out evaluation). Values are task success rates in [0, 1]. Average is the unweighted mean across all 7 tasks.",
+        "bbox_pt": [
+          182.2519989013672,
+          419.2603454589844,
+          412.7631530761719,
+          538.8679809570312
+        ],
+        "normalized_bbox": [
+          0.3061638611373196,
+          0.4979989525520886,
+          0.693397940449515,
+          0.6400693339759537
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 4",
+      "filename": "page_020_fig_table_4.png",
+      "source_id": "Table 4",
+      "kind": "main_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_4.png",
+      "source_image_sha256": "44e1f794d9033126969a442c7dd696b767d1a64cc913204f1955b5eba14e39eb",
+      "caption": "Table 4: BEHAVIOR-1K [Li et al., 2024] performance on two representative household tasks: Soda Can pick-up and Radio pick-up. Navigation and Task Success rates in [0, 1] are reported separately; all numbers are on the 25-seed held-out evaluation (seeds 1–25); Aspire runs interactive block-by-block generation with the skill library accumulated on seeds 26–35.",
+      "caption_source": "pdf_extraction",
+      "page_number": 20,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "44e1f794d9033126969a442c7dd696b767d1a64cc913204f1955b5eba14e39eb",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 4 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_020_fig_table_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_020.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 20,
+        "caption": "Table 4: BEHAVIOR-1K [Li et al., 2024] performance on two representative household tasks: Soda Can pick-up and Radio pick-up. Navigation and Task Success rates in [0, 1] are reported separately; all numbers are on the 25-seed held-out evaluation (seeds 1–25); Aspire runs interactive block-by-block generation with the skill library accumulated on seeds 26–35.",
+        "bbox_pt": [
+          182.2519989013672,
+          419.2603454589844,
+          412.7631530761719,
+          538.8679809570312
+        ],
+        "normalized_bbox": [
+          0.3061638611373196,
+          0.4979989525520886,
+          0.693397940449515,
+          0.6400693339759537
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 5",
+      "filename": "page_021_fig_table_5.png",
+      "source_id": "Table 5",
+      "kind": "table_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_5.png",
+      "source_image_sha256": "f71e67de05a8c9838c80e49fbe8eeafa541664eb7690a7bd347eeb9c6e729e20",
+      "caption": "Table 5: Macro-averaged zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to LIBERO-Pro Long [Zhou et al., 2025]. 𝑁denotes the number of LIBERO-90 tasks whose repair skills seed the library; no additional debugging is performed at test time. Columns report macro-averaged success rate on Pos (position perturbation) and Task (instruction perturbation) axes, 10 tasks per axis.",
+      "caption_source": "pdf_extraction",
+      "page_number": 21,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "f71e67de05a8c9838c80e49fbe8eeafa541664eb7690a7bd347eeb9c6e729e20",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 5 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_021.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 21,
+        "caption": "Table 5: Macro-averaged zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to LIBERO-Pro Long [Zhou et al., 2025]. 𝑁denotes the number of LIBERO-90 tasks whose repair skills seed the library; no additional debugging is performed at test time. Columns report macro-averaged success rate on Pos (position perturbation) and Task (instruction perturbation) axes, 10 tasks per axis.",
+        "bbox_pt": [
+          56.36199951171875,
+          217.4394989013672,
+          439.66644287109375,
+          377.2979736328125
+        ],
+        "normalized_bbox": [
+          0.09468212966633248,
+          0.25827542210744375,
+          0.7385925892356016,
+          0.4481558957441339
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 6",
+      "filename": "page_021_fig_table_6.png",
+      "source_id": "Table 6",
+      "kind": "table_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_6.png",
+      "source_image_sha256": "fe041c41f5d9bf0016563443b25bb7a494ad22bd0b86c691ff1582ebacf5b552",
+      "caption": "Table 6: Zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to LIBERO-Pro Long, per task and snapshot size 𝑁(seeds 1–50, 𝑛=50). Pos: positional-perturbation variant. Task: semantic-perturbation variant.",
+      "caption_source": "pdf_extraction",
+      "page_number": 21,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "fe041c41f5d9bf0016563443b25bb7a494ad22bd0b86c691ff1582ebacf5b552",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 6 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_021_fig_table_6.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_021.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 21,
+        "caption": "Table 6: Zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to LIBERO-Pro Long, per task and snapshot size 𝑁(seeds 1–50, 𝑛=50). Pos: positional-perturbation variant. Task: semantic-perturbation variant.",
+        "bbox_pt": [
+          138.73699951171875,
+          436.85052490234375,
+          456.46990966796875,
+          586.619140625
+        ],
+        "normalized_bbox": [
+          0.23306331732527072,
+          0.5188926312242425,
+          0.7668206158473053,
+          0.6967883338893913
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 7",
+      "filename": "page_022_fig_table_7.png",
+      "source_id": "Table 7",
+      "kind": "main_result",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_022_fig_table_7.png",
+      "source_image_sha256": "d62a1e2bb38bc86bc083224210220cc6bab7d1e0586bf48f8a5ca072e780af21",
+      "caption": "Table 7: LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50). Aspire w/o Robot execution engine and Evolutionary search: zero-shot Claude Opus 4.6 with 15 example programs. Aspire w/o Evolutionary search: Robot Execution Engine repaired program (Execution engine + skill library). Evo. search: raw evolutionary-search result (best validated candidate), or “–” if Evolutionary Search was not run for that task. Aspire: per-task winner selected on a held-out validation set (seeds 66–80) between the repaired program and Evolutionary Search.",
+      "caption_source": "pdf_extraction",
+      "page_number": 22,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "d62a1e2bb38bc86bc083224210220cc6bab7d1e0586bf48f8a5ca072e780af21",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 7 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_022_fig_table_7.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_022.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 22,
+        "caption": "Table 7: LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50). Aspire w/o Robot execution engine and Evolutionary search: zero-shot Claude Opus 4.6 with 15 example programs. Aspire w/o Evolutionary search: Robot Execution Engine repaired program (Execution engine + skill library). Evo. search: raw evolutionary-search result (best validated candidate), or “–” if Evolutionary Search was not run for that task. Aspire: per-task winner selected on a held-out validation set (seeds 66–80) between the repaired program and Evolutionary Search.",
+        "bbox_pt": [
+          56.36199951171875,
+          48.15593719482422,
+          454.675048828125,
+          130.78895568847656
+        ],
+        "normalized_bbox": [
+          0.09468212966633248,
+          0.05719979612174581,
+          0.7638054416476076,
+          0.15535159392891998
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 9",
+      "filename": "page_024_fig_table_9.png",
+      "source_id": "Table 9",
+      "kind": "supporting_figure",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_024_fig_table_9.png",
+      "source_image_sha256": "7e81c2a7f037d9a4fbdb448c6b611041214dfd2235bd9d91b62c7f634203ab32",
+      "caption": "Table 9: Evolutionary search progress on selected LIBERO-Pro tasks. Each column shows the held-out success rate (seeds 1–50) of the best candidate at that iteration. Blank cells indicate search terminated early.",
+      "caption_source": "pdf_extraction",
+      "page_number": 24,
+      "candidate_status": "visual_defect",
+      "visual_quality_status": "usable",
+      "decision": "visual_defect",
+      "decision_rationale": "Table has body_ratio=0 in extraction (no text body extracted as figure region); full table content is in dpn_full_text.md. Markdown reconstruction in note body is more accurate.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "7e81c2a7f037d9a4fbdb448c6b611041214dfd2235bd9d91b62c7f634203ab32",
+        "preserved_scientific_elements": [
+          "table_structure"
+        ],
+        "omitted_scientific_elements": [
+          "text_body"
+        ],
+        "notes": "Table Table 9 rendered to file but text is not extractable as figure region. Reconstruct from dpn_full_text.md.",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/images/page_024_fig_table_9.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/ASPIRE_Agentic_Skills_Discovery_for_Robotics/page_previews/page_024.png",
+        "source_pdf_path": "/tmp/2607.00272.pdf",
+        "source_page": 24,
+        "caption": "Table 9: Evolutionary search progress on selected LIBERO-Pro tasks. Each column shows the held-out success rate (seeds 1–50) of the best candidate at that iteration. Blank cells indicate search terminated early.",
+        "bbox_pt": [
+          129.8719940185547,
+          163.92051696777344,
+          465.39422607421875,
+          265.1021423339844
+        ],
+        "normalized_bbox": [
+          0.21817105646035959,
+          0.1947053820756201,
+          0.7818125127012175,
+          0.31488928211684236
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "label": "Table 8",
+      "filename": "table_8_not_extracted",
+      "source_id": "Table 8",
+      "kind": "table_result",
+      "source_image_path": "",
+      "source_image_sha256": "",
+      "caption": "Table 8 from source manifest (referenced but not extracted as figure asset).",
+      "caption_source": "manifest_reference",
+      "page_number": 23,
+      "candidate_status": "rejected_candidate",
+      "visual_quality_status": "asset_not_extracted",
+      "decision": "skip",
+      "decision_rationale": "Table 8 referenced in source_manifest captions but no figure asset extracted. Will reference in prose without embedding image.",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "table_body"
+        ],
+        "notes": "No asset path available; caption exists in source_manifest. Refer to Table 8 by ID in note body.",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "review_evidence": {
+        "candidate_path": "",
+        "page_preview_path": "",
+        "source_pdf_path": "",
+        "source_page": 0,
+        "caption": "Table 8 (referenced in source manifest)",
+        "bbox_pt": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normalized_bbox": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "render_dpi": 300
+      }
+    }
+  ]
+}

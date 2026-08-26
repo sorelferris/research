@@ -1,0 +1,2206 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2607.00272",
+  "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/2607_00272-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/2607_00272-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/2607.00272.pdf",
+    "total_pages": 43,
+    "text_pages_extracted": 43,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 43,
+    "text_max_pages": null,
+    "text_pages_extracted": 43,
+    "text_pages_scanned": 43,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 9,
+    "references_start_page": 17
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 399,
+      "text_hash_sha256": "349fadab5190edd3d371ee997242748e66ebe76150e9e03cb3f444d97b16a50a"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract:",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 2170,
+      "text_hash_sha256": "a1ea1bb4ada5587ab3d71192ca95da87c54367593b437fa28076af2ee59b8655"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 1,
+      "page_end": 3,
+      "char_count": 6607,
+      "text_hash_sha256": "ce9b15af17884df259225defa099ceb9de6c23bb46aff8919e823b7c0e298f34"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "2. Method",
+      "page_start": 3,
+      "page_end": 7,
+      "char_count": 12572,
+      "text_hash_sha256": "4d7ac04a27eeb719e77999984ac40324003222df5b8da609568d5d121e27e9b6"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "3. Experiments",
+      "page_start": 7,
+      "page_end": 9,
+      "char_count": 4875,
+      "text_hash_sha256": "af66e8e1ff545e0463e4b99fd79313f8aec4ee06e02e88704e345431af603cf8"
+    },
+    {
+      "section_id": "sec:appendix-c",
+      "kind": "appendix",
+      "title": "Appendix C.",
+      "page_start": 9,
+      "page_end": 11,
+      "char_count": 5832,
+      "text_hash_sha256": "ba7697fec5dfe2048d15b76417db3df1ea5896b38fefe573d0484d4766c96897"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "4. Related Work",
+      "page_start": 11,
+      "page_end": 11,
+      "char_count": 2011,
+      "text_hash_sha256": "f50dff2369362f80c7a570727a37a8842aedfe0eb124b488d553b3acfa606ca6"
+    },
+    {
+      "section_id": "sec:limitations",
+      "kind": "conclusion",
+      "title": "5. Limitations",
+      "page_start": 11,
+      "page_end": 12,
+      "char_count": 2110,
+      "text_hash_sha256": "89154f9be45d7460d1804740caa93e4f490cf25150229dacfdd65fb6d6d0614f"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "6. Conclusion",
+      "page_start": 12,
+      "page_end": 12,
+      "char_count": 888,
+      "text_hash_sha256": "9202a3b8817bf7c14184bb2e5fd0e8f270e83ea0bb2fb6918b58bc86ad5cea94"
+    },
+    {
+      "section_id": "sec:acknowledgments",
+      "kind": "acknowledgments",
+      "title": "Acknowledgments",
+      "page_start": 12,
+      "page_end": 12,
+      "char_count": 404,
+      "text_hash_sha256": "ab6ae2e2f29843189b7864c488cbe4d83d6b505799996fc74ec7060a3e2285b8"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 12,
+      "page_end": 17,
+      "char_count": 15418,
+      "text_hash_sha256": "97040f03aaacaa8d0117e69f604b48f0576ac98644a93a5af556f8863c5a45db"
+    },
+    {
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "kind": "references",
+      "title": "references into robust perception and localization routines.",
+      "page_start": 17,
+      "page_end": 20,
+      "char_count": 5175,
+      "text_hash_sha256": "08fad74976db9ad3daee84e61e0187ebd8c6970e00eb5edfda6dcddee6ce5121"
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 20,
+      "page_end": 21,
+      "char_count": 1809,
+      "text_hash_sha256": "d372b2c62a093dfa50089f25e390f999e58584e7ed86ed1570f347e3b3f8b796"
+    },
+    {
+      "section_id": "sec:method-3",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 21,
+      "page_end": 43,
+      "char_count": 49374,
+      "text_hash_sha256": "e4a4feb526edb32fdcf10c6a82d367ca5feda6c5f7c75fca56828452f8118223"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4014,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 2587,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4127,
+      "section_ids": [
+        "sec:introduction",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4031,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 2515,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3833,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2854,
+      "section_ids": [
+        "sec:method",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2361,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 2428,
+      "section_ids": [
+        "sec:experiments",
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 3181,
+      "section_ids": [
+        "sec:appendix-c"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3458,
+      "section_ids": [
+        "sec:appendix-c",
+        "sec:related-work",
+        "sec:limitations"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3494,
+      "section_ids": [
+        "sec:limitations",
+        "sec:conclusion",
+        "sec:acknowledgments",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 3463,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3499,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3487,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 1771,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 2743,
+      "section_ids": [
+        "sec:references",
+        "sec:references-into-robust-perception-and-localization-routines"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 3362,
+      "section_ids": [
+        "sec:references-into-robust-perception-and-localization-routines"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 1095,
+      "section_ids": [
+        "sec:references-into-robust-perception-and-localization-routines"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 2061,
+      "section_ids": [
+        "sec:references-into-robust-perception-and-localization-routines",
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 1764,
+      "section_ids": [
+        "sec:method-2",
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 1915,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 1891,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 757,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 2836,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 2350,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 1778,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 2643,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 29,
+      "char_count": 1965,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 30,
+      "char_count": 2375,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 31,
+      "char_count": 2416,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 32,
+      "char_count": 1806,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 33,
+      "char_count": 2128,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 34,
+      "char_count": 2292,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 35,
+      "char_count": 2078,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 36,
+      "char_count": 3203,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 37,
+      "char_count": 1561,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 38,
+      "char_count": 2260,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 39,
+      "char_count": 2638,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 40,
+      "char_count": 2155,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 41,
+      "char_count": 2673,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 42,
+      "char_count": 2582,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 43,
+      "char_count": 1955,
+      "section_ids": [
+        "sec:method-3"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Aspire system overview. A coordinator spawns an actor agent (coding agent) per",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Robot execution engine. Trace-guided debugging on a BEHAVIOR-1K",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Skill library. Aspire stores validated, agent-discovered repair knowledge as reusable",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Algorithm 1",
+        "caption": "Evolutionary search over programs",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Aspire improves over prior coding agents and end-to-end VLAs across three",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Cross-task zero-shot transfer on LIBERO-Pro Long. Skills accumulated on",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "summarizes the main evaluation. “Human” means the programs are written by human",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Robot execution engine and evolutionary search ablations on LIBERO-Pro.",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:appendix-c"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Debugging skills. Representative skill-library entries that encode reusable debugging",
+        "page": 17,
+        "pages": [
+          17
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Localization skills. Representative entries for grounding ambiguous language and object",
+        "page": 17,
+        "pages": [
+          17
+        ],
+        "section_id": "sec:references"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "Navigation skills. Representative entries for recovering from motion-planning failures",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "Strategic grasping skills. Representative entries for choosing task-appropriate grasp",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Motion-primitive skills. Representative entries for reusable low-level motion patterns,",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Scene-reasoning skills. Representative entries for reasoning over spatial relations,",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Real-robot cross-embodiment skill transfer. For each task, we compare real-robot",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:appendix-c"
+      },
+      {
+        "id": "Table 2",
+        "caption": "LIBERO-Pro [Zhou et al., 2025] performance of OpenVLA [Kim et al., 2024], 𝜋0 [Black",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Robosuite [Zhu et al., 2020] performance of CaP-Agent0 [Fu et al., 2026] and Aspire on 7",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      },
+      {
+        "id": "Table 4",
+        "caption": "BEHAVIOR-1K [Li et al., 2024] performance on two representative household tasks: Soda",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:references-into-robust-perception-and-localization-routines"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Macro-averaged zero-shot transfer of the Aspire skill library (accumulated on",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Table 7",
+        "caption": "LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50).",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:method-3"
+      },
+      {
+        "id": "Table 8",
+        "caption": "LIBERO-Pro per-task ablation, Task perturbation (seeds 1–50, 𝑛=50). Aspire w/o",
+        "page": 23,
+        "pages": [
+          23
+        ],
+        "section_id": "sec:method-3"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Evolutionary search progress on selected LIBERO-Pro tasks. Each column shows the",
+        "page": 24,
+        "pages": [
+          24
+        ],
+        "section_id": "sec:method-3"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "get_robot_position → [4.95, 5.04, 0.01], yaw = −1.93 rad",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "d = 1.91 m from robot — need to move closer",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "grasp_object(arm=0, pose 1) → True ·",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "lift_arm → in_hand=True · reward = 1.0 · task_completed = 1",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "target = radio + 0.7 · [cosθ, sinθ]",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "4.90], d = 0.22 m",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "angle = np.radians(angle_deg)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "tx = radio_pos[0] + 0.7 * np.cos(angle)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "ty = radio_pos[1] + 0.7 * np.sin(angle)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "face_yaw = np.arctan2(radio_pos[1]-ty,",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "moved = safe_navigate([tx, ty, face_yaw],",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "if moved and dist_to(radio_pos[:2]) <",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "masks = sam3(rgb, \"bowl\")",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "# returns ≥2 masks",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "candidates = [mask_to_world_point(m) for m in masks]",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "candidates.sort(key=lambda p: p[0]) # sort by X",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "candidates.sort(key=lambda p: p[0], reverse=True)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "candidates.sort(key=lambda p: p[1]) # sort by Y",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "target = candidates[0]",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "unit = (obj_pos[:2] - robot_pos[:2]) /",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "cos_off, sin_off = np.cos(angle_offset),",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "rotated_unit = np.array(…)",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "target_xy = obj_pos[:2] - rotated_unit *",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "target_yaw = float(np.arctan2(…))",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "direction = (target_xy - obj_pos[:2]) /",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "= obj_pos[:2] - direction * 0.10",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "post_push = target_xy",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "Notation: Execute(𝑃, 𝑆) = (𝑟, 𝑍) returns score 𝑟and trace bundle 𝑍.",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "3: for 𝑖= 1, . . . , 𝑇do",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑘=1 ←",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "for 𝑘= 1, . . . , 𝐾do",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑘=1;",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "> 𝑟⋆then",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "if 𝑟⋆≥𝜃then",
+      "section_id": "sec:method",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "(a) Full 𝑁=90 library zero-shot results versus",
+      "section_id": "sec:experiments",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "full 𝑁=90 library with baselines. Figure (b) shows Pos/Task success as the size of the skill library",
+      "section_id": "sec:experiments",
+      "page_start": 7,
+      "page_end": 9
+    },
+    {
+      "text": "Pro Long tasks. Aspire builds library snapshots from 𝑁∈{0, 25, 50, 90} source tasks, where 𝑁=0",
+      "section_id": "sec:appendix-c",
+      "page_start": 9,
+      "page_end": 11
+    },
+    {
+      "text": "is an empty-library setting and 𝑁=90 is the full suite. For each held-out task, Aspire generates",
+      "section_id": "sec:appendix-c",
+      "page_start": 9,
+      "page_end": 11
+    },
+    {
+      "text": "Figure 5(a) compares the full 𝑁=90 skill library with prior baselines on the two LIBERO-Pro",
+      "section_id": "sec:appendix-c",
+      "page_start": 9,
+      "page_end": 11
+    },
+    {
+      "text": "• ≥2 trials exhibit the same symptom",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "patterns = defaultdict(list)",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "key = (trial.symptom,",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "if len(trials) >= 2:",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "symptom=key[0], applies_to=key[1],",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "evidence=trials",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "• Scene contains ≥2 instances of the same object class",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "masks = sam3(rgb, \"bowl\")",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "# returns ≥2 masks",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "candidates = [mask_to_world_point(m) for m in masks]",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "candidates.sort(key=lambda p: p[0])",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "target = candidates[0]",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "candidates.sort(key=lambda p: p[0], reverse=True)",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "target = candidates[0]",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "candidates.sort(key=lambda p: p[1])",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "target = candidates[0]",
+      "section_id": "sec:references",
+      "page_start": 12,
+      "page_end": 17
+    },
+    {
+      "text": "waypoint, leaving robot >1 m from target.",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "• navigate_to_pose returns success but robot is >1 m from target",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "unit = (obj_pos[:2] - robot_pos[:2]) /",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "cos_off, sin_off = np.cos(angle_offset),",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "rotated_unit = np.array([",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "target_xy = obj_pos[:2] - rotated_unit *",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "target_yaw = float(np.arctan2(obj_pos[1]-",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "• Aspect ratio > 2.0",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "obb = compute_obb(bottle_points)",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "major = obb.axes[0]",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "grasp_yaw = np.arctan2(major[1], major[0])",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "goto_pose(bottle.centroid, yaw=grasp_yaw)",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "lift_slowly(dz=0.15, speed=0.05)",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "Pick-and-place fails on thin/flat objects (<2 cm tall) —",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "• Object height < 2 cm",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "• Pick-and-place already failed ≥1 time",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "direction = (target_xy - obj_pos[:2]) /",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "pre_push = obj_pos[:2] - direction * 0.10",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "post_push = target_xy",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "obb = compute_obb(object_points)",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "major_axis = obb.axes[0]",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "minor_axis = obb.axes[1]",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "grasp_yaw = np.arctan2(major_axis[1], major_axis[0])",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "grasp_yaw_book = np.arctan2(minor_axis[1],",
+      "section_id": "sec:references-into-robust-perception-and-localization-routines",
+      "page_start": 17,
+      "page_end": 20
+    },
+    {
+      "text": "Aspire (𝑁=0, zero-shot)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Aspire (𝑁=25, zero-shot)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Aspire (𝑁=50, zero-shot)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Aspire (𝑁=90, zero-shot)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "LIBERO-Pro Long, per task and snapshot size 𝑁(seeds 1–50, 𝑛=50). Pos: positional-perturbation",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "𝑁=0 𝑁=25 𝑁=50 𝑁=90 𝑁=0 𝑁=25 𝑁=50 𝑁=90",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Table 7: LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50).",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "0.82 (𝑛=9)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "0.54 (𝑛=9)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "0.68 (𝑛=18)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Table 8: LIBERO-Pro per-task ablation, Task perturbation (seeds 1–50, 𝑛=50). Aspire w/o",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "0.51 (𝑛=10)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "0.67 (𝑛=8)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "0.59 (𝑛=19)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "All skills live in ‘.claude/skills/<name>/SKILL.md‘ and are auto-discovered. Read the relevant skill",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "camera_to_world = obs[\"agentview\"][\"pose_mat\"]",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "grasp_world = camera_to_world @ grasp_camera",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<OUTPUT_DIR>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<suite>/<task>/<run_id>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<done_flag>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "trial_<seed>_<attempt>_reward_<score>_taskcompleted_<flag>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<batch_runner>‘ | Runs suites, tasks, and model configurations. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<trial_loop>‘ | Resets the environment, executes generated code, and saves artifacts. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<single_trial_runner>‘ | Replays saved code or runs a fresh trial. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<single_trial_analyzer>‘ | Performs structured trace analysis for one trial. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<multi_candidate_trace_analyzer>‘ | Performs per-candidate trace analysis for evolutionary search runs.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<progress_scanner>‘ | Aggregates success rates across an output directory. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<robot_api_source>‘ | Defines the robot control and geometry API. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<trace_logger_source>‘ | Records API calls, return values, timings, and keyframes. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| ‘<evaluation_config>‘ | Defines benchmark and replay configuration. |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Purpose:** Coordinate repair of failed robot trials from a baseline policy and validate finalized",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Baseline results:** ‘<BASELINE_OUTPUT_DIR>/‘",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Progress tracker:** ‘<PROGRESS_FILE>‘",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Subagent prompt:** ‘<SUBAGENT_PROMPT_TEMPLATE>‘",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "cat <PROGRESS_FILE>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "description=\"Fix loop: <suite>/<task>\",",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "subagent_type=\"general-purpose\",",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "prompt=<filled_subagent_prompt>,",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "run_in_background=True,",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<BASELINE_OUTPUT_DIR>/<SUITE>/<TASK>/findings.md",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Important rule: pass only the validation base directory if the replay script appends ‘<suite>/<task>‘",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "SUITE: <SUITE_NAME>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<TASK_NAME>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "DEVICE: <DEVICE_ID>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Working directory: <PROJECT_ROOT>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Save it to ‘<BASELINE_OUTPUT_DIR>/<SUITE>/<TASK>/fix_code.py‘. Also write <BASELINE_OUTPUT_DIR>/<SUITE>/<",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "TASK>/findings.md‘.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "## Task: <SUITE> / <TASK>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <concise description of each failure mode>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <change that resolved each root cause>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "| <object> | \"<prompt1>\", \"<prompt2>\" | <caveats> |",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <patterns likely to apply beyond this task>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <details specific to this task>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<N>/<TOTAL_VALIDATION_SEEDS>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "SUITE: <SUITE>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "TASK: <TASK>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "DEVICE: <DEVICE>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Seeds fixed: <count or list>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Seeds blocked: <count and one-line cause>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Stage 2: <N>/<TOTAL_VALIDATION_SEEDS>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Output dir: <VALIDATION_OUTPUT_BASE>/<SUITE>/<TASK>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <generalizable root cause and fix>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <useful perception prompt, if notable>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <pattern that should inform future tasks>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **What:** Run Evolutionary search iterative debugging with multiple candidates per iteration on a list",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Why:** Intensive debugging for difficult tasks; multi-candidate search can find strategies the single-",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Subagent template:** ‘<EVOSEARCH_SUBAGENT_PROMPT_TEMPLATE>‘",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<EVOSEARCH_OUTPUT_DIR>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<suite>/<task>/<run_id>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<suite>/<task>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<VALIDATION_OUTPUT_DIR>/",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "<suite>/<task>/... (rest omitted)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Run ‘<progress_generation_script>‘ to verify exact task names before dispatch.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "One task = one subagent = one compute device.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "description=\"Evolutionary search actor: <suite_short>/<task_short> device<N>\",",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "subagent_type=\"general-purpose\",",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "model=\"<HIGH_CAPACITY_MODEL>\",",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "prompt=<filled_evosearch_subagent_prompt>,",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "run_in_background=True,",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Read ‘<EVOSEARCH_OUTPUT_DIR>/<SUITE>/<TASK>/findings.md‘, note Stage 1 and Stage 2 rates, check free",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "SUITE: <SUITE>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "TASK: <TASK>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "DEVICE: <DEVICE_ID>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "TASKSHORT: <SHORT_UNIQUE_NAME_FOR_LOGS>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "BASELINE_RATE: <BASELINE_RATE>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "EVOSEARCH_DIR: <EVOSEARCH_OUTPUT_DIR>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "EVALDIR: <VALIDATION_OUTPUT_DIR>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Working directory: <PROJECT_ROOT>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "The actor pipeline achieved ‘$BASELINE_RATE‘ on this task.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "If it differs from ‘$TASK‘, the runtime task language is ground truth; base all strategy on it and record",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Create a timestamped run directory under ‘<EVOSEARCH_OUTPUT_DIR>/<SUITE>/<TASK>/‘.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Save the best final candidate as ‘<EVOSEARCH_OUTPUT_DIR>/<SUITE>/<TASK>/evosearch_best_code.py‘.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Write ‘<EVOSEARCH_OUTPUT_DIR>/<SUITE>/<TASK>/findings.md‘:",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "## Task: <SUITE> / <TASK>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "## Baseline rate: <BASELINE_RATE>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "## Best evosearch rate on debug seeds: <N>/<DEBUG_TOTAL> (<pct>%)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "## Stage 2 on held-out seeds: <N>/<HELD_OUT_TOTAL> (<pct>%)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- Run dir: <RUN_DIR>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- Iterations completed: <N>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- Stopping reason: <solved|max_iterations|blocked>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <key strategy change>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <approach that failed and why>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <anything worth adding to the skill library>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <if any skills were updated during this run>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "SUITE: <suite>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "TASK: <task>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "DEVICE: <N>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Baseline rate: <from actor pipeline>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Best candidate: <candidate_X> at iter_NN",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Best pass rate: <N>/<DEBUG_TOTAL> (<pct>%)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Stopping reason: <solved|max_iterations|blocked>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Iterations run: <N>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Run dir: <RUN_DIR>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "Stage 2: <N>/<HELD_OUT_TOTAL> (<pct>%)",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <strategy that worked vs baseline failure mode>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <perception prompts or grasp parameters>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "- <generalizable pattern for the skill library>",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Purpose:** Code skeletons that every pick-and-place task reuses. No task-specific z-offsets or yaws -",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "> **Ownership:** Coordinator adds generalizable patterns. Subagents do not edit this file.",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "def make_topdown_quat(yaw_deg=0):",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    },
+    {
+      "text": "R = Rotation.from_euler(’z’, yaw_deg, degrees=True).as_matrix() @ \\",
+      "section_id": "sec:method-3",
+      "page_start": 21,
+      "page_end": 43
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 9,
+    "sections": [
+      {
+        "title": "a different embodiment. The transfer is not a direct policy deployment: the real robot uses its",
+        "page": 10
+      },
+      {
+        "title": "M. Pawan Kumar, Emilien Dupont, Francisco J. R. Ruiz, Jordan S. Ellenberg, Pengming Wang,",
+        "page": 15
+      },
+      {
+        "title": "A. Skill Library Details",
+        "page": 17
+      },
+      {
+        "title": "A one-off failure is noise; the same failure across seeds",
+        "page": 17
+      },
+      {
+        "title": "a glancing angle and the bottle rolls out.",
+        "page": 18
+      },
+      {
+        "title": "B. Main Benchmark Result Tables",
+        "page": 20
+      },
+      {
+        "title": "C. LIBERO-Pro Long Zero-Shot Transfer",
+        "page": 21
+      },
+      {
+        "title": "D. Ablation Details",
+        "page": 22
+      },
+      {
+        "title": "E. Agent Pipeline Skills",
+        "page": 25
+      },
+      {
+        "title": "A Self-Improving Coding Agent for robot manipulation. The agent debugs its own failures, accumulates",
+        "page": 26
+      },
+      {
+        "title": "A plateau on the current approach family means the current family may be wrong, not that the task is",
+        "page": 36
+      },
+      {
+        "title": "R = Rotation.from_euler(’z’, yaw_deg, degrees=True).as_matrix() @ \\",
+        "page": 38
+      },
+      {
+        "title": "q = Rotation.from_matrix(R).as_quat()",
+        "page": 38
+      }
+    ],
+    "figure_captions": [
+      {
+        "id": "Figure 5",
+        "caption": "Cross-task zero-shot transfer on LIBERO-Pro Long. Skills accumulated on",
+        "page_hint": "p.9"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "summarizes the main evaluation. “Human” means the programs are written by human",
+        "page_hint": "p.9"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Robot execution engine and evolutionary search ablations on LIBERO-Pro.",
+        "page_hint": "p.11"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Debugging skills. Representative skill-library entries that encode reusable debugging",
+        "page_hint": "p.17"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Localization skills. Representative entries for grounding ambiguous language and object",
+        "page_hint": "p.17"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "Navigation skills. Representative entries for recovering from motion-planning failures",
+        "page_hint": "p.18"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "Strategic grasping skills. Representative entries for choosing task-appropriate grasp",
+        "page_hint": "p.18"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Motion-primitive skills. Representative entries for reusable low-level motion patterns,",
+        "page_hint": "p.18"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Scene-reasoning skills. Representative entries for reasoning over spatial relations,",
+        "page_hint": "p.19"
+      }
+    ],
+    "table_captions": [
+      {
+        "id": "Table 1",
+        "caption": "Real-robot cross-embodiment skill transfer. For each task, we compare real-robot",
+        "page_hint": "p.10"
+      },
+      {
+        "id": "Table 2",
+        "caption": "LIBERO-Pro [Zhou et al., 2025] performance of OpenVLA [Kim et al., 2024], 𝜋0 [Black",
+        "page_hint": "p.20"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Robosuite [Zhu et al., 2020] performance of CaP-Agent0 [Fu et al., 2026] and Aspire on 7",
+        "page_hint": "p.20"
+      },
+      {
+        "id": "Table 4",
+        "caption": "BEHAVIOR-1K [Li et al., 2024] performance on two representative household tasks: Soda",
+        "page_hint": "p.20"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Macro-averaged zero-shot transfer of the Aspire skill library (accumulated on",
+        "page_hint": "p.21"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Zero-shot transfer of the Aspire skill library (accumulated on LIBERO-90) to",
+        "page_hint": "p.21"
+      },
+      {
+        "id": "Table 7",
+        "caption": "LIBERO-Pro per-task ablation, Position perturbation (seeds 1–50, 𝑛=50).",
+        "page_hint": "p.22"
+      },
+      {
+        "id": "Table 8",
+        "caption": "LIBERO-Pro per-task ablation, Task perturbation (seeds 1–50, 𝑛=50). Aspire w/o",
+        "page_hint": "p.23"
+      },
+      {
+        "id": "Table 9",
+        "caption": "Evolutionary search progress on selected LIBERO-Pro tasks. Each column shows the",
+        "page_hint": "p.24"
+      }
+    ]
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "006ff81aee6c9089a80182c9373c781716e6397c0c828cf7d5f8c671c47475d7",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2607.00272",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2607.00272",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/2607.00272.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "/tmp/2607.00272.pdf",
+      "doi": "",
+      "arxiv_id": "2607.00272",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/2607.00272.pdf",
+      "local_pdf_path": "/tmp/2607.00272.pdf",
+      "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "metadata_sources": [
+        "local_pdf"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2607.00272",
+      "paper_id": "arxiv:2607.00272",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/2607.00272.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/2607.00272.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.00272.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.00272"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.00272"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.00272"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.00272"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2607.00272",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "ASPIRE: Agentic /Skills Discovery for Robotics",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/2607.00272.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/2607.00272.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/2607.00272.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2607.00272"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "ASPIRE: Agentic /Skills Discovery for Robotics",
+          "work_value": "ASPIRE: Agentic /Skills Discovery for Robotics"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/2607_00272-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/2607_00272-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/2607_00272-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/2607.00272.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "/tmp/2607.00272.pdf",
+    "doi": "",
+    "arxiv_id": "2607.00272",
+    "zotero_key": ""
+  }
+}

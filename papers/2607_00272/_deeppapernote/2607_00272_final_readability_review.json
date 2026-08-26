@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "stage": "final_readability_review",
+  "paper_id": "arxiv:2607.00272",
+  "note_path": "/home/sorel/workspace/research/papers/2607_00272/2607_00272_精读笔记.md",
+  "checks": {
+    "natural_chinese_prose": true,
+    "no_ordinary_english_phrase_leftovers": true,
+    "no_mechanical_translation_artifacts": true,
+    "no_suspicious_mid_sentence_linebreaks": true,
+    "formulas_are_renderable_math": true,
+    "no_new_facts_introduced_during_polish": true
+  },
+  "notes": "笔记使用中文为主、专名英文并存的混合语言策略：论文术语（ASPIRE、LIBERO-Pro、Robosuite、BEHAVIOR-1K、CaP-Agent0、OpenVLA、π₀ 等）保留原文以保证引用准确性；所有 sentence-level English 片段均限于摘要、表格数据列、Figure embed 行与引用行；mixed_language_issues 计数为 0，mechanical_translation_artifact_issues 为 0，linebreak_issues 为 0。lint_note.py 全部 7 个 gate（basic_structure / style_gate / math_gate / figure_gate / reference_hygiene_gate / plan_gate / substantive_content）均通过。markdown 数学公式使用 $...$ 与 $...$$ 内联渲染；表格使用 markdown 语法而非 column_set 块（按 lark-card-send 提示，column_set 仅用于飞书卡片）。"
+}

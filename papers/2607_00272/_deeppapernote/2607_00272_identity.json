@@ -1,0 +1,168 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 2,
+  "paper_id": "arxiv:2607.00272",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "translated_title": "",
+    "authors": [],
+    "year": "",
+    "venue": "",
+    "doi": "",
+    "arxiv_id": "2607.00272",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/2607.00272.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "/tmp/2607.00272.pdf",
+    "doi": "",
+    "arxiv_id": "2607.00272",
+    "zotero_key": ""
+  },
+  "accepted_metadata": {
+    "status": "ok",
+    "source_type": "local_pdf",
+    "source_url": "/tmp/2607.00272.pdf",
+    "local_pdf_path": "/tmp/2607.00272.pdf",
+    "title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "metadata_sources": [
+      "local_pdf"
+    ],
+    "local_pdf_title_source": "pdf_metadata_title_used",
+    "arxiv_id": "2607.00272",
+    "paper_id": "arxiv:2607.00272",
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ],
+    "script": "resolve_paper.py"
+  },
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "/tmp/2607.00272.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "/tmp/2607.00272.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2607.00272.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "accepted_identifier_derived"
+    }
+  ],
+  "accepted_observations": [],
+  "rejected_observations": [],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.00272"
+      }
+    },
+    "arxiv_id": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.00272"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.00272"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.00272"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "arxiv_id",
+      "value": "2607.00272",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "ASPIRE: Agentic /Skills Discovery for Robotics",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "/tmp/2607.00272.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/2607.00272.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/2607.00272.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2607.00272"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "ASPIRE: Agentic /Skills Discovery for Robotics",
+        "work_value": "ASPIRE: Agentic /Skills Discovery for Robotics"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "/tmp/2607_00272-work/run/dpn_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "/tmp/2607_00272-work/run/dpn_resolve.json",
+    "metadata_artifact_path": "/tmp/2607_00272-work/run/dpn_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ]
+  }
+}
