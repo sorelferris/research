@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+  "local_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+  "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2608.18671",
+  "paper_id": "arxiv:2608.18671",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

@@ -1,0 +1,892 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2608.18671",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Roadmap of this survey. The paper is organized as a single trajectory from hand–object",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_005_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_005_fig_figure_1_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "814593b74efcc1907fd6154ef69cd7eb6d2b429c2e5c79b3ed20459b54038124",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_005.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 5,
+        "caption": "Figure 1: Roadmap of this survey. The paper is organized as a single trajectory from hand–object interaction to embodied AI. Foundations and datasets (Sec. 2–3) supply the substrate; the model lineage advances from classical and transformer architectures to egocentric vision-language models (Sec. 4–5); interaction and reasoning form the conceptual core, spanning hand–object interaction, spatiotemporal reasoning, graph-based reasoning, and prompting and semantic alignment (Sec. 6– 9); and these converge on applications toward embodied intelligence (Sec. 10). Open challenges (Sec. 11) cut across every stage, shown by the dashed feedback links.",
+        "bbox_pt": [
+          86.1741943359375,
+          86.17529296875,
+          525.8452758789062,
+          332.3480224609375
+        ],
+        "normalized_bbox": [
+          0.1408075070848652,
+          0.10880718809185606,
+          0.8592243069916768,
+          0.4196313414910827
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "814593b74efcc1907fd6154ef69cd7eb6d2b429c2e5c79b3ed20459b54038124",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Evolution of video understanding models (Section 4). Three eras, read left to right, each",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:datasets",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_012_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_012_fig_figure_2_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "05eefd923516d8833b2230ac6860894f95a0303ac617e40d4742b2c7281dfb77",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_012.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 12,
+        "caption": "Figure 2: Evolution of video understanding models (Section 4). Three eras, read left to right, each inheriting representational machinery from the preceding era while changing its temporal modeling and supervision strategy. Classical models hand-engineer temporal structure through spatiotemporal convolutions, recurrent aggregation, and parallel appearance–motion streams (Section 4.1). Trans- former models replace those inductive biases with factorized space-time attention, made trainable at video scale by masked pretraining (Section 4.2). Vision-language models replace the fixed label space itself with natural-language supervision, a lineage running CLIP →VideoCLIP →Frozen- in-Time →EgoVLP. Red boxes mark the gap each era left open and the next set out to close; the horizontal dashed links mark what each era inherited rather than replaced—image pretraining and convolutional backbones carried into the transformer era, and transformer space-time encoders carried into egocentric video-language pretraining.",
+        "bbox_pt": [
+          86.17620086669922,
+          86.17291259765625,
+          525.8314208984375,
+          363.7239685058594
+        ],
+        "normalized_bbox": [
+          0.1408107857299007,
+          0.1088041825727983,
+          0.8592016681347018,
+          0.45924743498214565
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "05eefd923516d8833b2230ac6860894f95a0303ac617e40d4742b2c7281dfb77",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "The CLIP framework. (Left) Contrastive pretraining jointly aligns an image encoder and",
+      "pages": [
+        16
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_016_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_016_fig_figure_3_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_fig_figure_3.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0f8b4fef8ec521cebd5a62d9e8625f8195e713c33d88f738a7eb7c3b1651c865",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_fig_figure_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_016.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 16,
+        "caption": "Figure 3: The CLIP framework. (Left) Contrastive pretraining jointly aligns an image encoder and a text encoder over batches of image-text pairs; (right) zero-shot prediction constructs a classifier from natural-language prompts. Illustration inspired by [5].",
+        "bbox_pt": [
+          107.60099792480469,
+          85.99491882324219,
+          504.39447021484375,
+          328.0889892578125
+        ],
+        "normalized_bbox": [
+          0.17581862406013837,
+          0.10857944295863912,
+          0.8241739709392871,
+          0.4142537743154198
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "0f8b4fef8ec521cebd5a62d9e8625f8195e713c33d88f738a7eb7c3b1651c865",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "The EgoVLP framework: the EgoClip pretraining set curated from Ego4D, a space-",
+      "pages": [
+        17
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_017_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_017_fig_figure_4_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "77cbb8f4efcd0377edce684a381558be0aadfb434642d00b0d7a36b6f39b4c2e",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_017.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 17,
+        "caption": "Figure 4: The EgoVLP framework: the EgoClip pretraining set curated from Ego4D, a space- time video-language model trained with the EgoNCE objective, and the EgoMCQ development benchmark, with transfer to egocentric downstream tasks. Illustration inspired by [6].",
+        "bbox_pt": [
+          107.60099792480469,
+          86.00332641601562,
+          504.3856201171875,
+          304.5950012207031
+        ],
+        "normalized_bbox": [
+          0.17581862406013837,
+          0.10859005860608033,
+          0.8241595099954044,
+          0.3845896480059383
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "77cbb8f4efcd0377edce684a381558be0aadfb434642d00b0d7a36b6f39b4c2e",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "The EgoHOIBench diagnostic. A model must select the correct caption from candidates",
+      "pages": [
+        19
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_019_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_019_fig_figure_5_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_019_fig_figure_5.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0de8bdd978eba3f0c9c5ade107724acc9e8a1ee1774c1fcf52bba62061a5ac00",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_019_fig_figure_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_019.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 19,
+        "caption": "Figure 5: The EgoHOIBench diagnostic. A model must select the correct caption from candidates that differ by only a single verb or noun, scoring a trial correct only when both are right; egocentric video-language models exhibit a large verb–noun accuracy gap, revealing only superficial hand– object interaction understanding. Illustration inspired by [11].",
+        "bbox_pt": [
+          107.60099792480469,
+          85.99771118164062,
+          504.3997802734375,
+          330.0799865722656
+        ],
+        "normalized_bbox": [
+          0.17581862406013837,
+          0.10858296866368766,
+          0.8241826475056169,
+          0.4167676598134667
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "0de8bdd978eba3f0c9c5ade107724acc9e8a1ee1774c1fcf52bba62061a5ac00",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "The 100DOH hand-object detector. For each hand it jointly predicts a bounding box, side",
+      "pages": [
+        24
+      ],
+      "section_id": "sec:data",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "scientific_content_missing",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "26f8dd6a7afbb62ef3e3b6cbddfb92c08ca7e90cde3ddf96b07e2853884e6a17",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "26f8dd6a7afbb62ef3e3b6cbddfb92c08ca7e90cde3ddf96b07e2853884e6a17",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (scientific_content_missing)",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "scientific_content_missing",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_024_fig_figure_6.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_024.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 24,
+        "caption": "Figure 6: The 100DOH hand-object detector. For each hand it jointly predicts a bounding box, side (left/right), contact state (none, self, other-person, portable, or non-portable), and a link to the box of the object in contact, recovering the active object among many distractors. Illustration inspired by [26].",
+        "bbox_pt": [
+          107.60099792480469,
+          86.00341796875,
+          504.38153076171875,
+          307.3389892578125
+        ],
+        "normalized_bbox": [
+          0.17581862406013837,
+          0.10859017420296717,
+          0.824152828042024,
+          0.38805427936592485
+        ],
+        "render_dpi": 300
+      },
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_024_fig_figure_6.png"
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "Egocentric Action Scene Graph (EASG). An interaction is represented as a temporally",
+      "pages": [
+        30
+      ],
+      "section_id": "sec:dataset-2",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "scientific_content_missing",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "737b6d70f6c0bc7d73261980d5697eb1257e55c265e9de434eb255f212fae52b",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "737b6d70f6c0bc7d73261980d5697eb1257e55c265e9de434eb255f212fae52b",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (scientific_content_missing)",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "scientific_content_missing",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_030_fig_figure_7.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_030.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 30,
+        "caption": "Figure 7: Egocentric Action Scene Graph (EASG). An interaction is represented as a temporally evolving graph rooted at the camera-wearer node. Verb (action) nodes connect to direct objects, while the manipulated object is linked via active edges to the acting hands. Peripheral objects provide contextual relations. The graph is grounded by bounding boxes on the pre-condition, point- of-no-return (PNR), and post-condition frames, capturing both spatial hand–object relations and their evolution over time. Illustration inspired by [118].",
+        "bbox_pt": [
+          107.60099792480469,
+          86.0001220703125,
+          504.40283203125,
+          325.7489929199219
+        ],
+        "normalized_bbox": [
+          0.17581862406013837,
+          0.10858601271504104,
+          0.8241876340379902,
+          0.41129923348474984
+        ],
+        "render_dpi": 300
+      },
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_030_fig_figure_7.png"
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Interaction-aware temporal modeling in egocentric video. Hand–object interaction track-",
+      "pages": [
+        32
+      ],
+      "section_id": "sec:dataset-2",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "scientific_content_missing",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "f7bd488d774275d91054b7f510142d37dd0ce11a55571d867b650543b568c055",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "f7bd488d774275d91054b7f510142d37dd0ce11a55571d867b650543b568c055",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (scientific_content_missing)",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "scientific_content_missing",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_032_fig_figure_8.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_032.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 32,
+        "caption": "Figure 8: Interaction-aware temporal modeling in egocentric video. Hand–object interaction track- lets extracted from long videos are organized into a structured active memory indexed by inter- action events and locations. This representation supports efficient temporal reasoning—including sequencing, concurrency, temporal grounding, and retrieval—without reprocessing the full video. Interaction-aware representations and graph-guided frame selection further improve long-horizon reasoning by using hand–object structure as the scaffold for temporal understanding. Illustration inspired by [122].",
+        "bbox_pt": [
+          107.60099792480469,
+          86.0,
+          504.3944091796875,
+          326.5090026855469
+        ],
+        "normalized_bbox": [
+          0.17581862406013837,
+          0.10858585858585859,
+          0.8241738712086397,
+          0.4122588417746804
+        ],
+        "render_dpi": 300
+      },
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_032_fig_figure_8.png"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_004_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_004_fig_table_1.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+      "source_image_sha256": "38367859888c7ae09a9e98944f8b1e0779a03143728b08609610c7d3f1df930d",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "38367859888c7ae09a9e98944f8b1e0779a03143728b08609610c7d3f1df930d",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_004.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 4,
+        "caption": "Table 1: Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in depth, ∼= partial/incidental, × = not covered. “Graph/rel.” denotes scene-graph, hand–object- interaction-graph, or relational structure used as an organizing lens—the axis on which this survey is distinctive.",
+        "bbox_pt": [
+          84.0,
+          143.79734802246094,
+          528.0977783203125,
+          398.3805236816406
+        ],
+        "normalized_bbox": [
+          0.13725490196078433,
+          0.18156230810916785,
+          0.8629048665364584,
+          0.5030057117192432
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "defines each task alongside its defining first-person difficulty. Nearly all of them are anchored",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:datasets",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "22f4b94663a1a6efe0fbe9975da9e156765c0bb382b0d72ba4f258967fe38756",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "22f4b94663a1a6efe0fbe9975da9e156765c0bb382b0d72ba4f258967fe38756",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_007_fig_table_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_007.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 7,
+        "caption": "Table 2: The five canonical egocentric video-understanding tasks (Section 2.2): what each is and its defining first-person difficulty.",
+        "bbox_pt": [
+          188.83200073242188,
+          120.65509033203125,
+          423.1562194824219,
+          316.1174011230469
+        ],
+        "normalized_bbox": [
+          0.3085490208046109,
+          0.15234228577276673,
+          0.6914317311804279,
+          0.3991381327311198
+        ],
+        "render_dpi": 300
+      },
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_007_fig_table_2.png"
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Comparison of major egocentric video datasets along dimensions relevant to vision-language",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:datasets",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_011_fig_table_3.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_011_fig_table_3.png",
+      "source_image_sha256": "f3a34bda775271e8d4b4c1227196a71c5be8e823d443cef8208146bba53790d9",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "f3a34bda775271e8d4b4c1227196a71c5be8e823d443cef8208146bba53790d9",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_011_fig_table_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 11,
+        "caption": "Table 3: Comparison of major egocentric video datasets along dimensions relevant to vision-language modeling. Ego4D scale refers to the full video collection, while annotations and auxiliary modalities cover subsets; H2O is reported in frames. Figures are version-dependent for Ego4D and Ego-Exo4D (see Section 3.4).",
+        "bbox_pt": [
+          84.0,
+          142.6575469970703,
+          528.0482788085938,
+          394.0035095214844
+        ],
+        "normalized_bbox": [
+          0.13725490196078433,
+          0.18012316540034132,
+          0.8628239849813624,
+          0.4974791786887429
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "The three classical (pre-transformer) video-understanding families: what each generation",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:datasets",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_014_fig_table_4_review.png",
+      "relative_markdown_embed": "![Table 4](images/page_014_fig_table_4_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_014_fig_table_4.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "4d5592095d920c05ae5778e0335032c3f22d6be0e29d49e2af3c492ae91cb694",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_014_fig_table_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_014.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 14,
+        "caption": "Table 4: The three classical (pre-transformer) video-understanding families: what each generation contributed and the gap it left for egocentric vision-language understanding (Section 4.1).",
+        "bbox_pt": [
+          89.325439453125,
+          120.35138702392578,
+          520.2158813476562,
+          231.708740234375
+        ],
+        "normalized_bbox": [
+          0.14595660041360295,
+          0.1519588219999063,
+          0.850025949914471,
+          0.2925615406999684
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "4d5592095d920c05ae5778e0335032c3f22d6be0e29d49e2af3c492ae91cb694",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 5",
+      "source_id": "Table 5",
+      "kind": "table",
+      "label": "Table 5",
+      "caption": "consolidates the models discussed below. These model groups trace a clear trajectory from",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:model",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_022_fig_table_5_review.png",
+      "relative_markdown_embed": "![Table 5](images/page_022_fig_table_5_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_022_fig_table_5.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "1569c46726ebba42e04d7bec399136d34e65c10fe2a67ec6e43fee071e21dbe5",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_022_fig_table_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_022.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 22,
+        "caption": "Table 5: Comparison of representative egocentric vision-language models and relevant multimodal or embodied extensions discussed in Section 5.2. “EK-100 MIR” denotes EPIC-KITCHENS-100 multi-instance retrieval; “cls.” denotes classification.",
+        "bbox_pt": [
+          89.55400848388672,
+          130.31719970703125,
+          519.9929809570312,
+          497.1954650878906
+        ],
+        "normalized_bbox": [
+          0.1463300792220371,
+          0.16454191882200916,
+          0.8496617335899204,
+          0.6277720518786498
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "1569c46726ebba42e04d7bec399136d34e65c10fe2a67ec6e43fee071e21dbe5",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 6",
+      "source_id": "Table 6",
+      "kind": "table",
+      "label": "Table 6",
+      "caption": "consolidates the representative methods and resources surveyed in this section. Despite",
+      "pages": [
+        27
+      ],
+      "section_id": "sec:approach",
+      "decision": "visual_defect",
+      "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task_overview",
+      "source_image_filename": "page_027_fig_table_6_review.png",
+      "relative_markdown_embed": "![Table 6](images/page_027_fig_table_6_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_027_fig_table_6.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "7db054588b1e24d6d2254a65f2d312430a28f48bfd1ccc06d1e504ba90d3bf64",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_027_fig_table_6.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_027.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 27,
+        "caption": "Table 6: Comparison of representative hand–object interaction methods and resources, spanning hand recovery, manipulated-object reasoning, and interaction datasets (Section 6).",
+        "bbox_pt": [
+          89.5865249633789,
+          153.77224731445312,
+          522.4093627929688,
+          433.4075927734375
+        ],
+        "normalized_bbox": [
+          0.14638321072447533,
+          0.1941568779222893,
+          0.8536100699231516,
+          0.5472318090573706
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "7db054588b1e24d6d2254a65f2d312430a28f48bfd1ccc06d1e504ba90d3bf64",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 7",
+      "source_id": "Table 7",
+      "kind": "table",
+      "label": "Table 7",
+      "caption": "Egocentric video–text semantic alignment approaches (Section 9.2) and the weakness each",
+      "pages": [
+        40
+      ],
+      "section_id": "sec:models-2",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_040_fig_table_7_review.png",
+      "relative_markdown_embed": "![Table 7](images/page_040_fig_table_7_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_040_fig_table_7.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "208fff5166d48281973b4a6d024ea5516875456a777f3ff6e744430b229b1a63",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_040_fig_table_7.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/page_previews/page_040.png",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 40,
+        "caption": "Table 7: Egocentric video–text semantic alignment approaches (Section 9.2) and the weakness each targets.",
+        "bbox_pt": [
+          192.10899353027344,
+          154.48114013671875,
+          419.89910888671875,
+          420.9271240234375
+        ],
+        "normalized_bbox": [
+          0.3139035841997932,
+          0.19505194461706912,
+          0.6861096550436581,
+          0.5314736414437342
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "208fff5166d48281973b4a6d024ea5516875456a777f3ff6e744430b229b1a63",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 8",
+      "source_id": "Table 8",
+      "kind": "table",
+      "label": "Table 8",
+      "caption": "Summary of open challenges and future directions (Section 11). Each row pairs a diagnosed",
+      "pages": [
+        46
+      ],
+      "section_id": "sec:evaluation",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_sha256": "",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "",
+        "page_preview_path": "",
+        "source_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "source_page": 1,
+        "caption": "",
+        "bbox_pt": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "render_dpi": 300
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 16,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 4,
+      "placeholder": 1,
+      "review_pending": 9,
+      "skip": 0,
+      "visual_defect": 2
+    }
+  }
+}

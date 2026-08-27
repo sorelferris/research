@@ -1,0 +1,1800 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2608.18671",
+  "figure_plan": {
+    "paper_id": "arxiv:2608.18671",
+    "figures": [
+      {
+        "id": "Figure 3",
+        "caption": "The CLIP framework. (Left) Contrastive pretraining jointly aligns an image encoder and",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_016_fig_figure_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_fig_figure_3.png",
+          "width": 529,
+          "height": 322,
+          "size_bytes": 164883,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.198186,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.94746,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 259,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "clip",
+              "framework",
+              "left",
+              "contrastive",
+              "pretraining"
+            ],
+            "snippet": "Figure 3: The CLIP framework. (Left) Contrastive pretraining jointly aligns an image encoder and a",
+            "images": [
+              {
+                "filename": "page_016_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_img_01.png",
+                "width": 1616,
+                "height": 973,
+                "size_bytes": 1242040
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_fig_figure_3.png",
+                "width": 529,
+                "height": 322,
+                "size_bytes": 164883,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198186,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.94746,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 259,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 12,
+            "score": 3,
+            "matched_terms": [
+              "clip",
+              "left",
+              "contrastive",
+              "pretraining"
+            ],
+            "snippet": "Action- VLAD →EPIC-Fusion (+audio) parallel appearance + motion pathways Gap: fixed short clips miss long horizons; optical flow costly and brittle under ego-motion; closed label space",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+                "width": 586,
+                "height": 370,
+                "size_bytes": 74894,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.251755,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 0.685503,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1018,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 3,
+            "matched_terms": [
+              "clip",
+              "framework",
+              "contrastive",
+              "pretraining"
+            ],
+            "snippet": "Figure 4: The EgoVLP framework: the EgoClip pretraining set curated from Ego4D, a space- time video-language model trained with the E",
+            "images": [
+              {
+                "filename": "page_017_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_img_01.png",
+                "width": 1704,
+                "height": 923,
+                "size_bytes": 1536309
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+                "width": 529,
+                "height": 291,
+                "size_bytes": 180330,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178942,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.943978,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 263,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "The EgoVLP framework: the EgoClip pretraining set curated from Ego4D, a space-",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_017_fig_figure_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+          "width": 529,
+          "height": 291,
+          "size_bytes": 180330,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.178942,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.943978,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 263,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 16,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "egovlp",
+              "framework",
+              "egoclip",
+              "pretraining",
+              "curated"
+            ],
+            "snippet": "LP. 4.3.4 EgoVLP EgoVLP [6] transfers this design to first-person video along three axes (Fig. 4): EgoClip, a ∼3.8M clip-text pretraining set curated from Ego4D; EgoNCE, a contrastive ob",
+            "images": [
+              {
+                "filename": "page_016_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_img_01.png",
+                "width": 1616,
+                "height": 973,
+                "size_bytes": 1242040
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_016_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_016_fig_figure_3.png",
+                "width": 529,
+                "height": 322,
+                "size_bytes": 164883,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.198186,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.94746,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 259,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "egovlp",
+              "framework",
+              "egoclip",
+              "pretraining",
+              "curated"
+            ],
+            "snippet": "Figure 4: The EgoVLP framework: the EgoClip pretraining set curated from Ego4D, a space- time vide",
+            "images": [
+              {
+                "filename": "page_017_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_img_01.png",
+                "width": 1704,
+                "height": 923,
+                "size_bytes": 1536309
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+                "width": 529,
+                "height": 291,
+                "size_bytes": 180330,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178942,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.943978,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 263,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 12,
+            "score": 3,
+            "matched_terms": [
+              "egovlp",
+              "egoclip",
+              "pretraining",
+              "curated"
+            ],
+            "snippet": "s Frozen-in-Time joint image + video encoder, ViT / TimeSformer-style; direct ancestor of EgoVLP EgoVLP (EgoVLPv2, LaViLa) EgoClip (∼3.8M) + EgoNCE + EgoMCQ first-person transfer across",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+                "width": 586,
+                "height": 370,
+                "size_bytes": 74894,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.251755,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 0.685503,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1018,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_table_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+          "width": 592,
+          "height": 339,
+          "size_bytes": 51028,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_text_contamination_suspected"
+            ],
+            "page_coverage_ratio": 0.233255,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1214,
+            "table_body_rows": 9,
+            "caption_text_chars": 305,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "coverage",
+              "representative",
+              "recent",
+              "surveys",
+              "versus"
+            ],
+            "snippet": "Table 1: Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in d",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 30,
+            "score": 2,
+            "matched_terms": [
+              "recent",
+              "versus"
+            ],
+            "snippet": "nter of modern egocentric post-training: rather than using order verification as pretext, recent work converts it into a reward. Xu et al. [9] contrast a model’s outputs on temporally or",
+            "images": [
+              {
+                "filename": "page_030_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_030_img_01.png",
+                "width": 1624,
+                "height": 968,
+                "size_bytes": 1486417
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_030_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_030_fig_figure_7.png",
+                "width": 529,
+                "height": 319,
+                "size_bytes": 184590,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.19627,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947143,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 539,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "recent"
+            ],
+            "snippet": "ne the field’s foundations. Because egocentric vision is a fast-moving area in which many recent and relevant contributions first appear as preprints, we also included selected arXiv man",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+                "width": 586,
+                "height": 328,
+                "size_bytes": 53147,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.223301,
+                  "visual_rect_count": 20,
+                  "visual_body_ratio": 0.550842,
+                  "paragraph_text_chars": 324,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 649,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Comparison of major egocentric video datasets along dimensions relevant to vision-language",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_table_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_011_fig_table_3.png",
+          "width": 592,
+          "height": 335,
+          "size_bytes": 55166,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_text_contamination_suspected"
+            ],
+            "page_coverage_ratio": 0.230264,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1281,
+            "table_body_rows": 10,
+            "caption_text_chars": 316,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "comparison",
+              "major",
+              "egocentric",
+              "video",
+              "datasets"
+            ],
+            "snippet": "Table 3: Comparison of major egocentric video datasets along dimensions relevant to vision-langua",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_011_fig_table_3.png",
+                "width": 592,
+                "height": 335,
+                "size_bytes": 55166,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.230264,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1281,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 316,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "major",
+              "egocentric",
+              "video"
+            ],
+            "snippet": "× × × ✓ × Li et al. [14] Neurocomp. ’24 × ∼ ∼ ∼ ✓ ✓ × × This survey — ✓ ✓ ✓ ✓ ✓ ✓ ✓ ✓ 1.5 Comparison with Existing Surveys Several recent, well-cited surveys already map parts of this landsc",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "major",
+              "egocentric",
+              "video",
+              "datasets"
+            ],
+            "snippet": "g its definition, core tasks, and characteristic perception challenges. Section 3 reviews major egocentric video datasets, provid- ing a comparative analysis and discussing their biases",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+                "width": 586,
+                "height": 328,
+                "size_bytes": 53147,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.223301,
+                  "visual_rect_count": 20,
+                  "visual_body_ratio": 0.550842,
+                  "paragraph_text_chars": 324,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 649,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "The three classical (pre-transformer) video-understanding families: what each generation",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_table_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_014_fig_table_4.png",
+          "width": 574,
+          "height": 148,
+          "size_bytes": 24654,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.098994,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 10,
+            "caption_text_chars": 189,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "three",
+              "classical",
+              "pre-transformer",
+              "video-understanding",
+              "families"
+            ],
+            "snippet": "Table 4: The three classical (pre-transformer) video-understanding families: what each generation",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_014_fig_table_4.png",
+                "width": 574,
+                "height": 148,
+                "size_bytes": 24654,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.098994,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 189,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 12,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "classical",
+              "families"
+            ],
+            "snippet": "Clip is curated from Ego4D Figure 2: Evolution of video understanding models (Section 4). Three eras, read left to right, each inheriting representational machinery from the preceding e",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+                "width": 586,
+                "height": 370,
+                "size_bytes": 74894,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.251755,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 0.685503,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1018,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 3,
+            "matched_terms": [
+              "three",
+              "classical",
+              "families"
+            ],
+            "snippet": "age-supervised, open-vocabulary representation. Classical video understanding established three representational vocabularies: spatiotemporal convolutions, from the Sports-1M study [43]",
+            "images": [
+              {
+                "filename": "page_017_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_img_01.png",
+                "width": 1704,
+                "height": 923,
+                "size_bytes": 1536309
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+                "width": 529,
+                "height": 291,
+                "size_bytes": 180330,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178942,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.943978,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 263,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 5",
+        "caption": "consolidates the models discussed below. These model groups trace a clear trajectory from",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_022_fig_table_5.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_022_fig_table_5.png",
+          "width": 573,
+          "height": 489,
+          "size_bytes": 60397,
+          "label": "Table 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.325804,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 305,
+            "table_body_rows": 32,
+            "caption_text_chars": 240,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 7,
+            "matched_terms": [
+              "table 5",
+              "models",
+              "discussed"
+            ],
+            "snippet": "Table 5: Comparison of representative egocentric vision-language models and relevant multimodal o",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_022_fig_table_5.png",
+                "width": 573,
+                "height": 489,
+                "size_bytes": 60397,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.325804,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 305,
+                  "table_body_rows": 32,
+                  "caption_text_chars": 240,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 27,
+            "score": 3,
+            "matched_terms": [
+              "consolidates",
+              "models",
+              "these"
+            ],
+            "snippet": "nse time-varying 3D contact Ego + exo Dexterous bimanual articulated manipulation Table 6 consolidates the representative methods and resources surveyed in this section. Despite this maturity,",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_027_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_027_fig_table_6.png",
+                "width": 577,
+                "height": 372,
+                "size_bytes": 44911,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249704,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 285,
+                  "table_body_rows": 17,
+                  "caption_text_chars": 176,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "models",
+              "these"
+            ],
+            "snippet": "onomy of egocentric vision. Orthogonal to these, Zhang et al. [13] survey vision-language models for general (non-egocentric) vision, and Li et al. [14] survey scene-graph generation wit",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 6",
+        "caption": "consolidates the representative methods and resources surveyed in this section. Despite",
+        "kind": "data_or_task_overview",
+        "section": "数据与任务定义",
+        "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+        "priority": 2,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_027_fig_table_6.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_027_fig_table_6.png",
+          "width": 577,
+          "height": 372,
+          "size_bytes": 44911,
+          "label": "Table 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.249704,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 285,
+            "table_body_rows": 17,
+            "caption_text_chars": 176,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 27,
+            "score": 8,
+            "matched_terms": [
+              "table 6",
+              "consolidates",
+              "representative",
+              "methods",
+              "resources",
+              "surveyed"
+            ],
+            "snippet": "6.5 Limitations of Current HOI Understanding Table 6: Comparison of representative hand–object interaction methods and resources, spanning han",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_027_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_027_fig_table_6.png",
+                "width": 577,
+                "height": 372,
+                "size_bytes": 44911,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.249704,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 285,
+                  "table_body_rows": 17,
+                  "caption_text_chars": 176,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 1,
+            "matched_terms": [
+              "representative"
+            ],
+            "snippet": "Table 1: Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in depth, ∼= partial/incidental,",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 14,
+            "score": 1,
+            "matched_terms": [
+              "representative"
+            ],
+            "snippet": "nd the gap it left for egocentric vision-language understanding (Section 4.1). Generation Representative models Key innovation Problem solved Left unsolved for egocen- tric CNN / 3D- CNN C3D [44",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_014_fig_table_4.png",
+                "width": 574,
+                "height": 148,
+                "size_bytes": 24654,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.098994,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 189,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Egocentric video–text semantic alignment approaches (Section 9.2) and the weakness each",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_040_fig_table_7.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_040_fig_table_7.png",
+          "width": 303,
+          "height": 355,
+          "size_bytes": 27022,
+          "label": "Table 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.125218,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 15,
+            "caption_text_chars": 105,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 40,
+            "score": 8,
+            "matched_terms": [
+              "table 7",
+              "egocentric",
+              "video",
+              "text",
+              "semantic",
+              "alignment"
+            ],
+            "snippet": "9.2 Video–Text Semantic Alignment Table 7: Egocentric video–text semantic alignment approaches (Section 9.2) and the weakness each",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_040_fig_table_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_040_fig_table_7.png",
+                "width": 303,
+                "height": 355,
+                "size_bytes": 27022,
+                "label": "Table 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.125218,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 15,
+                  "caption_text_chars": 105,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "egocentric",
+              "video",
+              "semantic",
+              "alignment"
+            ],
+            "snippet": "nd–Object Interaction to Embodied AI: a unifying trajectory for vision-language models on egocentric video Foundations & Datasets (Sec. II–III) Model Evolution & Egocentric VLMs (Sec. IV–V)",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+                "width": 586,
+                "height": 328,
+                "size_bytes": 53147,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.223301,
+                  "visual_rect_count": 20,
+                  "visual_body_ratio": 0.550842,
+                  "paragraph_text_chars": 324,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 649,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "egocentric",
+              "video",
+              "text"
+            ],
+            "snippet": "Table 2: The five canonical egocentric video-understanding tasks (Section 2.2): what each is and its defining first-person diffi",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_007_fig_table_2.png",
+                "width": 312,
+                "height": 260,
+                "size_bytes": 22116,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.094494,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 15,
+                  "caption_text_chars": 134,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 8",
+        "caption": "Summary of open challenges and future directions (Section 11). Each row pairs a diagnosed",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "open",
+              "challenges",
+              "future",
+              "directions"
+            ],
+            "snippet": "tive systems Human activ- ity understanding AR/VR & wearable AI Human–robot collaboration Open Challenges & Future Directions (Sec. XI): better temporal reasoning · interaction-aware u",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+                "width": 586,
+                "height": 328,
+                "size_bytes": 53147,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.223301,
+                  "visual_rect_count": 20,
+                  "visual_body_ratio": 0.550842,
+                  "paragraph_text_chars": 324,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 649,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 2,
+            "matched_terms": [
+              "challenges",
+              "future"
+            ],
+            "snippet": "ap motivates the interaction- and graph-centric treatment of the rest of this survey. 2.3 Challenges of Egocentric Perception Egocentric video compounds the difficulties of generic video wit",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_007_fig_table_2.png",
+                "width": 312,
+                "height": 260,
+                "size_bytes": 22116,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.094494,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 15,
+                  "caption_text_chars": 134,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 2,
+            "matched_terms": [
+              "summary",
+              "open"
+            ],
+            "snippet": "enchmark, with transfer to egocentric downstream tasks. Illustration inspired by [6]. 4.4 Summary of Model Evolution The trajectory traced across this section moves from hand-engineered t",
+            "images": [
+              {
+                "filename": "page_017_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_img_01.png",
+                "width": 1704,
+                "height": 923,
+                "size_bytes": 1536309
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_017_fig_figure_4.png",
+                "width": 529,
+                "height": 291,
+                "size_bytes": 180330,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.178942,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.943978,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 263,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "Roadmap of this survey. The paper is organized as a single trajectory from hand–object",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+          "width": 586,
+          "height": 328,
+          "size_bytes": 53147,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.223301,
+            "visual_rect_count": 20,
+            "visual_body_ratio": 0.550842,
+            "paragraph_text_chars": 324,
+            "table_body_rows": 0,
+            "caption_text_chars": 649,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "roadmap",
+              "survey",
+              "paper",
+              "organized",
+              "single"
+            ],
+            "snippet": "e remainder of this paper is organized as follows, and is depicted as a visual roadmap in Fig. 1. Sec- tion 2 presents the foundations of egocentric video understanding, including its de",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+                "width": 586,
+                "height": 328,
+                "size_bytes": 53147,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.223301,
+                  "visual_rect_count": 20,
+                  "visual_body_ratio": 0.550842,
+                  "paragraph_text_chars": 324,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 649,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "survey",
+              "paper",
+              "single"
+            ],
+            "snippet": "Table 1: Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in depth, ∼= partial/incidental, × = not cover",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 32,
+            "score": 3,
+            "matched_terms": [
+              "survey",
+              "organized",
+              "single"
+            ],
+            "snippet": "succeed without reasoning over order at all. Two conclusions follow for the rest of this survey. First, the apparent competence of current models is partly an artifact of benchmarks tha",
+            "images": [
+              {
+                "filename": "page_032_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_032_img_01.png",
+                "width": 1622,
+                "height": 970,
+                "size_bytes": 1508421
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_032_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_032_fig_figure_8.png",
+                "width": 529,
+                "height": 320,
+                "size_bytes": 189746,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196888,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947246,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 599,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Evolution of video understanding models (Section 4). Three eras, read left to right, each",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_012_fig_figure_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+          "width": 586,
+          "height": 370,
+          "size_bytes": 74894,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.251755,
+            "visual_rect_count": 19,
+            "visual_body_ratio": 0.685503,
+            "paragraph_text_chars": 622,
+            "table_body_rows": 0,
+            "caption_text_chars": 1018,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 12,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "evolution",
+              "video",
+              "understanding",
+              "models",
+              "section"
+            ],
+            "snippet": "nes, and conceptual scaffolding for the hand–object reasoning that motivates this survey. Fig. 2 summarizes the trajectory this section traces, from hand-engineered temporal modeling to",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_012_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_012_fig_figure_2.png",
+                "width": 586,
+                "height": 370,
+                "size_bytes": 74894,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.251755,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 0.685503,
+                  "paragraph_text_chars": 622,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 1018,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 3,
+            "matched_terms": [
+              "video",
+              "models",
+              "section"
+            ],
+            "snippet": "t interaction,” “Ego4D,” “EPIC- KITCHENS”) with modeling terms (“vision-language model,” “video transformer,” “scene graph,” “action anticipation,” “embodied learning”). From the result",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "evolution",
+              "video",
+              "understanding",
+              "models",
+              "section"
+            ],
+            "snippet": "for vision-language models on egocentric video Foundations & Datasets (Sec. II–III) Model Evolution & Egocentric VLMs (Sec. IV–V) Interaction & Reasoning (Sec. VI–IX) Toward Embodied Intell",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_005_fig_figure_1.png",
+                "width": 586,
+                "height": 328,
+                "size_bytes": 53147,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.223301,
+                  "visual_rect_count": 20,
+                  "visual_body_ratio": 0.550842,
+                  "paragraph_text_chars": 324,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 649,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The EgoHOIBench diagnostic. A model must select the correct caption from candidates",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_019_fig_figure_5.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_019_fig_figure_5.png",
+          "width": 529,
+          "height": 325,
+          "size_bytes": 240518,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.199816,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.947724,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 357,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 19,
+            "score": 8,
+            "matched_terms": [
+              "figure 5",
+              "egohoibench",
+              "diagnostic",
+              "model",
+              "must",
+              "select"
+            ],
+            "snippet": "Figure 5: The EgoHOIBench diagnostic. A model must select the correct caption from candidates that",
+            "images": [
+              {
+                "filename": "page_019_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_019_img_01.png",
+                "width": 1609,
+                "height": 977,
+                "size_bytes": 1935812
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_019_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_019_fig_figure_5.png",
+                "width": 529,
+                "height": 325,
+                "size_bytes": 240518,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.199816,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947724,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 357,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 32,
+            "score": 3,
+            "matched_terms": [
+              "egohoibench",
+              "model",
+              "must",
+              "select"
+            ],
+            "snippet": "el still trails human accuracy by more than 20 points. The interaction- level analogue is EgoHOIBench [11], on which egocentric video-language models trained on millions of clips collapse und",
+            "images": [
+              {
+                "filename": "page_032_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_032_img_01.png",
+                "width": 1622,
+                "height": 970,
+                "size_bytes": 1508421
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_032_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_032_fig_figure_8.png",
+                "width": 529,
+                "height": 320,
+                "size_bytes": 189746,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.196888,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947246,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 599,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 4,
+            "score": 2,
+            "matched_terms": [
+              "model",
+              "select"
+            ],
+            "snippet": "onomy of egocentric vision. Orthogonal to these, Zhang et al. [13] survey vision-language models for general (non-egocentric) vision, and Li et al. [14] survey scene-graph generation wi",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Vision_Language_Models_for_Egocentric_Video_From_Hand_Object_Interaction_to_Embodied_AI/images/page_004_fig_table_1.png",
+                "width": 592,
+                "height": 339,
+                "size_bytes": 51028,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.233255,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1214,
+                  "table_body_rows": 9,
+                  "caption_text_chars": 305,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

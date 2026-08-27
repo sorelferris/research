@@ -1,0 +1,67 @@
+{
+  "review_id": "ego-vlm-survey_final_quality_review",
+  "paper_id": "arxiv:2608.18671",
+  "paper_title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+  "reviewer": "hermes-agent (paper-to-note v2.0.1)",
+  "review_date": "2026-08-27",
+  "status": "pass",
+  "central_claims_are_supported_by_raw_sections_or_pages": {
+    "verdict": "pass",
+    "evidence": [
+      "cc1 supported by sec:abstract L1 (5 challenges) + sec:introduction L1-5",
+      "cc2 supported by sec:abstract L1 (7 axes + graph reasoning) + sec:introduction",
+      "cc3 supported by sec:introduction L1-5 (graph-based = principled response)",
+      "cc4 supported by sec:abstract L1 (wearable/robot/HRI/embodied decision)",
+      "cc5 supported by sec:abstract L1 + sec:conclusion L50-51 (8 future priorities)"
+    ]
+  },
+  "key_experimental_settings_and_numbers_are_present": {
+    "verdict": "pass",
+    "evidence": [
+      "论文总页数 61",
+      "section 数量 19",
+      "核心组织维度 8 项 (7 任务轴 + 1 graph reasoning)",
+      "EgoHOIBench verb-级别判别 benchmark",
+      "egocentric hallucination benchmark",
+      "8 future priorities"
+    ]
+  },
+  "mechanisms_or_protocol_choices_are_mapped_to_results": {
+    "verdict": "pass",
+    "evidence": [
+      "graph-based reasoning → 原则性回应 dense VLM 失败",
+      "object-centric 表达 → 显式建模手物边界",
+      "frame/clip selection → 缓解 long-range temporal dependency",
+      "multimodal pretraining → 对齐视觉语言监督",
+      "prompting/adaptation → pretrained VLM 适配下游任务"
+    ]
+  },
+  "comparisons_explain_positioning_against_alternatives": {
+    "verdict": "pass",
+    "evidence": [
+      "vs Zhang et al. [13] VLM survey: 本文专注 egocentric",
+      "vs Li et al. [14] scene-graph survey: 本文涵盖 graph 作为子集",
+      "vs Li et al. [1] ego vision taxonomy: 本文从 VLM 视角",
+      "vs 其它 embodied AI survey: 本文强调 first-person perception"
+    ]
+  },
+  "discussion_or_limitation_claims_are_explained_mechanistically": {
+    "verdict": "pass",
+    "evidence": [
+      "limitation 1 (跨 embodiment 泛化未证): 综述层面未深入 robot embodiment 迁移",
+      "limitation 2 (隐私挑战): 提及但缺方案",
+      "limitation 3 (可信评估): egocentric hallucination benchmarks 刚起步",
+      "limitation 4 (商业部署): 多为 demo 缺部署",
+      "limitation 5 (8 项优先级是定性): 无具体指标预测",
+      "limitation 6 (跨综述对比): 本综述较简洁"
+    ]
+  },
+  "overall_quality_verdict": "pass",
+  "notes": [
+    "lint_grounding passes=True (14 字段 + 5 central_claim + section_plan grounding) 一次过",
+    "lint_note 7/7 gates 全过",
+    "16/16 figure decisions strict-schema + source_image_path 已同步 (v2.0.1 fix 验证有效)",
+    "paper_type=survey_or_review 是首次实测该类型，note_plan 14 字段模板对 survey 兼容良好",
+    "短标题 ego-vlm-survey 命名遵循 v2.0.1 命名规范"
+  ]
+}

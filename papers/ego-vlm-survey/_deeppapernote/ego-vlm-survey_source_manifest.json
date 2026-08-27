@@ -1,0 +1,1063 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2608.18671",
+  "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/arxiv_2608_18671-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/arxiv_2608_18671-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+    "total_pages": 61,
+    "text_pages_extracted": 61,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 61,
+    "text_max_pages": null,
+    "text_pages_extracted": 61,
+    "text_pages_scanned": 61,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 51
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 324,
+      "text_hash_sha256": "e4fc3bac6c02731e92b0a6e0094f7b32423e6f91c9c3a22e9df4425778ad65d7"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1943,
+      "text_hash_sha256": "2b4bb00e67990c2883ad181814b7dea232cbc6b02176771ef9650637603eb9d7"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "INTRODUCTION",
+      "page_start": 1,
+      "page_end": 5,
+      "char_count": 9641,
+      "text_hash_sha256": "14d86c8f766929ab37c8f4e67878324a3585beada15aed6a7843b995b7644ed4"
+    },
+    {
+      "section_id": "sec:datasets",
+      "kind": "data",
+      "title": "& Datasets",
+      "page_start": 5,
+      "page_end": 14,
+      "char_count": 27859,
+      "text_hash_sha256": "7bec1c46625d0591b85d7b3e066548424c8979cfc113b0fd7861c56fcc08d095"
+    },
+    {
+      "section_id": "sec:models",
+      "kind": "method",
+      "title": "models",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 411,
+      "text_hash_sha256": "d801a85143688f28e5fbbc82ebf55d17e552cd79f708779bd8514a49b0576a62"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "model-",
+      "page_start": 14,
+      "page_end": 22,
+      "char_count": 19942,
+      "text_hash_sha256": "05c2b44522800636f07a8e7e34508f1215f5c4bdfec59445aecf60ce12a05100"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 22,
+      "page_end": 22,
+      "char_count": 1154,
+      "text_hash_sha256": "e6c1a0e5c57253db423d2170a4a4a8e2be624717d01d7481dfbf35790c1a45f5"
+    },
+    {
+      "section_id": "sec:model-3",
+      "kind": "method",
+      "title": "model;",
+      "page_start": 22,
+      "page_end": 22,
+      "char_count": 659,
+      "text_hash_sha256": "7cd20377d2fbc762ff78d5f9307e5f9722f7b9288944049515215561d161e48e"
+    },
+    {
+      "section_id": "sec:data",
+      "kind": "data",
+      "title": "data",
+      "page_start": 22,
+      "page_end": 25,
+      "char_count": 8461,
+      "text_hash_sha256": "886bc298e1e5266fd334377e05306f81af73a01718d994baf608de1304b3f08f"
+    },
+    {
+      "section_id": "sec:approach",
+      "kind": "method",
+      "title": "Approach",
+      "page_start": 25,
+      "page_end": 27,
+      "char_count": 3310,
+      "text_hash_sha256": "e9cd56b016f7ed5d6fbe4dc585b92f50ec070e643abf84b3ac3db6f67761ac70"
+    },
+    {
+      "section_id": "sec:model-4",
+      "kind": "method",
+      "title": "model",
+      "page_start": 27,
+      "page_end": 27,
+      "char_count": 600,
+      "text_hash_sha256": "9292628398d0f47fabd7d62b1d8b9cff915eb8057dc042ca1f3c26f571a9b52f"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 27,
+      "page_end": 27,
+      "char_count": 103,
+      "text_hash_sha256": "e2a761e27596dcf5c2ef88d7f951c6acdc126b9406787e0a05748f53dccf56b8"
+    },
+    {
+      "section_id": "sec:dataset-2",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 27,
+      "page_end": 38,
+      "char_count": 33931,
+      "text_hash_sha256": "773f318540de4c17e66e620379f7c9c6a07981211460f4e2d758d90c9913bbe2"
+    },
+    {
+      "section_id": "sec:models-2",
+      "kind": "method",
+      "title": "Models",
+      "page_start": 38,
+      "page_end": 40,
+      "char_count": 3760,
+      "text_hash_sha256": "f377c121feeba5808b95f6142778e43611608c88cf2f6458b76197a6f1c9b492"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 40,
+      "page_end": 40,
+      "char_count": 557,
+      "text_hash_sha256": "9cd6b0490de2f0367ba93c9957f4e254b716f9bafbe0c9dd7cd2dafe8fb6e42f"
+    },
+    {
+      "section_id": "sec:evaluation",
+      "kind": "experiment",
+      "title": "evaluation",
+      "page_start": 40,
+      "page_end": 46,
+      "char_count": 17077,
+      "text_hash_sha256": "200bfb01fb987a6662eba94efb2d1ffffae0d9a04db7d258a667fd34e1a4ad19"
+    },
+    {
+      "section_id": "sec:models-3",
+      "kind": "method",
+      "title": "Models",
+      "page_start": 46,
+      "page_end": 49,
+      "char_count": 13119,
+      "text_hash_sha256": "3b9d075e2e6750d83ea42530c34fe0566dab604940dfa4bc4e2fc441a171414c"
+    },
+    {
+      "section_id": "sec:conclusion",
+      "kind": "conclusion",
+      "title": "conclusion",
+      "page_start": 50,
+      "page_end": 51,
+      "char_count": 3242,
+      "text_hash_sha256": "cc4f136fbf36c8a94c34bc0a170b01e50733d030b5eb31a8059c05153f986dd9"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 51,
+      "page_end": 61,
+      "char_count": 28614,
+      "text_hash_sha256": "bf917d3d0d84dce7e7e71f0a8f1526cdcb6356d904c558a444352f517af1a8e9"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2547,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3246,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 2896,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3241,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3326,
+      "section_ids": [
+        "sec:introduction",
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3305,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 2528,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 2822,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3030,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2940,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3158,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3804,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 2909,
+      "section_ids": [
+        "sec:datasets"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3029,
+      "section_ids": [
+        "sec:datasets",
+        "sec:models",
+        "sec:model"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 2693,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 1583,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 2023,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 2685,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 1617,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 3240,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 3494,
+      "section_ids": [
+        "sec:model"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 3047,
+      "section_ids": [
+        "sec:model",
+        "sec:model-2",
+        "sec:model-3",
+        "sec:data"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 3133,
+      "section_ids": [
+        "sec:data"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 1905,
+      "section_ids": [
+        "sec:data"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 2777,
+      "section_ids": [
+        "sec:data",
+        "sec:approach"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 2442,
+      "section_ids": [
+        "sec:approach"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 2999,
+      "section_ids": [
+        "sec:approach",
+        "sec:model-4",
+        "sec:dataset",
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 3022,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 29,
+      "char_count": 2889,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 30,
+      "char_count": 2103,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 31,
+      "char_count": 3200,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 32,
+      "char_count": 2034,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 33,
+      "char_count": 3616,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 34,
+      "char_count": 3645,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 35,
+      "char_count": 3289,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 36,
+      "char_count": 2979,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 37,
+      "char_count": 3202,
+      "section_ids": [
+        "sec:dataset-2"
+      ]
+    },
+    {
+      "page": 38,
+      "char_count": 3105,
+      "section_ids": [
+        "sec:dataset-2",
+        "sec:models-2"
+      ]
+    },
+    {
+      "page": 39,
+      "char_count": 2817,
+      "section_ids": [
+        "sec:models-2"
+      ]
+    },
+    {
+      "page": 40,
+      "char_count": 2414,
+      "section_ids": [
+        "sec:models-2",
+        "sec:method",
+        "sec:evaluation"
+      ]
+    },
+    {
+      "page": 41,
+      "char_count": 3412,
+      "section_ids": [
+        "sec:evaluation"
+      ]
+    },
+    {
+      "page": 42,
+      "char_count": 3304,
+      "section_ids": [
+        "sec:evaluation"
+      ]
+    },
+    {
+      "page": 43,
+      "char_count": 3394,
+      "section_ids": [
+        "sec:evaluation"
+      ]
+    },
+    {
+      "page": 44,
+      "char_count": 3449,
+      "section_ids": [
+        "sec:evaluation"
+      ]
+    },
+    {
+      "page": 45,
+      "char_count": 1581,
+      "section_ids": [
+        "sec:evaluation"
+      ]
+    },
+    {
+      "page": 46,
+      "char_count": 3287,
+      "section_ids": [
+        "sec:evaluation",
+        "sec:models-3"
+      ]
+    },
+    {
+      "page": 47,
+      "char_count": 3376,
+      "section_ids": [
+        "sec:models-3"
+      ]
+    },
+    {
+      "page": 48,
+      "char_count": 3388,
+      "section_ids": [
+        "sec:models-3"
+      ]
+    },
+    {
+      "page": 49,
+      "char_count": 3367,
+      "section_ids": [
+        "sec:models-3"
+      ]
+    },
+    {
+      "page": 50,
+      "char_count": 2985,
+      "section_ids": [
+        "sec:conclusion"
+      ]
+    },
+    {
+      "page": 51,
+      "char_count": 2118,
+      "section_ids": [
+        "sec:conclusion",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 52,
+      "char_count": 2676,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 53,
+      "char_count": 2481,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 54,
+      "char_count": 2747,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 55,
+      "char_count": 2925,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 56,
+      "char_count": 2760,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 57,
+      "char_count": 2497,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 58,
+      "char_count": 2750,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 59,
+      "char_count": 2841,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 60,
+      "char_count": 2650,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 61,
+      "char_count": 2504,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Roadmap of this survey. The paper is organized as a single trajectory from hand–object",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Evolution of video understanding models (Section 4). Three eras, read left to right, each",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:datasets"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "The CLIP framework. (Left) Contrastive pretraining jointly aligns an image encoder and",
+        "page": 16,
+        "pages": [
+          16
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "The EgoVLP framework: the EgoClip pretraining set curated from Ego4D, a space-",
+        "page": 17,
+        "pages": [
+          17
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The EgoHOIBench diagnostic. A model must select the correct caption from candidates",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "The 100DOH hand-object detector. For each hand it jointly predicts a bounding box, side",
+        "page": 24,
+        "pages": [
+          24
+        ],
+        "section_id": "sec:data"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Egocentric Action Scene Graph (EASG). An interaction is represented as a temporally",
+        "page": 30,
+        "pages": [
+          30
+        ],
+        "section_id": "sec:dataset-2"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Interaction-aware temporal modeling in egocentric video. Hand–object interaction track-",
+        "page": 32,
+        "pages": [
+          32
+        ],
+        "section_id": "sec:dataset-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Table 2",
+        "caption": "defines each task alongside its defining first-person difficulty. Nearly all of them are anchored",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:datasets"
+      },
+      {
+        "id": "Table 2",
+        "caption": "The five canonical egocentric video-understanding tasks (Section 2.2): what each is and its",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:datasets"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Comparison of major egocentric video datasets along dimensions relevant to vision-language",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:datasets"
+      },
+      {
+        "id": "Table 4",
+        "caption": "The three classical (pre-transformer) video-understanding families: what each generation",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:datasets"
+      },
+      {
+        "id": "Table 5",
+        "caption": "consolidates the models discussed below. These model groups trace a clear trajectory from",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Comparison of representative egocentric vision-language models and relevant multimodal",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 6",
+        "caption": "consolidates the representative methods and resources surveyed in this section. Despite",
+        "page": 27,
+        "pages": [
+          27
+        ],
+        "section_id": "sec:approach"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Egocentric video–text semantic alignment approaches (Section 9.2) and the weakness each",
+        "page": 40,
+        "pages": [
+          40
+        ],
+        "section_id": "sec:models-2"
+      },
+      {
+        "id": "Table 8",
+        "caption": "Summary of open challenges and future directions (Section 11). Each row pairs a diagnosed",
+        "page": 46,
+        "pages": [
+          46
+        ],
+        "section_id": "sec:evaluation"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "Table 1: Coverage of representative recent surveys versus this one (Section 1.5). ✓= covered in",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 5
+    },
+    {
+      "text": "depth, ∼= partial/incidental, × = not covered. “Graph/rel.” denotes scene-graph, hand–object-",
+      "section_id": "sec:introduction",
+      "page_start": 1,
+      "page_end": 5
+    },
+    {
+      "text": "tested models <33% vs. ∼76%",
+      "section_id": "sec:models-3",
+      "page_start": 46,
+      "page_end": 49
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "c1c1216de63f72a941217c46a05ec76f3eb67ce0a19a98d79935e7fed7035faf",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2608.18671",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+      "translated_title": "",
+      "authors": [
+        "Mohammad Zamani",
+        "Fatemeh Ziaeetabar"
+      ],
+      "year": "2026",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2608.18671",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2608.18671v1",
+      "local_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+      "doi": "",
+      "arxiv_id": "2608.18671",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+      "local_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+      "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2608.18671",
+      "paper_id": "arxiv:2608.18671",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2608.18671v1",
+      "abstract": "Egocentric video captures activities from the wearer's perspective, providing a direct view of human attention, hand--object interaction, and goal-directed behavior. This perspective is increasingly important for wearable intelligence, assistive systems, human--robot interaction, and embodied AI, yet it introduces challenges including ego-motion, occlusion, small active objects, viewpoint-dependent appearance, and long-range temporal dependencies. Vision--language models (VLMs) offer a promising foundation for addressing these challenges by linking visual observations with semantic knowledge and natural-language supervision. This survey presents a critical review of VLMs for egocentric video understanding, tracing the progression from conventional recognition architectures to multimodal foundation models and embodied systems. We organize the literature around tasks, datasets, hand--object interaction understanding, temporal reasoning, frame and clip selection, multimodal representation learning, prompting, semantic alignment, and model adaptation. Particular attention is given to graph-based and object-centric reasoning as mechanisms for modeling relations among hands, objects, actions, and scene context over time. We further examine how first-person perception and multimodal foundation models support wearable assistance, robot skill learning, human-to-robot transfer, and embodied decision making. Across the reviewed literature, a consistent limitation emerges: current models recognize visible objects more reliably than evolving interactions, actions, and user intent, especially over long activities. We therefore identify temporally grounded reasoning, interaction-aware supervision, efficient long-video processing, multimodal fusion, graph-enhanced representations, cross-domain generalization, privacy, and trustworthy evaluation as key priorities for deployable embodied intelligence.",
+      "authors": [
+        "Mohammad Zamani",
+        "Fatemeh Ziaeetabar"
+      ],
+      "published": "2026-08-19T08:21:58Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2608.18671v1"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.18671.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.18671v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.18671"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.18671"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.18671"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.18671"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.18671"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.18671"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.18671"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.18671"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2608.18671",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.18671v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2608.18671"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+          "work_value": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/arxiv_2608_18671-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/arxiv_2608_18671-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/arxiv_2608_18671-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.18671v1",
+    "local_pdf_path": "/tmp/arxiv_2608_18671-work/2608.18671.pdf",
+    "doi": "",
+    "arxiv_id": "2608.18671",
+    "zotero_key": ""
+  }
+}
