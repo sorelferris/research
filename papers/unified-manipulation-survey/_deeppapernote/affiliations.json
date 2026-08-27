@@ -1,0 +1,53 @@
+{
+  "arxiv_id": "2510.10903",
+  "short_title": "unified-manipulation-survey",
+  "verified_at": "2026-08-27",
+  "sources": {
+    "arxiv_abs": {
+      "url": "https://arxiv.org/abs/2510.10903",
+      "citation_authors": [
+        "Shuanghao Bai", "Wenxuan Song", "Jiayi Chen", "Yuheng Ji", "Zhide Zhong",
+        "Jin Yang", "Han Zhao", "Wanqi Zhou", "Wei Zhao", "Zhe Li", "Pengxiang Ding",
+        "Cheng Chi", "Haoang Li", "Chang Xu", "Xiaolong Zheng", "Donglin Wang",
+        "Shanghang Zhang", "Badong Chen"
+      ],
+      "n_authors": 19
+    },
+    "project_page": {
+      "url": "https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation",
+      "found_via": "github auto-detect",
+      "note": "repo exists; affiliation list not directly extractable from README HTML (parsed via shell grep + arxiv html cross-check)"
+    },
+    "arxiv_html_ltx_role_affiliation": {
+      "url": "https://arxiv.org/html/2510.10903v2",
+      "affiliation_count_raw": 12,
+      "affiliations_extracted": [
+        {"name": "Westlake University", "occurrences": 4},
+        {"name": "BAAI (Beijing Academy of Artificial Intelligence)", "occurrences": 2},
+        {"name": "Zhejiang University", "occurrences": 1},
+        {"name": "Hong Kong University of Science and Technology (Guangzhou)", "occurrences": 1},
+        {"name": "University of Sydney", "occurrences": 1},
+        {"name": "Chinese Academy of Sciences", "occurrences": 1},
+        {"name": "Peking University", "occurrences": 1},
+        {"name": "Xi'an Jiaotong University", "occurrences": 1}
+      ]
+    },
+    "marker_symbols": {
+      "†": "Project Lead",
+      "*": "Core Contributors",
+      "✉": "Corresponding Authors"
+    }
+  },
+  "consolidated_institutions": [
+    "Westlake University (主机构, 4 次出现, 含项目主导者)",
+    "BAAI / Beijing Academy of Artificial Intelligence (2 次)",
+    "Zhejiang University",
+    "Hong Kong University of Science and Technology (Guangzhou)",
+    "University of Sydney",
+    "Chinese Academy of Sciences",
+    "Peking University",
+    "Xi'an Jiaotong University"
+  ],
+  "note_for_paper_meta": "跨 8 家机构的综述合作项目, 主导机构是 Westlake University + BAAI, 共 19 位作者。这是与 zero-wam/wam-ttt 完全不同的归属类型（跨机构综述），不应联想到任何单一团队。",
+  "guard_warning": "本篇是 survey_or_review 类型，**禁止**根据「Shuanghao Bai 在 PKU」/「Xiaolong Zheng 在 HKUST(GZ)」等单作者归属推论文归属。本篇是**多机构合作综述**，主导是 Westlake University + BAAI。"
+}

@@ -1,0 +1,125 @@
+{
+  "paper_type": "survey_or_review",
+  "paper_type_rationale": "212 页系统综述，明确以 4 个研究问题组织全文：任务分类、方法、瓶颈、应用；含 27 张分类图 + 9 张总结表，引用约 1300 篇。",
+  "dominant_domain": "robot_manipulation / embodied_AI",
+  "must_cover": [
+    "Sec 1.2 三点贡献 + 4 个研究问题",
+    "Sec 4 10 类任务对比 + Table 1-5 总结表",
+    "Sec 5 高层规划 7 种表征 taxonomy",
+    "Sec 6 低层动作建模 4 大类 taxonomy（含 VLA 定位）",
+    "Sec 7 数据采集/利用 + generalization 三大瓶颈",
+    "Sec 8 真实应用领域图谱",
+    "Sec 1.2 末尾 4 大未来研究方向"
+  ],
+  "real_comparisons": [
+    {"axis": "Kroemer et al. 2021 单任务综述 vs 本综述全 10 类任务", "summary": "Kroemer 2021 等单任务综述聚焦 dexterous / deformable / mobile / humanoid 等单一领域；本综述覆盖全部 10 类（grasping + basic + dexterous + soft + deformable + mobile + quadrupedal + humanoid + aerial + underwater），更适合跨任务方法对照"},
+    {"axis": "Ruan / Padalkar VLA-only 综述 vs 本综述 VLA 作为子分支", "summary": "VLA-only 综述把 VLA 作为独立范式；本综述把 VLA 放在 Sec 6.2.1 input modeling + policy learning 交叉位置，与扩散策略、IL、RL 并列对比"},
+    {"axis": "Khandelwal 扩散策略综述 vs 本综述 diffusion 嵌入 latent learning", "summary": "Khandelwal 把 diffusion 作为独立范式；本综述把 diffusion 视作 latent learning 的一种实现路径，揭示 VLA + diffusion policy + flow matching 共享底层生成建模"},
+    {"axis": "Liu 等语言条件综述 vs 本综述 7 类规划表征", "summary": "Liu 2024 等综述聚焦 language-conditioned learning；本综述 Sec 5 在高层规划中区分 LLM-based / MLLM-based / programmatic / geometric / affordance / 3D / video-based 七种表征，粒度更细"},
+    {"axis": "Driess 等 broader embodied 综述 vs 本综述操作独立成节", "summary": "Broader embodied-intelligence 综述（如 Driess）把操作作为子章节；本综述将操作作为单一主题系统展开，避免淹没在通用 embodied AI 大叙述中"}
+  ],
+  "comparative_positioning": [
+    "相比 Kroemer et al. (2021) 等单任务综述（如 dexterous / deformable / mobile / humanoid），本综述覆盖全部 10 类任务（grasping + basic + dexterous + soft + deformable + mobile + quadrupedal + humanoid + aerial + underwater）",
+    "相比 Ruan et al. / Padalkar 等 VLA-only 综述，本综述把 VLA 仅作为低层动作建模的一个子分支（Sec 6.2.1），并对比 VLA 与扩散策略、IL、RL 等其它范式",
+    "相比 Khandelwal et al. 等扩散策略综述，本综述把 diffusion 视作 latent learning 的一种实现，而非独立范式",
+    "相比 Liu et al. 等语言条件学习综述，本综述在 Sec 5 高层规划中区分 LLM-based / MLLM-based / programmatic / geometric / affordance / 3D / video-based 七种 planning 表征，粒度更细",
+    "相比现有 broader embodied-intelligence 综述（如 Driess et al.），本综述把操作单列系统性章节，避免将操作淹没在通用 embodied AI 大叙述中"
+  ],
+  "key_numbers": [
+    {"name": "总页数", "value": 212, "unit": "pages", "context": "包括参考文献，覆盖完整 pipeline"},
+    {"name": "作者数", "value": 19, "unit": "authors", "context": "跨 8 家机构"},
+    {"name": "参考文献数", "value": 1300, "unit": "refs", "context": "Sec 10 References 起页 100-212"},
+    {"name": "分类图数", "value": 27, "unit": "figures", "context": "全是综述示意图/taxonomy 图，非实验结果图"},
+    {"name": "总结表数", "value": 9, "unit": "tables", "context": "数据集/仿真器/benchmark/方法对比表"},
+    {"name": "任务类别数", "value": 10, "unit": "task types", "context": "Sec 4 涵盖 10 类 manipulation 任务"},
+    {"name": "高层规划子类别数", "value": 7, "unit": "subcategories", "context": "Sec 5.1-5.7：LLM/MLLM/programmatic/geometric/affordance/3D/video"},
+    {"name": "低层动作建模大类数", "value": 4, "unit": "main categories", "context": "Sec 6.1-6.4：learning strategy / input modeling / latent learning / policy learning"},
+    {"name": "未来研究方向数", "value": 4, "unit": "directions", "context": "robot brain / data bottleneck / perception / safe HRC"}
+  ],
+  "central_claims": [
+    {
+      "claim": "机器人操作领域需要一个超越传统「高层规划 vs 低层控制」二分法的统一 taxonomy：通过把高层规划扩展为语言/代码/运动/可供性/3D 表示、把低层动作建模按训练范式分为输入建模/潜空间学习/策略学习、并对数据瓶颈和泛化挑战建立独立分类，才能给新人一张路线图、给资深研究者一份结构化参考。",
+      "what_it_actually_proves": "通过对 1300+ 篇文献的整理，给出 3 大贡献：(1) 涵盖硬件、仿真、数据集、任务、规划、动作建模、瓶颈、应用的完整 pipeline；(2) 把规划按表征语言（language/code/motion/affordance/3D/video）、动作建模按学习策略（RL/IL/auxiliary）+ 输入模态 + 潜空间 + 策略学习的二级 taxonomy；(3) 数据与泛化两大瓶颈首次独立成节。",
+      "what_it_does_not_prove": "(1) 没有提出新方法或新算法；(2) 不比较各方法在统一 benchmark 上的定量性能；(3) 4 大未来方向（robot brain / data bottleneck / perception / safe HRC）仅是研究方向，没有具体里程碑指标。",
+      "supporting_evidence": [
+        {"section_id": "sec:introduction-2", "pages": {"start": 5, "end": 7}, "note": "Sec 1.2 给出 3 点贡献 + 4 个研究问题（Sec 1.1）+ 4 大未来方向"},
+        {"section_id": "sec:methods", "pages": {"start": 67, "end": 67}, "note": "Sec 5 高层规划 7 小节"},
+        {"section_id": "sec:methods-2", "pages": {"start": 67, "end": 80}, "note": "Sec 6 低层动作建模 4 大类"},
+        {"section_id": "sec:background-3", "pages": {"start": 84, "end": 99}, "note": "Sec 7 三大瓶颈 + Sec 8 应用领域"}
+      ]
+    }
+  ],
+  "claim_boundaries": [
+    "本文是综述性质，不提出新方法/新算法",
+    "本文不进行统一 benchmark 量化性能对比",
+    "本文归纳的 taxonomy 是组织文献的视角，而非定量分类器",
+    "4 大未来方向是开放性研究方向，无具体里程碑指标"
+  ],
+  "negative_or_limiting_results": [
+    "Sec 7 明确指出机器人学习没有类似 LLM 的可靠 scaling law，物理数据获取成本高 + 仿真局限",
+    "Sec 4.3 指出 dexterous manipulation 在高维动作空间 + 接触建模上仍 open",
+    "Sec 4.4 soft / 4.5 deformable 任务因物理建模复杂、benchmark 缺失导致进展缓慢",
+    "Sec 6.2 指出 VLA 模型虽统一但缺乏 safety + long-horizon + cross-embodiment 评估标准",
+    "Sec 8 总结应用层多数仍处 pilot 阶段，工业级大规模部署罕见"
+  ],
+  "mechanism_result_map": [
+    {"mechanism": "unified taxonomy 跨表征分类", "result": "Sec 5.1-5.7 把规划按语言/代码/运动/可供性/3D/视频六种表征区分，揭示不同表征适用于不同任务粒度与可解释性需求"},
+    {"mechanism": "低层动作建模按训练范式分类", "result": "Sec 6.1-6.4 把 RL/IL/auxiliary 三大学习策略与 input modeling/latent learning/policy learning 三种实现路径正交，揭示 VLA 是 input modeling 与 policy learning 的交叉产物"},
+    {"mechanism": "数据瓶颈独立成节", "result": "Sec 7.1 把 teleoperation / simulation / human video / video generation 四类数据采集范式与 sample efficiency / data augmentation / cross-embodiment transfer 三种利用策略配对，揭示数据-方法耦合关系"},
+    {"mechanism": "跨任务知识迁移的章节划分", "result": "Sec 4 把 10 类任务按 embodiment 复杂度递增排列，从 single-arm 到 humanoid，配合 Sec 7.2 generalization 给出 cross-task / cross-embodiment / sim-to-real 三层迁移视角"}
+  ],
+  "reuse_takeaways": [
+    "对你的 LeRobot + 多品牌机械臂工作流：本综述 Sec 5 高层规划 taxonomy（language/code/motion/affordance/3D）可直接映射到你的 task planning 层选型——language planning 适合 LLM/VLM 调用、affordance planning 适合 Isaac Teleop 采集数据",
+    "Sec 6.2 VLA taxonomy（2D vs 3D 输入、policy learning vs latent learning）可作为评估新 VLA 论文的快速定位器：先用 2D 输入 + policy learning 分类看是不是主流路径，再看是否引入 3D / latent",
+    "Sec 3 benchmarks 与 datasets 汇总（Table 1-5）可作为你后续做 LeRobot 多品牌适配时的 benchmark 选择依据，避免重复造轮子",
+    "Sec 7.1 数据采集 taxonomy（teleop / simulation / human video / video generation）可指导你扩展训练数据：当前 Isaac Teleop + 仿真两手抓，可考虑 human video（参 WAM-TTT / Zero-WAM / EgoMimic / Being-H0）+ video generation（参 RoboTwin 2.0 / Cosmos）",
+    "Sec 8 应用领域总览可作为「机器人操作产业化地图」：医疗 / 制造 / 农业 / 服务 / 极端环境 的成熟度差异，对你做工业 PI 方向选题有参考价值",
+    "本综述 27 张 taxonomy 图全是 'caption_inseparable' 视觉缺陷——对综述论文结构化呈现是普遍现象，引用时只能文字复述或用 markdown 表格替代"
+  ],
+  "followup_questions": [
+    "统一 taxonomy 框架能否形式化为可计算的决策图（如基于任务粒度自动推荐 planning 表征），而不是停留在文献分类？",
+    "VLA 与 diffusion policy / flow matching 的关系：Sec 6.2 把它们并列为 policy learning 变体，但工程实践中 VLA 的 base model 选择对 diffusion head 性能影响有多大？",
+    "Sec 7.2 提到的 cross-embodiment generalization，目前所有方案（GR00T N1.5 / π0.5 / RDT）都依赖大规模共享数据，没有真正 zero-shot cross-embodiment——这一 gap 的根本原因是数据还是表征？",
+    "human video 数据（Sec 3.6 + WAM-TTT / Zero-WAM / EgoMimic / Being-H0）在 cross-embodiment 设定下的真实收益：仿真测 +29.5pp vs 真实场景多少？",
+    "Sec 4.6 mobile manipulation 与 Sec 4.7 quadrupedal manipulation 的边界越来越模糊（Unitree G1 + mobile base），分类是否需要重做？",
+    "Sec 8 提到的工业部署案例（如 ABB / Fanuc / Tesla Optimus）公开细节有限，scaling law 是否成立需要内部数据公开才能判断"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "Sec 1.1 提出 4 个研究问题：哪些 benchmark / 任务定义当下机器人操作？哪些方法被提出？当前瓶颈有哪些？工业应用是什么？Sec 1.2 给出 3 大贡献 + 4 大未来方向（robot brain / data bottleneck / perception / safe HRC）。这一节是综述的灵魂，确立全文组织逻辑。",
+      "rationale": "放在笔记第 1 节，对应 Sec 1.1-1.2；4 个问题对应原文 4 个 RQ，3 大贡献对应 Sec 1.2 的三点对比，4 大未来方向对应 Sec 1.2 末段。",
+      "evidence_sources": [{"section_id": "sec:introduction-2", "pages": {"start": 5, "end": 7}}]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "Sec 3 整理 grasping datasets / 单 embodiment 仿真 benchmark / 跨 embodiment benchmark / trajectory datasets / embodied QA / human video datasets 六大类。Sec 4 定义 10 类 manipulation 任务：grasping → basic → dexterous → soft → deformable → mobile → quadrupedal → humanoid → aerial → underwater。Table 1-5 给出量化汇总。",
+      "rationale": "放在笔记第 2 节，对应 Sec 3 + Sec 4 + Table 1-5。这一节回答 RQ1。",
+      "evidence_sources": [{"section_id": "sec:dataset", "pages": {"start": 14, "end": 17}}, {"section_id": "sec:dataset-2", "pages": {"start": 17, "end": 18}}, {"section_id": "sec:dataset-3", "pages": {"start": 18, "end": 20}}]
+    },
+    {
+      "section": "方法主线",
+      "focus": "Sec 5 高层规划按表征语言分 7 类：LLM-based / MLLM-based / programmatic / geometric / affordance / 3D representation / video-based；Sec 6 低层动作建模按训练范式分 4 大类：learning strategy (RL/IL/auxiliary/bridging) / input modeling (vision-action / tactile) / latent learning (encoder pretraining / world model) / policy learning (diffusion / flow matching / VLA)。这是本综述最核心创新。",
+      "rationale": "放在笔记第 3 节，对应 Sec 5-6。这一节回答 RQ2，是 taxonomy 的核心。",
+      "evidence_sources": [{"section_id": "sec:methods", "pages": {"start": 67, "end": 67}}, {"section_id": "sec:methods-2", "pages": {"start": 67, "end": 80}}]
+    },
+    {
+      "section": "关键结果",
+      "focus": "本综述无单一算法实验结果，关键结果以三种形式呈现：(1) taxonomy 本身的覆盖广度（Sec 5/6 的 27 张图、9 张表）；(2) Sec 7 量化指标（数据来源分布、benchmark 数量、task 多样性）；(3) Sec 8 应用领域地图（10+ 应用领域）。表 6-9 给出 grasping vs learning vs RL/IL 方法对比。",
+      "rationale": "放在笔记第 4 节，对应 Sec 6.4 + Sec 7 + Sec 8。这一节回答 RQ3 + RQ4。",
+      "evidence_sources": [{"section_id": "sec:background-3", "pages": {"start": 84, "end": 99}}, {"section_id": "sec:conclusion-2", "pages": {"start": 99, "end": 99}}]
+    },
+    {
+      "section": "深度分析",
+      "focus": "Sec 6.4 策略学习深度对比：diffusion policy / flow matching / VLA 三种实现路径在不同任务类别下的取舍；Sec 7.2 generalization 三层迁移视角（cross-task / cross-embodiment / sim-to-real）；Sec 1.2 末尾 4 大未来方向各自的工程瓶颈与理论缺口。",
+      "rationale": "放在笔记第 5 节，对应 Sec 6.4 + Sec 7.2 + Sec 1.2 末尾。这一节是综述的方法学深度。",
+      "evidence_sources": [{"section_id": "sec:background-3", "pages": {"start": 84, "end": 99}}]
+    },
+    {
+      "section": "局限",
+      "focus": "Sec 7 数据 scaling law 缺失（物理数据 vs LLM 数据规模 + 维度差异）；Sec 4.3-4.5 dexterous / soft / deformable 任务因高维动作空间与物理建模复杂进展缓慢；Sec 6.2 VLA 缺乏 safety + long-horizon + cross-embodiment 评估标准；Sec 8 应用层多数仍处 pilot 阶段。",
+      "rationale": "放在笔记第 6 节，对应 Sec 4.3-4.5 + Sec 6.2 + Sec 7 + Sec 8。这一节给出综述的自承认局限。",
+      "evidence_sources": [{"section_id": "sec:background-3", "pages": {"start": 84, "end": 99}}, {"section_id": "sec:conclusion-2", "pages": {"start": 99, "end": 99}}]
+    }
+  ]
+}

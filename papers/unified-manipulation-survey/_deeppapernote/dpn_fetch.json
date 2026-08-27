@@ -1,0 +1,261 @@
+{
+  "status": "ok",
+  "script": "fetch_pdf.py",
+  "paper_id": "arxiv:2510.10903",
+  "title": "A Comprehensive Survey on Robot Manipulation",
+  "pdf_path": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+  "pdf_source": "local_pdf",
+  "source_url": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+  "pdf_url": "",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2510.10903",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "A Comprehensive Survey on Robot Manipulation",
+      "translated_title": "",
+      "authors": [
+        "Shuanghao Bai",
+        "Wenxuan Song",
+        "Jiayi Chen",
+        "Yuheng Ji",
+        "Zhide Zhong",
+        "Jin Yang",
+        "Han Zhao",
+        "Wanqi Zhou",
+        "Wei Zhao",
+        "Zhe Li",
+        "Pengxiang Ding",
+        "Cheng Chi",
+        "Haoang Li",
+        "Chang Xu",
+        "Xiaolong Zheng",
+        "Donglin Wang",
+        "Shanghang Zhang",
+        "Badong Chen"
+      ],
+      "year": "2025",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2510.10903",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "A Comprehensive Survey on Robot Manipulation",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2510.10903v2",
+      "local_pdf_path": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+      "doi": "",
+      "arxiv_id": "2510.10903",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+      "local_pdf_path": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+      "title": "A Comprehensive Survey on Robot Manipulation",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "first_page_title_used",
+      "arxiv_id": "2510.10903",
+      "paper_id": "arxiv:2510.10903",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "first_page_title_used"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2510.10903v2",
+      "abstract": "Embodied intelligence has witnessed remarkable progress in recent years, driven by advances in computer vision, natural language processing, and the rise of large-scale multimodal models. Among its core challenges, robot manipulation stands out as a fundamental yet intricate problem, requiring the seamless integration of perception, planning, and control to enable interaction within diverse and unstructured environments. This survey presents a comprehensive overview of robotic manipulation, encompassing foundational background, task-organized benchmarks and datasets, and a unified taxonomy of existing methods. We extend the classical division between high-level planning and low-level control by broadening high-level planning to include language, code, motion, affordance, and 3D representations, while introducing a new taxonomy of low-level learning-based control grounded in training paradigms such as input modeling, latent learning, and policy learning. Furthermore, we provide the first dedicated taxonomy of key bottlenecks, focusing on data collection, utilization, and generalization, and conclude with an extensive review of real-world applications. Compared with prior surveys, our work offers both a broader scope and deeper insight, serving as an accessible roadmap for newcomers and a structured reference for experienced researchers. All related resources, including research papers, open-source datasets, and projects, are curated for the community at https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation.",
+      "authors": [
+        "Shuanghao Bai",
+        "Wenxuan Song",
+        "Jiayi Chen",
+        "Yuheng Ji",
+        "Zhide Zhong",
+        "Jin Yang",
+        "Han Zhao",
+        "Wanqi Zhou",
+        "Wei Zhao",
+        "Zhe Li",
+        "Pengxiang Ding",
+        "Cheng Chi",
+        "Haoang Li",
+        "Chang Xu",
+        "Xiaolong Zheng",
+        "Donglin Wang",
+        "Shanghang Zhang",
+        "Badong Chen"
+      ],
+      "published": "2025-10-13T01:59:27Z",
+      "year": "2025",
+      "pdf_url": "https://arxiv.org/pdf/2510.10903v2"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2510.10903.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2510.10903v2",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2510.10903"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2510.10903"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2510.10903"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2510.10903"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2510.10903"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2510.10903"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2510.10903"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2510.10903"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2510.10903",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "A Comprehensive Survey on Robot Manipulation",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2510.10903v2",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2510.10903"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "A Comprehensive Survey on Robot Manipulation",
+          "work_value": "A Comprehensive Survey on Robot Manipulation"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/arxiv_2510_10903-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/arxiv_2510_10903-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/arxiv_2510_10903-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "A Comprehensive Survey on Robot Manipulation",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2510.10903v2",
+    "local_pdf_path": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+    "doi": "",
+    "arxiv_id": "2510.10903",
+    "zotero_key": ""
+  }
+}

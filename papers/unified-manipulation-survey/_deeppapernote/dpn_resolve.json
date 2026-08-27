@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+  "local_pdf_path": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+  "title": "A Comprehensive Survey on Robot Manipulation",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "arxiv_id": "2510.10903",
+  "paper_id": "arxiv:2510.10903",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "first_page_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

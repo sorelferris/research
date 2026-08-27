@@ -1,0 +1,2481 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "arxiv:2510.10903",
+  "figure_plan": {
+    "paper_id": "arxiv:2510.10903",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of the survey. We first provide a broad introduction to existing benchmarks,",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_figure_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+          "width": 701,
+          "height": 804,
+          "size_bytes": 184239,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.633496,
+            "visual_rect_count": 58,
+            "visual_body_ratio": 0.629122,
+            "paragraph_text_chars": 1931,
+            "table_body_rows": 0,
+            "caption_text_chars": 384,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "survey",
+              "first",
+              "provide",
+              "broad",
+              "introduction"
+            ],
+            "snippet": "de Task Plan 3D repres- entations Affordance High-level Planning § 5 Geometric Constraint Figure 1 | Overview of the survey. We first provide a broad introduction to existing benchmarks, d",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 28,
+            "score": 7,
+            "matched_terms": [
+              "figure 1",
+              "survey",
+              "provide"
+            ],
+            "snippet": "r Plants (c) Loco-Manipulation Box Loco- Manipulation Play Ping Pong Squat & Pick & Place Figure 10 | Tasks in humanoid manipu- lation, categorized into manipulation [280, 283, 379], navi-",
+            "images": [
+              {
+                "filename": "page_028_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_028_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_img_02.jpeg",
+                "width": 471,
+                "height": 372,
+                "size_bytes": 35997
+              },
+              {
+                "filename": "page_028_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_img_03.jpeg",
+                "width": 453,
+                "height": 251,
+                "size_bytes": 28714
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_028_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_fig_figure_10.png",
+                "width": 638,
+                "height": 824,
+                "size_bytes": 296053,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.59096,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 0.196683,
+                  "paragraph_text_chars": 3420,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 336,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 30,
+            "score": 7,
+            "matched_terms": [
+              "figure 1",
+              "survey",
+              "first"
+            ],
+            "snippet": "lation: A Comprehensive Survey planning, and action modeling. Pick and Place Writing Pick Figure 11 | Tasks in aerial manipulation, figure adapted from [399–401]. Non-Learning-Based Method",
+            "images": [
+              {
+                "filename": "page_030_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_030_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_030_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_030_img_02.jpeg",
+                "width": 447,
+                "height": 255,
+                "size_bytes": 15172
+              },
+              {
+                "filename": "page_030_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_030_img_03.jpeg",
+                "width": 557,
+                "height": 429,
+                "size_bytes": 41015
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_030_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_030_fig_figure_11.png",
+                "width": 639,
+                "height": 241,
+                "size_bytes": 124291,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.173274,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.578147,
+                  "paragraph_text_chars": 1021,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 72,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 14",
+        "caption": "Overview of the taxonomy of high-level planners, highlighting six core components:",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_036_fig_figure_14.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_036_fig_figure_14.png",
+          "width": 638,
+          "height": 641,
+          "size_bytes": 42013,
+          "label": "Figure 14",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.459283,
+            "visual_rect_count": 16,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 430,
+            "table_body_rows": 0,
+            "caption_text_chars": 282,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 36,
+            "score": 8,
+            "matched_terms": [
+              "figure 14",
+              "taxonomy",
+              "high-level",
+              "planners",
+              "highlighting",
+              "core"
+            ],
+            "snippet": "g Affordance MLLM-based Task Planning Text / Code Planning Video: LLM-based Task Planning Figure 14 | Overview of the taxonomy of high-level planners, highlighting six core components: LLM-",
+            "images": [
+              {
+                "filename": "page_036_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_036_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_036_fig_figure_14.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_036_fig_figure_14.png",
+                "width": 638,
+                "height": 641,
+                "size_bytes": 42013,
+                "label": "Figure 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.459283,
+                  "visual_rect_count": 16,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 430,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 282,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 32,
+            "score": 7,
+            "matched_terms": [
+              "figure 14",
+              "taxonomy",
+              "high-level"
+            ],
+            "snippet": "anipulation tasks. We summarize this taxonomy in Figure 13 and provide a visualization in Figure 14. 32",
+            "images": [
+              {
+                "filename": "page_032_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_032_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_032_fig_figure_12.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_032_fig_figure_12.png",
+                "width": 517,
+                "height": 559,
+                "size_bytes": 60042,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.325372,
+                  "visual_rect_count": 16,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 348,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 467,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "taxonomy",
+              "high-level",
+              "core"
+            ],
+            "snippet": "compassing foundational background, task-organized benchmarks and datasets, and a unified taxonomy of existing methods. We extend the classical division between high-level planning and low",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 16",
+        "caption": "Overview of the taxonomy of methods for learning with auxiliary tasks, highlighting",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "taxonomy",
+              "methods",
+              "learning",
+              "auxiliary",
+              "tasks"
+            ],
+            "snippet": "compassing foundational background, task-organized benchmarks and datasets, and a unified taxonomy of existing methods. We extend the classical division between high-level planning and low",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "learning",
+              "auxiliary",
+              "tasks"
+            ],
+            "snippet": "ning . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 39 6 Low-level Learning-based Action Modeling 40 6.1 Learning Strategy . . . . . . . . . . . . . . . . . . . . .",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_003_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "taxonomy",
+              "methods",
+              "learning",
+              "tasks"
+            ],
+            "snippet": "commands, is introduced separately as part of the foundational background. Although this taxonomy is developed primarily in the context of basic manipulation, its underlying distinction b",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 18",
+        "caption": "A structured overview of tactile-based action models.",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "action",
+              "models"
+            ],
+            "snippet": "tegration of perception, planning, and control to enable interaction within diverse and unstructured environ- ments. This survey presents a comprehensive overview of robotic manipulation, en",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "tactile-based",
+              "action",
+              "models"
+            ],
+            "snippet": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 75 6.4.8 Action Tokenization and Structured Action Representation . . . . . . . . . . . 75 6.4.9 Drift-based Policy . . . . . . . . .",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_003_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "action",
+              "models"
+            ],
+            "snippet": "botic systems by enhancing perceptual and semantic understanding, enabling operation in unstructured environments, and supporting natural-language task specification. Their zero-shot and few",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 19",
+        "caption": "Overview of Latent Learning. Left Top: Robotic encoders are pretrained on general",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "latent",
+              "learning",
+              "robotic"
+            ],
+            "snippet": "vel learning-based action modeling grounded in training paradigms such as input modeling, latent learning, and policy learning. Furthermore, we provide the first dedicated taxonomy of ke",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "latent",
+              "learning",
+              "robotic"
+            ],
+            "snippet": "gms and further organize existing methods according to learning strategy, input modeling, latent learning, and policy learning. In addition, we provide a detailed analysis of current bot",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_006_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 12,
+            "score": 3,
+            "matched_terms": [
+              "learning",
+              "robotic",
+              "encoders"
+            ],
+            "snippet": "rather than merely reproducing individual demonstrated actions. GAIL formulates imitation learning as distribution matching between the discounted state-action occupancy measures induced b",
+            "images": [
+              {
+                "filename": "page_012_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_012_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Overview of hardware platforms.",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 7,
+            "matched_terms": [
+              "figure 2",
+              "hardware",
+              "platforms"
+            ],
+            "snippet": "R1 Lite AgiBot A2 Galaxea R1 Pro Tienkung3.0 PR2 Walker S2 Galbot S1 Booster K1 Alphabot2 Figure 2 | Overview of hardware platforms. remains essential for the large-scale deployment of rob",
+            "images": [
+              {
+                "filename": "page_007_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_007_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_007_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_007_img_02.png",
+                "width": 355,
+                "height": 419,
+                "size_bytes": 38454
+              },
+              {
+                "filename": "page_007_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_007_img_03.jpeg",
+                "width": 388,
+                "height": 355,
+                "size_bytes": 11191
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_007_fig_figure_02.png",
+                "width": 606,
+                "height": 536,
+                "size_bytes": 119783,
+                "label": "Figure 02",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.365592,
+                  "visual_rect_count": 36,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 9,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 7,
+            "matched_terms": [
+              "figure 2",
+              "hardware",
+              "platforms"
+            ],
+            "snippet": "oordination. We summarize the commonly used robotic hardware types in current research in Figure 2. Parallel-Jaw Grippers. Parallel-jaw grippers are among the most widely adopted end-effec",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_008_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 16,
+            "score": 2,
+            "matched_terms": [
+              "hardware",
+              "platforms"
+            ],
+            "snippet": "xterous manipulation benchmarks have progressed from evaluating individual algorithms and hardware platforms toward broader assessment across tasks and embodiments. Early work combined dee",
+            "images": [
+              {
+                "filename": "page_016_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_016_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 20",
+        "caption": "A structured overview of policy learning for visuomotor control, organized by modeling",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "policy",
+              "learning",
+              "control"
+            ],
+            "snippet": "tegration of perception, planning, and control to enable interaction within diverse and unstructured environ- ments. This survey presents a comprehensive overview of robotic manipulation, en",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "policy",
+              "learning"
+            ],
+            "snippet": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 75 6.4.8 Action Tokenization and Structured Action Representation . . . . . . . . . . . 75 6.4.9 Drift-based Policy . . . . . . . . .",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_003_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "learning",
+              "control"
+            ],
+            "snippet": "botic systems by enhancing perceptual and semantic understanding, enabling operation in unstructured environments, and supporting natural-language task specification. Their zero-shot and few",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 22",
+        "caption": "Overview of Data Collection. DEXUMI [1224] employs Replica arms, and ARCAP [1220]",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 24,
+            "score": 3,
+            "matched_terms": [
+              "data",
+              "collection",
+              "employs"
+            ],
+            "snippet": "under environmental uncertainty and sensor noise, and lowering the cost and complexity of data collection and teleoperation for policy training. To improve sample efficiency, Soft DAgg",
+            "images": [
+              {
+                "filename": "page_024_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_024_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_024_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_024_img_02.jpeg",
+                "width": 359,
+                "height": 358,
+                "size_bytes": 22121
+              },
+              {
+                "filename": "page_024_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_024_img_03.jpeg",
+                "width": 289,
+                "height": 278,
+                "size_bytes": 11786
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_024_fig_figure_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_024_fig_figure_6.png",
+                "width": 638,
+                "height": 415,
+                "size_bytes": 211277,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.297626,
+                  "visual_rect_count": 17,
+                  "visual_body_ratio": 0.414124,
+                  "paragraph_text_chars": 1966,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 28,
+            "score": 3,
+            "matched_terms": [
+              "data",
+              "collection",
+              "replica"
+            ],
+            "snippet": "have been developed. Mendonca et al. [369] propose a framework that integrates on-policy data collection with continuous training, while ASC [367] addresses long-horizon tasks by deco",
+            "images": [
+              {
+                "filename": "page_028_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_028_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_img_02.jpeg",
+                "width": 471,
+                "height": 372,
+                "size_bytes": 35997
+              },
+              {
+                "filename": "page_028_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_img_03.jpeg",
+                "width": 453,
+                "height": 251,
+                "size_bytes": 28714
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_028_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_028_fig_figure_10.png",
+                "width": 638,
+                "height": 824,
+                "size_bytes": 296053,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.59096,
+                  "visual_rect_count": 21,
+                  "visual_body_ratio": 0.196683,
+                  "paragraph_text_chars": 3420,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 336,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "data",
+              "collection"
+            ],
+            "snippet": "robotic manipulation, encompassing foundational background, task-organized benchmarks and datasets, and a unified taxonomy of existing methods. We extend the classical division between",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 23",
+        "caption": "Overview of generalization. The figure is adapted from representative studies in environ-",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "generalization",
+              "representative",
+              "environ-"
+            ],
+            "snippet": "irst dedicated taxonomy of key bottlenecks, focusing on data collection, utilization, and generalization, and conclude with an extensive review of real-world applications. Compared with prior su",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "generalization",
+              "representative",
+              "environ-"
+            ],
+            "snippet": "in well-defined settings, whereas learning-based methods provide greater adaptability and generalization in complex or uncertain environments. 2.2.1. Non-Learning-Based Action Modeling Non-learn",
+            "images": [
+              {
+                "filename": "page_009_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_009_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 25,
+            "score": 3,
+            "matched_terms": [
+              "generalization",
+              "adapted",
+              "studies"
+            ],
+            "snippet": "demonstration with differentiable simulation to infer unseen object properties, enabling generalization to novel deformable instances. Challenges. Deformable objects lack a fixed pose, and key",
+            "images": [
+              {
+                "filename": "page_025_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_025_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_025_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_025_img_02.jpeg",
+                "width": 366,
+                "height": 366,
+                "size_bytes": 16700
+              },
+              {
+                "filename": "page_025_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_025_img_03.jpeg",
+                "width": 360,
+                "height": 368,
+                "size_bytes": 20002
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_025_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_025_fig_figure_7.png",
+                "width": 638,
+                "height": 282,
+                "size_bytes": 169343,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.202704,
+                  "visual_rect_count": 17,
+                  "visual_body_ratio": 0.604969,
+                  "paragraph_text_chars": 896,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 84,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 24",
+        "caption": "Overview of robotic manipulation applications across diverse domains. The figure is",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "robotic",
+              "manipulation",
+              "applications",
+              "diverse"
+            ],
+            "snippet": "Project Lead ∗Core Contributors Corresponding Authors # chenbd@mail.xjtu.edu.cn § Awesome-Robotics-Manipulation Abstract | Embodied intelligence has witnessed remarkable progress in recen",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "robotic",
+              "manipulation",
+              "applications",
+              "across"
+            ],
+            "snippet": "n 2, covering hardware embodi- ments, actuation-level control paradigms, and foundational robotic models. We introduce benchmarks and datasets organized by manipulation-task category in S",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_006_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "robotic",
+              "manipulation",
+              "across"
+            ],
+            "snippet": "ipulation that demands greater dexterity and coordination. We summarize the commonly used robotic hardware types in current research in Figure 2. Parallel-Jaw Grippers. Parallel-jaw gripp",
+            "images": [
+              {
+                "filename": "page_008_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_008_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Overview of simulators and benchmarks. 1Basic Manipulation with Single Arm, 2Basic Ma-",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_014_fig_figure_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_014_fig_figure_3.png",
+          "width": 638,
+          "height": 335,
+          "size_bytes": 28629,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.240623,
+            "visual_rect_count": 6,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 207,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 14,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "simulators",
+              "benchmarks",
+              "basic",
+              "manipulation",
+              "single"
+            ],
+            "snippet": "nd Benchmarks Single-Embodiment Manipulation Simulators and Benchmarks RoboTwin2.02 Dex1B Figure 3 | Overview of simulators and benchmarks. 1Basic Manipulation with Single Arm, 2Basic Ma-",
+            "images": [
+              {
+                "filename": "page_014_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_014_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_014_fig_figure_3.png",
+                "width": 638,
+                "height": 335,
+                "size_bytes": 28629,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.240623,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 207,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_014_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_014_fig_table_1.png",
+                "width": 329,
+                "height": 171,
+                "size_bytes": 16978,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.063463,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1197,
+                  "table_body_rows": 15,
+                  "caption_text_chars": 39,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "simulators",
+              "benchmarks",
+              "basic",
+              "manipulation"
+            ],
+            "snippet": "ffusion Autoregressive VA, VLA, TLA, … Pretrained Latent & Latent Action Learning control Simulators, Benchmarks and Datasets § 3 Environment Actor High-level Planning § 5 Thinking Low-level",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "benchmarks",
+              "basic",
+              "manipulation"
+            ],
+            "snippet": "eld. To this end, we organize the survey around the following research questions: 1. What benchmarks and task categories define robot manipulation today? We review the current landscape of b",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 21",
+        "caption": "A structured taxonomy of data collection and utilization in robot learning.",
+        "kind": "data_or_task_overview",
+        "section": "数据与任务定义",
+        "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+        "priority": 2,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "taxonomy",
+              "data",
+              "collection",
+              "utilization"
+            ],
+            "snippet": "tegration of perception, planning, and control to enable interaction within diverse and unstructured environ- ments. This survey presents a comprehensive overview of robotic manipulation, en",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "data",
+              "collection",
+              "utilization"
+            ],
+            "snippet": ". . . . . . . . . . . . . . . . . . . . . . . . . . . . 75 6.4.8 Action Tokenization and Structured Action Representation . . . . . . . . . . . 75 6.4.9 Drift-based Policy . . . . . . . . .",
+            "images": [
+              {
+                "filename": "page_003_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_003_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "structured",
+              "taxonomy",
+              "data",
+              "collection",
+              "utilization"
+            ],
+            "snippet": "botic systems by enhancing perceptual and semantic understanding, enabling operation in unstructured environments, and supporting natural-language task specification. Their zero-shot and few",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Comparison of different grasping methods. (a) Vision-only approaches, which map visual",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_020_fig_figure_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_020_fig_figure_4.png",
+          "width": 517,
+          "height": 330,
+          "size_bytes": 78684,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.191825,
+            "visual_rect_count": 40,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 640,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 20,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "comparison",
+              "different",
+              "grasping",
+              "methods",
+              "vision-only"
+            ],
+            "snippet": "ncoder Fusion Decoder or Grasp Model High-level Planner Planning & Grounding filter or or Figure 4 | Comparison of different grasping methods. (a) Vision-only approaches, which map visual",
+            "images": [
+              {
+                "filename": "page_020_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_020_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_020_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_020_img_02.jpeg",
+                "width": 268,
+                "height": 173,
+                "size_bytes": 12550
+              },
+              {
+                "filename": "page_020_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_020_img_03.jpeg",
+                "width": 242,
+                "height": 227,
+                "size_bytes": 13435
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_020_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_020_fig_figure_4.png",
+                "width": 517,
+                "height": 330,
+                "size_bytes": 78684,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.191825,
+                  "visual_rect_count": 40,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 640,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "different",
+              "methods"
+            ],
+            "snippet": "e being deployed across a wide range of real-world application domains in Section 8. 1.2. Comparison with Previous Surveys and Contributions First, compared with prior surveys that are limit",
+            "images": [
+              {
+                "filename": "page_006_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_006_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 13,
+            "score": 3,
+            "matched_terms": [
+              "comparison",
+              "different",
+              "grasping",
+              "methods"
+            ],
+            "snippet": "s and select the checkpoint with the highest success rate. Alternatively, for more stable comparisons, one can average the results of the top-𝑛checkpoints from the final training phase. Thes",
+            "images": [
+              {
+                "filename": "page_013_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_013_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Summary of robot manipulation simulators and benchmarks. All benchmarks provide",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_015_fig_table_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_015_fig_table_2.png",
+          "width": 643,
+          "height": 523,
+          "size_bytes": 90660,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.377949,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 3276,
+            "table_body_rows": 41,
+            "caption_text_chars": 177,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 15,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "summary",
+              "robot",
+              "manipulation",
+              "simulators",
+              "benchmarks"
+            ],
+            "snippet": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey Table 2 | Summary of robot manipulation simulators and benchmarks. All benchmarks provide proprio",
+            "images": [
+              {
+                "filename": "page_015_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_015_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_015_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_015_fig_table_2.png",
+                "width": 643,
+                "height": 523,
+                "size_bytes": 90660,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.377949,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 3276,
+                  "table_body_rows": 41,
+                  "caption_text_chars": 177,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "robot",
+              "manipulation",
+              "simulators",
+              "benchmarks"
+            ],
+            "snippet": "A Comprehensive Survey on Robot Manipulation V2: 2026-08-15 Towards a Unified Understanding of Robot Manipulation: A Comp",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "robot",
+              "manipulation",
+              "benchmarks"
+            ],
+            "snippet": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey 1. Introduction In recent years, embodied intelligen",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Summary of cross-embodiment robotic manipulation benchmarks. S denotes segmentation,",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_017_fig_table_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_017_fig_table_3.png",
+          "width": 628,
+          "height": 150,
+          "size_bytes": 28775,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.106101,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 1050,
+            "table_body_rows": 12,
+            "caption_text_chars": 164,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 17,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "summary",
+              "cross-embodiment",
+              "robotic",
+              "manipulation",
+              "benchmarks"
+            ],
+            "snippet": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey Table 3 | Summary of cross-embodiment robotic manipulation benchmarks. S denotes segmentation, T",
+            "images": [
+              {
+                "filename": "page_017_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_017_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_017_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_017_fig_table_3.png",
+                "width": 628,
+                "height": 150,
+                "size_bytes": 28775,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.106101,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 1050,
+                  "table_body_rows": 12,
+                  "caption_text_chars": 164,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_017_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_017_fig_table_4.png",
+                "width": 303,
+                "height": 207,
+                "size_bytes": 17355,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.070737,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 959,
+                  "table_body_rows": 16,
+                  "caption_text_chars": 41,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 38,
+            "score": 6,
+            "matched_terms": [
+              "table 3",
+              "manipulation"
+            ],
+            "snippet": "amples from language instructions, and transfers the retrieved 2D affordance into an executable 3D affordance in the target scene. For articulated manipulation, A3VLM [483] learns robot-a",
+            "images": [
+              {
+                "filename": "page_038_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_038_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          },
+          {
+            "page_number": 39,
+            "score": 6,
+            "matched_terms": [
+              "table 3",
+              "manipulation"
+            ],
+            "snippet": "Gaussian-Splatting Scene Representations. Gaussian Splatting provides an explicit and editable 3D scene representation combining geometry, appearance, and semantics. Splat-MOVER [493] em",
+            "images": [
+              {
+                "filename": "page_039_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_039_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Comparison between non-learning and learning-based methods for grasping and manipula-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_019_fig_table_6.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_019_fig_table_6.png",
+          "width": 630,
+          "height": 146,
+          "size_bytes": 20738,
+          "label": "Table 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.103886,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 93,
+            "table_body_rows": 6,
+            "caption_text_chars": 171,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 19,
+            "score": 8,
+            "matched_terms": [
+              "table 6",
+              "comparison",
+              "between",
+              "non-learning",
+              "learning-based",
+              "methods"
+            ],
+            "snippet": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey Table 6 | Comparison between non-learning and learning-based methods for grasping and manipula- t",
+            "images": [
+              {
+                "filename": "page_019_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_019_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_019_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_019_fig_table_6.png",
+                "width": 630,
+                "height": 146,
+                "size_bytes": 20738,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.103886,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 93,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "between",
+              "learning-based",
+              "methods"
+            ],
+            "snippet": "nd datasets, and a unified taxonomy of existing methods. We extend the classical division between high-level planning and low-level action modeling by broadening high-level planning to in",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "between",
+              "non-learning",
+              "learning-based",
+              "methods"
+            ],
+            "snippet": "literature. We therefore provide a dedicated analysis in Sections 5 and 6, distinguishing between high-level planning methods that produce task-level plans or intermediate planning artifa",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Representative methods across manipulation types and learning paradigms.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_022_fig_table_7.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_022_fig_table_7.png",
+          "width": 619,
+          "height": 246,
+          "size_bytes": 32046,
+          "label": "Table 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.171397,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 13,
+            "caption_text_chars": 82,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 22,
+            "score": 8,
+            "matched_terms": [
+              "table 7",
+              "representative",
+              "methods",
+              "across",
+              "manipulation",
+              "types"
+            ],
+            "snippet": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey Table 7 | Representative methods across manipulation types and learning paradigms. Mani. Type RL",
+            "images": [
+              {
+                "filename": "page_022_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_022_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_022_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_022_img_02.jpeg",
+                "width": 224,
+                "height": 145,
+                "size_bytes": 8240
+              },
+              {
+                "filename": "page_022_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_022_img_03.jpeg",
+                "width": 747,
+                "height": 369,
+                "size_bytes": 66188
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_022_fig_table_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_022_fig_table_7.png",
+                "width": 619,
+                "height": 246,
+                "size_bytes": 32046,
+                "label": "Table 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171397,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 82,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_022_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_022_fig_figure_5.png",
+                "width": 638,
+                "height": 198,
+                "size_bytes": 167623,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.14227,
+                  "visual_rect_count": 8,
+                  "visual_body_ratio": 0.866404,
+                  "paragraph_text_chars": 838,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 86,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "representative",
+              "methods",
+              "manipulation"
+            ],
+            "snippet": "existing benchmarks, datasets, and manipulation tasks, followed by an extensive review of representative methods with a particular focus on learning-based action modeling. We then discuss two fu",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_02.jpeg",
+                "width": 67,
+                "height": 73,
+                "size_bytes": 2933
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_img_03.jpeg",
+                "width": 936,
+                "height": 527,
+                "size_bytes": 37382
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 804,
+                "size_bytes": 184239,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.633496,
+                  "visual_rect_count": 58,
+                  "visual_body_ratio": 0.629122,
+                  "paragraph_text_chars": 1931,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 384,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "representative",
+              "methods",
+              "manipulation"
+            ],
+            "snippet": "nipulation today? We review the current landscape of benchmarks in Section 3 and organize representative manipulation problems into major task categories in Section 4. 2. What methods have been",
+            "images": [
+              {
+                "filename": "page_005_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/A_Comprehensive_Survey_on_Robot_Manipulation/images/page_005_img_01.png",
+                "width": 2048,
+                "height": 2048,
+                "size_bytes": 1702103
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "paper_id": "arxiv:2510.10903",
+  "title": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey",
+  "evaluated_at": "2026-08-27",
+  "overall_quality_verdict": "pass",
+  "checks": {
+    "central_claims_are_supported_by_raw_sections_or_pages": "pass",
+    "key_experimental_settings_and_numbers_are_present": "pass",
+    "mechanisms_or_protocol_choices_are_mapped_to_results": "pass",
+    "comparisons_explain_positioning_against_alternatives": "pass",
+    "discussion_or_limitation_claims_are_explained_mechanistically": "pass",
+    "proven_claims_are_separated_from_unproven_or_unvalidated_claims": "pass",
+    "research_or_engineering_takeaways_are_specific_and_reusable": "pass",
+    "followup_questions_are_specific_to_replication_or_extension": "pass"
+  },
+  "issues": [],
+  "warnings": [],
+  "notes": [
+    "lint_grounding passes=True (14 字段 + 6 section_plan + supporting_evidence 用 dict 格式含合法 sec_id)",
+    "lint_note 7/7 gates 全过 (mixed_language: 160→24→0, mechanical: 20→1→0, linebreak: 15→3→0 三轮迭代修复)",
+    "9/9 figure_table decisions: 27 图 + 9 表全是 caption_inseparable / scientific_content_missing 视觉缺陷",
+    "本篇是 survey_or_review 类型 (第五篇 paper-to-note v2.0.3 实测)，与之前 4 篇 AI_method 类型互补",
+    "机构归属通过 affiliations.json 强制三源 curl 校验：Westlake University (主导) + BAAI 等 8 家机构合作，无跨论文类比联想",
+    "短标题 unified-manipulation-survey 命名遵守 v2.0.1 命名规范"
+  ]
+}

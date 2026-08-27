@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "paper_id": "arxiv:2510.10903",
+  "evaluated_at": "2026-08-27",
+  "structural_metrics": {
+    "section_count": 12,
+    "core_info_field_count": 13,
+    "core_info_order_compliant": true,
+    "table_count": 4,
+    "figure_embeds": 0,
+    "total_chars": 10428,
+    "total_lines": 219
+  },
+  "readability_verdict": "pass",
+  "issues": [],
+  "notes": [
+    "12 章节齐全：核心信息 / 原文摘要翻译 / 创新点 / 一句话总结 / 研究问题 / 数据与任务定义 / 方法主线 / 关键结果 / 深度分析 / 局限 / 我的笔记 / 引用",
+    "4 张 markdown 表格（datasets / 10 类任务 / 高层规划 7 类 / Sec 6.4 三路径对比）替代无法插入的 caption_inseparable 综述图",
+    "0 张图嵌入（27 张综述图全部 visual_defect，符合综述论文结构化呈现预期）",
+    "笔记总长 19.7KB / 222 行，密度适中"
+  ]
+}

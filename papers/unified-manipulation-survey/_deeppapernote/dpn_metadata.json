@@ -1,0 +1,91 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+  "local_pdf_path": "/tmp/arxiv_2510_10903-work/2510.10903.pdf",
+  "title": "A Comprehensive Survey on Robot Manipulation",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "first_page_title_used",
+  "arxiv_id": "2510.10903",
+  "paper_id": "arxiv:2510.10903",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "first_page_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2510.10903"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2510.10903v2",
+        "url": "http://arxiv.org/abs/2510.10903v2",
+        "arxiv_id": "2510.10903",
+        "title": "Towards a Unified Understanding of Robot Manipulation: A Comprehensive Survey",
+        "abstract": "Embodied intelligence has witnessed remarkable progress in recent years, driven by advances in computer vision, natural language processing, and the rise of large-scale multimodal models. Among its core challenges, robot manipulation stands out as a fundamental yet intricate problem, requiring the seamless integration of perception, planning, and control to enable interaction within diverse and unstructured environments. This survey presents a comprehensive overview of robotic manipulation, encompassing foundational background, task-organized benchmarks and datasets, and a unified taxonomy of existing methods. We extend the classical division between high-level planning and low-level control by broadening high-level planning to include language, code, motion, affordance, and 3D representations, while introducing a new taxonomy of low-level learning-based control grounded in training paradigms such as input modeling, latent learning, and policy learning. Furthermore, we provide the first dedicated taxonomy of key bottlenecks, focusing on data collection, utilization, and generalization, and conclude with an extensive review of real-world applications. Compared with prior surveys, our work offers both a broader scope and deeper insight, serving as an accessible roadmap for newcomers and a structured reference for experienced researchers. All related resources, including research papers, open-source datasets, and projects, are curated for the community at https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation.",
+        "authors": [
+          "Shuanghao Bai",
+          "Wenxuan Song",
+          "Jiayi Chen",
+          "Yuheng Ji",
+          "Zhide Zhong",
+          "Jin Yang",
+          "Han Zhao",
+          "Wanqi Zhou",
+          "Wei Zhao",
+          "Zhe Li",
+          "Pengxiang Ding",
+          "Cheng Chi",
+          "Haoang Li",
+          "Chang Xu",
+          "Xiaolong Zheng",
+          "Donglin Wang",
+          "Shanghang Zhang",
+          "Badong Chen"
+        ],
+        "published": "2025-10-13T01:59:27Z",
+        "year": "2025",
+        "pdf_url": "https://arxiv.org/pdf/2510.10903v2"
+      }
+    },
+    {
+      "provider": "crossref",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "A Comprehensive Survey on Robot Manipulation"
+      },
+      "record": {
+        "title": "A comprehensive survey on humanoid robot development",
+        "authors": [
+          "Saeed Saeedvand",
+          "Masoumeh Jafari",
+          "Hadi S. Aghdasi",
+          "Jacky Baltes"
+        ],
+        "affiliations": [],
+        "venue": "The Knowledge Engineering Review",
+        "doi": "10.1017/s0269888919000158",
+        "source": "crossref",
+        "source_type": "crossref",
+        "source_url": "https://doi.org/10.1017/s0269888919000158",
+        "year": "2019",
+        "published": "2019",
+        "abstract": "Abstract The development of a versatile, fully-capable humanoid robot as envisioned in science fiction books is one of the most challenging but interesting issues in the robotic field. Currently, existing humanoid robots are designed with different purposes and applications in mind. In humanoid robot development process, each robot is designed with various characteristics, abilities, and equipment, which influence the general structure, cost, and difficulty of development. Even though humanoid robot development is very popular, a few review papers are focusing on the design and development process of humanoid robots. Motivated by this, we present this review paper to show variations in the requirements, design, and development process and also propose a taxonomy of existing humanoid robots. It aims at demonstrating a general perspective of existing humanoid robots’ characteristics and applications. This paper includes state-of-the-art and successfully reported existing humanoid robot designs along with different robots used in various robot competitions.",
+        "metadata_sources": [
+          "crossref"
+        ]
+      }
+    }
+  ]
+}
