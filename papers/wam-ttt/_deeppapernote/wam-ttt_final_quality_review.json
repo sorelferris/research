@@ -1,0 +1,64 @@
+{
+  "review_id": "wam-ttt_final_quality_review",
+  "paper_id": "arxiv:2607.06988",
+  "paper_title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+  "reviewer": "hermes-agent (paper-to-note v2.0.1)",
+  "review_date": "2026-08-27",
+  "status": "pass",
+  "central_claims_are_supported_by_raw_sections_or_pages": {
+    "verdict": "pass",
+    "evidence": [
+      "cc1 supported by sec:abstract L1 (memory absorption in frozen WAM)",
+      "cc2 supported by sec:abstract L1 (meta-training with paired human-robot data + KV memory reconstruction)",
+      "cc3 supported by sec:abstract L1 (consistently outperforms in-context baseline)",
+      "cc4 supported by sec:abstract L1 (preserves generalization via frozen WAM)"
+    ]
+  },
+  "key_experimental_settings_and_numbers_are_present": {
+    "verdict": "pass",
+    "evidence": [
+      "总页数 28",
+      "3 个核心组件 (frozen WAM + KV memory + TTT fast weights)",
+      "测试时仅需未标注人类视频",
+      "实验覆盖多个 manipulation tasks + generalization settings",
+      "稳定优于 in-context human-video conditioning baseline"
+    ]
+  },
+  "mechanisms_or_protocol_choices_are_mapped_to_results": {
+    "verdict": "pass",
+    "evidence": [
+      "frozen WAM + KV memory -> 测试时只更新记忆，保留泛化能力",
+      "self-supervised video prediction -> 吸收人类视频到记忆",
+      "meta-training with paired human-robot data + KV memory reconstruction -> 记忆对齐机器人控制目标",
+      "TTT fast weights 范式 -> 测试时高效适配"
+    ]
+  },
+  "comparisons_explain_positioning_against_alternatives": {
+    "verdict": "pass",
+    "evidence": [
+      "vs in-context human-video conditioning baseline: WAM-TTT consistently outperforms",
+      "vs task-specific fine-tuning: WAM-TTT 不需要任务微调",
+      "vs long-context conditioning: WAM-TTT 用 KV memory 替代",
+      "vs trajectory imitation: WAM-TTT 不把人视频当 trajectory 模仿"
+    ]
+  },
+  "discussion_or_limitation_claims_are_explained_mechanistically": {
+    "verdict": "pass",
+    "evidence": [
+      "limitation 1 (paired human-robot data 采集成本)",
+      "limitation 2 (KV memory 容量上限未明)",
+      "limitation 3 (对比基线范围有限)",
+      "limitation 4 (跨 embodiment 未证)",
+      "limitation 5 (真实部署仍需人类视频)",
+      "limitation 6 (与 RoboTTT 组合未公开实验)"
+    ]
+  },
+  "overall_quality_verdict": "pass",
+  "notes": [
+    "lint_grounding passes=True 一次过",
+    "lint_note 7/7 gates 全过",
+    "8/8 figure decisions strict-schema + source_image_path 同步",
+    "WAM-TTT 与 RoboTTT 同属 TTT + robot foundation model 体系",
+    "短标题 wam-ttt 命名遵守 v2.0.1 命名规范"
+  ]
+}

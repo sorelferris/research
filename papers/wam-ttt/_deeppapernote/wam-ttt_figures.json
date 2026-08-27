@@ -1,0 +1,1621 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.48550/arxiv.2607.06988",
+  "figure_plan": {
+    "paper_id": "doi:10.48550/arxiv.2607.06988",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of WAM-TTT. Given unlabeled human demonstrations from diverse environ-",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_figure_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_fig_figure_1.png",
+          "width": 790,
+          "height": 403,
+          "size_bytes": 149387,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.370164,
+            "visual_rect_count": 55,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 194,
+            "table_body_rows": 0,
+            "caption_text_chars": 547,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "wam-ttt",
+              "given",
+              "unlabeled",
+              "human",
+              "demonstrations"
+            ],
+            "snippet": "Expert TTT Fast Weights ❄ Updated Frozen ❄ Train Human Demonstrations Supermarket Office Figure 1: Overview of WAM-TTT. Given unlabeled human demonstrations from diverse environ- ments, W",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_01.jpeg",
+                "width": 720,
+                "height": 578,
+                "size_bytes": 27058
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_02.jpeg",
+                "width": 720,
+                "height": 552,
+                "size_bytes": 24300
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_03.jpeg",
+                "width": 720,
+                "height": 568,
+                "size_bytes": 24603
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_fig_figure_1.png",
+                "width": 790,
+                "height": 403,
+                "size_bytes": 149387,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.370164,
+                  "visual_rect_count": 55,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 194,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 547,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "wam-ttt",
+              "unlabeled",
+              "human",
+              "demonstrations"
+            ],
+            "snippet": "+ ••• Qh Kh Vh DiT Blocks with TTT layer DiT Blocks with TTT layer Figure 2: Pipeline of WAM-TTT. We first meta-train a fast-weight memory using paired human-robot demonstrations, encour",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_01.jpeg",
+                "width": 2367,
+                "height": 1760,
+                "size_bytes": 173692
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_02.jpeg",
+                "width": 1649,
+                "height": 1080,
+                "size_bytes": 113361
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_03.jpeg",
+                "width": 1920,
+                "height": 1080,
+                "size_bytes": 136842
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+                "width": 643,
+                "height": 304,
+                "size_bytes": 100913,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227072,
+                  "visual_rect_count": 59,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 448,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "wam-ttt",
+              "human",
+              "demonstrations"
+            ],
+            "snippet": "mation. 4.2 Compared with baselines Baselines. We compare against five baselines plus our WAM-TTT. LDA [23]: the pretrained WAM backbone, no human data, no TTT branch. WAM-COTRAIN: the sa",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_01.jpeg",
+                "width": 3566,
+                "height": 1280,
+                "size_bytes": 299900
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_02.jpeg",
+                "width": 3647,
+                "height": 2289,
+                "size_bytes": 1164584
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+                "width": 512,
+                "height": 190,
+                "size_bytes": 74153,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113343,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.924401,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 29,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+                "width": 512,
+                "height": 325,
+                "size_bytes": 356727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.193488,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947087,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Pipeline of WAM-TTT. We first meta-train a fast-weight memory using paired human-robot",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_003_fig_figure_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+          "width": 643,
+          "height": 304,
+          "size_bytes": 100913,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.227072,
+            "visual_rect_count": 59,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 448,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 3,
+            "score": 8,
+            "matched_terms": [
+              "figure 2",
+              "pipeline",
+              "wam-ttt",
+              "first",
+              "meta-train",
+              "fast-weight"
+            ],
+            "snippet": "eight mem. recon. loss + ••• Qh Kh Vh DiT Blocks with TTT layer DiT Blocks with TTT layer Figure 2: Pipeline of WAM-TTT. We first meta-train a fast-weight memory using paired human-robot d",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_01.jpeg",
+                "width": 2367,
+                "height": 1760,
+                "size_bytes": 173692
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_02.jpeg",
+                "width": 1649,
+                "height": 1080,
+                "size_bytes": 113361
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_03.jpeg",
+                "width": 1920,
+                "height": 1080,
+                "size_bytes": 136842
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+                "width": 643,
+                "height": 304,
+                "size_bytes": 100913,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227072,
+                  "visual_rect_count": 59,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 448,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "wam-ttt",
+              "meta-train",
+              "fast-weight"
+            ],
+            "snippet": "mation. 4.2 Compared with baselines Baselines. We compare against five baselines plus our WAM-TTT. LDA [23]: the pretrained WAM backbone, no human data, no TTT branch. WAM-COTRAIN: the sa",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_01.jpeg",
+                "width": 3566,
+                "height": 1280,
+                "size_bytes": 299900
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_02.jpeg",
+                "width": 3647,
+                "height": 2289,
+                "size_bytes": 1164584
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+                "width": 512,
+                "height": 190,
+                "size_bytes": 74153,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113343,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.924401,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 29,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+                "width": 512,
+                "height": 325,
+                "size_bytes": 356727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.193488,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947087,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "wam-ttt",
+              "first",
+              "meta-train",
+              "fast-weight"
+            ],
+            "snippet": "3 48.1 24.0 21.7 34.2 12.0 23.8 25.3 WAM-ICL 10.0 10.0 14.2 10.0 0.0 5.0 10.0 2.0 2.5 7.1 WAM-TTT 55.6 100.0 66.7 66.7 30.0 8.3 34.3 10.4 43.8 46.2 across the 9 tasks, against 32.5% for t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+                "width": 532,
+                "height": 145,
+                "size_bytes": 20969,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.089977,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 216,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Main results. Progress (%) on 9 manipulation tasks evaluated in previously unseen home",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_table_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+          "width": 532,
+          "height": 145,
+          "size_bytes": 20969,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.089977,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 284,
+            "table_body_rows": 8,
+            "caption_text_chars": 216,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "progress",
+              "manipulation",
+              "tasks"
+            ],
+            "snippet": ". π0.5 [56]: Physical Intelligence’s open-world-generalization VLA. Quantitative Results. Table 1 reports per-task progress in the New household setting; the full table including the in-c",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_01.jpeg",
+                "width": 3566,
+                "height": 1280,
+                "size_bytes": 299900
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_02.jpeg",
+                "width": 3647,
+                "height": 2289,
+                "size_bytes": 1164584
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+                "width": 512,
+                "height": 190,
+                "size_bytes": 74153,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113343,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.924401,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 29,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+                "width": 512,
+                "height": 325,
+                "size_bytes": 356727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.193488,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947087,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "main",
+              "progress",
+              "manipulation",
+              "tasks",
+              "evaluated"
+            ],
+            "snippet": "Table 1: Main results. Progress (%) on 9 manipulation tasks evaluated in previously unseen home e",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+                "width": 532,
+                "height": 145,
+                "size_bytes": 20969,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.089977,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 216,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 17,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "main",
+              "manipulation",
+              "tasks"
+            ],
+            "snippet": "lts: Orig. and New settings Table C.1 is the full version of the main-paper result table (Table 1 in Section 4.2), including both the in-cubicle Orig. setting and the unseen-household New",
+            "images": [
+              {
+                "filename": "page_017_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_017_img_01.jpeg",
+                "width": 6480,
+                "height": 1460,
+                "size_bytes": 908428
+              },
+              {
+                "filename": "page_017_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_017_img_02.jpeg",
+                "width": 6480,
+                "height": 1460,
+                "size_bytes": 1255982
+              }
+            ],
+            "figure_assets": []
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Protocol ablation on training and test-time inference choices. Progress(%) on Table Buss-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+          "width": 816,
+          "height": 93,
+          "size_bytes": 526,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "caption_only_suspected"
+            ],
+            "page_coverage_ratio": 0.088551,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 160,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "ablation",
+              "training",
+              "test-time"
+            ],
+            "snippet": "tion Study We conduct ablations to isolate the contribution of each component in WAM-TTT. Table 2 reports progress over 10 trials on Table Bussing and Swap Place. The full WAM-TTT model c",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+                "width": 532,
+                "height": 145,
+                "size_bytes": 20969,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.089977,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 216,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "protocol",
+              "ablation",
+              "training",
+              "test-time",
+              "inference"
+            ],
+            "snippet": "Table 2: Protocol ablation on training and test-time inference choices. Progress(%) on Table Buss",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_img_01.jpeg",
+                "width": 3136,
+                "height": 863,
+                "size_bytes": 573399
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088551,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+                "width": 512,
+                "height": 148,
+                "size_bytes": 166016,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088385,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.908931,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "training",
+              "test-time",
+              "inference"
+            ],
+            "snippet": "Paired Robot-Human Data Meta-Training World Action Model Test-Time Training Action Chunk Clean Video Action Noise Video Noise U",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_01.jpeg",
+                "width": 2367,
+                "height": 1760,
+                "size_bytes": 173692
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_02.jpeg",
+                "width": 1649,
+                "height": 1080,
+                "size_bytes": 113361
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_03.jpeg",
+                "width": 1920,
+                "height": 1080,
+                "size_bytes": 136842
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+                "width": 643,
+                "height": 304,
+                "size_bytes": 100913,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227072,
+                  "visual_rect_count": 59,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 448,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Evaluation of Generalization Ability.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_009_fig_table_3.png",
+          "width": 816,
+          "height": 93,
+          "size_bytes": 526,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "caption_only_suspected"
+            ],
+            "page_coverage_ratio": 0.088658,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 46,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "evaluation",
+              "generalization",
+              "ability"
+            ],
+            "snippet": "Table 3: Evaluation of Generalization Ability. Task Perturbation π0.5[56] LDA[23] WAM-ICL WAM-TTT",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_009_fig_table_3.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088658,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 46,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 6,
+            "matched_terms": [
+              "table 3",
+              "generalization"
+            ],
+            "snippet": "ion Setup. including lighting, object position, and embodiment-related appearance shifts. Table 3 compares WAM-TTT with the pretrained LDA[23] backbone, a policy baseline π0.5[56] , and W",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_img_01.jpeg",
+                "width": 3136,
+                "height": 863,
+                "size_bytes": 573399
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088551,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+                "width": 512,
+                "height": 148,
+                "size_bytes": 166016,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088385,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.908931,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "generalization",
+              "ability"
+            ],
+            "snippet": "robot actions, human-side annotations, or task-specific fine-tuning, while preserving the generalization ability of the founda- tion model. Extensive experiments show that WAM-TTT consistently o",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_01.jpeg",
+                "width": 720,
+                "height": 578,
+                "size_bytes": 27058
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_02.jpeg",
+                "width": 720,
+                "height": 552,
+                "size_bytes": 24300
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_03.jpeg",
+                "width": 720,
+                "height": 568,
+                "size_bytes": 24603
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_fig_figure_1.png",
+                "width": 790,
+                "height": 403,
+                "size_bytes": 149387,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.370164,
+                  "visual_rect_count": 55,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 194,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 547,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Experimental setup.",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+          "width": 512,
+          "height": 190,
+          "size_bytes": 74153,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.113343,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.924401,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 29,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 7,
+            "matched_terms": [
+              "figure 3",
+              "experimental",
+              "setup"
+            ],
+            "snippet": "Figure 3: Experimental setup. Figure 4: Qualitative rollouts. For each unseen task we show a robot",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_01.jpeg",
+                "width": 3566,
+                "height": 1280,
+                "size_bytes": 299900
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_02.jpeg",
+                "width": 3647,
+                "height": 2289,
+                "size_bytes": 1164584
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+                "width": 512,
+                "height": 190,
+                "size_bytes": 74153,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113343,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.924401,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 29,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+                "width": 512,
+                "height": 325,
+                "size_bytes": 356727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.193488,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947087,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 1,
+            "matched_terms": [
+              "setup"
+            ],
+            "snippet": "ssing 100.0 30.0 9.0 66.7 40.0 Swap Place 88.9 0.0 0.0 72.0 74.1 Figure 5: Generalization Setup. including lighting, object position, and embodiment-related appearance shifts. Table 3 c",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_img_01.jpeg",
+                "width": 3136,
+                "height": 863,
+                "size_bytes": 573399
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088551,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+                "width": 512,
+                "height": 148,
+                "size_bytes": 166016,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088385,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.908931,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Qualitative rollouts. For each unseen task we show a robot rollout filmstrip (right) and",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+          "width": 512,
+          "height": 325,
+          "size_bytes": 356727,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.193488,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.947087,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 171,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "qualitative",
+              "rollouts",
+              "each",
+              "unseen",
+              "task"
+            ],
+            "snippet": "Figure 3: Experimental setup. Figure 4: Qualitative rollouts. For each unseen task we show a robot rollout filmstrip (right) and",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_01.jpeg",
+                "width": 3566,
+                "height": 1280,
+                "size_bytes": 299900
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_02.jpeg",
+                "width": 3647,
+                "height": 2289,
+                "size_bytes": 1164584
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+                "width": 512,
+                "height": 190,
+                "size_bytes": 74153,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113343,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.924401,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 29,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+                "width": 512,
+                "height": 325,
+                "size_bytes": 356727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.193488,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947087,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "figure 4",
+              "qualitative",
+              "rollouts",
+              "each",
+              "unseen",
+              "task"
+            ],
+            "snippet": "on breaks an alignment that the human videos do not visibly correct. Qualitative Results. Figure 4 shows robot rollouts on three representative unseen tasks alongside the human demonstrati",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+                "width": 532,
+                "height": 145,
+                "size_bytes": 20969,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.089977,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 284,
+                  "table_body_rows": 8,
+                  "caption_text_chars": 216,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 3,
+            "score": 3,
+            "matched_terms": [
+              "rollouts",
+              "unseen",
+              "task"
+            ],
+            "snippet": "54, 55]. These methods typically adapt from robot observations, rewards, or inter- action rollouts. WAM-TTT instead uses human demonstrations as the test-time information source. Rather th",
+            "images": [
+              {
+                "filename": "page_003_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_01.jpeg",
+                "width": 2367,
+                "height": 1760,
+                "size_bytes": 173692
+              },
+              {
+                "filename": "page_003_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_02.jpeg",
+                "width": 1649,
+                "height": 1080,
+                "size_bytes": 113361
+              },
+              {
+                "filename": "page_003_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_img_03.jpeg",
+                "width": 1920,
+                "height": 1080,
+                "size_bytes": 136842
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_003_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+                "width": 643,
+                "height": 304,
+                "size_bytes": 100913,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.227072,
+                  "visual_rect_count": 59,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 448,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Generalization Setup.",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_figure_5.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+          "width": 512,
+          "height": 148,
+          "size_bytes": 166016,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.088385,
+            "visual_rect_count": 1,
+            "visual_body_ratio": 0.908931,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 31,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 7,
+            "matched_terms": [
+              "figure 5",
+              "generalization",
+              "setup"
+            ],
+            "snippet": "y Recon. w/o TTT Table Bussing 100.0 30.0 9.0 66.7 40.0 Swap Place 88.9 0.0 0.0 72.0 74.1 Figure 5: Generalization Setup. including lighting, object position, and embodiment-related appear",
+            "images": [
+              {
+                "filename": "page_008_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_img_01.jpeg",
+                "width": 3136,
+                "height": 863,
+                "size_bytes": 573399
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+                "width": 816,
+                "height": 93,
+                "size_bytes": 526,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.088551,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 160,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              },
+              {
+                "filename": "page_008_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+                "width": 512,
+                "height": 148,
+                "size_bytes": 166016,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088385,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.908931,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 31,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "generalization",
+              "setup"
+            ],
+            "snippet": "-source, we evaluate our re-implementation. π0.5 [56]: Physical Intelligence’s open-world-generalization VLA. Quantitative Results. Table 1 reports per-task progress in the New household setting",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_01.jpeg",
+                "width": 3566,
+                "height": 1280,
+                "size_bytes": 299900
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_img_02.jpeg",
+                "width": 3647,
+                "height": 2289,
+                "size_bytes": 1164584
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+                "width": 512,
+                "height": 190,
+                "size_bytes": 74153,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.113343,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.924401,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 29,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+                "width": 512,
+                "height": 325,
+                "size_bytes": 356727,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.193488,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.947087,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "generalization"
+            ],
+            "snippet": "robot actions, human-side annotations, or task-specific fine-tuning, while preserving the generalization ability of the founda- tion model. Extensive experiments show that WAM-TTT consistently o",
+            "images": [
+              {
+                "filename": "page_001_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_01.jpeg",
+                "width": 720,
+                "height": 578,
+                "size_bytes": 27058
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_02.jpeg",
+                "width": 720,
+                "height": 552,
+                "size_bytes": 24300
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_img_03.jpeg",
+                "width": 720,
+                "height": 568,
+                "size_bytes": 24603
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_fig_figure_1.png",
+                "width": 790,
+                "height": 403,
+                "size_bytes": 149387,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.370164,
+                  "visual_rect_count": 55,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 194,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 547,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

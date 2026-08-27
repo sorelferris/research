@@ -1,0 +1,1031 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.48550/arxiv.2607.06988",
+  "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/arxiv_2607_06988-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/arxiv_2607_06988-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+    "total_pages": 28,
+    "text_pages_extracted": 28,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 28,
+    "text_max_pages": null,
+    "text_pages_extracted": 28,
+    "text_pages_scanned": 28,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 23,
+    "references_start_page": 10
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1199,
+      "text_hash_sha256": "4c4e7f24741145180494de19297acd2e2c335c974a908de7d14b29496da226c4"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract:",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1308,
+      "text_hash_sha256": "b206cea15f86b6f719e4fec9fcff938e54aad069c9d5c39ca84425f8c34c8eb4"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 3645,
+      "text_hash_sha256": "fbb98261523d26d686e45d017da4acbb32f4e719ad4ae97e2abbe5ca493daabe"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 2,
+      "page_end": 3,
+      "char_count": 3799,
+      "text_hash_sha256": "795f20d5a0c166e7cfd3347e572f0436e70de2145952f4c5b65a0392a4cb4513"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 4,
+      "page_end": 5,
+      "char_count": 5074,
+      "text_hash_sha256": "f8dd06dcd9817a81647fae54734bdc5a0842a941f0c96a20985c3ee61eb738fc"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 5,
+      "page_end": 7,
+      "char_count": 3120,
+      "text_hash_sha256": "a22c07648cb5ae5aa638b81304f4df059d9fca379a289fbd523610c3fcc92f13"
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 5911,
+      "text_hash_sha256": "9ab323e88cad2f39436c899051205aa7106c6c205818853e0ab38f6bf53f53a3"
+    },
+    {
+      "section_id": "sec:limitations",
+      "kind": "conclusion",
+      "title": "Limitations.",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 1390,
+      "text_hash_sha256": "b645017a5ed15e13bed5710069cfccb708c9c2eea1c35a0038d0862f5103ea35"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 10,
+      "page_end": 18,
+      "char_count": 25936,
+      "text_hash_sha256": "b00225330ebceffee0fab53adb0e72d6098f63cecc9071ad31eb8ef63d3bfa9a"
+    },
+    {
+      "section_id": "sec:method-3",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 18,
+      "page_end": 18,
+      "char_count": 1377,
+      "text_hash_sha256": "7c41dbff2e3c4e59a94490c809d8806bcc0e11c1f07f2e7507121726da71d657"
+    },
+    {
+      "section_id": "sec:method-4",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 18,
+      "page_end": 23,
+      "char_count": 11523,
+      "text_hash_sha256": "160da67ebdf3aab16bfaab0e79793b3413b9b42f8693ad471db00cbe09b61bdb"
+    },
+    {
+      "section_id": "sec:appendix-e-2-stress-tested-wam-ttt-with-no-in-scene-human-videos-at-all-here-we-consider",
+      "kind": "appendix",
+      "title": "Appendix E.2 stress-tested WAM-TTT with no in-scene human videos at all. Here we consider",
+      "page_start": 23,
+      "page_end": 25,
+      "char_count": 4699,
+      "text_hash_sha256": "6f9d7c6540048a74e29d6542d9f76ee9b0a2eb02b5d83d17a0933c9fa39029b0"
+    },
+    {
+      "section_id": "sec:data",
+      "kind": "data",
+      "title": "data.",
+      "page_start": 25,
+      "page_end": 28,
+      "char_count": 10499,
+      "text_hash_sha256": "74f2a0536b657875c9d08e51f5ed74a26d3cb964ba043e0437a9d4328012965e"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2520,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4056,
+      "section_ids": [
+        "sec:introduction",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3442,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3232,
+      "section_ids": [
+        "sec:method"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3477,
+      "section_ids": [
+        "sec:method",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 1363,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3811,
+      "section_ids": [
+        "sec:experiments",
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3091,
+      "section_ids": [
+        "sec:method-2",
+        "sec:limitations"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 643,
+      "section_ids": [
+        "sec:limitations"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2897,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3451,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3300,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 2963,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 4005,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3398,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 2946,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 2865,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 3307,
+      "section_ids": [
+        "sec:references",
+        "sec:method-3",
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 2911,
+      "section_ids": [
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 1873,
+      "section_ids": [
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 1612,
+      "section_ids": [
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 1742,
+      "section_ids": [
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 2065,
+      "section_ids": [
+        "sec:method-4",
+        "sec:appendix-e-2-stress-tested-wam-ttt-with-no-in-scene-human-videos-at-all-here-we-consider"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 2796,
+      "section_ids": [
+        "sec:appendix-e-2-stress-tested-wam-ttt-with-no-in-scene-human-videos-at-all-here-we-consider"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 2384,
+      "section_ids": [
+        "sec:appendix-e-2-stress-tested-wam-ttt-with-no-in-scene-human-videos-at-all-here-we-consider",
+        "sec:data"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 3638,
+      "section_ids": [
+        "sec:data"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 3863,
+      "section_ids": [
+        "sec:data"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 2273,
+      "section_ids": [
+        "sec:data"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of WAM-TTT. Given unlabeled human demonstrations from diverse environ-",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Pipeline of WAM-TTT. We first meta-train a fast-weight memory using paired human-robot",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Experimental setup.",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Qualitative rollouts. For each unseen task we show a robot rollout filmstrip (right) and",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Generalization Setup.",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:method-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Main results. Progress (%) on 9 manipulation tasks evaluated in previously unseen home",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Protocol ablation on training and test-time inference choices. Progress(%) on Table Buss-",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Evaluation of Generalization Ability.",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:limitations"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "z(ℓ+1) = ˆz(ℓ+1) + ∆z(ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "x(ℓ+1) = ˆx(ℓ+1).",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "TTT = θ(ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "= θ(ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "= θ(ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "= θ(ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "KVM(Wi) =",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "= W (ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "Ladapt(Wi) = Lhuman",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "i+1 = W (ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "where i ∈{0, 1, . . . , N} indexes the inner SGD iteration and λ weights the memory reconstruction",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "Lmeta = Lrobot",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "compute the normalized phase ϕ = t/Tr and select the nearest-phase frame from the paired human",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "LTTT(Wi) =",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "u∈Bh",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "i+1 = W (ℓ)",
+      "section_id": "sec:method",
+      "page_start": 4,
+      "page_end": 5
+    },
+    {
+      "text": "q = θQ(zr), ki = θK(hi), vi = θV (hi) collect the per-token projections of one query and of every",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "Out(q) =",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "namely ∆zTTT = θO fW (θQ(zr)), with the slow θO projecting the d-dimensional output of fW",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "linear MLP, but the linear special case fW (x) = Wx with W ∈Rd×d is already a tractable witness",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "and values from the synchronized frame as Kh, Vh ∈RLh×d in the row-token convention of the no-",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "W ∈Rd×d",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "W ∗= V ⊤",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "h Kh ≈(Lh/d) Id,",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "h Kh =",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "Querying with the robot side Qr = θQ(zr) then yields",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "fW ∗(Qr) = W ∗Qr ∝",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "i=1",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "fW (Kh) ≈Vh, but the closed-form W ∗Qr = P",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "= θ(ℓ)",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "= θ(ℓ)",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "for i = 1, . . . , N do",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "Assemble the inner-loop loss Ladapt = Lhuman",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "for ℓ= 1, . . . , L do",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "Compute Lmeta = Lrobot",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "AdamW (β1 =0.9, β2 =0.999), weight decay 10−8",
+      "section_id": "sec:references",
+      "page_start": 10,
+      "page_end": 18
+    },
+    {
+      "text": "and the gap ∆= AvgOrig −AvgNew are derived from those two averages. The retention ratio thus",
+      "section_id": "sec:method-3",
+      "page_start": 18,
+      "page_end": 18
+    },
+    {
+      "text": "rubric, with N items per trial (default N =1):",
+      "section_id": "sec:method-4",
+      "page_start": 18,
+      "page_end": 23
+    },
+    {
+      "text": "Our default meta-training budget is (r, h) = (100, 100) paired robot/human episodes per task. Ta-",
+      "section_id": "sec:appendix-e-2-stress-tested-wam-ttt-with-no-in-scene-human-videos-at-all-here-we-consider",
+      "page_start": 23,
+      "page_end": 25
+    },
+    {
+      "text": "• Iso-budget triple at total = 200 episodes: (200, 0), (100, 100), and (10, 190). The three rows",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "count fixed; probes whether the human-side gain has saturated at h = 100.",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "budgets. r = robot demos per task, h = paired human demos per task. Our deployed setup is",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "Iso-budget triple: total = 200 episodes per task",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "clear marginal value at fixed robot budget: adding 100 paired human episodes on top of (r, h) =",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "below (100, 100) on the same 3-task average, so we use h = 100 as the deployed setup.",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "alone; we use λFD = 1 throughout this ablation,",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "feature-space FD loss added to the human side at λFD = 1. The four tasks span all three embod-",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "figuration, task). Per-task embodiment: Transfer Bottle = Galbot gripper, Table Bussing / Deliver",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "Drink = Unitree G1 (dex-3 hand), Swap Place = Galbot sharpa (dexterous). VG ONLY (OURS) is",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    },
+    {
+      "text": "on the human side at λFD = 1.",
+      "section_id": "sec:data",
+      "page_start": 25,
+      "page_end": 28
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 23,
+    "sections": [
+      {
+        "title": "a synthetic perturbation of only one stream.",
+        "page": 24
+      }
+    ],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "c27d9551f6d589006ad3abff13ed1633ee3d5b4a14d1d1a97a64624cd571dd27",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.48550/arxiv.2607.06988",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+      "translated_title": "",
+      "authors": [
+        "Yusen Feng",
+        "Bingchen Han",
+        "Jiangran Lyu",
+        "Kai Liu",
+        "Yixin Zheng",
+        "Yuxuan Wan",
+        "Weiheng Liu",
+        "Sun Han",
+        "Ruiqin Li",
+        "Yulong Zhang",
+        "Fangfu Liu",
+        "Xuesong Shi",
+        "Libin Liu",
+        "Yizhou Wang",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "year": "2026",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.06988",
+      "arxiv_id": "2607.06988",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2607.06988v2",
+      "local_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+      "doi": "",
+      "arxiv_id": "2607.06988",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+      "local_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+      "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv",
+        "openalex"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2607.06988",
+      "paper_id": "doi:10.48550/arxiv.2607.06988",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "doi_present"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2607.06988v2",
+      "abstract": "Steering robot foundation models (RFMs) toward new task variants or user-preferred behaviors remains challenging, often requiring additional robot demonstrations, task-specific fine-tuning, or long-context conditioning. We present WAM-TTT, a test-time training framework for steering world action models from raw human videos. Rather than treating human videos as trajectories to imitate, WAM-TTT absorbs them into a lightweight adaptive memory inside a frozen WAM through self-supervised video prediction. To make this memory useful for control, we introduce a meta-training stage that aligns human demonstrations with robot behaviors using paired human-robot data and a key--value memory reconstruction objective. At test time, only unlabeled human videos are required to adapt the memory, while the pretrained WAM remains frozen. This enables efficient and reusable steering without robot actions, human-side annotations, or task-specific fine-tuning, while preserving the generalization ability of the foundation model. Extensive experiments show that WAM-TTT consistently outperforms in-context human-video conditioning baselines across diverse manipulation tasks and generalization settings.",
+      "authors": [
+        "Yusen Feng",
+        "Bingchen Han",
+        "Jiangran Lyu",
+        "Kai Liu",
+        "Yixin Zheng",
+        "Yuxuan Wan",
+        "Weiheng Liu",
+        "Sun Han",
+        "Ruiqin Li",
+        "Yulong Zhang",
+        "Fangfu Liu",
+        "Xuesong Shi",
+        "Libin Liu",
+        "Yizhou Wang",
+        "Zhizheng Zhang",
+        "He Wang"
+      ],
+      "published": "2026-07-08T04:23:22Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2607.06988v2",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.06988"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.06988.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.06988v2",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.06988"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.06988"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.06988"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.06988"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.06988"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.06988"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.06988"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.06988"
+        }
+      },
+      "venue": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time"
+        }
+      },
+      "doi": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2607.06988",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2607.06988",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.06988v2",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2607.06988"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+          "work_value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/arxiv_2607_06988-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/arxiv_2607_06988-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/arxiv_2607_06988-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.06988v2",
+    "local_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+    "doi": "",
+    "arxiv_id": "2607.06988",
+    "zotero_key": ""
+  }
+}

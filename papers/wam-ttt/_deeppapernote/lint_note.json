@@ -1,0 +1,59 @@
+warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+{
+  "status": "ok",
+  "script": "lint_note.py",
+  "paper_id": "",
+  "input_path": "/home/sorel/workspace/research/papers/wam-ttt/wam-ttt_精读笔记.md",
+  "headers": [
+    "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+    "核心信息",
+    "原文摘要翻译",
+    "创新点",
+    "一句话总结",
+    "研究问题",
+    "数据与任务定义",
+    "方法主线",
+    "3.1 冻结的世界动作模型",
+    "3.2 轻量自适应记忆",
+    "3.3 元训练阶段",
+    "关键结果",
+    "深度分析",
+    "5.1 为什么键值记忆是关键设计",
+    "5.2 元训练的必要性",
+    "5.3 与RoboTTT的体系关联",
+    "局限",
+    "我的笔记",
+    "引用",
+    "Changelog"
+  ],
+  "missing_sections": [],
+  "warnings": [
+    "key_results_quantitative_result_missing",
+    "no_figure_markers"
+  ],
+  "mixed_language_issues": [],
+  "mechanical_translation_artifact_issues": [],
+  "linebreak_issues": [],
+  "code_math_issues": [],
+  "math_render_issues": [],
+  "figure_structure_issues": [],
+  "core_info_structure_issues": [],
+  "reference_hygiene_issues": [],
+  "substantive_content_issues": [
+    {
+      "section": "关键结果",
+      "reason": "key_results_quantitative_result_missing",
+      "severity": "warning",
+      "snippet": "| 维度 | WAM-TTT | In-context human-video conditioning baseline | 备注 | |---|---|---|---| | 测试时输入 | 未标注人类视频 | 人类视频上下文 | WAM-TTT 通过记忆吸收 | | 主模型参数 | 冻结 | 通常需要更新或重训 |"
+    }
+  ],
+  "planning_artifact_found": true,
+  "planning_artifact_issues": [],
+  "passes_basic_structure": true,
+  "passes_style_gate": true,
+  "passes_math_gate": true,
+  "passes_figure_gate": true,
+  "passes_reference_hygiene_gate": true,
+  "passes_plan_gate": true,
+  "passes_substantive_content": true
+}

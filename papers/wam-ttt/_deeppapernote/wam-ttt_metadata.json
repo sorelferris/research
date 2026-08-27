@@ -1,0 +1,141 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+  "local_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+  "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2607.06988",
+  "paper_id": "arxiv:2607.06988",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2607.06988"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2607.06988v2",
+        "url": "http://arxiv.org/abs/2607.06988v2",
+        "arxiv_id": "2607.06988",
+        "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+        "abstract": "Steering robot foundation models (RFMs) toward new task variants or user-preferred behaviors remains challenging, often requiring additional robot demonstrations, task-specific fine-tuning, or long-context conditioning. We present WAM-TTT, a test-time training framework for steering world action models from raw human videos. Rather than treating human videos as trajectories to imitate, WAM-TTT absorbs them into a lightweight adaptive memory inside a frozen WAM through self-supervised video prediction. To make this memory useful for control, we introduce a meta-training stage that aligns human demonstrations with robot behaviors using paired human-robot data and a key--value memory reconstruction objective. At test time, only unlabeled human videos are required to adapt the memory, while the pretrained WAM remains frozen. This enables efficient and reusable steering without robot actions, human-side annotations, or task-specific fine-tuning, while preserving the generalization ability of the foundation model. Extensive experiments show that WAM-TTT consistently outperforms in-context human-video conditioning baselines across diverse manipulation tasks and generalization settings.",
+        "authors": [
+          "Yusen Feng",
+          "Bingchen Han",
+          "Jiangran Lyu",
+          "Kai Liu",
+          "Yixin Zheng",
+          "Yuxuan Wan",
+          "Weiheng Liu",
+          "Sun Han",
+          "Ruiqin Li",
+          "Yulong Zhang",
+          "Fangfu Liu",
+          "Xuesong Shi",
+          "Libin Liu",
+          "Yizhou Wang",
+          "Zhizheng Zhang",
+          "He Wang"
+        ],
+        "published": "2026-07-08T04:23:22Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2607.06988v2"
+      }
+    },
+    {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time"
+      },
+      "record": {
+        "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+        "authors": [
+          "Yusen Feng",
+          "Bo Han",
+          "Jiangran Lyu",
+          "Kai Liu",
+          "Yixin Zheng",
+          "Yuxuan Wan",
+          "Weiheng Liu",
+          "Sun Han",
+          "Ruiqin Li",
+          "Yulong Zhang",
+          "Fangfu Liu",
+          "Xuesong Shi",
+          "Libin Liu",
+          "Yizhou Wang",
+          "Zhizheng Zhang",
+          "He Wang"
+        ],
+        "affiliations": [],
+        "venue": "arXiv (Cornell University)",
+        "year": "2026",
+        "doi": "10.48550/arxiv.2607.06988",
+        "source": "openalex",
+        "source_type": "openalex",
+        "source_url": "https://doi.org/10.48550/arxiv.2607.06988",
+        "pdf_url": "",
+        "abstract": "",
+        "metadata_sources": [
+          "openalex"
+        ]
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2607.06988v2",
+        "url": "http://arxiv.org/abs/2607.06988v2",
+        "arxiv_id": "2607.06988",
+        "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+        "abstract": "Steering robot foundation models (RFMs) toward new task variants or user-preferred behaviors remains challenging, often requiring additional robot demonstrations, task-specific fine-tuning, or long-context conditioning. We present WAM-TTT, a test-time training framework for steering world action models from raw human videos. Rather than treating human videos as trajectories to imitate, WAM-TTT absorbs them into a lightweight adaptive memory inside a frozen WAM through self-supervised video prediction. To make this memory useful for control, we introduce a meta-training stage that aligns human demonstrations with robot behaviors using paired human-robot data and a key--value memory reconstruction objective. At test time, only unlabeled human videos are required to adapt the memory, while the pretrained WAM remains frozen. This enables efficient and reusable steering without robot actions, human-side annotations, or task-specific fine-tuning, while preserving the generalization ability of the foundation model. Extensive experiments show that WAM-TTT consistently outperforms in-context human-video conditioning baselines across diverse manipulation tasks and generalization settings.",
+        "authors": [
+          "Yusen Feng",
+          "Bingchen Han",
+          "Jiangran Lyu",
+          "Kai Liu",
+          "Yixin Zheng",
+          "Yuxuan Wan",
+          "Weiheng Liu",
+          "Sun Han",
+          "Ruiqin Li",
+          "Yulong Zhang",
+          "Fangfu Liu",
+          "Xuesong Shi",
+          "Libin Liu",
+          "Yizhou Wang",
+          "Zhizheng Zhang",
+          "He Wang"
+        ],
+        "published": "2026-07-08T04:23:22Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2607.06988v2"
+      }
+    }
+  ]
+}

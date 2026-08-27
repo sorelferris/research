@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+  "local_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+  "title": "WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2607.06988",
+  "paper_id": "arxiv:2607.06988",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

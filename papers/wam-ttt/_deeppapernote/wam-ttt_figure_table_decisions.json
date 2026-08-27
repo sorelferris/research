@@ -1,0 +1,464 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.48550/arxiv.2607.06988",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Overview of WAM-TTT. Given unlabeled human demonstrations from diverse environ-",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_001_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_001_fig_figure_1_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_fig_figure_1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "4e7f87b90f1ed718bc861fe5f77bd29534c2e321443585d0c6e9d7c046848d79",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_001_fig_figure_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_001.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 1,
+        "caption": "Figure 1: Overview of WAM-TTT. Given unlabeled human demonstrations from diverse environ- ments, WAM-TTT steers a pretrained World Action Model (WAM) without retargeting, robot actions, or human-side annotations. During deployment, human videos are absorbed into lightweight TTT fast weights through self-supervised video prediction, while the pretrained action model remains frozen. The adapted memory then guides robot execution through the WAM’s shared visual-action dynamics, enabling efficient and reusable steering from human demonstrations.",
+        "bbox_pt": [
+          0.0,
+          79.3278579711914,
+          592.8143920898438,
+          381.9854431152344
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.10016143683231238,
+          0.9686509674670649,
+          0.48230485241822524
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "4e7f87b90f1ed718bc861fe5f77bd29534c2e321443585d0c6e9d7c046848d79",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Pipeline of WAM-TTT. We first meta-train a fast-weight memory using paired human-robot",
+      "pages": [
+        3
+      ],
+      "section_id": "sec:related-work",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_003_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_003_fig_figure_2_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "a96bc7bf5878701a3a33d4cc0d2fe88eb398b6d6b8bb38258bbb768603c47033",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_003_fig_figure_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_003.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 3,
+        "caption": "Figure 2: Pipeline of WAM-TTT. We first meta-train a fast-weight memory using paired human-robot demonstrations, encouraging human visual cues to align with robot behaviors through a key–value memory reconstruction objective. At test time, the memory is adapted from unlabeled human videos via video prediction, while the pretrained WAM remains frozen. The adapted memory then steers robot execution through the WAM’s shared visual-action dynamics.",
+        "bbox_pt": [
+          63.04814910888672,
+          25.35992431640625,
+          545.4225463867188,
+          253.52845764160156
+        ],
+        "normalized_bbox": [
+          0.10301985148510902,
+          0.0320201064601089,
+          0.8912133110894097,
+          0.3201116889414161
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "a96bc7bf5878701a3a33d4cc0d2fe88eb398b6d6b8bb38258bbb768603c47033",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Experimental setup.",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_006_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_006_fig_figure_3_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "9cd0024ef6aa608a16a91c9cbbb7a232cfdb7b94500d3c55d13c7ddcea1dd844",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_006.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 6,
+        "caption": "Figure 3: Experimental setup.",
+        "bbox_pt": [
+          112.65499877929688,
+          68.00457763671875,
+          496.79669189453125,
+          211.01898193359375
+        ],
+        "normalized_bbox": [
+          0.18407679539100796,
+          0.08586436570292771,
+          0.8117593004812602,
+          0.2664381085020123
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "9cd0024ef6aa608a16a91c9cbbb7a232cfdb7b94500d3c55d13c7ddcea1dd844",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Qualitative rollouts. For each unseen task we show a robot rollout filmstrip (right) and",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_006_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_006_fig_figure_4_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ec946115d11e65714f0f1e8ae66e7e77b9a8849465a5866e0b4884f29c784307",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_006_fig_figure_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_006.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 6,
+        "caption": "Figure 4: Qualitative rollouts. For each unseen task we show a robot rollout filmstrip (right) and the paired human demonstration used as deployment-time Key/Value (left).",
+        "bbox_pt": [
+          112.65499877929688,
+          235.01263427734375,
+          496.8430480957031,
+          479.12298583984375
+        ],
+        "normalized_bbox": [
+          0.18407679539100796,
+          0.29673312408755526,
+          0.8118350459080116,
+          0.6049532649492977
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "ec946115d11e65714f0f1e8ae66e7e77b9a8849465a5866e0b4884f29c784307",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Generalization Setup.",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:method-2",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_008_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_008_fig_figure_5_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "de12d5532683d2d458602b58832ec7ee4b30c38e918fffdbb973fdfe768acf96",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_figure_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_008.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 8,
+        "caption": "Figure 5: Generalization Setup.",
+        "bbox_pt": [
+          112.65499877929688,
+          151.8311767578125,
+          496.81817626953125,
+          263.3480224609375
+        ],
+        "normalized_bbox": [
+          0.18407679539100796,
+          0.19170603125986427,
+          0.8117944056691687,
+          0.33251012936987057
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "de12d5532683d2d458602b58832ec7ee4b30c38e918fffdbb973fdfe768acf96",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Main results. Progress (%) on 9 manipulation tasks evaluated in previously unseen home",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_table_1_review.png",
+      "relative_markdown_embed": "![Table 1](images/page_007_fig_table_1_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b5587221b9709c060f3c831c1a7da0c8720ee1a301dd776b59acfb04692c510f",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_007_fig_table_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_007.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 7,
+        "caption": "Table 1: Main results. Progress (%) on 9 manipulation tasks evaluated in previously unseen home environments. All cells averaged over 25 trials. The full table including the in-cubicle Orig. setting is in Appendix C.",
+        "bbox_pt": [
+          107.52796173095703,
+          111.06307983398438,
+          506.7720642089844,
+          220.2997589111328
+        ],
+        "normalized_bbox": [
+          0.1756992838741128,
+          0.14023116140654593,
+          0.8280589284460529,
+          0.27815626125143034
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "b5587221b9709c060f3c831c1a7da0c8720ee1a301dd776b59acfb04692c510f",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Protocol ablation on training and test-time inference choices. Progress(%) on Table Buss-",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:method-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_008_fig_table_2.png",
+      "relative_markdown_embed": "![Table 2](images/page_008_fig_table_2.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+      "source_image_sha256": "1f97a3fb54a8d2eaebf31913dffaa0d856ac8c6090c7ffbd66bbbf05e890873a",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "1f97a3fb54a8d2eaebf31913dffaa0d856ac8c6090c7ffbd66bbbf05e890873a",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_008_fig_table_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_008.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 8,
+        "caption": "Table 2: Protocol ablation on training and test-time inference choices. Progress(%) on Table Buss- ing and Swap Place under the New setting; 10 trials per cell.",
+        "bbox_pt": [
+          0.0,
+          0.0,
+          612.0,
+          70.13201904296875
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.0885505290946575
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Evaluation of Generalization Ability.",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:limitations",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_009_fig_table_3.png",
+      "relative_markdown_embed": "![Table 3](images/page_009_fig_table_3.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_009_fig_table_3.png",
+      "source_image_sha256": "1f97a3fb54a8d2eaebf31913dffaa0d856ac8c6090c7ffbd66bbbf05e890873a",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "1f97a3fb54a8d2eaebf31913dffaa0d856ac8c6090c7ffbd66bbbf05e890873a",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/images/page_009_fig_table_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WAM_TTT_Steering_World_Action_Models_by_Watching_Human_Play_at_Test_Time/page_previews/page_009.png",
+        "source_pdf_path": "/tmp/arxiv_2607_06988-work/2607.06988.pdf",
+        "source_page": 9,
+        "caption": "Table 3: Evaluation of Generalization Ability.",
+        "bbox_pt": [
+          0.0,
+          0.0,
+          612.0,
+          70.21752166748047
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.08865848695388948
+        ],
+        "render_dpi": 300
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 8,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 0,
+      "review_pending": 6,
+      "skip": 0,
+      "visual_defect": 2
+    }
+  }
+}
