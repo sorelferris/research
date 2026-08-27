@@ -1,0 +1,164 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+  "local_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+  "title": "RoboTTT: Context Scaling for Robot Policies",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2607.15275",
+  "paper_id": "arxiv:2607.15275",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2607.15275"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2607.15275v1",
+        "url": "http://arxiv.org/abs/2607.15275v1",
+        "arxiv_id": "2607.15275",
+        "title": "RoboTTT: Context Scaling for Robot Policies",
+        "abstract": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, long-horizon tasks. We also observe, for the first time, steady gains in closed-loop performance as pretraining context length scales. At its core, RoboTTT integrates Test-Time Training into robot foundation models such as Vision-Language-Action policies, yielding a sequence model whose recurrent state consists of fast weights, parameters updated by gradient descent during both training and inference, compressing histories into weight space and retrieving contextual information for long-context conditioning. To scale training context length, the recipe combines sequence action forcing with truncated backpropagation through time. On challenging real-robot manipulation tasks, RoboTTT improves overall performance by 87% over the single-step context baseline and fully completes a five-minute, ten-stage assembly task, which no baseline ever does. RoboTTT trained with 8K-timestep context outperforms the same model pretrained with 1K timesteps by 62%, suggesting context length as a new scaling axis for robot foundation models. Videos are available at https://research.nvidia.com/labs/gear/robottt/",
+        "authors": [
+          "Yunfan Jiang",
+          "Yevgen Chebotar",
+          "Ruijie Zheng",
+          "Fengyuan Hu",
+          "Yunhao Ge",
+          "Jimmy Wu",
+          "Tianyuan Dai",
+          "Scott Reed",
+          "Li Fei-Fei",
+          "Yuke Zhu",
+          "Linxi \"Jim\" Fan"
+        ],
+        "published": "2026-07-16T17:59:06Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2607.15275v1"
+      }
+    },
+    {
+      "provider": "semantic_scholar",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "RoboTTT: Context Scaling for Robot Policies"
+      },
+      "record": {
+        "title": "RoboTTT: Context Scaling for Robot Policies",
+        "abstract": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, long-horizon tasks. We also observe, for the first time, steady gains in closed-loop performance as pretraining context length scales. At its core, RoboTTT integrates Test-Time Training into robot foundation models such as Vision-Language-Action policies, yielding a sequence model whose recurrent state consists of fast weights, parameters updated by gradient descent during both training and inference, compressing histories into weight space and retrieving contextual information for long-context conditioning. To scale training context length, the recipe combines sequence action forcing with truncated backpropagation through time. On challenging real-robot manipulation tasks, RoboTTT improves overall performance by 87% over the single-step context baseline and fully completes a five-minute, ten-stage assembly task, which no baseline ever does. RoboTTT trained with 8K-timestep context outperforms the same model pretrained with 1K timesteps by 62%, suggesting context length as a new scaling axis for robot foundation models. Videos are available at https://research.nvidia.com/labs/gear/robottt/",
+        "authors": [
+          "Yunfan Jiang",
+          "Yevgen Chebo-tar",
+          "Ruijie Zheng",
+          "Fengyuan Hu",
+          "Yunhao Ge",
+          "Jimmy Wu",
+          "Tianyuan Dai",
+          "Scott Reed",
+          "Fei-Fei Li",
+          "Yuke Zhu",
+          "LinxiJimFan"
+        ],
+        "affiliations": [
+          "Stanford University"
+        ],
+        "venue": "",
+        "year": "2026",
+        "doi": "",
+        "arxiv_id": "2607.15275",
+        "source": "semantic_scholar",
+        "source_type": "semantic_scholar",
+        "source_url": "https://www.semanticscholar.org/paper/0759d0e7e9e4c4cd20da66c5f2987cd4a105c5d0",
+        "metadata_sources": [
+          "semantic_scholar"
+        ],
+        "pdf_url": "https://arxiv.org/pdf/2607.15275.pdf"
+      }
+    },
+    {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "RoboTTT: Context Scaling for Robot Policies"
+      },
+      "record": {
+        "title": "RoboTTT: Context Scaling for Robot Policies",
+        "authors": [
+          "Yunfan Jiang",
+          "Yevgen Chebotar",
+          "Ruijie Zheng",
+          "Fengyuan Hu",
+          "Yunhao Ge",
+          "Jimmy Wu",
+          "Tianyuan Dai",
+          "Scott Reed",
+          "Li Fei-Fei",
+          "Yuke Zhu",
+          "Linxi Fan"
+        ],
+        "affiliations": [],
+        "venue": "arXiv (Cornell University)",
+        "year": "2026",
+        "doi": "10.48550/arxiv.2607.15275",
+        "source": "openalex",
+        "source_type": "openalex",
+        "source_url": "https://doi.org/10.48550/arxiv.2607.15275",
+        "pdf_url": "",
+        "abstract": "",
+        "metadata_sources": [
+          "openalex"
+        ]
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "RoboTTT: Context Scaling for Robot Policies"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2607.15275v1",
+        "url": "http://arxiv.org/abs/2607.15275v1",
+        "arxiv_id": "2607.15275",
+        "title": "RoboTTT: Context Scaling for Robot Policies",
+        "abstract": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, long-horizon tasks. We also observe, for the first time, steady gains in closed-loop performance as pretraining context length scales. At its core, RoboTTT integrates Test-Time Training into robot foundation models such as Vision-Language-Action policies, yielding a sequence model whose recurrent state consists of fast weights, parameters updated by gradient descent during both training and inference, compressing histories into weight space and retrieving contextual information for long-context conditioning. To scale training context length, the recipe combines sequence action forcing with truncated backpropagation through time. On challenging real-robot manipulation tasks, RoboTTT improves overall performance by 87% over the single-step context baseline and fully completes a five-minute, ten-stage assembly task, which no baseline ever does. RoboTTT trained with 8K-timestep context outperforms the same model pretrained with 1K timesteps by 62%, suggesting context length as a new scaling axis for robot foundation models. Videos are available at https://research.nvidia.com/labs/gear/robottt/",
+        "authors": [
+          "Yunfan Jiang",
+          "Yevgen Chebotar",
+          "Ruijie Zheng",
+          "Fengyuan Hu",
+          "Yunhao Ge",
+          "Jimmy Wu",
+          "Tianyuan Dai",
+          "Scott Reed",
+          "Li Fei-Fei",
+          "Yuke Zhu",
+          "Linxi \"Jim\" Fan"
+        ],
+        "published": "2026-07-16T17:59:06Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2607.15275v1"
+      }
+    }
+  ]
+}

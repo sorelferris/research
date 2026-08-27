@@ -1,0 +1,2215 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.48550/arxiv.2607.15275",
+  "figure_plan": {
+    "paper_id": "doi:10.48550/arxiv.2607.15275",
+    "figures": [
+      {
+        "id": "Figure 2",
+        "caption": "RoboTTT model architecture, training, and inference. TTT layers are added after the attention",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_2.png",
+          "width": 638,
+          "height": 254,
+          "size_bytes": 66536,
+          "label": "Figure 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.181951,
+            "visual_rect_count": 179,
+            "visual_body_ratio": 0.949743,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 474,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "robottt",
+              "model",
+              "architecture",
+              "training",
+              "inference"
+            ],
+            "snippet": "tiate RoboTTT on top of GR00T N1.7 (51). Test-Time Training for Robot Actions As shown in Fig. 2, RoboTTT consists of a vision-language model (VLM) backbone and a Diffusion Transformer (",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_img_01.jpeg",
+                "width": 16,
+                "height": 16,
+                "size_bytes": 929
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 55247
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 64412
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_2.png",
+                "width": 638,
+                "height": 254,
+                "size_bytes": 66536,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.181951,
+                  "visual_rect_count": 179,
+                  "visual_body_ratio": 0.949743,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 474,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_3.png",
+                "width": 638,
+                "height": 171,
+                "size_bytes": 41446,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.123021,
+                  "visual_rect_count": 59,
+                  "visual_body_ratio": 0.808794,
+                  "paragraph_text_chars": 603,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 145,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 2",
+              "robottt",
+              "model",
+              "training",
+              "inference"
+            ],
+            "snippet": "he first seg- ment, whose updates originate directly from 𝑊0. Inference As illustrated in Fig. 2, RoboTTT starts each rollout from the learned initialization 𝑊0, updates the fast weights",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+                "width": 639,
+                "height": 157,
+                "size_bytes": 43798,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.113074,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.296121,
+                  "paragraph_text_chars": 834,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "robottt",
+              "model",
+              "training"
+            ],
+            "snippet": "2026-7-17 RoboTTT: Context Scaling for Robot Policies Yunfan Jiang1,2, Yevgen Chebotar1, Ruijie Zheng1, Fen",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_01.png",
+                "width": 1085,
+                "height": 210,
+                "size_bytes": 19255
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 58482
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 65775
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 830,
+                "size_bytes": 633608,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.653935,
+                  "visual_rect_count": 68,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 291,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 280,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "DAgger Distillation results on Pup Go Car. Task completion after fine-tuning on a pool of 100",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_figure_10.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_10.png",
+          "width": 538,
+          "height": 285,
+          "size_bytes": 23978,
+          "label": "Figure 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.172406,
+            "visual_rect_count": 22,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 241,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 10",
+              "dagger",
+              "distillation",
+              "task",
+              "completion",
+              "after"
+            ],
+            "snippet": "ger. On Pup Go Car, we study DAgger Distillation against alternative uses of DAgger data (Fig. 10). We collect 50 DAgger trajectories each with RoboTTT and GR00T N1.7 as the base policy,",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 51877
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_02.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 55353
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_03.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 56690
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_10.png",
+                "width": 538,
+                "height": 285,
+                "size_bytes": 23978,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.172406,
+                  "visual_rect_count": 22,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 241,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_11.png",
+                "width": 633,
+                "height": 236,
+                "size_bytes": 87971,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.167846,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 285,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "dagger",
+              "distillation",
+              "task"
+            ],
+            "snippet": "t update only) human corrections (fast weight update + flow-matching loss) Time Figure 6: DAgger Distillation. During se- quence training, all executed actions update the fast weights, b",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 44474
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 68713
+              },
+              {
+                "filename": "page_006_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 67969
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_5.png",
+                "width": 657,
+                "height": 349,
+                "size_bytes": 317069,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.2577,
+                  "visual_rect_count": 24,
+                  "visual_body_ratio": 0.929977,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_6.png",
+                "width": 638,
+                "height": 109,
+                "size_bytes": 25369,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.078108,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.449036,
+                  "paragraph_text_chars": 793,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "dagger",
+              "distillation",
+              "task",
+              "completion"
+            ],
+            "snippet": "ast weights, exactly as the human corrections were during training. As we show in Sec. 4, DAgger Distillation yields stronger failure recovery and higher task performance than standard D",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+                "width": 512,
+                "height": 207,
+                "size_bytes": 12195,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119338,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 138,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Ablation results on the Pup Go Car task.",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_011_fig_figure_12.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_011_fig_figure_12.png",
+          "width": 638,
+          "height": 178,
+          "size_bytes": 39924,
+          "label": "Figure 12",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.128037,
+            "visual_rect_count": 15,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 762,
+            "table_body_rows": 0,
+            "caption_text_chars": 309,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 11,
+            "score": 7,
+            "matched_terms": [
+              "fig. 12",
+              "ablation",
+              "task"
+            ],
+            "snippet": "r tokens, so the comparison isolates the TTT mechanism from the extra tokens. As shown in Fig. 12, removing sequence action forcing during training significantly hurts closed-loop perform",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_12.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_011_fig_figure_12.png",
+                "width": 638,
+                "height": 178,
+                "size_bytes": 39924,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128037,
+                  "visual_rect_count": 15,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 309,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 1,
+            "matched_terms": [
+              "task"
+            ],
+            "snippet": "Texas at Austin †Equal advising research.nvidia.com/labs/gear/robottt Better Long-Horizon Task Performance (Duration = 5 Minutes) One-Shot Imitation from In-Context Human Demonstration",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_01.png",
+                "width": 1085,
+                "height": 210,
+                "size_bytes": 19255
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 58482
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 65775
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 830,
+                "size_bytes": 633608,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.653935,
+                  "visual_rect_count": 68,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 291,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 280,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "task"
+            ],
+            "snippet": "n TTT over it in the inner loop with the fast weight loss ℒFW (Sec. 2), compute the outer task loss at every timestep, and optimize the full model on the averaged loss. In this way, th",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+                "width": 639,
+                "height": 157,
+                "size_bytes": 43798,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.113074,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.296121,
+                  "paragraph_text_chars": 834,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Main evaluation: task completion scores on three assembly tasks. Scores are rubric-based,",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_007_fig_figure_7.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+          "width": 512,
+          "height": 207,
+          "size_bytes": 12195,
+          "label": "Figure 7",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.119338,
+            "visual_rect_count": 18,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 138,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 7",
+              "main",
+              "evaluation",
+              "task",
+              "completion",
+              "scores"
+            ],
+            "snippet": "RoboTTT consistently outperforms baselines on dexterous, long-horizon tasks. As shown in Fig. 7 and Table 1, RoboTTT achieves an average task completion score of 79%, 87% higher than th",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+                "width": 512,
+                "height": 207,
+                "size_bytes": 12195,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119338,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 138,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "main",
+              "evaluation",
+              "task",
+              "completion",
+              "scores"
+            ],
+            "snippet": "t.. All evaluations in this figure predate the DAgger training used for Pup Go Car in the main results. achieves full successes (2 of 10) while no baseline ever does. Qualitatively, Ro",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+                "width": 512,
+                "height": 287,
+                "size_bytes": 22948,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.165305,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 521,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+                "width": 261,
+                "height": 83,
+                "size_bytes": 6116,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.024615,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 858,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "main",
+              "task",
+              "completion"
+            ],
+            "snippet": "e steps; GDN’s linear associative state admits no such meta-learning. Below 1K, RoboTTT remains competitive (still outperforming GDN at matched lengths) but falls short of its longer-c",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 61399
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_img_02.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 56917
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_img_03.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 64854
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_fig_figure_9.png",
+                "width": 638,
+                "height": 217,
+                "size_bytes": 193466,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.155905,
+                  "visual_rect_count": 10,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 312,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Closed-loop performance scales with pretraining context length. Average task completion score",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_figure_8.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+          "width": 512,
+          "height": 287,
+          "size_bytes": 22948,
+          "label": "Figure 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.165305,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 521,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "fig. 8",
+              "closed-loop",
+              "performance",
+              "scales",
+              "pretraining",
+              "context"
+            ],
+            "snippet": "r four minutes), then post-train and evaluate closed-loop performance on all three tasks (Fig. 8). As references, Single-Step Context denotes GR00T N1.7, conditioned on the current obser",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+                "width": 512,
+                "height": 287,
+                "size_bytes": 22948,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.165305,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 521,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+                "width": 261,
+                "height": 83,
+                "size_bytes": 6116,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.024615,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 858,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "performance",
+              "pretraining",
+              "context"
+            ],
+            "snippet": "s we show in Sec. 4, DAgger Distillation yields stronger failure recovery and higher task performance than standard DAgger training. 3.4. Implementation Details We instantiate RoboTTT on pret",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+                "width": 512,
+                "height": 207,
+                "size_bytes": 12195,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119338,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 138,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "closed-loop",
+              "performance",
+              "context"
+            ],
+            "snippet": "As shown in Fig. 12, removing sequence action forcing during training significantly hurts closed-loop performance: the resulting inaccurate motions leave the robot unable to make meaningful p",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_12.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_011_fig_figure_12.png",
+                "width": 638,
+                "height": 178,
+                "size_bytes": 39924,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128037,
+                  "visual_rect_count": 15,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 309,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "RoboTTT achieves an average task completion score of 79%, 87% higher than the single-step context",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+          "width": 261,
+          "height": 83,
+          "size_bytes": 6116,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_text_contamination_suspected"
+            ],
+            "page_coverage_ratio": 0.024615,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 858,
+            "table_body_rows": 5,
+            "caption_text_chars": 172,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "robottt",
+              "achieves",
+              "average",
+              "task",
+              "completion"
+            ],
+            "snippet": "nsistently outperforms baselines on dexterous, long-horizon tasks. As shown in Fig. 7 and Table 1, RoboTTT achieves an average task completion score of 79%, 87% higher than the single-ste",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+                "width": 512,
+                "height": 207,
+                "size_bytes": 12195,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119338,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 138,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "robottt",
+              "achieves",
+              "average",
+              "task",
+              "completion"
+            ],
+            "snippet": "N1.7 3 / 20 3 / 20 0 / 10 GR00T N1.7 Hist. 0 / 20 8 / 20 0 / 10 GDN 3 / 20 8 / 20 0 / 10 Table 1: Main evaluation: fully successful trials on three assembly tasks, out of 20 per task (10",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+                "width": 512,
+                "height": 287,
+                "size_bytes": 22948,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.165305,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 521,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+                "width": 261,
+                "height": 83,
+                "size_bytes": 6116,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.024615,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 858,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 3,
+            "matched_terms": [
+              "robottt",
+              "average",
+              "task"
+            ],
+            "snippet": "RoboTTT : Context Scaling for Robot Policies 3.2. RoboTTT Sequence Training We train RoboTTT on r",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+                "width": 639,
+                "height": 157,
+                "size_bytes": 43798,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.113074,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.296121,
+                  "paragraph_text_chars": 834,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Robustness to external perturba-",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "robustness",
+              "external",
+              "perturba-"
+            ],
+            "snippet": "20 18 / 20 GR00T N1.7 10 / 20 11 / 20 GR00T N1.7 Hist. 3 / 20 5 / 20 GDN 13 / 20 18 / 20 Table 3: Robustness to external perturba- tions. Each entry reports successful recov- eries, i.e.",
+            "images": [
+              {
+                "filename": "page_009_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 61399
+              },
+              {
+                "filename": "page_009_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_img_02.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 56917
+              },
+              {
+                "filename": "page_009_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_img_03.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 64854
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_figure_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_fig_figure_9.png",
+                "width": 638,
+                "height": 217,
+                "size_bytes": 193466,
+                "label": "Figure 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.155905,
+                  "visual_rect_count": 10,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 312,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 2,
+            "matched_terms": [
+              "robustness",
+              "external"
+            ],
+            "snippet": "n-Context Human Demonstration Top View Bottom View Robot Execution On-the-Fly Improvement Robustness to External Perturbation Long-Context Conditioning Figure 1: RoboTTT, a long-context visu",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_01.png",
+                "width": 1085,
+                "height": 210,
+                "size_bytes": 19255
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 58482
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 65775
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 830,
+                "size_bytes": 633608,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.653935,
+                  "visual_rect_count": 68,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 291,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 280,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Figure 1",
+        "caption": "RoboTTT, a long-context visuomotor policy that integrates Test-Time Training (TTT) into robot foundation",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_figure_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1.png",
+          "width": 701,
+          "height": 830,
+          "size_bytes": 633608,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.653935,
+            "visual_rect_count": 68,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 291,
+            "table_body_rows": 0,
+            "caption_text_chars": 280,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "robottt",
+              "long-context",
+              "visuomotor",
+              "policy",
+              "integrates"
+            ],
+            "snippet": "tion On-the-Fly Improvement Robustness to External Perturbation Long-Context Conditioning Figure 1: RoboTTT, a long-context visuomotor policy that integrates Test-Time Training (TTT) into",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_01.png",
+                "width": 1085,
+                "height": 210,
+                "size_bytes": 19255
+              },
+              {
+                "filename": "page_001_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 58482
+              },
+              {
+                "filename": "page_001_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 65775
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1.png",
+                "width": 701,
+                "height": 830,
+                "size_bytes": 633608,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.653935,
+                  "visual_rect_count": 68,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 291,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 280,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "robottt",
+              "visuomotor",
+              "policy"
+            ],
+            "snippet": "visuomotor context improves within-episode conditioning; example recoveries are shown in Fig. 1. RoboTTT learns to recover on the fly and improves upon standard DAgger. On Pup Go Car, w",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 51877
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_02.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 55353
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_03.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 56690
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_10.png",
+                "width": 538,
+                "height": 285,
+                "size_bytes": 23978,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.172406,
+                  "visual_rect_count": 22,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 241,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_11.png",
+                "width": 633,
+                "height": 236,
+                "size_bytes": 87971,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.167846,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 285,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "fig. 1",
+              "robottt",
+              "long-context",
+              "visuomotor",
+              "policy"
+            ],
+            "snippet": "r tokens, so the comparison isolates the TTT mechanism from the extra tokens. As shown in Fig. 12, removing sequence action forcing during training significantly hurts closed-loop perfor",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_12.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_011_fig_figure_12.png",
+                "width": 638,
+                "height": 178,
+                "size_bytes": 39924,
+                "label": "Figure 12",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.128037,
+                  "visual_rect_count": 15,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 762,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 309,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "On-the-fly recovery learned through DAgger Distillation. While tightening the roof screw on Pup",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_figure_11.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_11.png",
+          "width": 633,
+          "height": 236,
+          "size_bytes": 87971,
+          "label": "Figure 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.167846,
+            "visual_rect_count": 19,
+            "visual_body_ratio": 1.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 285,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "fig. 11",
+              "on-the-fly",
+              "recovery",
+              "learned",
+              "through",
+              "dagger"
+            ],
+            "snippet": "litatively, most of DAgger Distillation’s gain comes from recovering after wrong actions (Fig. 11), indicating that the failure-to-correction mappings distilled into the fast weights mani",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 51877
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_02.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 55353
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_img_03.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 56690
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_figure_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_10.png",
+                "width": 538,
+                "height": 285,
+                "size_bytes": 23978,
+                "label": "Figure 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.172406,
+                  "visual_rect_count": 22,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 241,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_11.png",
+                "width": 633,
+                "height": 236,
+                "size_bytes": 87971,
+                "label": "Figure 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.167846,
+                  "visual_rect_count": 19,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 285,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 3,
+            "matched_terms": [
+              "recovery",
+              "through",
+              "dagger"
+            ],
+            "snippet": "s were during training. As we show in Sec. 4, DAgger Distillation yields stronger failure recovery and higher task performance than standard DAgger training. 3.4. Implementation Details We",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+                "width": 512,
+                "height": 207,
+                "size_bytes": 12195,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119338,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 138,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "recovery",
+              "learned",
+              "dagger"
+            ],
+            "snippet": "features of the history and disambiguate the current stage. Second, it exhibits strategic recovery: during roof drilling on Pup Go Car, if the drill misses the roof screw, RoboTTT raises t",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+                "width": 512,
+                "height": 287,
+                "size_bytes": 22948,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.165305,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 521,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+                "width": 261,
+                "height": 83,
+                "size_bytes": 6116,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.024615,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 858,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Computation flow with tanh gat-",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_004_fig_figure_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_3.png",
+          "width": 638,
+          "height": 171,
+          "size_bytes": 41446,
+          "label": "Figure 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.123021,
+            "visual_rect_count": 59,
+            "visual_body_ratio": 0.808794,
+            "paragraph_text_chars": 603,
+            "table_body_rows": 0,
+            "caption_text_chars": 145,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 4,
+            "score": 8,
+            "matched_terms": [
+              "figure 3",
+              "computation",
+              "flow",
+              "tanh",
+              "gat-"
+            ],
+            "snippet": "time. Attn t = 1 Attn Flatten over time TTT Layer Tanh Gating ...... t = 1 + H Attn t = T Figure 3: Computation flow with tanh gat- ing. The TTT output is weighted by the learned gate tanh",
+            "images": [
+              {
+                "filename": "page_004_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_img_01.jpeg",
+                "width": 16,
+                "height": 16,
+                "size_bytes": 929
+              },
+              {
+                "filename": "page_004_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 55247
+              },
+              {
+                "filename": "page_004_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 64412
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_004_fig_figure_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_2.png",
+                "width": 638,
+                "height": 254,
+                "size_bytes": 66536,
+                "label": "Figure 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.181951,
+                  "visual_rect_count": 179,
+                  "visual_body_ratio": 0.949743,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 474,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_004_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_3.png",
+                "width": 638,
+                "height": 171,
+                "size_bytes": 41446,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.123021,
+                  "visual_rect_count": 59,
+                  "visual_body_ratio": 0.808794,
+                  "paragraph_text_chars": 603,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 145,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 5,
+            "score": 1,
+            "matched_terms": [
+              "flow"
+            ],
+            "snippet": "tory or a contiguous sub-trajectory up to a maximum context length. Denoting the per-step flow-matching objective as ℓ𝑡, the sequence loss over a trajectory 𝜉given fast weight initiali",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+                "width": 639,
+                "height": 157,
+                "size_bytes": 43798,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.113074,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.296121,
+                  "paragraph_text_chars": 834,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 1,
+            "matched_terms": [
+              "flow"
+            ],
+            "snippet": "om Context RoboTTT decouples fast weight updates from slow weight updates: by masking the flow-matching loss on selected timesteps, those timesteps serve as pure context, updating the",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 44474
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 68713
+              },
+              {
+                "filename": "page_006_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 67969
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_5.png",
+                "width": 657,
+                "height": 349,
+                "size_bytes": 317069,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.2577,
+                  "visual_rect_count": 24,
+                  "visual_body_ratio": 0.929977,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_6.png",
+                "width": 638,
+                "height": 109,
+                "size_bytes": 25369,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.078108,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.449036,
+                  "paragraph_text_chars": 793,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "TBPTT. Gradients are truncated at",
+        "kind": "supporting_figure",
+        "section": "深度分析",
+        "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+        "priority": 3,
+        "anchor_text": "深度分析",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_005_fig_figure_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+          "width": 639,
+          "height": 157,
+          "size_bytes": 43798,
+          "label": "Figure 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "large_text_block_suspected"
+            ],
+            "page_coverage_ratio": 0.113074,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.296121,
+            "paragraph_text_chars": 834,
+            "table_body_rows": 0,
+            "caption_text_chars": 131,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 5,
+            "score": 8,
+            "matched_terms": [
+              "fig. 4",
+              "tbptt",
+              "gradients",
+              "truncated"
+            ],
+            "snippet": "the input sequence is divided into segments, and gradients flow only within each segment (Fig. 4). Crucially, the fast weights are carried over across seg- ment boundaries, so TTT contin",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_005_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+                "width": 639,
+                "height": 157,
+                "size_bytes": 43798,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "large_text_block_suspected"
+                  ],
+                  "page_coverage_ratio": 0.113074,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.296121,
+                  "paragraph_text_chars": 834,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 131,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Evaluation tasks. Three long-horizon assembly tasks on a YAM bimanual setup; each row shows",
+        "kind": "data_or_task",
+        "section": "数据与任务定义",
+        "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+        "priority": 3,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_figure_5.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_5.png",
+          "width": 657,
+          "height": 349,
+          "size_bytes": 317069,
+          "label": "Figure 5",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.2577,
+            "visual_rect_count": 24,
+            "visual_body_ratio": 0.929977,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 395,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "figure 5",
+              "evaluation",
+              "tasks",
+              "three",
+              "long-horizon",
+              "assembly"
+            ],
+            "snippet": "or Robot Policies Pup Go Car (Tavg: 2 mins) Circuit (Tavg: 1 min) Gear Bot (Tavg: 5 mins) Figure 5: Evaluation tasks. Three long-horizon assembly tasks on a YAM bimanual setup; each row sh",
+            "images": [
+              {
+                "filename": "page_006_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_01.jpeg",
+                "width": 960,
+                "height": 540,
+                "size_bytes": 44474
+              },
+              {
+                "filename": "page_006_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_02.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 68713
+              },
+              {
+                "filename": "page_006_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_img_03.jpeg",
+                "width": 1024,
+                "height": 576,
+                "size_bytes": 67969
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_figure_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_5.png",
+                "width": 657,
+                "height": 349,
+                "size_bytes": 317069,
+                "label": "Figure 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.2577,
+                  "visual_rect_count": 24,
+                  "visual_body_ratio": 0.929977,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 395,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_006_fig_figure_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_6.png",
+                "width": 638,
+                "height": 109,
+                "size_bytes": 25369,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.078108,
+                  "visual_rect_count": 14,
+                  "visual_body_ratio": 0.449036,
+                  "paragraph_text_chars": 793,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 170,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 7,
+            "score": 8,
+            "matched_terms": [
+              "fig. 5",
+              "evaluation",
+              "tasks",
+              "three",
+              "long-horizon",
+              "assembly"
+            ],
+            "snippet": "e long-horizon, multi-stage assembly tasks requiring bimanual manipulation and dexterity (Fig. 5): Pup Go Car, Circuit, and Gear Bot. All experiments use a YAM bimanual setup with four R",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_007_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+                "width": 512,
+                "height": 207,
+                "size_bytes": 12195,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.119338,
+                  "visual_rect_count": 18,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 138,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "evaluation",
+              "tasks",
+              "three",
+              "assembly"
+            ],
+            "snippet": "ontext. Single-Step Context and Short Context denote GR00T N1.7 and GR00T N1.7 Hist.. All evaluations in this figure predate the DAgger training used for Pup Go Car in the main results. achi",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+                "width": 512,
+                "height": 287,
+                "size_bytes": 22948,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.165305,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 1.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 521,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+                "width": 261,
+                "height": 83,
+                "size_bytes": 6116,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_text_contamination_suspected"
+                  ],
+                  "page_coverage_ratio": 0.024615,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 858,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

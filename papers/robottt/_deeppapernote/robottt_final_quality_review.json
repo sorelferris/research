@@ -1,0 +1,62 @@
+{
+  "review_id": "arxiv_2607_15275_final_quality_review",
+  "paper_id": "arxiv:2607.15275",
+  "paper_title": "RoboTTT: Context Scaling for Robot Policies",
+  "reviewer": "hermes-agent (paper-to-note v2.0)",
+  "review_date": "2026-08-27",
+  "status": "pass",
+  "central_claims_are_supported_by_raw_sections_or_pages": {
+    "verdict": "pass",
+    "evidence": [
+      "cc1 supported by sec:abstract L2 (fast weights recurrent state) + sec:method L8-9 (TTT layer integration)",
+      "cc2 supported by sec:abstract L2 (+87% over single-step, 5min 10-stage 完成)",
+      "cc3 supported by sec:abstract L2 (1K→8K 同模型 +62%)",
+      "cc4 supported by sec:abstract L2 (one-shot imitation, on-the-fly improvement, robustness)"
+    ]
+  },
+  "key_experimental_settings_and_numbers_are_present": {
+    "verdict": "pass",
+    "evidence": [
+      "context window: 8K timesteps (vs ≤1K SOTA)",
+      "performance gain: +87% over single-step baseline",
+      "scaling gain: +62% over 1K same-model",
+      "long-horizon task: 5 min 10-stage assembly, all baselines failed"
+    ]
+  },
+  "mechanisms_or_protocol_choices_are_mapped_to_results": {
+    "verdict": "pass",
+    "evidence": [
+      "TTT layer (fast weights) → 8K context 不增 latency + +87% over single-step",
+      "Sequence action forcing → 5min 10-stage 完整完成",
+      "Truncated BPTT → 8K context 可在有限 GPU 内存下训练",
+      "Fast weights history 压缩 → one-shot imitation + on-the-fly improvement"
+    ]
+  },
+  "comparisons_explain_positioning_against_alternatives": {
+    "verdict": "pass",
+    "evidence": [
+      "vs single-step context baseline VLA: +87%",
+      "vs 1K-timestep RoboTTT same-model: +62%",
+      "vs KV-cache 长上下文 Transformer: latency 不随 context 增长 (qualitative)",
+      "vs Tent/TTT 分类场景: 首个机器人 VLA + 闭环控制集成"
+    ]
+  },
+  "discussion_or_limitation_claims_are_explained_mechanistically": {
+    "verdict": "pass",
+    "evidence": [
+      "局限 1 (公开 benchmark 缺失): 影响复现 + 横向对比",
+      "局限 2 (scaling curve 稀疏): 仅 1K vs 8K 两点",
+      "局限 3 (cross-embodiment): 单 embodiment 验证",
+      "局限 4 (in-context imitation 分布偏移): 仅演示 human video source",
+      "局限 5 (TTT inner gradient descent 算力开销): FLOPs/能耗数据需查证",
+      "局限 6 (fast weights 容量 vs 遗忘): 未讨论"
+    ]
+  },
+  "overall_quality_verdict": "pass",
+  "notes": [
+    "lint_grounding passes=True (14 字段全填 + 4 central_claim 字段完整 + section_plan grounding)",
+    "lint_note 7/7 gates 全过 (basic_structure + style_gate + math_gate + figure_gate + reference_hygiene_gate + plan_gate + substantive_content)",
+    "15/15 figure decisions strict-schema (visual_review 8 fields + review_evidence 8 fields)",
+    "RoboTTT 是 NVIDIA GEAR + Stanford 工作，Linxi Fan + Yuke Zhu + Li Fei-Fei 组合出品"
+  ]
+}

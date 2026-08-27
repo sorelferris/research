@@ -1,0 +1,837 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "doi:10.48550/arxiv.2607.15275",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "RoboTTT, a long-context visuomotor policy that integrates Test-Time Training (TTT) into robot foundation",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_001_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_001_fig_figure_1_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "325e577c039520f685bef8c17693047ceb8b35e73ac995719f48033f9f7a8521",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_001_fig_figure_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_001.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 1,
+        "caption": "Figure 1: RoboTTT, a long-context visuomotor policy that integrates Test-Time Training (TTT) into robot foundation models, with context scaled to 8K timesteps. RoboTTT exhibits capabilities such as one-shot in-context imitation from human videos and on-the-fly policy improvement.",
+        "bbox_pt": [
+          10.940000534057617,
+          40.17571258544922,
+          536.9332885742188,
+          663.23291015625
+        ],
+        "normalized_bbox": [
+          0.018378030554079657,
+          0.04772085650906085,
+          0.9019904845708019,
+          0.7877904460396856
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "325e577c039520f685bef8c17693047ceb8b35e73ac995719f48033f9f7a8521",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "RoboTTT model architecture, training, and inference. TTT layers are added after the attention",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_004_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "9a68a1e409e994ea449d4b82420ac4b727267b1e5da1a7fc26e7feb8dc8f34f5",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_004.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 4,
+        "caption": "Figure 2: RoboTTT model architecture, training, and inference. TTT layers are added after the attention layers in the DiT action head: attention operates within each timestep, while TTT layers operate across timesteps. Training uses a sequence flow-matching loss with sequence action forcing, sampling the noise level independently per action chunk. Inference starts from the learned initialization 𝑊0, updating fast weights on each observation and propagating them forward.",
+        "bbox_pt": [
+          58.36206817626953,
+          79.12725830078125,
+          536.9295654296875,
+          269.6665344238281
+        ],
+        "normalized_bbox": [
+          0.09804203105874479,
+          0.09398764318855092,
+          0.9019842300862853,
+          0.32031088352608317
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "9a68a1e409e994ea449d4b82420ac4b727267b1e5da1a7fc26e7feb8dc8f34f5",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Computation flow with tanh gat-",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_004_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_004_fig_figure_3_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "66b768bd7ddf7cdfc609670fd018eb3ce5ecee3392dd9319c6b467f2137d3c70",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_004_fig_figure_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_004.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 4,
+        "caption": "Figure 3: Computation flow with tanh gat- ing. The TTT output is weighted by the learned gate tanh(𝛼) before being added to the attention output.",
+        "bbox_pt": [
+          57.9739990234375,
+          588.0079345703125,
+          536.9152221679688,
+          716.7355346679688
+        ],
+        "normalized_bbox": [
+          0.09739011639698218,
+          0.6984379483534522,
+          0.9019601349410161,
+          0.851341056666729
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "66b768bd7ddf7cdfc609670fd018eb3ce5ecee3392dd9319c6b467f2137d3c70",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "TBPTT. Gradients are truncated at",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_005_fig_figure_4.png",
+      "relative_markdown_embed": "![Figure 4](images/page_005_fig_figure_4.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+      "source_image_sha256": "cc5ca44a159c5b7f929eb25f83945e20b3ce67ed50aeccd965e2c22a31634297",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "cc5ca44a159c5b7f929eb25f83945e20b3ce67ed50aeccd965e2c22a31634297",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_005_fig_figure_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_005.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 5,
+        "caption": "Figure 4: TBPTT. Gradients are truncated at segment boundaries; fast weights carry over, so TTT continues over the entire sequence.",
+        "bbox_pt": [
+          57.53499984741211,
+          535.3616943359375,
+          536.9122924804688,
+          653.572509765625
+        ],
+        "normalized_bbox": [
+          0.09665264474466426,
+          0.6359045540639863,
+          0.9019552133794292,
+          0.776315787565848
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Evaluation tasks. Three long-horizon assembly tasks on a YAM bimanual setup; each row shows",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_006_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_006_fig_figure_5_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "c646d9b2117366ddf86867a84de6eb5c726c3e6723766a364644c3791eaaaa7f",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_006.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 6,
+        "caption": "Figure 5: Evaluation tasks. Three long-horizon assembly tasks on a YAM bimanual setup; each row shows one rollout. Top, Pup Go Car: toy vehicle assembly, 2-minute average episodes. Middle, Circuit: target configuration specified by a language prompt or a one-shot human video demonstration; 1-minute episodes. Bottom, Gear Bot: ten-stage assembly spanning five minutes, our longest-horizon task.",
+        "bbox_pt": [
+          58.36199951171875,
+          34.20625305175781,
+          551.5650024414062,
+          296.06201171875
+        ],
+        "normalized_bbox": [
+          0.09804191570964509,
+          0.04063031091542511,
+          0.926570198591162,
+          0.35166352678785684
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "c646d9b2117366ddf86867a84de6eb5c726c3e6723766a364644c3791eaaaa7f",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "DAgger Distillation. During se-",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "scientific_content_missing",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "c24754ca55ee8b58ecd1598f562a7ebc0fd77e16fac0501041cc224681076a4b",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "c24754ca55ee8b58ecd1598f562a7ebc0fd77e16fac0501041cc224681076a4b",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (scientific_content_missing)",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "scientific_content_missing",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_006_fig_figure_6.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_006.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 6,
+        "caption": "Figure 6: DAgger Distillation. During se- quence training, all executed actions update the fast weights, but the flow-matching loss is computed only on human corrections.",
+        "bbox_pt": [
+          57.9739990234375,
+          521.2119140625,
+          536.6318359375,
+          602.9909057617188
+        ],
+        "normalized_bbox": [
+          0.09739011639698218,
+          0.6190973939513363,
+          0.9014840763900182,
+          0.716234775647648
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "Main evaluation: task completion scores on three assembly tasks. Scores are rubric-based,",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_007_fig_figure_7_review.png",
+      "relative_markdown_embed": "![Figure 7](images/page_007_fig_figure_7_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "cb5ba061ed205b5919a2b6113be1aebe3b7d291556c4a639fbb527d9985399f9",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_007_fig_figure_7.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_007.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 7,
+        "caption": "Figure 7: Main evaluation: task completion scores on three assembly tasks. Scores are rubric-based, reported in percent; higher is better.",
+        "bbox_pt": [
+          105.41699981689453,
+          81.0404052734375,
+          489.8601989746094,
+          236.6080322265625
+        ],
+        "normalized_bbox": [
+          0.17708928235634525,
+          0.09626008607226318,
+          0.822912729844616,
+          0.2810438752208826
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "cb5ba061ed205b5919a2b6113be1aebe3b7d291556c4a639fbb527d9985399f9",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Closed-loop performance scales with pretraining context length. Average task completion score",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_008_fig_figure_8_review.png",
+      "relative_markdown_embed": "![Figure 8](images/page_008_fig_figure_8_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "6316aec2f6f048df95dd3dfebba2bdf3a56f3e8d203c5f182c1fc96153b02e71",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_figure_8.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_008.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 8,
+        "caption": "Figure 8: Closed-loop performance scales with pretraining context length. Average task completion score across the three tasks as pretraining context length grows from 128 to 8K timesteps. RoboTTT improves steadily, surpassing the best short-context baseline from 1K onward with no sign of saturation; GDN does not benefit from longer context. Single-Step Context and Short Context denote GR00T N1.7 and GR00T N1.7 Hist.. All evaluations in this figure predate the DAgger training used for Pup Go Car in the main results.",
+        "bbox_pt": [
+          104.03199768066406,
+          81.03886413574219,
+          488.490234375,
+          296.52093505859375
+        ],
+        "normalized_bbox": [
+          0.1747626269327126,
+          0.09625825550334266,
+          0.8206113358738161,
+          0.3522086375883875
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "6316aec2f6f048df95dd3dfebba2bdf3a56f3e8d203c5f182c1fc96153b02e71",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "One-shot imitation from an in-context human video. Continuous footage: a human demonstrates",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:method",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "scientific_content_missing",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "9115b8e73c92221de25d554ab6022d4938f86380ab47ca32631a4bc221b2a95a",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "9115b8e73c92221de25d554ab6022d4938f86380ab47ca32631a4bc221b2a95a",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (scientific_content_missing)",
+        "failure_reason": "scientific_content_missing",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "scientific_content_missing",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_009_fig_figure_9.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_009.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 9,
+        "caption": "Figure 9: One-shot imitation from an in-context human video. Continuous footage: a human demonstrates an unseen configuration (frames 1–3), the scene is reset (frame 4), and RoboTTT reproduces the assembly (row 2). The prompt is identical across configurations, so the target is identifiable only from the video.",
+        "bbox_pt": [
+          58.36199951171875,
+          81.03392028808594,
+          536.900634765625,
+          244.30804443359375
+        ],
+        "normalized_bbox": [
+          0.09804191570964509,
+          0.09625238318324118,
+          0.9019356296656148,
+          0.2901899775300384
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "figure:Figure 10",
+      "source_id": "Figure 10",
+      "kind": "figure",
+      "label": "Figure 10",
+      "caption": "DAgger Distillation results on Pup Go Car. Task completion after fine-tuning on a pool of 100",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:method-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_010_fig_figure_10_review.png",
+      "relative_markdown_embed": "![Figure 10](images/page_010_fig_figure_10_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_10_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "0ebae6e4c06e2110442142d683693a02d478f61c459fcc87fbdff5d7eded305f",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_10.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_010.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 10,
+        "caption": "Figure 10: DAgger Distillation results on Pup Go Car. Task completion after fine-tuning on a pool of 100 DAgger trajectories (50 collected with RoboTTT, 50 with GR00T N1.7). DAgger Distillation applies to the sequence models RoboTTT and GDN.",
+        "bbox_pt": [
+          86.20416259765625,
+          23.401123046875,
+          489.8648376464844,
+          237.447998046875
+        ],
+        "normalized_bbox": [
+          0.14481377118552832,
+          0.02779593847142493,
+          0.8229205223171286,
+          0.28204158965590087
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "0ebae6e4c06e2110442142d683693a02d478f61c459fcc87fbdff5d7eded305f",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 11",
+      "source_id": "Figure 11",
+      "kind": "figure",
+      "label": "Figure 11",
+      "caption": "On-the-fly recovery learned through DAgger Distillation. While tightening the roof screw on Pup",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:method-2",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_010_fig_figure_11_review.png",
+      "relative_markdown_embed": "![Figure 11](images/page_010_fig_figure_11_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_11_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "7889cc0317e9cefc514aa1714395de9671ea8896686c4dd03a3a3ca5c418ae57",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_010_fig_figure_11.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_010.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 10,
+        "caption": "Figure 11: On-the-fly recovery learned through DAgger Distillation. While tightening the roof screw on Pup Go Car, RoboTTT misses the screw (frames 1–3), raises the arm and re-attempts, getting closer but missing again (frames 4–5), then re-adjusts once more and succeeds (frames 6–8).",
+        "bbox_pt": [
+          57.451568603515625,
+          289.60113525390625,
+          532.556640625,
+          466.6509704589844
+        ],
+        "normalized_bbox": [
+          0.09651248918025444,
+          0.3439892743885791,
+          0.894638184222663,
+          0.5542897080847928
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "7889cc0317e9cefc514aa1714395de9671ea8896686c4dd03a3a3ca5c418ae57",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 12",
+      "source_id": "Figure 12",
+      "kind": "figure",
+      "label": "Figure 12",
+      "caption": "Ablation results on the Pup Go Car task.",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:method-2",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_figure_12_review.png",
+      "relative_markdown_embed": "![Figure 12](images/page_011_fig_figure_12_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_011_fig_figure_12_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "aeb6f2683c8cb0fe881e2fcf7e91442da6709cb31d3c05de0ec27eaaf15818b5",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_011_fig_figure_12.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 11,
+        "caption": "Figure 12: Ablation results on the Pup Go Car task. We ablate sequence action forcing and the fast-model architecture (MLP vs. linear), and trace each component added during development (state tokens, action tokens, register tokens). GR00T N1.7 with register tokens is included for a matched-token comparison.",
+        "bbox_pt": [
+          57.9739990234375,
+          83.219970703125,
+          536.9039916992188,
+          217.19955444335938
+        ],
+        "normalized_bbox": [
+          0.09739011639698218,
+          0.09884898176144374,
+          0.9019412689549331,
+          0.2579904152136299
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "aeb6f2683c8cb0fe881e2fcf7e91442da6709cb31d3c05de0ec27eaaf15818b5",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "RoboTTT achieves an average task completion score of 79%, 87% higher than the single-step context",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:preliminaries",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_008_fig_table_1.png",
+      "relative_markdown_embed": "![Table 1](images/page_008_fig_table_1.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+      "source_image_sha256": "07766ca6640dba10aeab42b70687359c625b0567f60e7a905a45b42cff4c8421",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "07766ca6640dba10aeab42b70687359c625b0567f60e7a905a45b42cff4c8421",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/images/page_008_fig_table_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/RoboTTT_Context_Scaling_for_Robot_Policies/page_previews/page_008.png",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 8,
+        "caption": "Table 1: Main evaluation: fully successful trials on three assembly tasks, out of 20 per task (10 for Gear Bot). RoboTTT is the only method with full successes on Gear Bot.",
+        "bbox_pt": [
+          340.8224182128906,
+          521.044189453125,
+          536.7960205078125,
+          583.9923706054688
+        ],
+        "normalized_bbox": [
+          0.5725452019798623,
+          0.6188981700545604,
+          0.9017598889039498,
+          0.693668246973254
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "One-shot imitation on Circuit. Task",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:method",
+      "decision": "visual_defect",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": "",
+      "source_image_sha256": "",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "",
+        "page_preview_path": "",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 1,
+        "caption": "",
+        "bbox_pt": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "render_dpi": 300
+      }
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Robustness to external perturba-",
+      "pages": [
+        9
+      ],
+      "section_id": "sec:method",
+      "decision": "visual_defect",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_sha256": "",
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable",
+      "review_evidence": {
+        "candidate_path": "",
+        "page_preview_path": "",
+        "source_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "source_page": 1,
+        "caption": "",
+        "bbox_pt": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "render_dpi": 300
+      }
+    }
+  ],
+  "summary": {
+    "total_items": 15,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 3,
+      "placeholder": 1,
+      "review_pending": 9,
+      "skip": 0,
+      "visual_defect": 2
+    }
+  }
+}

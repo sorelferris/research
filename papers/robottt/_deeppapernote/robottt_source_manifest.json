@@ -1,0 +1,1069 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.48550/arxiv.2607.15275",
+  "title": "RoboTTT: Context Scaling for Robot Policies",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/arxiv_2607_15275-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/arxiv_2607_15275-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+    "total_pages": 22,
+    "text_pages_extracted": 22,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 22,
+    "text_max_pages": null,
+    "text_pages_extracted": 22,
+    "text_pages_scanned": 22,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": null
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 1005,
+      "text_hash_sha256": "543dc4e0fdcabb9d340677c2601a35d9360268e7ad8c4a68ffb62bff11e17d1a"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 1725,
+      "text_hash_sha256": "5a0fd56a8df91d15fc40c2490355f11d06ec79076f8152d84af912b2e12c257e"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "1. Introduction",
+      "page_start": 2,
+      "page_end": 3,
+      "char_count": 3903,
+      "text_hash_sha256": "abba6730b4687ee818d11982f96a772277289553b85e1a7a8dc542197fdb7c62"
+    },
+    {
+      "section_id": "sec:preliminaries",
+      "kind": "introduction",
+      "title": "2. Preliminaries",
+      "page_start": 3,
+      "page_end": 7,
+      "char_count": 15154,
+      "text_hash_sha256": "36c974c2d45e61edd21798ff1897bd611dd10632c395bb840fd1af8d3c8c5b12"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "4. Experiments",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 3729,
+      "text_hash_sha256": "c93b61a6e004575a9507f2b0566cb7ce751f39b17a6c8837589e9c85211c1f71"
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 4682,
+      "text_hash_sha256": "6cfd1bd57e989a688d4bb4cb06f8b379bc9749b2f64090e7766822922422f128"
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 9,
+      "page_end": 11,
+      "char_count": 3421,
+      "text_hash_sha256": "d76a5af11960ade46b47a7352543c0ecd0901763b2e938718e0fbb9e49646c9c"
+    },
+    {
+      "section_id": "sec:ablation",
+      "kind": "experiment",
+      "title": "Ablation",
+      "page_start": 11,
+      "page_end": 11,
+      "char_count": 2156,
+      "text_hash_sha256": "2dec94d144ca100cf8ce3dd390769e0c07d498abbe323df179c95834943bded6"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "5. Related Work",
+      "page_start": 11,
+      "page_end": 12,
+      "char_count": 6691,
+      "text_hash_sha256": "8d6e9e525b2c93fdd04fcc6dcb48fb38087d5a5c4d3d3c4b81f70079062228e6"
+    },
+    {
+      "section_id": "sec:models",
+      "kind": "method",
+      "title": "models.",
+      "page_start": 12,
+      "page_end": 13,
+      "char_count": 44,
+      "text_hash_sha256": "3045d1219ea1a7e59efa6bd95bda42a5aa254e8b1a6b790b32e1b68a3d68a56a"
+    },
+    {
+      "section_id": "sec:acknowledgments",
+      "kind": "acknowledgments",
+      "title": "Acknowledgments",
+      "page_start": 13,
+      "page_end": 13,
+      "char_count": 698,
+      "text_hash_sha256": "9faff30a78c830028930c3475ad99dc9b09104625c56b25255a06528b8a44eb2"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 13,
+      "page_end": 22,
+      "char_count": 31528,
+      "text_hash_sha256": "f40722cadcfe4fbdf748ac59debdf0840a6bff304bb7b6f3d148a56818229b35"
+    },
+    {
+      "section_id": "sec:evaluation",
+      "kind": "experiment",
+      "title": "Evaluation",
+      "page_start": 22,
+      "page_end": 22,
+      "char_count": 423,
+      "text_hash_sha256": "842db47783cedae32c40f1011e4c1a18cebcdf464519d1023a326a7175459427"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 960,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4618,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4131,
+      "section_ids": [
+        "sec:introduction",
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3847,
+      "section_ids": [
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 3962,
+      "section_ids": [
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3067,
+      "section_ids": [
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3256,
+      "section_ids": [
+        "sec:preliminaries",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3555,
+      "section_ids": [
+        "sec:experiments",
+        "sec:method"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3837,
+      "section_ids": [
+        "sec:method",
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2525,
+      "section_ids": [
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 4227,
+      "section_ids": [
+        "sec:method-2",
+        "sec:ablation",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 4704,
+      "section_ids": [
+        "sec:related-work",
+        "sec:models"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 4069,
+      "section_ids": [
+        "sec:models",
+        "sec:acknowledgments",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3978,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3627,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 3618,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 4015,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 3972,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 2554,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 2801,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 2434,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 1696,
+      "section_ids": [
+        "sec:references",
+        "sec:evaluation"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "RoboTTT, a long-context visuomotor policy that integrates Test-Time Training (TTT) into robot foundation",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "RoboTTT model architecture, training, and inference. TTT layers are added after the attention",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Computation flow with tanh gat-",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "TBPTT. Gradients are truncated at",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Evaluation tasks. Three long-horizon assembly tasks on a YAM bimanual setup; each row shows",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "DAgger Distillation. During se-",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Main evaluation: task completion scores on three assembly tasks. Scores are rubric-based,",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Closed-loop performance scales with pretraining context length. Average task completion score",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "One-shot imitation from an in-context human video. Continuous footage: a human demonstrates",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "DAgger Distillation results on Pup Go Car. Task completion after fine-tuning on a pool of 100",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "On-the-fly recovery learned through DAgger Distillation. While tightening the roof screw on Pup",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Fig 1",
+        "caption": "RoboTTT learns to recover on the fly and improves upon standard DAgger.",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:method-2"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Ablation results on the Pup Go Car task.",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:method-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "RoboTTT achieves an average task completion score of 79%, 87% higher than the single-step context",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:preliminaries"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Main evaluation: fully successful",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 2",
+        "caption": "One-shot imitation on Circuit. Task",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:method"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Robustness to external perturba-",
+        "page": 9,
+        "pages": [
+          9
+        ],
+        "section_id": "sec:method"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "Better Long-Horizon Task Performance (Duration = 5 Minutes)",
+      "section_id": "sec:preamble",
+      "page_start": 1,
+      "page_end": 2
+    },
+    {
+      "text": "where ℒFW(ˆ𝑣, 𝑣) = ‖ˆ𝑣−𝑣‖2 is typically a mean squared error and 𝜂denotes the (learnable) learning rate. The",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑂𝑡= 𝑓𝑊𝑡(𝑄𝑡).",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "known as robot sequence models (22; 32; 56; 67). Concretely, a robot trajectory 𝜉= {(𝑜𝑡, 𝑞𝑡, 𝐴𝑡)}𝑇",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡=1 consists",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "learn policies 𝜋(𝐴𝑡|𝜉<𝑡, 𝑜𝑡, 𝑞𝑡) that condition on the history 𝜉<𝑡before timestep 𝑡and the current observation.",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "For long-context policies, we aim to scale the context length |𝜉<𝑡|.",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1 + H",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = T",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1 + H",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = T",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1+H",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "dicts an 𝐻-step action chunk 𝐴𝑡= [𝑎𝑡, . . . , 𝑎𝑡+𝐻−1]. We add TTT layers after the self- and cross-attention",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "then concatenated along the time dimension, 𝑋= [𝑅1, 𝑞1, ˜𝐴1, . . . , 𝑅𝑇, 𝑞𝑇, ˜𝐴𝑇], and passed through the TTT",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "layers directly for computational efficiency, relying instead on the smaller number (𝑁= 16) of register tokens",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = 1 + H",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "t = T",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "start of training. Concretely, for each DiT layer, we learn 𝛼∈R𝑑,",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑂= tanh(𝛼) ⊙𝑂TTT + 𝑂attn,",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "Concretely, our dataset 𝒟= {𝜉(𝑖)}𝑁",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑖=1 contains 𝑁trajectories, each a sequence of language, image, pro-",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "prioception, and action-chunk tuples 𝜉= {(𝑙, 𝑜𝑡, 𝑞𝑡, 𝐴𝑡)}𝑇",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡=1, reintroducing the language instruction 𝑙, which",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "ℒfm (𝜉; 𝑊0) = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡=1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "learns to denoise ˜𝐴𝑡= 𝐴𝜏",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡= 𝜏𝐴𝑡+ (1 −𝜏)𝜖, where 𝜏∈[0, 1] is the flow-matching timestep and 𝜖∼𝒩(0, I)",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "To summarize, denoting the DiT action head as 𝑣𝜃and the timestep-𝑡tuple as 𝜉𝑡= (𝑙, 𝑜𝑡, 𝑞𝑡, 𝐴𝑡), we train",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "ℒfm (𝜉; 𝑊0) = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡=1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "ℓ𝑡(𝜉𝑡; 𝑊𝑡−1) = 1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡=1",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "where each 𝜏𝑡is sampled independently as 𝜏𝑡= 𝑠(1 −𝑢), 𝑢∼Beta(1.5, 1), 𝑠= 0.999.",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "actions, yielding a trajectory 𝜉DAgger = {(𝑙, 𝑜𝑡, 𝑞𝑡, 𝐴𝑡)}𝑇",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "𝑡=1 in",
+      "section_id": "sec:preliminaries",
+      "page_start": 3,
+      "page_end": 7
+    },
+    {
+      "text": "2024. OpenReview.net, 2024. URL https://openreview.net/forum?id=2dnO3LLiJ1. 4",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "https://openreview.net/forum?id=dTWfCLSoyl. 12",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "id=ZMnD6QZAE6. 2, 11, 12",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "2023. OpenReview.net, 2023. URL https://openreview.net/forum?id=hy0a5MMPUv. 2, 6, 11",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "//openreview.net/forum?id=E34AlVLN0v. 12",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "URL https://openreview.net/forum?id=yAzN4tz7oI. 2, 11",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "forum?id=wHBfxhZu1u. 2",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "net/forum?id=1ikK0kHjvj. 3, 11",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "id=NG7sS51zVF. 2",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "URL https://openreview.net/forum?id=V35oo1SVGH. 12",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "of a constant base learning rate of 0.1. We use RoPE (62) for positional embeddings with 𝜃rope = 10000.",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "< 512",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    },
+    {
+      "text": "> 4K",
+      "section_id": "sec:references",
+      "page_start": 13,
+      "page_end": 22
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "81b5d53205287886f399914eadb48cd48bd9bb556c40fb38406e5715ca112bbe",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.48550/arxiv.2607.15275",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "translated_title": "",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge",
+        "Jimmy Wu",
+        "Tianyuan Dai",
+        "Scott Reed",
+        "Li Fei-Fei",
+        "Yuke Zhu",
+        "Linxi \"Jim\" Fan"
+      ],
+      "year": "2026",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.15275",
+      "arxiv_id": "2607.15275",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275v1",
+      "local_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+      "doi": "",
+      "arxiv_id": "2607.15275",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+      "local_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+      "title": "RoboTTT: Context Scaling for Robot Policies",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv",
+        "semantic_scholar",
+        "openalex"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2607.15275",
+      "paper_id": "doi:10.48550/arxiv.2607.15275",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "doi_present"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2607.15275v1",
+      "abstract": "Recent robot foundation models operate with single-step or short-history visuomotor context. We introduce Test-Time-Training Robot Policies (RoboTTT), a robot model and training recipe that scale visuomotor context to 8K timesteps, three orders of magnitude beyond state-of-the-art policies, without growing inference latency. At this context length, we unlock new robot capabilities: one-shot in-context imitation from human video demonstrations, on-the-fly policy improvement, robustness to perturbations, and stronger performance on multi-stage, long-horizon tasks. We also observe, for the first time, steady gains in closed-loop performance as pretraining context length scales. At its core, RoboTTT integrates Test-Time Training into robot foundation models such as Vision-Language-Action policies, yielding a sequence model whose recurrent state consists of fast weights, parameters updated by gradient descent during both training and inference, compressing histories into weight space and retrieving contextual information for long-context conditioning. To scale training context length, the recipe combines sequence action forcing with truncated backpropagation through time. On challenging real-robot manipulation tasks, RoboTTT improves overall performance by 87% over the single-step context baseline and fully completes a five-minute, ten-stage assembly task, which no baseline ever does. RoboTTT trained with 8K-timestep context outperforms the same model pretrained with 1K timesteps by 62%, suggesting context length as a new scaling axis for robot foundation models. Videos are available at https://research.nvidia.com/labs/gear/robottt/",
+      "authors": [
+        "Yunfan Jiang",
+        "Yevgen Chebotar",
+        "Ruijie Zheng",
+        "Fengyuan Hu",
+        "Yunhao Ge",
+        "Jimmy Wu",
+        "Tianyuan Dai",
+        "Scott Reed",
+        "Li Fei-Fei",
+        "Yuke Zhu",
+        "Linxi \"Jim\" Fan"
+      ],
+      "published": "2026-07-16T17:59:06Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2607.15275v1",
+      "affiliations": [
+        "Stanford University"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.15275"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.15275.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.15275v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.15275"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.15275"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.15275"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.15275"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.15275"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.15275"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.15275"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2607.15275"
+        }
+      },
+      "affiliations": {
+        "provider": "semantic_scholar",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "RoboTTT: Context Scaling for Robot Policies"
+        }
+      },
+      "venue": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "RoboTTT: Context Scaling for Robot Policies"
+        }
+      },
+      "doi": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "RoboTTT: Context Scaling for Robot Policies"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2607.15275",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2607.15275",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "RoboTTT: Context Scaling for Robot Policies",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.15275v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2607.15275"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "RoboTTT: Context Scaling for Robot Policies",
+          "work_value": "RoboTTT: Context Scaling for Robot Policies"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/arxiv_2607_15275-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/arxiv_2607_15275-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/arxiv_2607_15275-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "RoboTTT: Context Scaling for Robot Policies",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2607.15275v1",
+    "local_pdf_path": "/tmp/arxiv_2607_15275-work/2607.15275.pdf",
+    "doi": "",
+    "arxiv_id": "2607.15275",
+    "zotero_key": ""
+  }
+}
