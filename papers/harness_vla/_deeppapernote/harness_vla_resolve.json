@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+  "local_pdf_path": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+  "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2607.08448",
+  "paper_id": "arxiv:2607.08448",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

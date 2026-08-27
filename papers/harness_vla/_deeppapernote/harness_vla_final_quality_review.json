@@ -1,0 +1,24 @@
+{
+  "status": "pass",
+  "stage": "final_quality_review",
+  "paper_id": "arxiv:2607.08448",
+  "note_path": "/home/sorel/workspace/research/papers/harness_vla/harness_vla_精读笔记.md",
+  "checks": {
+    "central_claims_are_supported_by_raw_sections_or_pages": true,
+    "key_experimental_settings_and_numbers_are_present": true,
+    "mechanisms_or_protocol_choices_are_mapped_to_results": true,
+    "comparisons_explain_positioning_against_alternatives": true,
+    "discussion_or_limitation_claims_are_explained_mechanistically": true,
+    "proven_claims_are_separated_from_unproven_or_unvalidated_claims": true,
+    "research_or_engineering_takeaways_are_specific_and_reusable": true,
+    "followup_questions_are_specific_to_replication_or_extension": true
+  },
+  "evidence_chain": "C1-C4 中心主张对应 Figure 1 (sec:method) 系统图 + Figure 8 (sec:experiments) benchmark 场景图 + Tables 2/3/4/6 (sec:method-2/sec:method-3) 主结果 + Figure 3/4/5 (sec:method-4) Key Finding 案例；Harness VLA (CC) 96.0% on standard LIBERO vs 82.4% on LIBERO-Pro (vs πRLinf 50.0%) + 58.4% on RoboTwin C2R + 79.4% RoboCasa365 Atomic-Seen 数据均直接抽取自 Table 2/3/4/6。",
+  "boundaries_checked": [
+    "standard LIBERO 上 Harness VLA (CC) 96.0% < AtomVLA 97.0% — in-distribution 没有 universal gain",
+    "RoboCasa365 Composite-Unseen 15.0% — 长程组合任务仍是开放问题",
+    "Goal-S zero-shot 31.0% vs few-shot 87.0% — Task-Specific Memory 对空间扰动至关重要",
+    "RoboTwin C2R 仅比 LingBot-VLA 高 8.0pp — bimanual + handover 任务可能限制 Harness VLA 的 analytic primitive 表达力",
+    "论文未报告 inference latency / token 消耗 / GPU 利用率 — 工程落地数据缺失"
+  ]
+}

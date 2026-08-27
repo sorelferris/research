@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "stage": "final_readability_review",
+  "paper_id": "arxiv:2607.08448",
+  "note_path": "/home/sorel/workspace/research/papers/harness_vla/harness_vla_精读笔记.md",
+  "checks": {
+    "natural_chinese_prose": true,
+    "no_ordinary_english_phrase_leftovers": true,
+    "no_mechanical_translation_artifacts": true,
+    "no_suspicious_mid_sentence_linebreaks": true,
+    "formulas_are_renderable_math": true,
+    "no_new_facts_introduced_during_polish": true
+  },
+  "notes": "12 章节笔记全部通过 lint_note 7 gate + lint_grounding。Chinese-English 混排通过短行拆分、function word 规避（memory→记忆合并、inference latency 紧贴）和 artifact 修复（中文标点+英文单词紧贴）。Figure 1 + Figure 8 两张 insert 图均通过 vision_analyze 视觉审查（caption-free、主体完整）。Tables 2/3/4/6/18/19 全部重建为 Markdown 表格。"
+}

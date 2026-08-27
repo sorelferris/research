@@ -1,0 +1,61 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+  "local_pdf_path": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+  "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2607.08448",
+  "paper_id": "arxiv:2607.08448",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": [
+    {
+      "provider": "openalex",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+      },
+      "record": {
+        "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+        "authors": [
+          "Yixian Zhang",
+          "Huanming Zhang",
+          "Feng Gao",
+          "Xiao Li",
+          "Zhihao Liu",
+          "Chunyang Zhu",
+          "Jiaxing Qiu",
+          "Yuchen Yan",
+          "Jiyuan Liu",
+          "Wenhao Tang",
+          "Zhengru Fang",
+          "Yi Nie",
+          "Changxu Wei",
+          "Yu Wang",
+          "Wenbo Ding",
+          "C Shijia Yu"
+        ],
+        "affiliations": [],
+        "venue": "arXiv (Cornell University)",
+        "year": "2026",
+        "doi": "10.48550/arxiv.2607.08448",
+        "source": "openalex",
+        "source_type": "openalex",
+        "source_url": "https://doi.org/10.48550/arxiv.2607.08448",
+        "pdf_url": "",
+        "abstract": "",
+        "metadata_sources": [
+          "openalex"
+        ]
+      }
+    }
+  ]
+}

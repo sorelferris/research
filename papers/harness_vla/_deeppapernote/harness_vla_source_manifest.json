@@ -1,0 +1,930 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "doi:10.48550/arxiv.2607.08448",
+  "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/arxiv_2607_08448-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/arxiv_2607_08448-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+    "total_pages": 39,
+    "text_pages_extracted": 39,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 39,
+    "text_max_pages": null,
+    "text_pages_extracted": 39,
+    "text_pages_scanned": 39,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 17
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 1424,
+      "text_hash_sha256": "66db759ff333484b8c2cad767351d9271b59163690c0a539e2af7a3fff5e83cf",
+      "pages": [
+        1,
+        1
+      ]
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 2,
+      "page_end": 2,
+      "char_count": 1601,
+      "text_hash_sha256": "186662e544ea6075f42ce75b9fb54dc0671f83b518f4fa86d97fa7741212ffc1",
+      "pages": [
+        2,
+        2
+      ]
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 2,
+      "page_end": 7,
+      "char_count": 16938,
+      "text_hash_sha256": "38d21abdd2c2b9c0467be374468b48f105735338a8e5a47c137b04023e12e8f4",
+      "pages": [
+        2,
+        7
+      ]
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 7,
+      "page_end": 8,
+      "char_count": 4013,
+      "text_hash_sha256": "d19236d24c3efc517c7c7531fd983838bc5182182059b1cb4f221e0be5a550b4",
+      "pages": [
+        7,
+        8
+      ]
+    },
+    {
+      "section_id": "sec:method",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 8,
+      "page_end": 8,
+      "char_count": 905,
+      "text_hash_sha256": "11081cffa573cb7ee5a3c16e9b6f31ec55ac59d2aac3d4b8c488fca77c1c47bb",
+      "pages": [
+        8,
+        8
+      ]
+    },
+    {
+      "section_id": "sec:method-2",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 8,
+      "page_end": 9,
+      "char_count": 2239,
+      "text_hash_sha256": "127ab9188cb65793e059904a86632e44ce1f7e49bb48a595536cd2a8d08109e2",
+      "pages": [
+        8,
+        9
+      ]
+    },
+    {
+      "section_id": "sec:method-3",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 9,
+      "page_end": 10,
+      "char_count": 2370,
+      "text_hash_sha256": "d7bb24a6d5b5fc2c839beaa50c09e1ecef04c8d78d889012408807dfbb39a5c2",
+      "pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "section_id": "sec:method-4",
+      "kind": "method",
+      "title": "Method",
+      "page_start": 10,
+      "page_end": 13,
+      "char_count": 10754,
+      "text_hash_sha256": "4b967486f343724490e64129280cd14ee3d1916f39fd432e1a98cb9f9a8829c0",
+      "pages": [
+        10,
+        13
+      ]
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 13,
+      "page_end": 16,
+      "char_count": 9594,
+      "text_hash_sha256": "7e8a35a5181e0f396d85b5f9eaf95715474332b43946d7f59d0328fec8312822"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 17,
+      "page_end": 31,
+      "char_count": 40776,
+      "text_hash_sha256": "d3973eff0bdbb3f951ffdc1d86543f90eea38c7158bcd5c489481f02e072e747",
+      "pages": [
+        17,
+        31
+      ]
+    },
+    {
+      "section_id": "sec:evaluations",
+      "kind": "experiment",
+      "title": "evaluations.",
+      "page_start": 31,
+      "page_end": 39,
+      "char_count": 21371,
+      "text_hash_sha256": "b35deca4554512b0d8c0f32fcafbce2fff3d5984da0e0efc4bd09a99a21fa42c",
+      "pages": [
+        31,
+        39
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 1426,
+      "section_ids": [
+        "sec:preamble"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 4582,
+      "section_ids": [
+        "sec:abstract",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 2766,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 3802,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4463,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 2954,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3731,
+      "section_ids": [
+        "sec:introduction",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 1900,
+      "section_ids": [
+        "sec:experiments",
+        "sec:method",
+        "sec:method-2"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3677,
+      "section_ids": [
+        "sec:method-2",
+        "sec:method-3"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 2862,
+      "section_ids": [
+        "sec:method-3",
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3219,
+      "section_ids": [
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 3131,
+      "section_ids": [
+        "sec:method-4"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 2990,
+      "section_ids": [
+        "sec:method-4",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3049,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 4581,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 834,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 3278,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 3126,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 2917,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 2882,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 3397,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 1374,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 3143,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 2678,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 3004,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 2457,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 2166,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 3034,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 29,
+      "char_count": 2524,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 30,
+      "char_count": 3377,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 31,
+      "char_count": 3128,
+      "section_ids": [
+        "sec:references",
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 32,
+      "char_count": 2137,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 33,
+      "char_count": 2865,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 34,
+      "char_count": 3315,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 35,
+      "char_count": 2458,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 36,
+      "char_count": 3315,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 37,
+      "char_count": 2409,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 38,
+      "char_count": 3215,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    },
+    {
+      "page": 39,
+      "char_count": 313,
+      "section_ids": [
+        "sec:evaluations"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "label": "Figure 1",
+        "caption_text": "Harness VLA system overview. Given a task description, RGB-D observations, and robot state,",
+        "page_number": null
+      },
+      {
+        "label": "Figure 8",
+        "caption_text": "Overview of representative environments across the four benchmark families used in our evalua-",
+        "page_number": null
+      }
+    ],
+    "tables": [
+      {
+        "label": "Table 1",
+        "caption_text": "gives the primitive vocabulary used throughout the paper. The shared manipulation interface",
+        "page_number": null
+      },
+      {
+        "label": "Table 10",
+        "caption_text": "LIBERO-Pro evaluation protocol.",
+        "page_number": null
+      },
+      {
+        "label": "Table 11",
+        "caption_text": "RoboCasa365 evaluation protocol.",
+        "page_number": null
+      },
+      {
+        "label": "Table 12",
+        "caption_text": "RoboTwin clean-to-randomized evaluation protocol.",
+        "page_number": null
+      },
+      {
+        "label": "Table 13",
+        "caption_text": "Summary of evaluation benchmarks.",
+        "page_number": null
+      },
+      {
+        "label": "Table 14",
+        "caption_text": "Post-training configuration of LingBot-VLA on RoboTwin.",
+        "page_number": null
+      },
+      {
+        "label": "Table 16",
+        "caption_text": "Interface-level prompt instantiations across benchmarks. In the main text, the heterogeneous VLA",
+        "page_number": null
+      },
+      {
+        "label": "Table 17",
+        "caption_text": "Environment context supplied by the benchmark-specific prompts.",
+        "page_number": null
+      },
+      {
+        "label": "Table 18",
+        "caption_text": "aggregates the primitive calls issued by Harness VLA (CC) across LIBERO Pro-family, RoboTwin",
+        "page_number": null
+      },
+      {
+        "label": "Table 19",
+        "caption_text": "Primitive usage grouped by class. Analytic primitives include both composite goal-reaching",
+        "page_number": null
+      },
+      {
+        "label": "Table 2",
+        "caption_text": "Success rate (%) on standard LIBERO. πRLinf [23] and Harness VLA (CC) are evaluated",
+        "page_number": null
+      },
+      {
+        "label": "Table 3",
+        "caption_text": "Aggregate LIBERO-Pro success rates (%) across SPATIAL, OBJECT, GOAL, and LIBERO-10",
+        "page_number": null
+      },
+      {
+        "label": "Table 4",
+        "caption_text": "RoboCasa365 success rates (%). Baseline rows above the separator are results reported in the cor-",
+        "page_number": null
+      },
+      {
+        "label": "Table 6",
+        "caption_text": "RoboTwin C2R success rates (%). LingBot-VLA is our post-trained RoboTwin VLA checkpoint",
+        "page_number": null
+      },
+      {
+        "label": "Table 7",
+        "caption_text": "Files used by the file-mediated REPL. The main text abstracts the observation as RGB-D and robot",
+        "page_number": null
+      },
+      {
+        "label": "Table 8",
+        "caption_text": "Primitive availability across the three benchmark embodiments. The exploratory RESET utility",
+        "page_number": null
+      },
+      {
+        "label": "Table 9",
+        "caption_text": "LIBERO evaluation protocol.",
+        "page_number": null
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "multimodal observation tuple ot = (Irgb",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "as the sole cognitive orchestrator, Π emits a structured JSON invocation for a selected primitive ct ∈P.",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "\"xyz\": [<x>,<y>,<z>], ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "\"xyz\": [<x>,<y>,<z>], \"pose\": <orientation>, ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "{\"action\": \"rotate_wrist\",\"target_yaw\": <float>, ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "{\"action\": \"rotate_pitch\",\"target_pitch\": <float>, ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "{\"action\": \"set_gripper\", \"gripper\": <open|close>, ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "{\"action\": \"navigate_to\", \"xy\": [<x>,<y>], ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "\"forward\": <float>, \"lateral\": <float>, \"turn\": <",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "float>, ...}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "\"prompt\": <str>, \"max_chunks\": <int>,",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "\"stop\": <predicate>}",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 7
+    },
+    {
+      "text": "Memory retrieval, 10 seeds/task) vs Cap-X [12]. Pos = swap (S), Task = instruction-redirection (T). Bold",
+      "section_id": "sec:method-3",
+      "page_start": 9,
+      "page_end": 10
+    },
+    {
+      "text": "Task Specific Memory and Global Memory. It then emits one primitive invocation ct ∈P by writing a",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "The index NN increases monotonically. The initial observation is written at NN=00; each executed",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "contains 10 tasks × 10 evaluation seeds = 100 reported rollouts, and the four suites contain 400 reported",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "contains 10 tasks × 10 evaluation seeds = 100 reported rollouts, for a total of 800 reported rollouts.",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "ATOMIC-SEEN contains 18×10 = 180 reported rollouts, COMPOSITE-SEEN contains 16×5 = 80 reported",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "rollouts, and COMPOSITE-UNSEEN contains 16 × 5 = 80 reported rollouts. The RoboCasa365 target50",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "setting, resulting in 50 × 5 = 250 reported rollouts.",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    },
+    {
+      "text": "to T = 50, enabling stable and temporally coherent control.",
+      "section_id": "sec:references",
+      "page_start": 17,
+      "page_end": 31
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "ab93c3796ad754f9da7a7a9065ea6d5fa89cb0dd0591d175e978bc9968ef28f6",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "doi:10.48550/arxiv.2607.08448",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+      "translated_title": "",
+      "authors": [
+        "Yixian Zhang",
+        "Huanming Zhang",
+        "Feng Gao",
+        "Xiao Li",
+        "Zhihao Liu",
+        "Chunyang Zhu",
+        "Jiaxing Qiu",
+        "Yuchen Yan",
+        "Jiyuan Liu",
+        "Wenhao Tang",
+        "Zhengru Fang",
+        "Yi Nie",
+        "Changxu Wei",
+        "Yu Wang",
+        "Wenbo Ding",
+        "C Shijia Yu"
+      ],
+      "year": "2026",
+      "venue": "arXiv (Cornell University)",
+      "doi": "10.48550/arxiv.2607.08448",
+      "arxiv_id": "2607.08448",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+      "doi": "",
+      "arxiv_id": "2607.08448",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+      "local_pdf_path": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+      "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+      "metadata_sources": [
+        "local_pdf",
+        "openalex"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2607.08448",
+      "paper_id": "doi:10.48550/arxiv.2607.08448",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used",
+        "doi_present"
+      ],
+      "script": "resolve_paper.py",
+      "authors": [
+        "Yixian Zhang",
+        "Huanming Zhang",
+        "Feng Gao",
+        "Xiao Li",
+        "Zhihao Liu",
+        "Chunyang Zhu",
+        "Jiaxing Qiu",
+        "Yuchen Yan",
+        "Jiyuan Liu",
+        "Wenhao Tang",
+        "Zhengru Fang",
+        "Yi Nie",
+        "Changxu Wei",
+        "Yu Wang",
+        "Wenbo Ding",
+        "C Shijia Yu"
+      ],
+      "venue": "arXiv (Cornell University)",
+      "year": "2026",
+      "doi": "10.48550/arxiv.2607.08448",
+      "source": "openalex"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.08448.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.08448"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.08448"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.08448"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.08448"
+        }
+      },
+      "authors": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+        }
+      },
+      "year": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+        }
+      },
+      "venue": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+        }
+      },
+      "doi": {
+        "provider": "openalex",
+        "retrieved_by": {
+          "kind": "title",
+          "value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "doi",
+        "value": "10.48550/arxiv.2607.08448",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "arxiv_id",
+        "value": "2607.08448",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2607.08448"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+          "work_value": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/arxiv_2607_08448-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/arxiv_2607_08448-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/arxiv_2607_08448-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "/tmp/arxiv_2607_08448-work/2607.08448.pdf",
+    "doi": "",
+    "arxiv_id": "2607.08448",
+    "zotero_key": ""
+  }
+}

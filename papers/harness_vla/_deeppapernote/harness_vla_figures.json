@@ -1,0 +1,3664 @@
+{
+  "status": "ok",
+  "script": "plan_figures.py",
+  "paper_id": "doi:10.48550/arxiv.2607.08448",
+  "figure_plan": {
+    "paper_id": "doi:10.48550/arxiv.2607.08448",
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Harness VLA system overview. Given a task description, RGB-D observations, and robot state,",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_001_fig_figure_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_fig_figure_1.png",
+          "width": 710,
+          "height": 663,
+          "size_bytes": 204613,
+          "label": "Figure 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.547119,
+            "visual_rect_count": 2,
+            "visual_body_ratio": 0.498292,
+            "paragraph_text_chars": 370,
+            "table_body_rows": 0,
+            "caption_text_chars": 815,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 1,
+            "score": 8,
+            "matched_terms": [
+              "figure 1",
+              "harness",
+              "system",
+              "given",
+              "task",
+              "description"
+            ],
+            "snippet": "Academy ∗Equal contribution. †Corresponding author Website: https://harnessvla.github.io/ Figure 1: Harness VLA system overview. Given a task description, RGB-D observations, and robot sta",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_img_01.png",
+                "width": 2400,
+                "height": 2505,
+                "size_bytes": 190273
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_img_02.png",
+                "width": 4293,
+                "height": 2540,
+                "size_bytes": 2431282
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_fig_figure_1.png",
+                "width": 710,
+                "height": 663,
+                "size_bytes": 204613,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.547119,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.498292,
+                  "paragraph_text_chars": 370,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 815,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "harness",
+              "task",
+              "description"
+            ],
+            "snippet": "Table 5: Per-task success rate (%) on LIBERO-PRO GOAL: zero-shot Harness VLA (CC) (no Task Specific Memory retrieval, 10 seeds/task) vs Cap-X [12]. Pos = swap (S)",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "harness",
+              "given",
+              "task",
+              "description"
+            ],
+            "snippet": "level semantic re-grounding restores task-conditioned behavior. The mas- sive gap between Harness VLA and end-to-end VLAs in Table 3 is achieved without altering the visuomotor backbone.",
+            "images": [
+              {
+                "filename": "page_011_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_01.png",
+                "width": 1491,
+                "height": 1346,
+                "size_bytes": 120883
+              },
+              {
+                "filename": "page_011_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_02.png",
+                "width": 1383,
+                "height": 1320,
+                "size_bytes": 121566
+              },
+              {
+                "filename": "page_011_img_03.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_03.png",
+                "width": 1393,
+                "height": 1320,
+                "size_bytes": 113862
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_fig_figure_4.png",
+                "width": 634,
+                "height": 253,
+                "size_bytes": 52032,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.186868,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.708737,
+                  "paragraph_text_chars": 813,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 600,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Overview of representative environments across the four benchmark families used in our evalua-",
+        "kind": "method_overview",
+        "section": "机制流程",
+        "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+        "priority": 1,
+        "anchor_text": "机制流程",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_026_fig_figure_8.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_fig_figure_8.png",
+          "width": 257,
+          "height": 252,
+          "size_bytes": 96216,
+          "label": "Figure 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.075573,
+            "visual_rect_count": 4,
+            "visual_body_ratio": 0.898412,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 386,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 26,
+            "score": 8,
+            "matched_terms": [
+              "figure 8",
+              "representative",
+              "environments",
+              "across",
+              "four",
+              "benchmark"
+            ],
+            "snippet": "Figure 8: Overview of representative environments across the four benchmark families used in our e",
+            "images": [
+              {
+                "filename": "page_026_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_01.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 78962
+              },
+              {
+                "filename": "page_026_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_02.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 103376
+              },
+              {
+                "filename": "page_026_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_03.jpeg",
+                "width": 512,
+                "height": 512,
+                "size_bytes": 36771
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_026_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_fig_figure_8.png",
+                "width": 257,
+                "height": 252,
+                "size_bytes": 96216,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.075573,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.898412,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 386,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 14,
+            "score": 3,
+            "matched_terms": [
+              "representative",
+              "environments",
+              "benchmark"
+            ],
+            "snippet": "Figure 7: Representative rollout frames for analytic decomposition around contact-rich phases. Top row: on a LIBER",
+            "images": [
+              {
+                "filename": "page_014_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_014_img_01.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 178806
+              },
+              {
+                "filename": "page_014_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_014_img_02.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 170176
+              },
+              {
+                "filename": "page_014_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_014_img_03.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 175091
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_014_fig_figure_7.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_014_fig_figure_7.png",
+                "width": 634,
+                "height": 211,
+                "size_bytes": 141880,
+                "label": "Figure 7",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.155484,
+                  "visual_rect_count": 12,
+                  "visual_body_ratio": 0.837866,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 598,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 25,
+            "score": 3,
+            "matched_terms": [
+              "representative",
+              "across",
+              "benchmark"
+            ],
+            "snippet": "re-staging. JSON invocation examples. All primitives share a compact JSON command format. Representative calls are: {\"action\": \"move to\", \"xyz\": [-0.101, 0.202, 1.05], \"arm\": \"auto\", \"gripper\":",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_025_fig_table_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_025_fig_table_8.png",
+                "width": 355,
+                "height": 203,
+                "size_bytes": 13483,
+                "label": "Table 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.08397,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 121,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 1",
+        "caption": "gives the primitive vocabulary used throughout the paper. The shared manipulation interface",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_006_fig_table_1.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+          "width": 816,
+          "height": 96,
+          "size_bytes": 539,
+          "label": "Table 1",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "caption_only_suspected"
+            ],
+            "page_coverage_ratio": 0.091175,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 166,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 6,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "gives",
+              "primitive",
+              "vocabulary",
+              "used",
+              "throughout"
+            ],
+            "snippet": "Table 1: Primitive vocabulary. The same primitive names are used throughout the paper; RoboCasa36",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 166,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 32,
+            "score": 8,
+            "matched_terms": [
+              "table 1",
+              "primitive",
+              "vocabulary",
+              "used"
+            ],
+            "snippet": "Table 14: Post-training configuration of LingBot-VLA on RoboTwin. Category Configuration Optimiza",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_032_fig_table_14.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_032_fig_table_14.png",
+                "width": 483,
+                "height": 454,
+                "size_bytes": 39627,
+                "label": "Table 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254797,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 224,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 65,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 29,
+            "score": 7,
+            "matched_terms": [
+              "table 1",
+              "primitive",
+              "used"
+            ],
+            "snippet": "cate provided by the official RoboTwin C2R task-specific evaluator. C.5 Benchmark Summary Table 13 summarizes the scale of each evaluation benchmark. LIBERO and LIBERO-Pro use seed s0 (se",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_029_fig_table_13.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_029_fig_table_13.png",
+                "width": 640,
+                "height": 271,
+                "size_bytes": 30347,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.201325,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 268,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 43,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 10",
+        "caption": "LIBERO-Pro evaluation protocol.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_027_fig_table_10.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_027_fig_table_10.png",
+          "width": 597,
+          "height": 247,
+          "size_bytes": 18931,
+          "label": "Table 10",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.171858,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 255,
+            "table_body_rows": 10,
+            "caption_text_chars": 41,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 27,
+            "score": 8,
+            "matched_terms": [
+              "table 10",
+              "libero-pro",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "asks × 10 evaluation seeds = 100 reported rollouts, for a total of 800 reported rollouts. Table 10: LIBERO-Pro evaluation protocol. Evaluation cell Tasks Eval seeds per task Reported rollo",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_027_fig_table_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_027_fig_table_9.png",
+                "width": 422,
+                "height": 135,
+                "size_bytes": 8273,
+                "label": "Table 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.066405,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 90,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 36,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_027_fig_table_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_027_fig_table_10.png",
+                "width": 597,
+                "height": 247,
+                "size_bytes": 18931,
+                "label": "Table 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171858,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 255,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 41,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "Harness VLA (CC) 79.4 47.5 15.0 Zero-shot evaluation without bootstrapped harness memory. LIBERO-Pro Goal. To separate online planner reasoning from bootstrapped harness memory, we evaluate",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "libero-pro",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "Table 5: Per-task success rate (%) on LIBERO-PRO GOAL: zero-shot Harness VLA (CC) (no Task Specific Memory retrieval, 10 seeds/task) vs Ca",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 11",
+        "caption": "RoboCasa365 evaluation protocol.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_028_fig_table_11.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_028_fig_table_11.png",
+          "width": 597,
+          "height": 197,
+          "size_bytes": 20138,
+          "label": "Table 11",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.13698,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 100,
+            "table_body_rows": 5,
+            "caption_text_chars": 42,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 28,
+            "score": 8,
+            "matched_terms": [
+              "table 11",
+              "robocasa",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "50 evaluation contains 340 reported rollouts under this split-specific few-shot protocol. Table 11: RoboCasa365 evaluation protocol. Split Tasks Eval seeds per task Reported rollouts ATOMI",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_028_fig_table_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_028_fig_table_11.png",
+                "width": 597,
+                "height": 197,
+                "size_bytes": 20138,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.13698,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 100,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "robocasa",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "andle non-contact execution, and invoke the VLA only for local contact-rich manipulation. RoboCasa365. RoboCasa365 extends the evaluation from tabletop manipulation to household kitchen ta",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 26,
+            "score": 3,
+            "matched_terms": [
+              "robocasa",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "RO), robustness under distribution shift (LIBERO-Pro), long-horizon kitchen manipulation (RoboCasa365), and bimanual manipulation under clean-to-randomized settings (RoboTwin C2R). {\"actio",
+            "images": [
+              {
+                "filename": "page_026_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_01.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 78962
+              },
+              {
+                "filename": "page_026_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_02.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 103376
+              },
+              {
+                "filename": "page_026_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_03.jpeg",
+                "width": 512,
+                "height": 512,
+                "size_bytes": 36771
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_026_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_fig_figure_8.png",
+                "width": 257,
+                "height": 252,
+                "size_bytes": 96216,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.075573,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.898412,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 386,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 12",
+        "caption": "RoboTwin clean-to-randomized evaluation protocol.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 28,
+            "score": 8,
+            "matched_terms": [
+              "table 12",
+              "robotwin",
+              "clean-to-randomized",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "d on 5 seeds in the demo randomized setting, resulting in 50 × 5 = 250 reported rollouts. Table 12: RoboTwin clean-to-randomized evaluation protocol. Protocol Tasks Eval seeds per task Rep",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_028_fig_table_11.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_028_fig_table_11.png",
+                "width": 597,
+                "height": 197,
+                "size_bytes": 20138,
+                "label": "Table 11",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.13698,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 100,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 42,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "robotwin",
+              "clean-to-randomized",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "VLA ACT is invoked at the learned interaction points and can be re-staged after failures. RoboTwin C2R. RoboTwin C2R evaluates zero-shot clean-to-randomized transfer: the agent obtains a T",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "robotwin",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "ex and 58.4% with CC. The table also reports external VLA baselines for context. Table 6: RoboTwin C2R success rates (%). LingBot-VLA is our post-trained RoboTwin VLA checkpoint evaluated",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 13",
+        "caption": "Summary of evaluation benchmarks.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_029_fig_table_13.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_029_fig_table_13.png",
+          "width": 640,
+          "height": 271,
+          "size_bytes": 30347,
+          "label": "Table 13",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.201325,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 268,
+            "table_body_rows": 7,
+            "caption_text_chars": 43,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 29,
+            "score": 8,
+            "matched_terms": [
+              "table 13",
+              "summary",
+              "evaluation",
+              "benchmarks"
+            ],
+            "snippet": "cate provided by the official RoboTwin C2R task-specific evaluator. C.5 Benchmark Summary Table 13 summarizes the scale of each evaluation benchmark. LIBERO and LIBERO-Pro use seed s0 (see",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_029_fig_table_13.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_029_fig_table_13.png",
+                "width": 640,
+                "height": 271,
+                "size_bytes": 30347,
+                "label": "Table 13",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.201325,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 268,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 43,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 26,
+            "score": 3,
+            "matched_terms": [
+              "summary",
+              "evaluation",
+              "benchmarks"
+            ],
+            "snippet": "ed, the agent searches for a successful primitive sequence and stores the resulting audit summary and JSONL command trace as Task Specific Memory. Seed s0 is not counted in reported evalu",
+            "images": [
+              {
+                "filename": "page_026_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_01.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 78962
+              },
+              {
+                "filename": "page_026_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_02.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 103376
+              },
+              {
+                "filename": "page_026_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_03.jpeg",
+                "width": 512,
+                "height": 512,
+                "size_bytes": 36771
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_026_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_fig_figure_8.png",
+                "width": 257,
+                "height": 252,
+                "size_bytes": 96216,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.075573,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.898412,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 386,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "evaluation",
+              "benchmarks"
+            ],
+            "snippet": "e- cution are provided in Appendix B. Crucially, the primitive vocabulary is fixed before evaluation; the planner cannot invent new primitives at deployment time. The compact JSON contract b",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 166,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 14",
+        "caption": "Post-training configuration of LingBot-VLA on RoboTwin.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_032_fig_table_14.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_032_fig_table_14.png",
+          "width": 483,
+          "height": 454,
+          "size_bytes": 39627,
+          "label": "Table 14",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.254797,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 224,
+            "table_body_rows": 14,
+            "caption_text_chars": 65,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 32,
+            "score": 8,
+            "matched_terms": [
+              "table 14",
+              "post-training",
+              "configuration",
+              "lingbot-vla",
+              "robotwin"
+            ],
+            "snippet": "Table 14: Post-training configuration of LingBot-VLA on RoboTwin. Category Configuration Optimizat",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_032_fig_table_14.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_032_fig_table_14.png",
+                "width": 483,
+                "height": 454,
+                "size_bytes": 39627,
+                "label": "Table 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254797,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 224,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 65,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "post-training",
+              "lingbot-vla",
+              "robotwin"
+            ],
+            "snippet": ". The VLA ACT backend here is LingBot-VLA, our RoboTwin-specialized VLA checkpoint; after post-training, it is frozen for both the direct VLA baseline and Harness VLA evaluation. Table 6 compar",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "configuration",
+              "robotwin"
+            ],
+            "snippet": "ite Move the end-effector while co-varying pose variables such as pitch for reach-limited configurations. ROTATE WRIST Atomic Apply a wrist-yaw set-point while holding the current spa- tial pos",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 166,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 16",
+        "caption": "Interface-level prompt instantiations across benchmarks. In the main text, the heterogeneous VLA",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_035_fig_table_16.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_16.png",
+          "width": 601,
+          "height": 137,
+          "size_bytes": 15177,
+          "label": "Table 16",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.096007,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 171,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 35,
+            "score": 8,
+            "matched_terms": [
+              "table 16",
+              "interface-level",
+              "prompt",
+              "instantiations",
+              "across",
+              "benchmarks"
+            ],
+            "snippet": "embodiment and control assumptions that specialize the shared prompt for each benchmark. Table 16: Interface-level prompt instantiations across benchmarks. In the main text, the heterogen",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_035_fig_table_16.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_16.png",
+                "width": 601,
+                "height": 137,
+                "size_bytes": 15177,
+                "label": "Table 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096007,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_035_fig_table_17.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_17.png",
+                "width": 601,
+                "height": 137,
+                "size_bytes": 15177,
+                "label": "Table 17",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096007,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "prompt",
+              "across",
+              "benchmarks"
+            ],
+            "snippet": "e\", \"forward\": <float>, \"lateral\": <float>, \"turn\": < float>, ...} {\"action\": \"vla_act\", \"prompt\": <str>, \"max_chunks\": <int>, \"stop\": <predicate>} VLA-backed contact primitive. VLA ACT",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 166,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 26,
+            "score": 3,
+            "matched_terms": [
+              "prompt",
+              "across",
+              "benchmarks"
+            ],
+            "snippet": "al manipulation under clean-to-randomized settings (RoboTwin C2R). {\"action\": \"vla act\", \"prompt\": \"grasp the black bowl\", \"arm\": \"auto\", \"max_chunks\": 30, \"stop\": \"object_lifted\"} The e",
+            "images": [
+              {
+                "filename": "page_026_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_01.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 78962
+              },
+              {
+                "filename": "page_026_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_02.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 103376
+              },
+              {
+                "filename": "page_026_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_03.jpeg",
+                "width": 512,
+                "height": 512,
+                "size_bytes": 36771
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_026_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_fig_figure_8.png",
+                "width": 257,
+                "height": 252,
+                "size_bytes": 96216,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.075573,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.898412,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 386,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 17",
+        "caption": "Environment context supplied by the benchmark-specific prompts.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_035_fig_table_17.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_17.png",
+          "width": 601,
+          "height": 137,
+          "size_bytes": 15177,
+          "label": "Table 17",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.096007,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 4,
+            "caption_text_chars": 73,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 35,
+            "score": 8,
+            "matched_terms": [
+              "table 17",
+              "environment",
+              "context",
+              "supplied",
+              "benchmark-specific",
+              "prompts"
+            ],
+            "snippet": "ACT Command JSONL; audit JSON RoboTwin C2R eval success VLA ACT Command JSONL; audit JSON Table 17: Environment context supplied by the benchmark-specific prompts. Benchmark Environment-sp",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_035_fig_table_16.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_16.png",
+                "width": 601,
+                "height": 137,
+                "size_bytes": 15177,
+                "label": "Table 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096007,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_035_fig_table_17.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_17.png",
+                "width": 601,
+                "height": 137,
+                "size_bytes": 15177,
+                "label": "Table 17",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096007,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 2,
+            "matched_terms": [
+              "context",
+              "benchmark-specific"
+            ],
+            "snippet": "to 58.0% with Codex and 58.4% with CC. The table also reports external VLA baselines for context. Table 6: RoboTwin C2R success rates (%). LingBot-VLA is our post-trained RoboTwin VLA ch",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 26,
+            "score": 2,
+            "matched_terms": [
+              "environment",
+              "benchmark-specific"
+            ],
+            "snippet": "Figure 8: Overview of representative environments across the four benchmark families used in our evalua- tion. Each benchmark captures a d",
+            "images": [
+              {
+                "filename": "page_026_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_01.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 78962
+              },
+              {
+                "filename": "page_026_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_02.jpeg",
+                "width": 1024,
+                "height": 1024,
+                "size_bytes": 103376
+              },
+              {
+                "filename": "page_026_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_img_03.jpeg",
+                "width": 512,
+                "height": 512,
+                "size_bytes": 36771
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_026_fig_figure_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_026_fig_figure_8.png",
+                "width": 257,
+                "height": 252,
+                "size_bytes": 96216,
+                "label": "Figure 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.075573,
+                  "visual_rect_count": 4,
+                  "visual_body_ratio": 0.898412,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 386,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 18",
+        "caption": "aggregates the primitive calls issued by Harness VLA (CC) across LIBERO Pro-family, RoboTwin",
+        "kind": "data_or_task_overview",
+        "section": "数据与任务定义",
+        "reason": "这张图解释任务或数据集如何被构造；如果候选图质量足够，适合放在数据与任务定义部分帮助读者理解数据来源。",
+        "priority": 2,
+        "anchor_text": "数据与任务定义",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_038_fig_table_18.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_038_fig_table_18.png",
+          "width": 623,
+          "height": 237,
+          "size_bytes": 46601,
+          "label": "Table 18",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.171784,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 414,
+            "table_body_rows": 11,
+            "caption_text_chars": 249,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 38,
+            "score": 8,
+            "matched_terms": [
+              "table 18",
+              "aggregates",
+              "primitive",
+              "calls",
+              "issued",
+              "harness"
+            ],
+            "snippet": "cting agent prompts in additional manipula- tion benchmarks. F Primitive Usage Statistics Table 18 aggregates the primitive calls issued by Harness VLA (CC) across LIBERO Pro-family, RoboT",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_038_fig_table_18.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_038_fig_table_18.png",
+                "width": 623,
+                "height": 237,
+                "size_bytes": 46601,
+                "label": "Table 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171784,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 414,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 249,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "primitive",
+              "calls",
+              "harness"
+            ],
+            "snippet": "Harness VLA: Steering Frozen VLAs into Reliable Manipulation Primitives via Memory-Guided Agents Yixian Zhang1,∗Huanming Zhang1,∗Feng Gao2 Xiao Li3 Zhihao Liu4",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_img_01.png",
+                "width": 2400,
+                "height": 2505,
+                "size_bytes": 190273
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_img_02.png",
+                "width": 4293,
+                "height": 2540,
+                "size_bytes": 2431282
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_fig_figure_1.png",
+                "width": 710,
+                "height": 663,
+                "size_bytes": 204613,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.547119,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.498292,
+                  "paragraph_text_chars": 370,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 815,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 8,
+            "score": 3,
+            "matched_terms": [
+              "aggregates",
+              "primitive",
+              "harness"
+            ],
+            "snippet": "IBERO-10 under instruction-redirection (T) and position-swap (S) perturbations. Each cell aggregates 100 trials (10 tasks × 10 seeds); “/” indicates an unavailable or unreported cell. Cap-X",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_2.png",
+                "width": 398,
+                "height": 132,
+                "size_bytes": 16168,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.061097,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 215,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 306,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_3.png",
+                "width": 559,
+                "height": 242,
+                "size_bytes": 28530,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.157438,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 609,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 651,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 19",
+        "caption": "Primitive usage grouped by class. Analytic primitives include both composite goal-reaching",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_039_fig_table_19.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_039_fig_table_19.png",
+          "width": 816,
+          "height": 96,
+          "size_bytes": 539,
+          "label": "Table 19",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "reject",
+            "quality_reason_codes": [
+              "table_body_missing",
+              "caption_only_suspected"
+            ],
+            "page_coverage_ratio": 0.091175,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 0,
+            "table_body_rows": 0,
+            "caption_text_chars": 143,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "reject_visual_quality"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 38,
+            "score": 8,
+            "matched_terms": [
+              "table 19",
+              "primitive",
+              "usage",
+              "class",
+              "analytic"
+            ],
+            "snippet": "rovide a slight majority of calls for planned arm motion, release, and final arrangement. Table 19 summarizes the same evidence at the class level. Across all three embodiments, the frozen",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_038_fig_table_18.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_038_fig_table_18.png",
+                "width": 623,
+                "height": 237,
+                "size_bytes": 46601,
+                "label": "Table 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171784,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 414,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 249,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 39,
+            "score": 8,
+            "matched_terms": [
+              "table 19",
+              "primitive",
+              "usage",
+              "grouped",
+              "class",
+              "analytic"
+            ],
+            "snippet": "Table 19: Primitive usage grouped by class. Analytic primitives include both composite goal-reachi",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_039_fig_table_19.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_039_fig_table_19.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 19",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 143,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          },
+          {
+            "page_number": 13,
+            "score": 3,
+            "matched_terms": [
+              "primitive",
+              "class",
+              "analytic"
+            ],
+            "snippet": "of successful rollouts whose final benchmark completion predicate fires after an analytic primitive (blue) or after a VLA primitive (orange). LIBERO Pro-family tasks are mostly finished by",
+            "images": [
+              {
+                "filename": "page_013_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_013_img_01.png",
+                "width": 2806,
+                "height": 927,
+                "size_bytes": 142096
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_013_fig_figure_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_013_fig_figure_6.png",
+                "width": 634,
+                "height": 216,
+                "size_bytes": 29426,
+                "label": "Figure 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.159699,
+                  "visual_rect_count": 1,
+                  "visual_body_ratio": 0.934825,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 499,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Success rate (%) on standard LIBERO. πRLinf [23] and Harness VLA (CC) are evaluated",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_2.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_2.png",
+          "width": 398,
+          "height": 132,
+          "size_bytes": 16168,
+          "label": "Table 2",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.061097,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 215,
+            "table_body_rows": 7,
+            "caption_text_chars": 306,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 2",
+              "success",
+              "rate",
+              "standard",
+              "libero",
+              "rlinf"
+            ],
+            "snippet": "Table 2: Success rate (%) on standard LIBERO. πRLinf [23] and Harness VLA (CC) are evaluated by u",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_2.png",
+                "width": 398,
+                "height": 132,
+                "size_bytes": 16168,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.061097,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 215,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 306,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_3.png",
+                "width": 559,
+                "height": 242,
+                "size_bytes": 28530,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.157438,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 609,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 651,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "success",
+              "rate",
+              "libero"
+            ],
+            "snippet": "RLDX-1 baseline used for the headline comparison. RLDX-1 reaches a task-weighted overall success rate of 30.0%, while Harness VLA reaches 55.4% with Codex and 48.6% with CC; the Codex in",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "success",
+              "rate",
+              "standard",
+              "libero",
+              "rlinf"
+            ],
+            "snippet": "Table 5: Per-task success rate (%) on LIBERO-PRO GOAL: zero-shot Harness VLA (CC) (no Task Specific Memory retrieva",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Aggregate LIBERO-Pro success rates (%) across SPATIAL, OBJECT, GOAL, and LIBERO-10",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_008_fig_table_3.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_3.png",
+          "width": 559,
+          "height": 242,
+          "size_bytes": 28530,
+          "label": "Table 3",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.157438,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 609,
+            "table_body_rows": 13,
+            "caption_text_chars": 651,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 8,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "aggregate",
+              "libero-pro",
+              "success",
+              "rates",
+              "across"
+            ],
+            "snippet": "9.0 95.3 AtomVLA [26] 96.4 99.6 97.6 94.4 97.0 Harness VLA (CC) 97.0 100.0 94.0 93.0 96.0 Table 3: Aggregate LIBERO-Pro success rates (%) across SPATIAL, OBJECT, GOAL, and LIBERO-10 under",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_008_fig_table_2.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_2.png",
+                "width": 398,
+                "height": 132,
+                "size_bytes": 16168,
+                "label": "Table 2",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.061097,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 215,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 306,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_008_fig_table_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_008_fig_table_3.png",
+                "width": 559,
+                "height": 242,
+                "size_bytes": 28530,
+                "label": "Table 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.157438,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 609,
+                  "table_body_rows": 13,
+                  "caption_text_chars": 651,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "libero-pro",
+              "success",
+              "rates",
+              "across"
+            ],
+            "snippet": "T), compared with Cap-X’s 25.6% and 16.8%. The comparison with the few-shot GOAL cells in Table 3 clar- ifies what bootstrapped harness memory contributes. Without this memory, the planne",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 8,
+            "matched_terms": [
+              "table 3",
+              "libero-pro",
+              "success",
+              "rates",
+              "across"
+            ],
+            "snippet": "s task-conditioned behavior. The mas- sive gap between Harness VLA and end-to-end VLAs in Table 3 is achieved without altering the visuomotor backbone. πRLinf already solves the standard",
+            "images": [
+              {
+                "filename": "page_011_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_01.png",
+                "width": 1491,
+                "height": 1346,
+                "size_bytes": 120883
+              },
+              {
+                "filename": "page_011_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_02.png",
+                "width": 1383,
+                "height": 1320,
+                "size_bytes": 121566
+              },
+              {
+                "filename": "page_011_img_03.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_03.png",
+                "width": 1393,
+                "height": 1320,
+                "size_bytes": 113862
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_fig_figure_4.png",
+                "width": 634,
+                "height": 253,
+                "size_bytes": 52032,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.186868,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.708737,
+                  "paragraph_text_chars": 813,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 600,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 4",
+        "caption": "RoboCasa365 success rates (%). Baseline rows above the separator are results reported in the cor-",
+        "kind": "main_result",
+        "section": "关键结果",
+        "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_009_fig_table_4.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+          "width": 457,
+          "height": 139,
+          "size_bytes": 13407,
+          "label": "Table 4",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.074019,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 99,
+            "table_body_rows": 7,
+            "caption_text_chars": 487,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 4",
+              "robocasa",
+              "success",
+              "rates",
+              "baseline",
+              "rows"
+            ],
+            "snippet": "d kitchen tasks with mobile staging, articulated fixtures, and longer composite routines. Table 4 compares Harness VLA against results reported in prior RoboCasa365 papers and the RLDX-1",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 1,
+            "score": 3,
+            "matched_terms": [
+              "success",
+              "rates",
+              "baseline"
+            ],
+            "snippet": "tioned staging, transport, pos- ture adjustment, and release. Task Specific Memory stores successful command traces from reference-seed exploration for few-shot re-grounding, while Global",
+            "images": [
+              {
+                "filename": "page_001_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_img_01.png",
+                "width": 2400,
+                "height": 2505,
+                "size_bytes": 190273
+              },
+              {
+                "filename": "page_001_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_img_02.png",
+                "width": 4293,
+                "height": 2540,
+                "size_bytes": 2431282
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_001_fig_figure_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_001_fig_figure_1.png",
+                "width": 710,
+                "height": 663,
+                "size_bytes": 204613,
+                "label": "Figure 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.547119,
+                  "visual_rect_count": 2,
+                  "visual_body_ratio": 0.498292,
+                  "paragraph_text_chars": 370,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 815,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "success",
+              "rates",
+              "baseline",
+              "rows"
+            ],
+            "snippet": "Table 5: Per-task success rate (%) on LIBERO-PRO GOAL: zero-shot Harness VLA (CC) (no Task Specific Memory retrieva",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 6",
+        "caption": "RoboTwin C2R success rates (%). LingBot-VLA is our post-trained RoboTwin VLA checkpoint",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_010_fig_table_6.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+          "width": 640,
+          "height": 157,
+          "size_bytes": 21401,
+          "label": "Table 6",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.11673,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 479,
+            "table_body_rows": 5,
+            "caption_text_chars": 363,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 9,
+            "score": 8,
+            "matched_terms": [
+              "table 6",
+              "robotwin",
+              "success",
+              "rates",
+              "lingbot-vla"
+            ],
+            "snippet": "post-training, it is frozen for both the direct VLA baseline and Harness VLA evaluation. Table 6 compares C2R success rates against representative VLA baselines. Direct LingBot-VLA reach",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 8,
+            "matched_terms": [
+              "table 6",
+              "robotwin",
+              "success",
+              "rates",
+              "lingbot-vla",
+              "post-trained"
+            ],
+            "snippet": "with Codex and 58.4% with CC. The table also reports external VLA baselines for context. Table 6: RoboTwin C2R success rates (%). LingBot-VLA is our post-trained RoboTwin VLA checkpoint",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 11,
+            "score": 3,
+            "matched_terms": [
+              "robotwin",
+              "success",
+              "rates"
+            ],
+            "snippet": "should continue the task or reframe the local attempt. (a) LIBERO-PRO (b) ROBOCASA365 (c) ROBOTWIN C2R Figure 4: Adaptive VLA invocation improves success across benchmarks. Each panel plot",
+            "images": [
+              {
+                "filename": "page_011_img_01.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_01.png",
+                "width": 1491,
+                "height": 1346,
+                "size_bytes": 120883
+              },
+              {
+                "filename": "page_011_img_02.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_02.png",
+                "width": 1383,
+                "height": 1320,
+                "size_bytes": 121566
+              },
+              {
+                "filename": "page_011_img_03.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_img_03.png",
+                "width": 1393,
+                "height": 1320,
+                "size_bytes": 113862
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_011_fig_figure_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_011_fig_figure_4.png",
+                "width": 634,
+                "height": 253,
+                "size_bytes": 52032,
+                "label": "Figure 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.186868,
+                  "visual_rect_count": 3,
+                  "visual_body_ratio": 0.708737,
+                  "paragraph_text_chars": 813,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 600,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 7",
+        "caption": "Files used by the file-mediated REPL. The main text abstracts the observation as RGB-D and robot",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "candidate_pages": [
+          {
+            "page_number": 32,
+            "score": 3,
+            "matched_terms": [
+              "files",
+              "used",
+              "file-mediated"
+            ],
+            "snippet": "t before each rollout: it defines the file-mediated interaction protocol, the observation files that may be used for perception, the allowed primitive vocabulary, the interface to the f",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_032_fig_table_14.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_032_fig_table_14.png",
+                "width": 483,
+                "height": 454,
+                "size_bytes": 39627,
+                "label": "Table 14",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.254797,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 224,
+                  "table_body_rows": 14,
+                  "caption_text_chars": 65,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 35,
+            "score": 3,
+            "matched_terms": [
+              "used",
+              "repl",
+              "main"
+            ],
+            "snippet": "mpty-grasp failures, false visual success, unstable staging, and recovery patterns. It is used as contextual guidance during closed-loop execution, not as an action trace to replay. Us",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_035_fig_table_16.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_16.png",
+                "width": 601,
+                "height": 137,
+                "size_bytes": 15177,
+                "label": "Table 16",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096007,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 171,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_035_fig_table_17.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_035_fig_table_17.png",
+                "width": 601,
+                "height": 137,
+                "size_bytes": 15177,
+                "label": "Table 17",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.096007,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 4,
+                  "caption_text_chars": 73,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 2,
+            "matched_terms": [
+              "used",
+              "main"
+            ],
+            "snippet": "Table 1: Primitive vocabulary. The same primitive names are used throughout the paper; RoboCasa365 additionally uses mobile-base primitives for kitchen-sc",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 166,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "page-proximity-and-caption-cues"
+      },
+      {
+        "id": "Table 8",
+        "caption": "Primitive availability across the three benchmark embodiments. The exploratory RESET utility",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_025_fig_table_8.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_025_fig_table_8.png",
+          "width": 355,
+          "height": 203,
+          "size_bytes": 13483,
+          "label": "Table 8",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.08397,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 121,
+            "table_body_rows": 11,
+            "caption_text_chars": 172,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 25,
+            "score": 8,
+            "matched_terms": [
+              "table 8",
+              "primitive",
+              "availability",
+              "across",
+              "three",
+              "benchmark"
+            ],
+            "snippet": "Table 8: Primitive availability across the three benchmark embodiments. The exploratory RESET uti",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_025_fig_table_8.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_025_fig_table_8.png",
+                "width": 355,
+                "height": 203,
+                "size_bytes": 13483,
+                "label": "Table 8",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.08397,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 121,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 172,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 38,
+            "score": 8,
+            "matched_terms": [
+              "table 8",
+              "primitive",
+              "across",
+              "three",
+              "benchmark"
+            ],
+            "snippet": "We report canonical primitive names following the taxonomy and availabil- ity summary in Table 8: all backend-specific VLA calls are merged into the unified VLA ACT primitive, implementa",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_038_fig_table_18.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_038_fig_table_18.png",
+                "width": 623,
+                "height": 237,
+                "size_bytes": 46601,
+                "label": "Table 18",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171784,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 414,
+                  "table_body_rows": 11,
+                  "caption_text_chars": 249,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 6,
+            "score": 3,
+            "matched_terms": [
+              "primitive",
+              "availability",
+              "across",
+              "benchmark"
+            ],
+            "snippet": "Table 1: Primitive vocabulary. The same primitive names are used throughout the paper; RoboCasa365 additiona",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_006_fig_table_1.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_006_fig_table_1.png",
+                "width": 816,
+                "height": 96,
+                "size_bytes": 539,
+                "label": "Table 1",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "reject",
+                  "quality_reason_codes": [
+                    "table_body_missing",
+                    "caption_only_suspected"
+                  ],
+                  "page_coverage_ratio": 0.091175,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 166,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "reject_visual_quality"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      },
+      {
+        "id": "Table 9",
+        "caption": "LIBERO evaluation protocol.",
+        "kind": "table_result",
+        "section": "关键结果",
+        "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+        "priority": 2,
+        "anchor_text": "关键结果",
+        "insert_mode": "placeholder",
+        "figure_asset_candidate": {
+          "filename": "page_027_fig_table_9.png",
+          "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_027_fig_table_9.png",
+          "width": 422,
+          "height": 135,
+          "size_bytes": 8273,
+          "label": "Table 9",
+          "extraction_level": "figure",
+          "quality_signals": {
+            "visual_quality_status": "usable",
+            "quality_reason_codes": [],
+            "page_coverage_ratio": 0.066405,
+            "visual_rect_count": 0,
+            "visual_body_ratio": 0.0,
+            "paragraph_text_chars": 90,
+            "table_body_rows": 6,
+            "caption_text_chars": 36,
+            "other_caption_count": 0,
+            "other_caption_labels": []
+          },
+          "candidate_status": "usable_candidate"
+        },
+        "candidate_pages": [
+          {
+            "page_number": 27,
+            "score": 8,
+            "matched_terms": [
+              "table 9",
+              "libero",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "eeds = 100 reported rollouts, and the four suites contain 400 reported rollouts in total. Table 9: LIBERO evaluation protocol. Suite Tasks Eval seeds per task Reported rollouts LIBERO-SPA",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_027_fig_table_9.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_027_fig_table_9.png",
+                "width": 422,
+                "height": 135,
+                "size_bytes": 8273,
+                "label": "Table 9",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.066405,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 90,
+                  "table_body_rows": 6,
+                  "caption_text_chars": 36,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_027_fig_table_10.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_027_fig_table_10.png",
+                "width": 597,
+                "height": 247,
+                "size_bytes": 18931,
+                "label": "Table 10",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.171858,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 255,
+                  "table_body_rows": 10,
+                  "caption_text_chars": 41,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 9,
+            "score": 3,
+            "matched_terms": [
+              "libero",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "Harness VLA (CC) 79.4 47.5 15.0 Zero-shot evaluation without bootstrapped harness memory. LIBERO-Pro Goal. To separate online planner reasoning from bootstrapped harness memory, we evalu",
+            "images": [],
+            "figure_assets": [
+              {
+                "filename": "page_009_fig_table_4.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_009_fig_table_4.png",
+                "width": 457,
+                "height": 139,
+                "size_bytes": 13407,
+                "label": "Table 4",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.074019,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 99,
+                  "table_body_rows": 7,
+                  "caption_text_chars": 487,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          },
+          {
+            "page_number": 10,
+            "score": 3,
+            "matched_terms": [
+              "libero",
+              "evaluation",
+              "protocol"
+            ],
+            "snippet": "Table 5: Per-task success rate (%) on LIBERO-PRO GOAL: zero-shot Harness VLA (CC) (no Task Specific Memory retrieval, 10 seeds/task) v",
+            "images": [
+              {
+                "filename": "page_010_img_01.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_01.jpeg",
+                "width": 1399,
+                "height": 1400,
+                "size_bytes": 200190
+              },
+              {
+                "filename": "page_010_img_02.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_02.jpeg",
+                "width": 1400,
+                "height": 1399,
+                "size_bytes": 204513
+              },
+              {
+                "filename": "page_010_img_03.jpeg",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_img_03.jpeg",
+                "width": 1400,
+                "height": 1400,
+                "size_bytes": 206193
+              }
+            ],
+            "figure_assets": [
+              {
+                "filename": "page_010_fig_table_5.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_5.png",
+                "width": 627,
+                "height": 90,
+                "size_bytes": 14451,
+                "label": "Table 5",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.065623,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 367,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 269,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_table_6.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_table_6.png",
+                "width": 640,
+                "height": 157,
+                "size_bytes": 21401,
+                "label": "Table 6",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.11673,
+                  "visual_rect_count": 0,
+                  "visual_body_ratio": 0.0,
+                  "paragraph_text_chars": 479,
+                  "table_body_rows": 5,
+                  "caption_text_chars": 363,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              },
+              {
+                "filename": "page_010_fig_figure_3.png",
+                "path": "/home/sorel/tmp/DeepPaperNote/assets/Harness_VLA_Steering_Frozen_VLAs_into_Reliable_Manipulation_Primitives_via_Memory_Guided_Agents/images/page_010_fig_figure_3.png",
+                "width": 622,
+                "height": 122,
+                "size_bytes": 110536,
+                "label": "Figure 3",
+                "extraction_level": "figure",
+                "quality_signals": {
+                  "visual_quality_status": "usable",
+                  "quality_reason_codes": [],
+                  "page_coverage_ratio": 0.088734,
+                  "visual_rect_count": 6,
+                  "visual_body_ratio": 0.782195,
+                  "paragraph_text_chars": 0,
+                  "table_body_rows": 0,
+                  "caption_text_chars": 724,
+                  "other_caption_count": 0,
+                  "other_caption_labels": []
+                },
+                "candidate_status": "usable_candidate"
+              }
+            ]
+          }
+        ],
+        "matching_strategy": "figure-asset-candidate"
+      }
+    ]
+  }
+}

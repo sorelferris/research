@@ -1,0 +1,384 @@
+{
+  "paper_type": "AI_method",
+  "paper_type_rationale": "提出一个 memory-guided agentic framework（Harness VLA），把 frozen VLA 作为可重试的 contact-rich primitive，与 analytic primitives 组合；属于方法论贡献，无新数据集/benchmark。",
+  "dominant_domain": "embodied-AI / Vision-Language-Action (VLA) / agentic planning",
+  "must_cover": [
+    "frozen VLA as a retryable contact-rich primitive（核心设计选择）",
+    "memory-guided agentic planner（Task-Specific Memory + Global Memory 的两层记忆结构）",
+    "primitive library 划分：analytic primitives (MOVE TO/ROTATE/SET GRIPPER/RELEASE/NAVIGATE/MOVE POSE/MOVE BASE) + VLA ACT",
+    "4 个 benchmark 上的 main results（standard LIBERO / LIBERO-Pro / RoboCasa365 / RoboTwin C2R）",
+    "Key Finding 1-3：semantic re-grounding / staged VLA invocation / analytic-VLA labor division",
+    "无 fine-tuning 的 VLA 扩展范式（vs πRLinf, AtomVLA 等 full-shot VLA baseline）",
+    "planner backbone 对比：Codex vs Claude Code (CC)"
+  ],
+  "key_numbers": [
+    {
+      "name": "LIBERO standard overall success rate (Harness VLA CC)",
+      "value": 96.0,
+      "unit": "%",
+      "context": "10 tasks × 10 seeds per suite"
+    },
+    {
+      "name": "LIBERO-Pro aggregate overall (Harness VLA CC)",
+      "value": 82.4,
+      "unit": "%",
+      "context": "8 perturbation cells (T+S × 4 task families), 100 trials/cell"
+    },
+    {
+      "name": "LIBERO-Pro aggregate overall (Harness VLA Codex)",
+      "value": 72.1,
+      "unit": "%",
+      "context": "same protocol"
+    },
+    {
+      "name": "LIBERO-Pro Goal-S few-shot (Harness VLA CC)",
+      "value": 87.0,
+      "unit": "%",
+      "context": "few-shot 1 reference seed bootstrap"
+    },
+    {
+      "name": "LIBERO-Pro Goal-S zero-shot (Harness VLA CC)",
+      "value": 31.0,
+      "unit": "%",
+      "context": "no memory retrieval"
+    },
+    {
+      "name": "RoboCasa365 Atomic-Seen (Harness VLA Codex)",
+      "value": 91.6,
+      "unit": "%",
+      "context": "10 held-out seeds"
+    },
+    {
+      "name": "RoboCasa365 Composite-Unseen (Harness VLA CC)",
+      "value": 15.0,
+      "unit": "%",
+      "context": "5 held-out seeds; long-horizon generalization"
+    },
+    {
+      "name": "RoboTwin C2R (Harness VLA CC)",
+      "value": 58.4,
+      "unit": "%",
+      "context": "50 tasks × 5 randomized seeds; bimanual + handover"
+    },
+    {
+      "name": "VLA ACT share of primitive calls (LIBERO)",
+      "value": 15.8,
+      "unit": "%",
+      "context": "out of 10134 total primitive calls"
+    },
+    {
+      "name": "VLA ACT share of primitive calls (RoboTwin C2R)",
+      "value": 47.4,
+      "unit": "%",
+      "context": "bimanual + handover-rich task family"
+    }
+  ],
+  "real_comparisons": [
+    {
+      "baseline": "OpenVLA / π₀ / π₀.5 / AtomVLA / MolmoAct / NORA / X-VLA",
+      "metric": "LIBERO standard 4 子集 + overall success rate",
+      "harness_vla": "96.0% overall (vs πRLinf 95.3% best VLA-only baseline)",
+      "context": "标准测试集中 Harness VLA 与最强 VLA baseline 持平"
+    },
+    {
+      "baseline": "Cap-X / RATS / πRLinf",
+      "metric": "LIBERO-Pro aggregate (T+S 8 cells)",
+      "harness_vla": "82.4% vs RATS 43.8%, Cap-X 18.2%, πRLinf 50.0%",
+      "context": "扰动场景下 Harness VLA 比最强 end-to-end VLA baseline 高 32.4 个百分点"
+    },
+    {
+      "baseline": "RLDX-1 / WorldDreamer / π₀.5 / π₀",
+      "metric": "RoboCasa365 atomic/composite (seen/unseen)",
+      "harness_vla": "79.4/47.5/15.0 (CC); 91.6/56.3/13.8 (Codex)",
+      "context": "household kitchen 长程任务"
+    },
+    {
+      "baseline": "GR00T-N1.7 / π₀.5 / StarVLA / LingBot-VLA",
+      "metric": "RoboTwin C2R clean-to-randomized",
+      "harness_vla": "58.4% vs LingBot-VLA 50.4%",
+      "context": "LingBot-VLA 是 Harness VLA 的 VLA ACT 后端 — 即 frozen policy 直接评估 50.4%，包成 Harness 后 58.4%"
+    }
+  ],
+  "central_claims": [
+    {
+      "claim_id": "C1",
+      "claim": "把 frozen VLA 作为可重试的 contact-rich primitive + 一个小型 analytic primitive library + memory-guided agentic planner，可以显著扩展 VLA 的可用分布，无需 fine-tuning",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method",
+          "pages": {
+            "start": 8,
+            "end": 13
+          }
+        },
+        {
+          "section_id": "sec:introduction",
+          "pages": {
+            "start": 2,
+            "end": 7
+          }
+        }
+      ],
+      "what_it_actually_proves": "Harness VLA (CC) 在 4 个 benchmark（standard + perturbed + 长程 + 跨 embodiment）的 overall success rate 全部领先 SOTA",
+      "what_it_does_not_prove": "C1 不证明该方法在所有任务上都优于 end-to-end VLA——在 standard LIBERO 上 Harness VLA (CC) 96.0% 略低于 AtomVLA 97.0%；也不证明对于需要大量训练的 contact-rich skill 的任务它是最优选择（看 Key Finding 3 的 division of labor）"
+    },
+    {
+      "claim_id": "C2",
+      "claim": "在 deployment perturbations 下（semantic retargeting、goal re-binding、spatial-layout shifts）的 gain 远大于 in-distribution",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method-2",
+          "pages": {
+            "start": 8,
+            "end": 9
+          }
+        },
+        {
+          "section_id": "sec:method-3",
+          "pages": {
+            "start": 9,
+            "end": 10
+          }
+        }
+      ],
+      "what_it_actually_proves": "standard LIBERO 上 Harness VLA 96.0% vs πRLinf 95.3% (+0.7pp)，LIBERO-Pro 上 Harness VLA 82.4% vs πRLinf 50.0% (+32.4pp)——扰动收益是分布内的 46 倍",
+      "what_it_does_not_prove": "C2 不证明 Harness VLA 在所有扰动类型上都稳健——zero-shot Goal-S 31.0% 比 few-shot 87.0% 下降 56pp，说明 Task-Specific Memory bootstrap 对 spatial-swap 极重要"
+    },
+    {
+      "claim_id": "C3",
+      "claim": "memory 是性能的关键放大器，分层结构（Task-Specific + Global）使 agent 能学习 fixed primitives 的 operating range",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method-4",
+          "pages": {
+            "start": 10,
+            "end": 13
+          }
+        },
+        {
+          "section_id": "sec:experiments",
+          "pages": {
+            "start": 7,
+            "end": 8
+          }
+        }
+      ],
+      "what_it_actually_proves": "zero-shot (无 memory) Goal-S 仅 31.0%，few-shot (1 seed bootstrap) Goal-S 提升至 87.0%（+56pp）；其他 benchmark 也有 similar gap",
+      "what_it_does_not_prove": "C3 不证明 Global Memory 单独有效——few-shot setting 同时启用 Task-Specific + Global Memory，无法 isolate 各贡献"
+    },
+    {
+      "claim_id": "C4",
+      "claim": "analytic primitives 与 VLA ACT 形成清晰分工：analytic 处理 staging/transport/release，VLA ACT 处理 local contact-rich phases",
+      "supporting_evidence": [
+        {
+          "section_id": "sec:method-4",
+          "pages": {
+            "start": 10,
+            "end": 13
+          }
+        }
+      ],
+      "what_it_actually_proves": "Table 18/19 显示 VLA ACT 占 15.8-47.4% calls（依 embodiment），analytic primitives 仍占 52.6-84.2%",
+      "what_it_does_not_prove": "C4 不证明这种分工对所有 task class 都最优——contact-heavy 任务 (RoboTwin C2R) VLA ACT 比例接近 50%"
+    }
+  ],
+  "claim_boundaries": [
+    "论文不包含 VLA fine-tuning 实验，所有 baseline 都是 frozen checkpoint 直接评估或与 Harness 包成 system 评估",
+    "不评估 computational latency / inference cost（Harness VLA 调用 LLM planner 是额外的开销）",
+    "memory bootstrap 阶段需要 1 个 reference seed 人工标注，不是 fully autonomous learning",
+    "RoboCasa365 Composite-Unseen 仅 13.8-15.0%，远低于标准子集 — 在真正的 unseen 长程任务上仍有显著 gap",
+    "未在物理 hardware 上做大规模部署实验（除少数真实 rollout 示例）"
+  ],
+  "negative_or_limiting_results": [
+    "Harness VLA (CC) 在 standard LIBERO overall 96.0% 略低于 AtomVLA 97.0%（-1.0pp），即 in-distribution 上 Harness 没有 universal gain",
+    "RoboCasa365 Composite-Unseen 仅 13.8-15.0%，相对 Composite-Seen 56.3% 跌 41pp；体现 long-horizon generalization 仍是挑战",
+    "zero-shot Goal-S 31.0% vs few-shot 87.0%——Task-Specific Memory bootstrap 对 spatial-swap 极关键，缺失则 planner 失去 reference primitive organization",
+    "RoboTwin C2R 58.4% 仅比 LingBot-VLA 50.4% 高 8pp，相比 LIBERO-Pro +32pp 显著收窄——bimanual + handover 任务可能限制 Harness 的 analytic primitive 表达力"
+  ],
+  "mechanism_result_map": [
+    {
+      "claim_id": "M1",
+      "mechanism": "Planner-level semantic re-grounding (Key Finding 1)",
+      "result": "在 LIBERO-Pro task-redirected (T) cells 上 πRLinf 0.0-2.0%，Harness VLA 81-94%；πRLinf 不重新解析 task description，Harness 通过 planner 显式重新 binding target"
+    },
+    {
+      "claim_id": "M2",
+      "mechanism": "Planner-staged VLA invocation with retry (Key Finding 2)",
+      "result": "Figure 4 显示前几个 VLA calls 即可超过 frozen-policy baseline；Figure 5/7 案例显示 planner 在 contact-failed 后 re-stage 并重新 invoke VLA ACT"
+    },
+    {
+      "claim_id": "M3",
+      "mechanism": "Analytic-VLA labor division (Key Finding 3)",
+      "result": "Figure 6 显示 LIBERO Pro-family 多由 analytic primitive 完成最终 predicate；Table 18 VLA ACT 占 15.8-47.4%，analytic 占 52.6-84.2%"
+    }
+  ],
+  "comparative_positioning": [
+    "vs end-to-end VLA fine-tuning（AtomVLA / NORA / X-VLA）：Harness VLA 不动 VLA 参数，把 frozen policy 作为 retryable primitive 暴露给 LLM planner。",
+    "vs 扩大 primitive library 的典型 agentic robotics：Harness VLA 使用固定小型 primitive library（MOVE TO / ROTATE / SET GRIPPER / RELEASE / NAVIGATE / MOVE POSE / MOVE BASE + VLA ACT），通过两层 memory 学习各 primitive 的 operating range。",
+    "vs coding-agent tool-use 范式（ReAct / Toolformer 类）：Harness VLA 区别在于把 VLA 本身视为 primitive——既要 LLM 推理又要 VLA 视运动控制，把 frozen VLA 视为 contact-rich specialist 而不是 monolithic controller。",
+    "vs memory-augmented policy（RT-2 类 episodic replay）：Harness VLA 的两层 memory（Task-Specific + Global）是 planner-side 结构，作用是引导 primitive 选择和 retry 决策，而不是用于 policy fine-tuning。",
+    "vs 其他 VLA-as-primitive 工作（Harness VLA 自称为首个系统化研究 frozen VLA 作为可重试 primitive 的工作）：本文不声称首创 agentic harness 框架本身，但首次明确把 frozen VLA 定位为可重试的 contact-rich primitive，配套 analytic primitives 形成清晰的 labor division，并通过 4 个 benchmark 上的 systematic gain 证明这一架构选择有效。"
+  ],
+  "reuse_takeaways": [
+    "把 frozen VLA 视为 retryable primitive 的设计可推广到其他 VLA backbone（π₀.5 / πRLinf / LingBot-VLA），仅需定义 primitive interface",
+    "两层 memory 结构（Task-Specific + Global）值得在跨任务 transfer 场景复用，特别是当 LLM planner 面对 multi-task families 时",
+    "analytic-VLA labor division 思路可用于其他 modality（如 audio-conditioned、tactile-conditioned 的 primitive library）",
+    "Memory bootstrap 用 1 reference seed 是 low-cost 的——可推广到 data-scarce 工业部署场景"
+  ],
+  "followup_questions": [
+    "computational cost: Harness VLA 多调用 LLM planner + memory retrieval，inference latency 与 end-to-end VLA 相比如何？（论文未报告）",
+    "failure case 分析：哪些 task 类别 Harness VLA 仍失败？Figure 7 案例之外的 systematic failure mode？",
+    "扩展到 mobile manipulation：analytic primitives 包含 NAVIGATE TO / MOVE BASE，但 mobile base + arm 的协调是否需要更细粒度的 primitive？",
+    "VLA ACT 是否能由其他 embodied policy 替代（如 behavior cloning、reinforcement learning policy）？接口兼容性如何？",
+    "Task-Specific Memory bootstrap 的可扩展性：seed 数量、跨 task family 共享、seed selection 策略"
+  ],
+  "section_plan": [
+    {
+      "section": "研究问题",
+      "focus": "end-to-end VLA 在 deployment perturbations（语义重定向 / 目标重绑定 / 空间布局变化 / 不稳定局部接触）下失效的根因：frozen policy 是 monolithic trajectory policy，无法重新 binding 当前 scene 和 task description；agentic robotics 又缺乏 contact-rich visuomotor 能力。",
+      "purpose": "为方法主线奠定 motivation — Harness VLA 用 frozen VLA + analytic primitives + memory-guided agent 的组合填补两端空白。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:introduction",
+          "pages": {
+            "start": 2,
+            "end": 7
+          }
+        }
+      ]
+    },
+    {
+      "section": "数据与任务定义",
+      "focus": "4 个 evaluation benchmark：LIBERO（standard, 4 子集）、LIBERO-Pro（4 子集 × instruction-redirected T 与 position-swap S 扰动）、RoboCasa365（household kitchen, atomic/composite seen/unseen）、RoboTwin C2R（clean-to-randomized, bimanual）。3 类 embodiment（Franka arm / mobile manipulator / bimanual robot），共 39 页论文中 17 页 references + 22 页正文 + appendix。",
+      "purpose": "明确方法要在哪些 setting 与 embodiment 上被评估。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:experiments",
+          "pages": {
+            "start": 7,
+            "end": 8
+          }
+        },
+        {
+          "section_id": "sec:evaluations",
+          "pages": {
+            "start": 31,
+            "end": 39
+          }
+        }
+      ]
+    },
+    {
+      "section": "方法主线",
+      "focus": "Agentic execution loop + Memory 双层结构（Task-Specific Memory + Global Memory）+ Primitive library（analytic primitives + VLA ACT）+ Agentic planner Π（GPT / Codex / Claude Code backbones）+ bootstrap with 1 reference seed。",
+      "purpose": "解释 Harness VLA 的核心机制：如何把 frozen VLA 暴露为 retryable primitive + memory 学习的 operating range 如何让 fixed primitive library 适配 diverse task distribution。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:method",
+          "pages": {
+            "start": 8,
+            "end": 8
+          }
+        },
+        {
+          "section_id": "sec:method-2",
+          "pages": {
+            "start": 8,
+            "end": 9
+          }
+        },
+        {
+          "section_id": "sec:method-3",
+          "pages": {
+            "start": 9,
+            "end": 10
+          }
+        },
+        {
+          "section_id": "sec:method-4",
+          "pages": {
+            "start": 10,
+            "end": 13
+          }
+        }
+      ]
+    },
+    {
+      "section": "关键结果",
+      "focus": "Tables 2/3/4/6 main results：standard LIBERO Harness VLA (CC) 96.0% 持平 SOTA；LIBERO-Pro aggregate 82.4% 显著超越 RATS 43.8% 和 Cap-X 18.2%；RoboCasa365 Composite-Unseen 15.0%；RoboTwin C2R 58.4% vs LingBot-VLA 50.4%。Tables 18/19 显示 VLA ACT 占 15.8-47.4% calls，剩余由 analytic primitives 完成。",
+      "purpose": "呈现主结果 + 强基线对比 + primitive usage attribution — 说明 Harness VLA 的增益分布。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:method-2",
+          "pages": {
+            "start": 8,
+            "end": 9
+          }
+        },
+        {
+          "section_id": "sec:method-3",
+          "pages": {
+            "start": 9,
+            "end": 10
+          }
+        },
+        {
+          "section_id": "sec:method-4",
+          "pages": {
+            "start": 10,
+            "end": 13
+          }
+        }
+      ]
+    },
+    {
+      "section": "深度分析",
+      "focus": "3 个 Key Findings：(1) Planner-level semantic re-grounding 让 task-redirected 场景从 0% 提升至 81-94%；(2) Planner-staged VLA invocation with retry + re-staging — Figure 4 显示前几个 VLA calls 即可超过 frozen baseline；(3) Analytic-VLA labor division — analytic primitives 处理 non-contact staging/transport/release，VLA ACT 处理 contact-rich phases。同时讨论 zero-shot vs few-shot gap（Goal-S 31%→87%）说明 memory bootstrap 重要性。",
+      "purpose": "解释 Harness VLA 为什么有效、memory 起什么作用、analytic-VLA 分工的边界与代价。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:method-4",
+          "pages": {
+            "start": 10,
+            "end": 13
+          }
+        },
+        {
+          "section_id": "sec:experiments",
+          "pages": {
+            "start": 7,
+            "end": 8
+          }
+        }
+      ]
+    },
+    {
+      "section": "局限",
+      "focus": "(1) 在 standard LIBERO 上 Harness VLA (CC) 96.0% 略低于 AtomVLA 97.0% — in-distribution 没有 universal gain；(2) RoboCasa365 Composite-Unseen 仅 15.0%，long-horizon generalization 仍是挑战；(3) memory bootstrap 需要 1 个 reference seed 人工标注，不是 fully autonomous；(4) 论文未报告 computational latency / inference cost，Harness VLA 调用 LLM planner 是额外开销；(5) RoboTwin C2R 仅比 LingBot-VLA 高 8pp，bimanual + handover 任务可能限制 analytic primitives 表达力。",
+      "purpose": "诚实呈现方法边界，让读者知道该方法在哪些场景仍然不够。",
+      "evidence_sources": [
+        {
+          "section_id": "sec:method-2",
+          "pages": {
+            "start": 8,
+            "end": 9
+          }
+        },
+        {
+          "section_id": "sec:method-3",
+          "pages": {
+            "start": 9,
+            "end": 10
+          }
+        },
+        {
+          "section_id": "sec:method-4",
+          "pages": {
+            "start": 10,
+            "end": 13
+          }
+        }
+      ]
+    }
+  ]
+}
