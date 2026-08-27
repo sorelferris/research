@@ -7,7 +7,7 @@
 - 标题：Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization
 - 标题翻译：从人类视频做上下文世界-动作建模实现开放式任务泛化
 - 作者：Jiaming Zhou, Qihang Zhang, Gangwei Xu, Cunxin Fan, Yujie Zhao, Ruilin Wang, Yiming Luo, Shuai Yang, Xing Zhu, Yujun Shen, Junwei Liang, Yinghao Xu
-- 机构：待论文确认（疑似 NVIDIA GEAR + 高校合作）
+- 机构：Robbyant（独立研究团队）+ HKUST (GZ) + HKUST（项目页 https://robbyant-research.github.io/Zero-WAM/ 明确列出 3 个 affiliation）
 - 发表时间：2026
 - 发表渠道：arXiv
 - DOI：10.48550/arxiv.2608.26103
@@ -142,7 +142,9 @@ Zero-WAM 主张这一规范形式直接捕获了 LLM 文本规范无法捕获的
 
 ### 5.3 与 WAM-TTT / RoboTTT 的体系关联
 
-NVIDIA GEAR 实验室 WAM 家族的方法学谱系：
+⚠️ **重要更正**：WAM-TTT (NVIDIA GEAR) 和 RoboTTT (NVIDIA + Stanford) 确实出自 NVIDIA GEAR 实验室，但 **Zero-WAM 与 NVIDIA GEAR 无关**——其作者来自 Robbyant（独立研究团队）+ HKUST (GZ) + HKUST，与 GEAR 是独立的、相同主题方向的工作。最初笔记中"Zero-WAM 是 NVIDIA GEAR WAM 家族第三篇"是错误的联想，已更正。
+
+WAM 家族（同主题方向三家并立的方法学谱系）：
 
 **RoboTTT**——把测试时训练用于上下文窗口扩展（8K timesteps）。
 
@@ -176,7 +178,7 @@ NVIDIA GEAR 实验室 WAM 家族的方法学谱系：
 
 **上下文未来块预测目标可推广**——这一训练机制不只限于 Zero-WAM，也可推广到其它上下文内机器人学习场景，特别是长程任务或任务变体多的场景。
 
-**WAM 家族方法学谱系值得跟踪**——NVIDIA GEAR 三个工作各有侧重：
+**WAM 主题方向方法学谱系值得跟踪**——三家并立工作各有侧重：
 - RoboTTT 解决长程
 - WAM-TTT 解决转向
 - Zero-WAM 解决零样本
@@ -195,4 +197,5 @@ NVIDIA GEAR 实验室 WAM 家族的方法学谱系：
 
 ## Changelog
 
-- 2026-08-27 v1.0：首版精读笔记，论文转笔记2.0.1技能第四次实测。基础事实校验一次通过（修了2个无效section_id引用）、9项图决策全部严格schema且源图像路径同步。Zero-WAM是NVIDIA GEAR WAM家族第三篇方法学论文，与RoboTTT、WAM-TTT形成完整谱系。
+- 2026-08-27 v1.0：首版精读笔记，论文转笔记2.0.1技能第四次实测。基础事实校验一次通过（修了2个无效section_id引用）、9项图决策全部严格schema且源图像路径同步。
+- 2026-08-27 v1.1（事实更正）：v1.0 错误将 Zero-WAM 归属到 NVIDIA GEAR WAM 家族第三篇，实则来自 **Robbyant + HKUST (GZ) + HKUST**，与 NVIDIA GEAR 是独立、平行的工作，仅主题方向（WAM）相同。已修正核心信息块的机构、章节 5.3 的谱系说明、本节作者笔记、引用块章节标题及 Changelog。

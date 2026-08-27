@@ -59,7 +59,7 @@
     "lint_grounding passes=True (修了 2 个无效 section_id 引用, manifest 中无 sec:method-2/-4/limitations, 用 sec:preliminaries/sec:experiments 替代)",
     "lint_note 7/7 gates 全过 (修了 4 个 mixed_language + mechanical_translation + linebreak)",
     "9/9 figure decisions strict-schema + source_image_path 同步",
-    "Zero-WAM 是 NVIDIA GEAR WAM 家族第三篇方法学论文",
+    "Zero-WAM 来自 Robbyant + HKUST (GZ) + HKUST，与 NVIDIA GEAR WAM 是独立、平行工作（v1.0 曾误归 NVIDIA GEAR，v1.1 已更正）",
     "短标题 zero-wam 命名遵守 v2.0.1 命名规范"
   ]
 }
