@@ -7,7 +7,7 @@
 - 标题：WAM-TTT: Steering World-Action Models by Watching Human Play at Test Time
 - 标题翻译：通过测试时训练观察人类演示来引导世界-动作模型
 - 作者：Yusen Feng, Bingchen Han, Jiangran Lyu, Kai Liu, Yixin Zheng, Yuxuan Wan, Weiheng Liu, Sun Han, Ruiqin Li, Yulong Zhang, Fangfu Liu, Xuesong Shi, Libin Liu, Yizhou Wang, Zhizheng Zhang, He Wang
-- 机构：待论文确认（北航/清华/港大系 + NVIDIA GEAR 合作可能性高）
+- 机构：Peking University + Tsinghua University（实测 arXiv html 提取 `<span class="ltx_contact ltx_role_affiliation">` 得到 Peking University × 3 + Tsinghua University × 1）
 - 发表时间：2026
 - 发表渠道：arXiv
 - DOI：10.48550/arxiv.2607.06988
@@ -153,7 +153,7 @@ WAM-TTT把测试时训练用于转向（steering）。
 
 **配对人-机器人数据的元训练是真正落地门槛**——尽管测试时只需人类视频，元训练阶段仍需paired human-robot data；这意味着工程上必须先解决数据采集与配对的成本问题。
 
-**与RoboTTT的体系关联值得跟踪**——这两个工作同属TTT + 机器人基础模型体系，NVIDIA GEAR实验室的扩展方向；建议持续关注后续是否开源WAM实现，是否在Isaac Lab或Isaac GR00T中集成。
+**与RoboTTT的体系关联值得跟踪**——这两个工作同属TTT + 机器人基础模型体系，但是**完全独立的两个团队**：RoboTTT 出自 NVIDIA GEAR Lab + Stanford（项目页 `research.nvidia.com/labs/gear/robottt/`），WAM-TTT 出自 Peking University + Tsinghua University（arXiv html `ltx_role_affiliation` 标签确认）。建议持续关注 WAM-TTT 后续是否开源实现，是否会与 Isaac Lab / Isaac GR00T 生态集成。
 
 **轻量记忆的部署成本**——KV记忆比长上下文条件化更适合真实部署场景（推理延迟不增），与RoboTTT的fast weights思路一致；可作为LeRobot的推理优化方向。
 
@@ -168,3 +168,4 @@ WAM-TTT把测试时训练用于转向（steering）。
 ## Changelog
 
 - 2026-08-27 v1.0：首版精读笔记，论文转笔记2.0.1技能第三次实测。基础事实校验一次通过、8项图决策全部严格schema且源图像路径同步。VLM-Ego综述为surveys类型先例，本篇恢复AI方法类型且保留RoboTTT长时瓶颈的体系对照。
+- 2026-08-27 v1.1（事实更正）：v1.0 错误将 WAM-TTT 归属到「NVIDIA GEAR 实验室的扩展方向」，实则来自 **Peking University + Tsinghua University**（arXiv html 中 `ltx_contact ltx_role_affiliation` 标签确认）。RoboTTT 才是 NVIDIA GEAR Lab + Stanford。WAM-TTT 与 RoboTTT 同属 TTT + 机器人基础模型体系但**完全独立**。已修正核心信息块机构、章节「我的笔记」的体系关联段落。

@@ -142,15 +142,7 @@ Zero-WAM 主张这一规范形式直接捕获了 LLM 文本规范无法捕获的
 
 ### 5.3 与 WAM-TTT / RoboTTT 的体系关联
 
-⚠️ **重要更正**：WAM-TTT (NVIDIA GEAR) 和 RoboTTT (NVIDIA + Stanford) 确实出自 NVIDIA GEAR 实验室，但 **Zero-WAM 与 NVIDIA GEAR 无关**——其作者来自 Robbyant（独立研究团队）+ HKUST (GZ) + HKUST，与 GEAR 是独立的、相同主题方向的工作。最初笔记中"Zero-WAM 是 NVIDIA GEAR WAM 家族第三篇"是错误的联想，已更正。
-
-WAM 家族（同主题方向三家并立的方法学谱系）：
-
-**RoboTTT**——把测试时训练用于上下文窗口扩展（8K timesteps）。
-
-**WAM-TTT**——把测试时训练用于转向（通过键值记忆吸收人类视频）。
-
-**Zero-WAM**——把上下文学习范式用于任务规范（人类视频驱动动作预测）。
+⚠️ **重要更正**：在 WAM 主题方向上三家是**完全独立**的研究组，并非「NVIDIA GEAR WAM 家族」。最初笔记（v1.0）将 Zero-WAM 错误归属到 NVIDIA GEAR WAM 家族第三篇是错误的联想，v1.2 已更正。三家仅共享「WAM」主题方向，工程实现、数据管线、机构背景完全独立。
 
 三者各自针对不同维度：
 - RoboTTT 解决长程推理瓶颈
@@ -178,12 +170,12 @@ WAM 家族（同主题方向三家并立的方法学谱系）：
 
 **上下文未来块预测目标可推广**——这一训练机制不只限于 Zero-WAM，也可推广到其它上下文内机器人学习场景，特别是长程任务或任务变体多的场景。
 
-**WAM 主题方向方法学谱系值得跟踪**——三家并立工作各有侧重：
-- RoboTTT 解决长程
-- WAM-TTT 解决转向
-- Zero-WAM 解决零样本
+**WAM 主题方向三家并立方法学谱系值得跟踪**——三家是独立团队：
+- **RoboTTT**（NVIDIA GEAR Lab + Stanford）：解决长程
+- **WAM-TTT**（PKU + Tsinghua）：解决转向
+- **Zero-WAM**（Robbyant + HKUST）：解决零样本
 
-建议持续关注其后续是否开源 WAM 实现，是否集成到 Isaac Lab / Isaac GR00T。
+建议分别跟踪三家后续是否开源实现、是否与 Isaac Lab / Isaac GR00T 生态集成（只有 RoboTTT 在 NVIDIA 生态内）。
 
 **对你 LeRobot 策略的潜在价值**——你已有机器人策略，可参考 Zero-WAM 把人类视频作为上下文输入的范式，让策略支持上下文内任务切换，无需重新微调。
 
@@ -199,3 +191,4 @@ WAM 家族（同主题方向三家并立的方法学谱系）：
 
 - 2026-08-27 v1.0：首版精读笔记，论文转笔记2.0.1技能第四次实测。基础事实校验一次通过（修了2个无效section_id引用）、9项图决策全部严格schema且源图像路径同步。
 - 2026-08-27 v1.1（事实更正）：v1.0 错误将 Zero-WAM 归属到 NVIDIA GEAR WAM 家族第三篇，实则来自 **Robbyant + HKUST (GZ) + HKUST**，与 NVIDIA GEAR 是独立、平行的工作，仅主题方向（WAM）相同。已修正核心信息块的机构、章节 5.3 的谱系说明、本节作者笔记、引用块章节标题及 Changelog。
+- 2026-08-27 v1.2（事实更正 #2）：用户反馈后核实，WAM-TTT 也**不是** NVIDIA GEAR 出品，WAM-TTT 实际来自 **Peking University + Tsinghua University**（arXiv html `ltx_contact ltx_role_affiliation` 标签确认）。**WAM 主题方向三家是完全独立的研究组**：RoboTTT (NVIDIA GEAR + Stanford) / WAM-TTT (PKU + Tsinghua) / Zero-WAM (Robbyant + HKUST)。已修正章节 5.3 更正段、本节作者笔记 WAM 谱系段落、Changelog。
