@@ -1,0 +1,966 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2608.26103",
+  "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/arxiv_2608_26103-work/run/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/arxiv_2608_26103-work/run/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "total_pages": 21,
+    "text_pages_extracted": 21,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 21,
+    "text_max_pages": null,
+    "text_pages_extracted": 21,
+    "text_pages_scanned": 21,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 16
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 382,
+      "text_hash_sha256": "1d586d1097e76e39d134e7113c94af80e0e5d97f2b31034fd91026d835dd9375"
+    },
+    {
+      "section_id": "sec:abstract",
+      "kind": "abstract",
+      "title": "Abstract",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 2374,
+      "text_hash_sha256": "8acdcc1a94151413ce749933216e391ecc4073e9c50b25e13e3e19908ff315d9"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 2,
+      "page_end": 5,
+      "char_count": 12954,
+      "text_hash_sha256": "734fc2c8aa0f7531707a4a589a2cba9eb81bae8bc363e116651439a533c5f5a6"
+    },
+    {
+      "section_id": "sec:dataset",
+      "kind": "data",
+      "title": "Dataset",
+      "page_start": 5,
+      "page_end": 6,
+      "char_count": 4174,
+      "text_hash_sha256": "c77c92dfa62842595347ab46560b1da3e4aa138c9fe10476afdd27355420fd68"
+    },
+    {
+      "section_id": "sec:evaluation",
+      "kind": "experiment",
+      "title": "evaluation.",
+      "page_start": 6,
+      "page_end": 6,
+      "char_count": 1275,
+      "text_hash_sha256": "765a808da668fe1379cd2269dfde6835442a67a57dd7b7a5d82fbcaee695c5cb"
+    },
+    {
+      "section_id": "sec:preliminaries",
+      "kind": "introduction",
+      "title": "Preliminaries",
+      "page_start": 6,
+      "page_end": 9,
+      "char_count": 11703,
+      "text_hash_sha256": "b8660d05920ad3d2a1fc5bfd371e5301ade98c1578bbecef4fa3992a548276bb"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 9,
+      "page_end": 16,
+      "char_count": 25035,
+      "text_hash_sha256": "6783a14274828065ee12b8cdcadbd2052bc8507d83271b2e15970bb94839bdda"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 16,
+      "page_end": 21,
+      "char_count": 21998,
+      "text_hash_sha256": "6efc3639af82151e67c020ec079f53efef65d867c7f1f153b482333a8229122d"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 2782,
+      "section_ids": [
+        "sec:preamble",
+        "sec:abstract"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 5143,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 4263,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2907,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4347,
+      "section_ids": [
+        "sec:introduction",
+        "sec:dataset"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 3514,
+      "section_ids": [
+        "sec:dataset",
+        "sec:evaluation",
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 4392,
+      "section_ids": [
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3814,
+      "section_ids": [
+        "sec:preliminaries"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3279,
+      "section_ids": [
+        "sec:preliminaries",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 4123,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 3568,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 482,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 3510,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 3846,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 4460,
+      "section_ids": [
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 4539,
+      "section_ids": [
+        "sec:experiments",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 4549,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 4690,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 4304,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 4573,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 3125,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of Zero-WAM. Zero-WAM predicts future robot videos and executable actions from an in-context",
+        "page": 1,
+        "pages": [
+          1
+        ],
+        "section_id": "sec:preamble"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Data construction and in-context human video generation. Top: Task-diverse VA data provide task-balanced",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Unseen tasks in RoboTwin 2.0 simulation. These tasks involve unseen-object manipulation, articulated-object",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Qualitative real-world evaluations of Zero-WAM with human video instructions.",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Effect of in-context human video prompts on RoboTwin unseen tasks. Bars report task success rates and their",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Ablations of task-balanced robotic pre-training and in-context future chunk prediction on RoboTwin unseen",
+        "page": 14,
+        "pages": [
+          14
+        ],
+        "section_id": "sec:experiments"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Comparison with existing task-level paired human-robot datasets. “Multi-source” indicates whether the dataset",
+        "page": 5,
+        "pages": [
+          5
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Zero-shot cross-task results on seven unseen RoboTwin tasks. We report task success rates and their macro",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:experiments"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Real-world unseen-configuration evaluation. We report task success rates over 30 real-robot trials. LingBot-VA",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:experiments"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "> 10 Dataset Sources",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "> 6k Robotic Tasks",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": "> 70k Human-robot Pairs",
+      "section_id": "sec:introduction",
+      "page_start": 2,
+      "page_end": 5
+    },
+    {
+      "text": ">45",
+      "section_id": "sec:dataset",
+      "page_start": 5,
+      "page_end": 6
+    },
+    {
+      "text": "flow time t ∈[0,1], the noised video and target velocity are",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "xt = (1 −t)x0 + tϵ,",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "t = ϵ −x0.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Lfm = Ex0,ϵ,t [∥vθ(xt,t,c) −v⋆",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "t = 0.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Each robot trajectory is chunked into τ = {(xi,ai)}N",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "i=1, where xi is a video chunk and ai is the temporally",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "pθ(xi+1,ai+1 ∣x≤i,a≤i,c).",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "pθ(xi+1,ai+1 ∣x≤i,a≤i,c) = pvid",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ (xi+1 ∣x≤i,a≤i,c)",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ (ai+1 ∣x≤i,a≤i,xi+1,c),",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "trajectory prefix (x≤i,a≤i) and is supervised on the next video-action chunk. For trajectories from Task-diverse",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "VA data, the condition is the language instruction, c = ℓ. For trajectories from HumanGen data, the condition",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "is c = {h,ℓ}, where h is the same-task human video instruction and ℓis the language instruction.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Cvid,i = [[h,x≤i],a≤i,ℓ],",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ (xi+1 ∣Cvid,i) = pvid",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ (xi+1 ∣[h,x≤i],a≤i,ℓ).",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Cact,i = [x≤i,a≤i,xi+1,ℓ],",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ (ai+1 ∣Cact,i) = pact",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ (ai+1 ∣x≤i,a≤i,xi+1,ℓ).",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "posrobot(q,y,x) = (q,y,x),",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "poshuman(q,y,x) = (q,y + ∆H,x),",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "∆H > Hmv.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "chunk can often be predicted by extrapolating the recent robot history (x≤i). This creates a shortcut that",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Let s ≥1 be the temporal stride and K be the number of future chunks to predict. The k-th future target is",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "jk = (i + 1) + 1 + (k −1)s,",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "k = 1,...,K.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "k=1, where Gk is responsible for denoising the k-th",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "m=1 denote the collected feature representations of xi+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "ϕi+1 = Pfuse (Concat({ri+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "m=1)).",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "θ,k (xjk ∣ϕi+1,x≤i,a≤i,ℓ),",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "k = 1,...,K.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "Lifp =",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "k=1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "wkLfm (xjk;ϕi+1,x≤i,a≤i,ℓ).",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "= (1 −t)xi+1 + tϵi+1,",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "= ϵi+1 −xi+1.",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "fm (c) = ∥vvid",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": ",t ∣x≤i,a≤i,c) −v⋆,i+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "∼N(0,I) and flow time r ∈[0,1], we form",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "= (1 −r)ai+1 + rϵi+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "= ϵi+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "a (c) = ∥uact",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": ",r ∣x≤i,a≤i,xi+1,c) −u⋆,i+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "For Task-diverse VA samples, the condition is language-only, c = ℓ, and the loss is",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "LVA = Ei,t,r,ϵ,ϵa [Li+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "For HumanGen samples, the video prediction is conditioned on c = {h,ℓ} and augmented with in-context",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "LICL = Ei,t,r,ϵ,ϵa [Li+1",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "In language-only mode, the model conditions on the text instruction, i.e., c = ℓ. In ICL mode, the human",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "video is encoded once and its tokens are cached as prefix memory, so the model conditions on c = {h,ℓ}, where",
+      "section_id": "sec:preliminaries",
+      "page_start": 6,
+      "page_end": 9
+    },
+    {
+      "text": "The video Transformer follows the Wan-2.2 backbone with hidden dimension dv = 3072 and 30 transformer",
+      "section_id": "sec:experiments",
+      "page_start": 9,
+      "page_end": 16
+    },
+    {
+      "text": "layers. The action Transformer uses hidden dimension da = 3072, with parameters initialized from the video",
+      "section_id": "sec:experiments",
+      "page_start": 9,
+      "page_end": 16
+    },
+    {
+      "text": "positional encoding, and the height-axis RoPE offset for ICL human video is set to ∆H = 32. We use the",
+      "section_id": "sec:experiments",
+      "page_start": 9,
+      "page_end": 16
+    },
+    {
+      "text": "is encoded with T5 [38]. The IFP module predicts K = 4 future robot video chunks with temporal stride s = 2.",
+      "section_id": "sec:experiments",
+      "page_start": 9,
+      "page_end": 16
+    },
+    {
+      "text": "The corresponding future-prediction loss weights are (w1,...,w4) = (0.5,0.25,0.15,0.15).",
+      "section_id": "sec:experiments",
+      "page_start": 9,
+      "page_end": 16
+    },
+    {
+      "text": "[28] Qwen Team. Qwen3.6-Plus: Towards real world agents. Official blog, https://qwen.ai/blog?id=qwen3.6, April",
+      "section_id": "sec:references",
+      "page_start": 16,
+      "page_end": 21
+    },
+    {
+      "text": "Real-time vision-language-action model at 32 hz on an RTX 4090 with < 1 GB VRAM. arXiv:2607.27205, 2026.",
+      "section_id": "sec:references",
+      "page_start": 16,
+      "page_end": 21
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "889a4d527912804a4e97624c6f2958be75e208a25e38285fb8bf9f7ef0da674d",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2608.26103",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "translated_title": "",
+      "authors": [
+        "Jiaming Zhou",
+        "Qihang Zhang",
+        "Gangwei Xu",
+        "Cunxin Fan",
+        "Yujie Zhao",
+        "Ruilin Wang",
+        "Yiming Luo",
+        "Shuai Yang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Junwei Liang",
+        "Yinghao Xu"
+      ],
+      "year": "2026",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2608.26103",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2608.26103v1",
+      "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "doi": "",
+      "arxiv_id": "2608.26103",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2608.26103",
+      "paper_id": "arxiv:2608.26103",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2608.26103v1",
+      "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+      "authors": [
+        "Jiaming Zhou",
+        "Qihang Zhang",
+        "Gangwei Xu",
+        "Cunxin Fan",
+        "Yujie Zhao",
+        "Ruilin Wang",
+        "Yiming Luo",
+        "Shuai Yang",
+        "Xing Zhu",
+        "Yujun Shen",
+        "Junwei Liang",
+        "Yinghao Xu"
+      ],
+      "published": "2026-08-26T17:59:34Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2608.26103v1"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.26103.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.26103v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26103"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26103"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26103"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26103"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26103"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26103"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26103"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26103"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2608.26103",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.26103v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2608.26103"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+          "work_value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/arxiv_2608_26103-work/run/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/arxiv_2608_26103-work/run/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/arxiv_2608_26103-work/run/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26103v1",
+    "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "doi": "",
+    "arxiv_id": "2608.26103",
+    "zotero_key": ""
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+  "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+  "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2608.26103",
+  "paper_id": "arxiv:2608.26103",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "resolve_paper.py"
+}

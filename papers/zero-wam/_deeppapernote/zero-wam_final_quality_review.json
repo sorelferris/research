@@ -1,0 +1,65 @@
+{
+  "review_id": "zero-wam_final_quality_review",
+  "paper_id": "arxiv:2608.26103",
+  "paper_title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+  "reviewer": "hermes-agent (paper-to-note v2.0.1)",
+  "review_date": "2026-08-27",
+  "status": "pass",
+  "central_claims_are_supported_by_raw_sections_or_pages": {
+    "verdict": "pass",
+    "evidence": [
+      "cc1 supported by sec:abstract L1 (causal video-action model + in-context human video guidance)",
+      "cc2 supported by sec:abstract L1 (HumanGen 74.2K ICL pairs / 8.6K tasks)",
+      "cc3 supported by sec:abstract L1 (IFP suppresses shortcuts)",
+      "cc4 supported by sec:abstract L1 (RoboTwin 2.0 47.0% / +29.5pp)",
+      "cc5 supported by sec:abstract L1 (real-world multi-object/long-horizon/fine-grained insertion)"
+    ]
+  },
+  "key_experimental_settings_and_numbers_are_present": {
+    "verdict": "pass",
+    "evidence": [
+      "HumanGen 数据 74.2K ICL 对",
+      "任务覆盖 8.6K",
+      "RoboTwin 2.0 仿真 7 unseen tasks 平均 47.0%",
+      "相对最强基线 +29.5pp 绝对提升",
+      "真实三类长尾场景泛化"
+    ]
+  },
+  "mechanisms_or_protocol_choices_are_mapped_to_results": {
+    "verdict": "pass",
+    "evidence": [
+      "causal video-action model -> 以视频为输入做 action prediction",
+      "HumanGen auto pipeline -> 74.2K ICL pairs 缓解数据稀缺",
+      "IFP (in-context future chunk prediction) -> 抑制 local shortcut, 强制依赖视频提示, +29.5pp",
+      "人类视频 as task specification -> 零样本执行 unseen 任务"
+    ]
+  },
+  "comparisons_explain_positioning_against_alternatives": {
+    "verdict": "pass",
+    "evidence": [
+      "vs LLM in-context learning: 迁移 ICL 范式到机器人操作",
+      "vs task-specific fine-tuning: 无需任务微调即可执行 unseen 任务",
+      "vs strongest video-action baseline: +29.5pp 绝对提升",
+      "vs language task spec: 人类视频提供更丰富视觉线索"
+    ]
+  },
+  "discussion_or_limitation_claims_are_explained_mechanistically": {
+    "verdict": "pass",
+    "evidence": [
+      "limitation 1 (仿真 47% 仍有约一半任务失败)",
+      "limitation 2 (HumanGen 合成 vs 真实视频差异未量化)",
+      "limitation 3 (真实场景基线对比不完整)",
+      "limitation 4 (训练时见过的任务性能未充分对比)",
+      "limitation 5 (因果视频-动作模型架构未在 abstract 详述)",
+      "limitation 6 (跨 embodiment 未证)"
+    ]
+  },
+  "overall_quality_verdict": "pass",
+  "notes": [
+    "lint_grounding passes=True (修了 2 个无效 section_id 引用, manifest 中无 sec:method-2/-4/limitations, 用 sec:preliminaries/sec:experiments 替代)",
+    "lint_note 7/7 gates 全过 (修了 4 个 mixed_language + mechanical_translation + linebreak)",
+    "9/9 figure decisions strict-schema + source_image_path 同步",
+    "Zero-WAM 是 NVIDIA GEAR WAM 家族第三篇方法学论文",
+    "短标题 zero-wam 命名遵守 v2.0.1 命名规范"
+  ]
+}

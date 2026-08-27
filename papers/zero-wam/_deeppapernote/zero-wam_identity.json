@@ -1,0 +1,319 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 2,
+  "paper_id": "arxiv:2608.26103",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "translated_title": "",
+    "authors": [
+      "Jiaming Zhou",
+      "Qihang Zhang",
+      "Gangwei Xu",
+      "Cunxin Fan",
+      "Yujie Zhao",
+      "Ruilin Wang",
+      "Yiming Luo",
+      "Shuai Yang",
+      "Xing Zhu",
+      "Yujun Shen",
+      "Junwei Liang",
+      "Yinghao Xu"
+    ],
+    "year": "2026",
+    "venue": "",
+    "doi": "",
+    "arxiv_id": "2608.26103",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26103v1",
+    "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "doi": "",
+    "arxiv_id": "2608.26103",
+    "zotero_key": ""
+  },
+  "accepted_metadata": {
+    "status": "ok",
+    "source_type": "local_pdf",
+    "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+    "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+    "metadata_sources": [
+      "local_pdf",
+      "arxiv"
+    ],
+    "local_pdf_title_source": "pdf_metadata_title_used",
+    "arxiv_id": "2608.26103",
+    "paper_id": "arxiv:2608.26103",
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ],
+    "script": "resolve_paper.py",
+    "source": "arxiv",
+    "url": "http://arxiv.org/abs/2608.26103v1",
+    "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+    "authors": [
+      "Jiaming Zhou",
+      "Qihang Zhang",
+      "Gangwei Xu",
+      "Cunxin Fan",
+      "Yujie Zhao",
+      "Ruilin Wang",
+      "Yiming Luo",
+      "Shuai Yang",
+      "Xing Zhu",
+      "Yujun Shen",
+      "Junwei Liang",
+      "Yinghao Xu"
+    ],
+    "published": "2026-08-26T17:59:34Z",
+    "year": "2026",
+    "pdf_url": "https://arxiv.org/pdf/2608.26103v1"
+  },
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.26103.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "accepted_identifier_derived"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.26103v1",
+      "provider": "arxiv",
+      "binding_reason": "shared_identifier"
+    }
+  ],
+  "accepted_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26103"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26103v1",
+        "url": "http://arxiv.org/abs/2608.26103v1",
+        "arxiv_id": "2608.26103",
+        "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+        "authors": [
+          "Jiaming Zhou",
+          "Qihang Zhang",
+          "Gangwei Xu",
+          "Cunxin Fan",
+          "Yujie Zhao",
+          "Ruilin Wang",
+          "Yiming Luo",
+          "Shuai Yang",
+          "Xing Zhu",
+          "Yujun Shen",
+          "Junwei Liang",
+          "Yinghao Xu"
+        ],
+        "published": "2026-08-26T17:59:34Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26103v1"
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26103v1",
+        "url": "http://arxiv.org/abs/2608.26103v1",
+        "arxiv_id": "2608.26103",
+        "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+        "authors": [
+          "Jiaming Zhou",
+          "Qihang Zhang",
+          "Gangwei Xu",
+          "Cunxin Fan",
+          "Yujie Zhao",
+          "Ruilin Wang",
+          "Yiming Luo",
+          "Shuai Yang",
+          "Xing Zhu",
+          "Yujun Shen",
+          "Junwei Liang",
+          "Yinghao Xu"
+        ],
+        "published": "2026-08-26T17:59:34Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26103v1"
+      }
+    }
+  ],
+  "rejected_observations": [],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26103"
+      }
+    },
+    "arxiv_id": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26103"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26103"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26103"
+      }
+    },
+    "authors": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26103"
+      }
+    },
+    "year": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26103"
+      }
+    },
+    "abstract": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26103"
+      }
+    },
+    "pdf_url": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26103"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "arxiv_id",
+      "value": "2608.26103",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.26103v1",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2608.26103"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "work_value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "/tmp/arxiv_2608_26103-work/run/dpn_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "/tmp/arxiv_2608_26103-work/run/dpn_resolve.json",
+    "metadata_artifact_path": "/tmp/arxiv_2608_26103-work/run/dpn_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ]
+  }
+}

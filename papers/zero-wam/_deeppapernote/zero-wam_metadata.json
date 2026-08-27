@@ -1,0 +1,93 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+  "local_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+  "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2608.26103",
+  "paper_id": "arxiv:2608.26103",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26103"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26103v1",
+        "url": "http://arxiv.org/abs/2608.26103v1",
+        "arxiv_id": "2608.26103",
+        "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+        "authors": [
+          "Jiaming Zhou",
+          "Qihang Zhang",
+          "Gangwei Xu",
+          "Cunxin Fan",
+          "Yujie Zhao",
+          "Ruilin Wang",
+          "Yiming Luo",
+          "Shuai Yang",
+          "Xing Zhu",
+          "Yujun Shen",
+          "Junwei Liang",
+          "Yinghao Xu"
+        ],
+        "published": "2026-08-26T17:59:34Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26103v1"
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26103v1",
+        "url": "http://arxiv.org/abs/2608.26103v1",
+        "arxiv_id": "2608.26103",
+        "title": "Zero-WAM: In-Context World-Action Modeling from Human Videos for Open-Ended Task Generalization",
+        "abstract": "Zero-shot cross-task generalization, where a policy must execute manipulation tasks never seen during training, remains a central challenge in robot learning. In large language models, a novel task can be performed simply by specifying it in the context, without any parameter update. This form of in-context learning (ICL) turns generalization into a problem of task specification. To achieve cross-task generalization, we bring this paradigm to robotic manipulation, and argue that the natural task specification for manipulation is a human video: unlike language, it provides rich visual cues about the intended task evolution. We present Zero-WAM, a causal video-action model that executes unseen tasks by following in-context human video guidance. To address the scarcity of task-rich paired human-robot data, we propose an automatic pipeline that converts task-sampled robot trajectories into semantically matched human videos, yielding HumanGen, a dataset of 74.2K human-robot ICL pairs across 8.6K tasks. For model training, we further introduce an in-context future chunk prediction (IFP) objective that suppresses shortcuts learned from seen tasks and forces the policy to draw task information from the video prompt. On seven unseen tasks in RoboTwin 2.0 simulation, Zero-WAM achieves a 47.0% average success rate, an absolute improvement of 29.5 percentage points over the strongest video-action baseline. In real-world evaluations, it follows human video guidance to generalize to unseen task configurations involving multi-object scenes, long-horizon manipulation, and fine-grained insertion.",
+        "authors": [
+          "Jiaming Zhou",
+          "Qihang Zhang",
+          "Gangwei Xu",
+          "Cunxin Fan",
+          "Yujie Zhao",
+          "Ruilin Wang",
+          "Yiming Luo",
+          "Shuai Yang",
+          "Xing Zhu",
+          "Yujun Shen",
+          "Junwei Liang",
+          "Yinghao Xu"
+        ],
+        "published": "2026-08-26T17:59:34Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26103v1"
+      }
+    }
+  ]
+}

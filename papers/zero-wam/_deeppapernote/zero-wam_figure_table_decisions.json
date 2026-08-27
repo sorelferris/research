@@ -1,0 +1,522 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2608.26103",
+  "decisions": [
+    {
+      "item_id": "figure:Figure 1",
+      "source_id": "Figure 1",
+      "kind": "figure",
+      "label": "Figure 1",
+      "caption": "Overview of Zero-WAM. Zero-WAM predicts future robot videos and executable actions from an in-context",
+      "pages": [
+        1
+      ],
+      "section_id": "sec:preamble",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_001_fig_figure_1_review.png",
+      "relative_markdown_embed": "![Figure 1](images/page_001_fig_figure_1_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_001_fig_figure_1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "25ac042aa5993cd8e3e5d969541a2ac6c165eb7642085390d29ec12bd42b18b5",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_001_fig_figure_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_001.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 1,
+        "caption": "Figure 1 Overview of Zero-WAM. Zero-WAM predicts future robot videos and executable actions from an in-context human video prompt or a language instruction. The human video instructions are generated at scale from task-sampled robot trajectories, alongside a task-balanced robotic video-action pre-training corpus. We validate the effectiveness of Zero-WAM on unseen simulated tasks and complex real-world tasks.",
+        "bbox_pt": [
+          16.57683563232422,
+          215.33999633789062,
+          612.0,
+          649.6989135742188
+        ],
+        "normalized_bbox": [
+          0.027086332732555913,
+          0.2718939347700639,
+          1.0,
+          0.820326911078559
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "25ac042aa5993cd8e3e5d969541a2ac6c165eb7642085390d29ec12bd42b18b5",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 2",
+      "source_id": "Figure 2",
+      "kind": "figure",
+      "label": "Figure 2",
+      "caption": "Data construction and in-context human video generation. Top: Task-diverse VA data provide task-balanced",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_004_fig_figure_2_review.png",
+      "relative_markdown_embed": "![Figure 2](images/page_004_fig_figure_2_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_004_fig_figure_2.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "f8daefeea0f7cc70d0469aa7544f0de97afdd8660eb7f83f68c6b8cdc0513bdb",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_004_fig_figure_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_004.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 4,
+        "caption": "Figure 2 Data construction and in-context human video generation. Top: Task-diverse VA data provide task-balanced robotic video-action pre-training data, while HumanGen contains Pre-train ICL (External), Pre-train ICL (In-house), Simulation ICL, and Real-world ICL pairs. Bottom: the in-context human video generation pipeline converts task- sampled robot videos into human video instructions.",
+        "bbox_pt": [
+          0.0,
+          0.0,
+          612.0,
+          459.2289123535156
+        ],
+        "normalized_bbox": [
+          0.0,
+          0.0,
+          1.0,
+          0.5798344852948429
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "f8daefeea0f7cc70d0469aa7544f0de97afdd8660eb7f83f68c6b8cdc0513bdb",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 3",
+      "source_id": "Figure 3",
+      "kind": "figure",
+      "label": "Figure 3",
+      "caption": "Unseen tasks in RoboTwin 2.0 simulation. These tasks involve unseen-object manipulation, articulated-object",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_010_fig_figure_3_review.png",
+      "relative_markdown_embed": "![Figure 3](images/page_010_fig_figure_3_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_010_fig_figure_3.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "7866a5aa70ca2d5fc24fdd997589f6e334468ace19d74d808d434a1ac8590592",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_010_fig_figure_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_010.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 10,
+        "caption": "Figure 3 Unseen tasks in RoboTwin 2.0 simulation. These tasks involve unseen-object manipulation, articulated-object manipulation, bimanual manipulation, and long-horizon manipulation.",
+        "bbox_pt": [
+          66.86599731445312,
+          60.998748779296875,
+          545.1220092773438,
+          155.1453399658203
+        ],
+        "normalized_bbox": [
+          0.10925816554649204,
+          0.07701862219608191,
+          0.8907222373812806,
+          0.19589058076492463
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "7866a5aa70ca2d5fc24fdd997589f6e334468ace19d74d808d434a1ac8590592",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Qualitative real-world evaluations of Zero-WAM with human video instructions.",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_012_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_012_fig_figure_4_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_012_fig_figure_4.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "89da5a2ef3839262db4f492fd891a8df8ac5bd361e22a0594f69547b6f28ee76",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_012_fig_figure_4.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_012.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 12,
+        "caption": "Figure 4 Qualitative real-world evaluations of Zero-WAM with human video instructions.",
+        "bbox_pt": [
+          48.10456848144531,
+          49.1475830078125,
+          580.378173828125,
+          681.9078979492188
+        ],
+        "normalized_bbox": [
+          0.07860223608079299,
+          0.06205502905026831,
+          0.9483303493923612,
+          0.860994820642953
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "89da5a2ef3839262db4f492fd891a8df8ac5bd361e22a0594f69547b6f28ee76",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "Effect of in-context human video prompts on RoboTwin unseen tasks. Bars report task success rates and their",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_013_fig_figure_5_review.png",
+      "relative_markdown_embed": "![Figure 5](images/page_013_fig_figure_5_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_013_fig_figure_5.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "e9ef8d676ab61b07d37aa597619bb1aecc9bdfbcf4cb9675ad298b39228f70ef",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_013_fig_figure_5.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_013.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 13,
+        "caption": "Figure 5 Effect of in-context human video prompts on RoboTwin unseen tasks. Bars report task success rates and their macro average.",
+        "bbox_pt": [
+          71.64252471923828,
+          3.608856201171875,
+          542.842529296875,
+          270.89288330078125
+        ],
+        "normalized_bbox": [
+          0.11706294888764425,
+          0.004556636617641256,
+          0.8869975968903187,
+          0.34203646881411776
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "e9ef8d676ab61b07d37aa597619bb1aecc9bdfbcf4cb9675ad298b39228f70ef",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "figure:Figure 6",
+      "source_id": "Figure 6",
+      "kind": "figure",
+      "label": "Figure 6",
+      "caption": "Ablations of task-balanced robotic pre-training and in-context future chunk prediction on RoboTwin unseen",
+      "pages": [
+        14
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_014_fig_figure_6_review.png",
+      "relative_markdown_embed": "![Figure 6](images/page_014_fig_figure_6_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_014_fig_figure_6.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "c0eede0ee152218ab903d2401f63d0f2ce0598a05bf4c911412bdbaabc48053a",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_014_fig_figure_6.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_014.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 14,
+        "caption": "Figure 6 Ablations of task-balanced robotic pre-training and in-context future chunk prediction on RoboTwin unseen tasks. Left: task-balanced robotic data ablation, comparing LingBot-VA with a text-only Zero-WAM variant. Right: IFP module ablation, comparing full Zero-WAM with Zero-WAM w/o IFP. Radar axes indicate per-task success rates and the macro average.",
+        "bbox_pt": [
+          53.506778717041016,
+          17.527374267578125,
+          562.7515869140625,
+          260.1868896484375
+        ],
+        "normalized_bbox": [
+          0.08742937698862911,
+          0.022130523065123895,
+          0.9195287367876839,
+          0.32851880006115847
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "c0eede0ee152218ab903d2401f63d0f2ce0598a05bf4c911412bdbaabc48053a",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Comparison with existing task-level paired human-robot datasets. “Multi-source” indicates whether the dataset",
+      "pages": [
+        5
+      ],
+      "section_id": "sec:introduction",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_005_fig_table_1_review.png",
+      "relative_markdown_embed": "![Table 1](images/page_005_fig_table_1_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_005_fig_table_1.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "7ca9a6c155ef5be89baa7ff91babbd120dcd150b78c4a86e7ba6bd9bc0733515",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_005_fig_table_1.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_005.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 5,
+        "caption": "Table 1 Comparison with existing task-level paired human-robot datasets. “Multi-source” indicates whether the dataset is constructed from multiple data sources. “Embod.” is the number of robot embodiments. “Human view” specifies the viewpoint of human videos. “Human acquisition” indicates whether the human videos require manual collection or are automatically generated. “Align. div.” indicates whether human-robot pairs include diverse degrees of visual alignment, such as changes in background, viewpoint, environment style, object instance, or object placement. “Samples” is the number of human video instructions, and “Tasks” is the number of task categories.",
+        "bbox_pt": [
+          64.86599731445312,
+          137.11431884765625,
+          547.1484375,
+          256.005859375
+        ],
+        "normalized_bbox": [
+          0.10599019169028288,
+          0.17312413995916193,
+          0.8940333946078431,
+          0.32323972143308083
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "7ca9a6c155ef5be89baa7ff91babbd120dcd150b78c4a86e7ba6bd9bc0733515",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Zero-shot cross-task results on seven unseen RoboTwin tasks. We report task success rates and their macro",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_table_2_review.png",
+      "relative_markdown_embed": "![Table 2](images/page_011_fig_table_2_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_011_fig_table_2.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ec3c6dd9cac71ef4178908e501b021915ee3a2fad01f04aa54418510f5d0d2eb",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_011_fig_table_2.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 11,
+        "caption": "Table 2 Zero-shot cross-task results on seven unseen RoboTwin tasks. We report task success rates and their macro average over three evaluation seeds.",
+        "bbox_pt": [
+          64.86599731445312,
+          93.32294464111328,
+          541.1728515625,
+          232.13291931152344
+        ],
+        "normalized_bbox": [
+          0.10599019169028288,
+          0.11783200080948647,
+          0.8842693652982027,
+          0.29309712034283264
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "ec3c6dd9cac71ef4178908e501b021915ee3a2fad01f04aa54418510f5d0d2eb",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Real-world unseen-configuration evaluation. We report task success rates over 30 real-robot trials. LingBot-VA",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:experiments",
+      "decision": "visual_defect",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "caption_inseparable",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_011_fig_table_3_review.png",
+      "relative_markdown_embed": "![Table 3](images/page_011_fig_table_3_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_011_fig_table_3.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ec3c6dd9cac71ef4178908e501b021915ee3a2fad01f04aa54418510f5d0d2eb",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/images/page_011_fig_table_3.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/Zero_WAM_In_Context_World_Action_Modeling_from_Human_Videos_for_Open_Ended_Task_Generalization/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/arxiv_2608_26103-work/2608.26103.pdf",
+        "source_page": 11,
+        "caption": "Table 3 Real-world unseen-configuration evaluation. We report task success rates over 30 real-robot trials. LingBot-VA is evaluated with language instructions, while Zero-WAM uses human video instructions.",
+        "bbox_pt": [
+          64.86599731445312,
+          93.32294464111328,
+          541.1728515625,
+          232.13291931152344
+        ],
+        "normalized_bbox": [
+          0.10599019169028288,
+          0.11783200080948647,
+          0.8842693652982027,
+          0.29309712034283264
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "fail",
+        "reviewed_asset_sha256": "ec3c6dd9cac71ef4178908e501b021915ee3a2fad01f04aa54418510f5d0d2eb",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [
+          "figure_content"
+        ],
+        "notes": "reconstructed as Markdown in note body (caption_inseparable)",
+        "failure_reason": "caption_inseparable",
+        "repair_attempts": 1,
+        "revised_bbox": []
+      },
+      "failure_reason": "caption_inseparable"
+    }
+  ],
+  "summary": {
+    "total_items": 9,
+    "by_decision": {
+      "insert": 0,
+      "low_priority": 0,
+      "placeholder": 0,
+      "review_pending": 9,
+      "skip": 0,
+      "visual_defect": 0
+    }
+  }
+}
