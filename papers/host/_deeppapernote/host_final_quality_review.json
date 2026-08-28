@@ -1,0 +1,61 @@
+{
+  "central_evidence_chain_complete": true,
+  "central_evidence_chain_evidence": [
+    "Fig 3B: 4 quantitative axes (Novel 62% vs 19%, Data 50x, Time 507x, Retention 99% vs 43%)",
+    "Fig 7: 7-task real robot retention (HOST 99% vs π0.5+SFT 20% vs Wall-OSS+SFT 43%)",
+    "Fig 10A: Cascade ablation (34 → 43 → 55 → 62%)",
+    "Fig 10B: Localization R²=0.996, MAE=0.013"
+  ],
+  "key_settings_and_numbers_present": true,
+  "key_settings_evidence": [
+    "Architecture: 30-layer Diffusion Transformer (Wan2.2-TI2V-5B init), hidden 3072, 24 heads × 128 dim",
+    "Vision encoder: Qwen3-VL-Embedding-8B (fine-tuned bf16)",
+    "VAE: WanVideoVAE 48 latent channels, 8× spatial downsample",
+    "Training: 12K steps, 64 GPUs, batch 4/GPU, AdamW lr=1e-5",
+    "Three-stage cascade: Localization → Vision → Action",
+    "Retrieval threshold δ*=0.68, recall 100%/100%"
+  ],
+  "mechanisms_mapped_to_results": true,
+  "mechanism_map_evidence": [
+    "Cascade self-grounded → 62% novel task (+45% baseline)",
+    "Progress manifold → R²=0.996 progress prediction",
+    "Visual prediction head → self-generated future observation as action grounding",
+    "Retrieval retention → 99% retention @ 50 demos (+56% baseline)",
+    "Stage-1 pretraining scaling → 0% (no pretrain) → 62% (full)"
+  ],
+  "comparisons_against_strong_baselines": true,
+  "comparison_evidence": [
+    "Video gen / VLA: π0.5+SFT, Wall-OSS+SFT, HOST-base+SFT, AWDA",
+    "Real robot: 7-task setup with cumulative learning evaluation",
+    "Robustness: 5 perturbation conditions (Lighting/Object/Scene/Human/Default)"
+  ],
+  "limitations_explained_mechanistically": true,
+  "limitations_evidence": [
+    "62% ceiling — progress manifold quality caps upper bound",
+    "Human perturbation -9% — dynamic environment robustness gap",
+    "Insert pen 50% — fine-grained alignment is hardest",
+    "Cross-embodiment not validated beyond tabletop",
+    "Stage-1 pretraining scaling 0%→62% — small teams hard to reproduce"
+  ],
+  "proven_vs_unproven_separated": true,
+  "proven_unproven_evidence": [
+    "Proven: 62% novel success, 99% retention, 29s acquisition, +56% retention vs baseline",
+    "Proven but bounded: 7-tabletop tasks only; no mobile/humanoid evaluation",
+    "Unproven: progress manifold capacity; cross-embodiment transferability; long-horizon loco-manipulation"
+  ],
+  "takeaways_specific_reusable": true,
+  "takeaways_evidence": [
+    "Cascade self-grounded prediction is reusable across cross-embodiment video problems",
+    "Progress manifold as cross-embodiment invariant is reusable in any trajectory alignment task",
+    "Retrieval-based retention is lighter than EWC/replay buffers for continual learning on robots",
+    "29-second acquisition enables near-real-time teleop+correction workflows"
+  ],
+  "followup_questions_specific": true,
+  "followup_questions_evidence": [
+    "Cross-embodiment generalization to non-tabletop robots",
+    "Upper bound on progress manifold capacity",
+    "Combination with WALL-SS world models for closed-loop deployment",
+    "Real-time continual learning in deployed robots"
+  ],
+  "summary": "Final quality review passed all 8 checks. Note contains complete evidence chain, all key numbers (62% / 29s / +56% / 99% / 50× / 507×), mechanism-to-result mapping, strong baselines, mechanistic limitation explanations, separated proven/unproven, and reusable engineering takeaways."
+}

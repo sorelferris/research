@@ -1,0 +1,168 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 2,
+  "paper_id": "arxiv:2607.20033",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+    "translated_title": "",
+    "authors": [],
+    "year": "",
+    "venue": "",
+    "doi": "",
+    "arxiv_id": "2607.20033",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "doi": "",
+    "arxiv_id": "2607.20033",
+    "zotero_key": ""
+  },
+  "accepted_metadata": {
+    "status": "ok",
+    "source_type": "local_pdf",
+    "source_url": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "local_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+    "metadata_sources": [
+      "local_pdf"
+    ],
+    "local_pdf_title_source": "pdf_metadata_title_used",
+    "arxiv_id": "2607.20033",
+    "paper_id": "arxiv:2607.20033",
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ],
+    "script": "resolve_paper.py"
+  },
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2607.20033.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "accepted_identifier_derived"
+    }
+  ],
+  "accepted_observations": [],
+  "rejected_observations": [],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.20033"
+      }
+    },
+    "arxiv_id": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.20033"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.20033"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2607.20033"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "arxiv_id",
+      "value": "2607.20033",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2607.20033"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+        "work_value": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "/tmp/lark-work/dpn_host_260720033/dpn_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "/tmp/lark-work/dpn_host_260720033/dpn_resolve.json",
+    "metadata_artifact_path": "/tmp/lark-work/dpn_host_260720033/dpn_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ]
+  }
+}

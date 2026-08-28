@@ -1,0 +1,1419 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2607.20033",
+  "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/lark-work/dpn_host_260720033/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/lark-work/dpn_host_260720033/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "total_pages": 38,
+    "text_pages_extracted": 38,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 38,
+    "text_max_pages": null,
+    "text_pages_extracted": 38,
+    "text_pages_scanned": 38,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": true,
+    "appendix_start_page": 29,
+    "references_start_page": 22
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 2053,
+      "text_hash_sha256": "1ded8bd022cec04ff7fe34b0ce232d00eb0bc11104b240c8e47400cb9cc80217"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 1,
+      "page_end": 2,
+      "char_count": 2314,
+      "text_hash_sha256": "ce9c5a7507a16b5f0250e041b0406e933dc4040c024b99cd498fe643ac6da650"
+    },
+    {
+      "section_id": "sec:data",
+      "kind": "data",
+      "title": "Data",
+      "page_start": 2,
+      "page_end": 5,
+      "char_count": 11089,
+      "text_hash_sha256": "12bceb0e6962a41ebe83cc25f0e0cbd5e4b6cf54da34126e3a21b64d087ef405"
+    },
+    {
+      "section_id": "sec:results",
+      "kind": "experiment",
+      "title": "Results",
+      "page_start": 5,
+      "page_end": 16,
+      "char_count": 25445,
+      "text_hash_sha256": "217e5c9e95655733310f1a84b9938991e0b11e0a5ed3c4de991156ea2fe505b4"
+    },
+    {
+      "section_id": "sec:discussion",
+      "kind": "conclusion",
+      "title": "Discussion",
+      "page_start": 16,
+      "page_end": 17,
+      "char_count": 5225,
+      "text_hash_sha256": "235b19f177877015081d2b6627069723afbafb8638fb1d5b8415a3abc0ff1d85"
+    },
+    {
+      "section_id": "sec:methods",
+      "kind": "method",
+      "title": "Methods",
+      "page_start": 17,
+      "page_end": 22,
+      "char_count": 20736,
+      "text_hash_sha256": "1c40adffa2686c2b9898908454b2d92c9900c410a023c90fb06d962706aca4b2"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 22,
+      "page_end": 28,
+      "char_count": 28879,
+      "text_hash_sha256": "806742b4a02c21382cfc63427660a4486990943d44369abc2662d2c5e7937b0e"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 29,
+      "page_end": 32,
+      "char_count": 15768,
+      "text_hash_sha256": "d7da7c4f0876c116b47238b4e48e98501d7ae22e174a87f03a7c06eccac35c7a"
+    },
+    {
+      "section_id": "sec:appendix-b",
+      "kind": "appendix",
+      "title": "Appendix B",
+      "page_start": 32,
+      "page_end": 38,
+      "char_count": 23049,
+      "text_hash_sha256": "840817de76d554c98ae1b804f0611ca4c5501546d88222997511d28add21d833"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4351,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 1663,
+      "section_ids": [
+        "sec:introduction",
+        "sec:data"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 5108,
+      "section_ids": [
+        "sec:data"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 2017,
+      "section_ids": [
+        "sec:data"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4527,
+      "section_ids": [
+        "sec:data",
+        "sec:results"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 2028,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 1071,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 1509,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 4580,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 1765,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 553,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 2588,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 1716,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 4558,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 1073,
+      "section_ids": [
+        "sec:results"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 5006,
+      "section_ids": [
+        "sec:results",
+        "sec:discussion"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 4760,
+      "section_ids": [
+        "sec:discussion",
+        "sec:methods"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 4058,
+      "section_ids": [
+        "sec:methods"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 4068,
+      "section_ids": [
+        "sec:methods"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 4374,
+      "section_ids": [
+        "sec:methods"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 4279,
+      "section_ids": [
+        "sec:methods"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 4457,
+      "section_ids": [
+        "sec:methods",
+        "sec:references"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 5120,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 4777,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 4942,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 4790,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 4457,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 28,
+      "char_count": 1895,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 29,
+      "char_count": 4350,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 30,
+      "char_count": 4884,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 31,
+      "char_count": 4998,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 32,
+      "char_count": 4664,
+      "section_ids": [
+        "sec:related-work",
+        "sec:appendix-b"
+      ]
+    },
+    {
+      "page": 33,
+      "char_count": 4039,
+      "section_ids": [
+        "sec:appendix-b"
+      ]
+    },
+    {
+      "page": 34,
+      "char_count": 4897,
+      "section_ids": [
+        "sec:appendix-b"
+      ]
+    },
+    {
+      "page": 35,
+      "char_count": 3046,
+      "section_ids": [
+        "sec:appendix-b"
+      ]
+    },
+    {
+      "page": 36,
+      "char_count": 3650,
+      "section_ids": [
+        "sec:appendix-b"
+      ]
+    },
+    {
+      "page": 37,
+      "char_count": 2170,
+      "section_ids": [
+        "sec:appendix-b"
+      ]
+    },
+    {
+      "page": 38,
+      "char_count": 2282,
+      "section_ids": [
+        "sec:appendix-b"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Fig 1",
+        "caption": "Robots acquire manipulation skills in seconds from a single human video. (A) Current methods teach a",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "Method overview of HOST. (A) Coupling prediction targets to the demonstration. HOST maps the robot trajectory",
+        "page": 4,
+        "pages": [
+          4
+        ],
+        "section_id": "sec:data"
+      },
+      {
+        "id": "Fig 3",
+        "caption": "Qualitative and quantitative performance overview of HOST. (A) HOST acquires manipulation skills from a single",
+        "page": 6,
+        "pages": [
+          6
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 4",
+        "caption": "HOST acquires manipulation skills from a single human video across 50 novel manipulation tasks. The 50",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 5",
+        "caption": "Success rates on novel manipulation tasks. HOST acquires each skill from a single human video without any",
+        "page": 8,
+        "pages": [
+          8
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 6",
+        "caption": "HOST surpasses supervised fine-tuning in success rate, data efficiency and time efficiency. (A) Success rates",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 7",
+        "caption": "HOST retains its performance on previously mastered tasks while supervised fine-tuning erodes it. (A) Success",
+        "page": 11,
+        "pages": [
+          11
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 8",
+        "caption": "HOST remains robust to deployment perturbations. HOST maintains strong performance under lighting variation,",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 9D",
+        "caption": "establishes that correspondence based on clock time yields a mean absolute progress difference of",
+        "page": 12,
+        "pages": [
+          12
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 9",
+        "caption": "Coupling prediction targets to the demonstration turns the video demonstration from a passive conditioning",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:results"
+      },
+      {
+        "id": "Fig 10",
+        "caption": "Resolving execution through self-grounded prediction improves performance on novel tasks at each stage,",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:results"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Supplementary Table 1",
+        "caption": "Table 1 Alignment module hyperparameters.",
+        "page": 33,
+        "pages": [
+          33
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Alignment module hyperparameters.",
+        "page": 33,
+        "pages": [
+          33
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Autoregressive diffusion model architecture hyperparameters.",
+        "page": 35,
+        "pages": [
+          35
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Training hyperparameters (shared by Stage 1 and Stage 2).",
+        "page": 36,
+        "pages": [
+          36
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Supplementary Table 4",
+        "caption": "Table 4 Data processing hyperparameters.",
+        "page": 37,
+        "pages": [
+          37
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Data processing hyperparameters.",
+        "page": 37,
+        "pages": [
+          37
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Inference hyperparameters.",
+        "page": 37,
+        "pages": [
+          37
+        ],
+        "section_id": "sec:appendix-b"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Summary of notation used in the main text.",
+        "page": 38,
+        "pages": [
+          38
+        ],
+        "section_id": "sec:appendix-b"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "Problem formulation. Let M = Mtrain ∪Mtest denote a set of manipulation tasks partitioned into disjoint",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "training and testing subsets. Each task 𝑚∈Mtrain is associated with a language instruction ℓ, a set of video",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑖=1, and a set of robot trajectories {𝜏𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑗=1 that accomplish the same manipulation goal",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑖= {𝑜𝑑",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡=1",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡∈O𝑑. A robot",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑗= {(𝑜𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡=1 records the robot carrying out the same task and comprises observations 𝑜𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡∈O𝑟,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡∈S, and executed actions 𝑎𝑡∈A. Although a video demonstration and a trajectory",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "Task progress alignment. Given a video demonstration 𝜏𝑑= {𝑜𝑑",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡=1 and a robot trajectory 𝜏𝑟= {𝑜𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡=1 of",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "fed to the model, with an [EOS] token appended at the end. The per-timestep representation ℎ𝑡∈ℝ𝐷is",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "ℎ𝑡= 𝑓𝜙(𝑜𝑡),",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "e𝑡=",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "where 𝑃∈ℝ𝑑emb×𝐷is a learnable projection matrix. Applying the same model to the video demonstration",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "and the robot trajectory yields embedding sequences d = {d1, . . . , d𝑇} and r = {r1, . . . , r𝑁} of lengths 𝑇and 𝑁,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "A pairwise similarity matrix 𝑆∈ℝ𝑇×𝑁is computed from the negative squared L2 distance between embeddings,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑆𝑖𝑗= −∥d𝑖−r𝑗∥2/𝜅,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑐(𝑖, 𝑗) = −log",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑘=1 exp(𝑆𝑘𝑗/𝛾𝑓)",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑅(𝑖, 𝑗) = 𝑐(𝑖, 𝑗) + smoothMin\u0000𝑅(𝑖−1, 𝑗−1), 𝑅(𝑖−1, 𝑗), 𝑅(𝑖, 𝑗−1); 𝛾\u0001",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "constant 𝛾> 0 that reduces to the hard minimum as 𝛾→0:",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "smoothMin(a; 𝛾) =",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑘=1 exp\u0000−𝛾−1(𝑅(𝑖, 𝑘) + 𝐸(𝑖, 𝑘))\u0001 ,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "on temporally ordered correspondences. The reverse matching probabilities 𝛽𝑟→𝑑∈ℝ𝑁×𝑇are computed",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝜋𝑟→𝑑(𝑡) = arg max",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝜋𝑑→𝑟(𝑡) = arg max",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑡𝑖= 𝜋𝑑→𝑟\u0000𝜋𝑟→𝑑(𝑡) + 𝑖\u0001",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑖= 0, 1, . . . , 𝐻−1,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "T𝑡= {𝜏𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "attend to the video demonstration content most relevant to the current robot state, a sliding window W of 𝐿≥𝐻",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "= {𝑜𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "= {𝑎𝑡0, . . . , 𝑎𝑡𝐻−1}.",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "˜r𝑖=",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑗=1",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "ˆ𝛽𝑖𝑘=",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑙=1 exp(˜r⊤",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝜇𝑖=",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "LTCC = 1",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑖=1",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "LDTW = 𝑅(𝑇, 𝑁)",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "The two losses are symmetrized over both directions, and the total alignment loss is Lalign = LTCC+𝜆DTW LDTW.",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "through separate learnable linear layers, producing a localization token 𝑦𝑝= 𝐸𝑝(𝑝𝑡) and action tokens 𝑦𝑎. To",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝜎=(1−𝜎) 𝑦𝑝+ 𝜎𝜖𝑝,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝜎=(1−𝜎) 𝑦𝑜+ 𝜎𝜖𝑜,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝜎=(1−𝜎) 𝑦𝑎+ 𝜎𝜖𝑎.",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "Q = [Qve | Qae],",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "K = [Kve | Kae],",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "V = [Vve | Vae],",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑐= [UMT5(ℓ) | 𝑀𝑠𝑠𝑟",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "Lloc =",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "Lobs = ∥ˆ𝑣𝑜−(𝜖𝑜−𝑦𝑜)∥2 ,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "Lact = ∥ˆ𝑣𝑎−(𝜖𝑎−𝑦𝑎)∥2 .",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "L = 𝜆𝑝Lloc + 𝜆𝑜Lobs + 𝜆𝑎Lact.",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "at frame index 𝑤0 = 0 and repeatedly performs the same causal inference loop, localizing the robot’s current",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "ˆ𝑦𝑖= Denoise(𝑧𝑑, 𝑧𝑜, 𝑐, ˆ𝑦<𝑖),",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑖∈{𝑝, 𝑜, 𝑎},",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "where ˆ𝑦<𝑖denotes the preceding generated outputs in the causal order 𝑝→𝑜→𝑎. Each denoising process",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "ˆ𝑞𝑡= 𝑤𝑡+ ⌊ˆ𝑝𝑡𝐿⌋,",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑤𝑡+1 = ˆ𝑞𝑡−⌊𝐿/2⌋.",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "∈ℝ𝑑emb of the instruction, and a scene embedding 𝑒img",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "∈ℝ𝑑emb of the initial observation. Qwen3-VL-",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "𝑠𝑖= 𝜔cos(𝑒text",
+      "section_id": "sec:methods",
+      "page_start": 17,
+      "page_end": 22
+    },
+    {
+      "text": "https://openreview.net/forum?id=Nu6N69i8SB.",
+      "section_id": "sec:references",
+      "page_start": 22,
+      "page_end": 28
+    },
+    {
+      "text": "position in the last hidden layer, yielding a 𝐷=1,536-dimensional hidden state. A single learnable linear layer",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "projects the hidden state to a 𝑑=128-dimensional embedding, followed by ℓ2 normalization, as formulated in",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "operator formulated in Eq. 3, with softmin temperature 𝛾=1.0. A column-normalization temperature 𝛾𝑓=0.1",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "distance entries scaled by a softmax temperature 𝜅=0.1.",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝑖is clamped with 𝜖=10−4 for numerical stability",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "under bfloat16, and the variance regularization weight is 𝜆var=0.001 with label smoothing of 0.1. The path-cost",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "loss weight is 𝜆DTW=0.3, normalized by the sum of sequence lengths 𝑇+𝑁, as formulated in Eq. 10. Both losses",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "Training configuration. The module is trained with AdamW, using 𝛽1=0.9, 𝛽2=0.999, 𝜖=10−8, and weight",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "AdamW (𝛽1=0.9, 𝛽2=0.999, 𝜖=10−8)",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "concatenated in pixel space prior to VAE encoding, producing a combined frame of height 224×3=672 pixels",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "freq_dim =256 to hidden_dim. It is then projected to the six modulation parameters through a SiLU-activated",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "yields one token per timestep, for a total of 𝐻=32 action tokens. The action expert applies one-dimensional",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "weights are linearly interpolated from 𝑑𝑣=3,072 to 𝑑𝑎=1,024 along that dimension. They are then scaled by",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "shift =3.0.",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "Separated (first frame 𝜎=0)",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "Linear interpolation from video expert (𝛼=",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "Weights =0, bias =5.0",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "share an identical training configuration with full-parameter updates. The optimizer is AdamW with 𝛽1=0.9,",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝛽2=0.95, and weight decay 10−2. Training uses a constant learning rate of 10−5. Training is distributed across",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "The loss weights are 𝜆𝑜=1.0, 𝜆𝑎=10.0, and 𝜆𝑝=1.0, as formulated in Eq. 16. The elevated action loss weight",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝑢∼Uniform[0, 1] and applying the shifted schedule 𝜎= 𝜙(𝑢, 𝑠) = 𝑠· 𝑢/ (1 + (𝑠−1) · 𝑢), where 𝑠is the shift",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "parameter. A Gaussian-weighted importance function 𝑤(𝜎) = exp\u0000−2\u0000(𝜎−𝜎max/2) / 𝜎max",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "AdamW (𝛽1=0.9, 𝛽2=0.95)",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "concatenated in pixel space before VAE encoding, producing a combined frame of height 224 × 3 = 672 pixels.",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "The robot history length is 𝐾=0, meaning only the current frame is used and no historical frames are included.",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "Temporal structure. Each video demonstration window W contains 𝐿=6×32=192 raw video demonstration",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "video ratio of 8:1 produces the 192/8=24 video frames provided to the model. The mapping derived from",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "demonstration frames and robot frames. The resulting target is defined at action resolution and contains 𝐻=32",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "observations are uniformly downsampled at an 8:1 ratio before video encoding, yielding 𝐻/8=4 target frames",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "shift =3.0 for localization and shift =5.0 for visual prediction and action. The inference schedule samples",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "uniform steps from 𝜎=1 to 𝜎=0 and transforms them through the same shifted schedule 𝜙used during training.",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "The predicted action chunk of 𝐻=32 steps is fully executed before the next step. The video demonstration",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝑡∈O𝑑, 𝑜𝑟",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝑡∈O𝑟",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝑡∈S",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    },
+    {
+      "text": "𝑎𝑡∈A",
+      "section_id": "sec:appendix-b",
+      "page_start": 32,
+      "page_end": 38
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": true,
+    "start_page": 29,
+    "sections": [
+      {
+        "title": "A broader wave of VLA models has since extended this paradigm across architectures, scales, and embodiments.",
+        "page": 29
+      },
+      {
+        "title": "a new skill typically requires additional task-specific demonstrations and offline training, a cycle that is costly,",
+        "page": 30
+      },
+      {
+        "title": "A related line of work learns temporal representations in a self-supervised manner, without relying on frame-",
+        "page": 31
+      },
+      {
+        "title": "a large constant of 109. The backward table is computed analogously from the terminal cell. The matching",
+        "page": 32
+      },
+      {
+        "title": "a factor drawn uniformly from [0.5, 2.0] to improve robustness to execution speed variation. Static frames,",
+        "page": 36
+      }
+    ],
+    "figure_captions": [],
+    "table_captions": [
+      {
+        "id": "Supplementary Table 1",
+        "caption": "Table 1 Alignment module hyperparameters.",
+        "page_hint": "p.33"
+      },
+      {
+        "id": "Table 1",
+        "caption": "Alignment module hyperparameters.",
+        "page_hint": "p.33"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Autoregressive diffusion model architecture hyperparameters.",
+        "page_hint": "p.35"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Training hyperparameters (shared by Stage 1 and Stage 2).",
+        "page_hint": "p.36"
+      },
+      {
+        "id": "Supplementary Table 4",
+        "caption": "Table 4 Data processing hyperparameters.",
+        "page_hint": "p.37"
+      },
+      {
+        "id": "Table 4",
+        "caption": "Data processing hyperparameters.",
+        "page_hint": "p.37"
+      },
+      {
+        "id": "Table 5",
+        "caption": "Inference hyperparameters.",
+        "page_hint": "p.37"
+      },
+      {
+        "id": "Table 6",
+        "caption": "Summary of notation used in the main text.",
+        "page_hint": "p.38"
+      }
+    ]
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "f18df3a2b53a550a2915b816f4c66d7523cf3c05a64fd121855771ca67efa0b4",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2607.20033",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+      "translated_title": "",
+      "authors": [],
+      "year": "",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2607.20033",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "pdf_url": "",
+      "local_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "doi": "",
+      "arxiv_id": "2607.20033",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "local_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+      "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+      "metadata_sources": [
+        "local_pdf"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2607.20033",
+      "paper_id": "arxiv:2607.20033",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2607.20033.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.20033"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.20033"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.20033"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2607.20033"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2607.20033",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2607.20033"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+          "work_value": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/lark-work/dpn_host_260720033/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/lark-work/dpn_host_260720033/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/lark-work/dpn_host_260720033/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "pdf_url": "",
+    "local_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+    "doi": "",
+    "arxiv_id": "2607.20033",
+    "zotero_key": ""
+  }
+}

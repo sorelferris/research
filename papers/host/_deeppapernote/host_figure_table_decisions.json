@@ -1,0 +1,747 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2607.20033",
+  "decisions": [
+    {
+      "decision_id": "fig_figure_1",
+      "label": "Figure 1",
+      "kind": "figure",
+      "page_number": 2,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_1.png",
+      "source_image_path": "/tmp/lark-work/dpn_host_260720033/images/pfigure_1.png",
+      "source_image_sha256": "e102a17de1ea4eae0c6dd1d7b2acc62c82107d5bfb7883aa3685d932007d4ff6",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "e102a17de1ea4eae0c6dd1d7b2acc62c82107d5bfb7883aa3685d932007d4ff6",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 1 identified as key asset for HOST note."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 1,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_2",
+      "label": "Figure 2",
+      "kind": "figure",
+      "page_number": 4,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_2.png",
+      "source_image_path": "/tmp/lark-work/dpn_host_260720033/images/pfigure_2.png",
+      "source_image_sha256": "90c1dff98517a108feff3f15b43124a6753697540cd7777c7bf8b8ac50bef9a4",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "90c1dff98517a108feff3f15b43124a6753697540cd7777c7bf8b8ac50bef9a4",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 2 identified as key asset for HOST note."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 1,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_3",
+      "label": "Figure 3",
+      "kind": "figure",
+      "page_number": 6,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_3.png",
+      "source_image_path": "/tmp/lark-work/dpn_host_260720033/images/pfigure_3.png",
+      "source_image_sha256": "0102f7d1dbc1ae70945bd4ed910aa74bc4830696aae3a3ee84a0dccd1d188d66",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "0102f7d1dbc1ae70945bd4ed910aa74bc4830696aae3a3ee84a0dccd1d188d66",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 3 identified as key asset for HOST note."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 1,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_7",
+      "label": "Figure 7",
+      "kind": "figure",
+      "page_number": 11,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_7.png",
+      "source_image_path": "/tmp/lark-work/dpn_host_260720033/images/pfigure_7.png",
+      "source_image_sha256": "7e44a19501ec732c06f4f93dd106ff279032e0fb2589916065e952c2103df2c8",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "7e44a19501ec732c06f4f93dd106ff279032e0fb2589916065e952c2103df2c8",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 7 identified as key asset for HOST note."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 2,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_8",
+      "label": "Figure 8",
+      "kind": "figure",
+      "page_number": 12,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_8.png",
+      "source_image_path": "/tmp/lark-work/dpn_host_260720033/images/pfigure_8.png",
+      "source_image_sha256": "4184b308955c4f24c97b2126bf52344adbe9d757eb0adcf83d9b0c2b33bc3175",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "4184b308955c4f24c97b2126bf52344adbe9d757eb0adcf83d9b0c2b33bc3175",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 8 identified as key asset for HOST note."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 2,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_10",
+      "label": "Figure 10",
+      "kind": "figure",
+      "page_number": 15,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_10.png",
+      "source_image_path": "/tmp/lark-work/dpn_host_260720033/images/pfigure_10.png",
+      "source_image_sha256": "499bd47ea0e22aed30946bcc86406b34368e722e99c783466bc059a7c17e0aea",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "499bd47ea0e22aed30946bcc86406b34368e722e99c783466bc059a7c17e0aea",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 10 identified as key asset for HOST note."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 2,
+      "selected_for_note": true
+    },
+    {
+      "item_id": "figure:Fig 1",
+      "source_id": "Fig 1",
+      "kind": "figure",
+      "label": "Fig 1",
+      "caption": "Robots acquire manipulation skills in seconds from a single human video. (A) Current methods teach a",
+      "pages": [
+        2
+      ],
+      "section_id": "sec:introduction",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 2",
+      "source_id": "Fig 2",
+      "kind": "figure",
+      "label": "Fig 2",
+      "caption": "Method overview of HOST. (A) Coupling prediction targets to the demonstration. HOST maps the robot trajectory",
+      "pages": [
+        4
+      ],
+      "section_id": "sec:data",
+      "decision": "review_pending",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_004_fig_fig_2_review.png",
+      "relative_markdown_embed": "![Fig 2](images/page_004_fig_fig_2_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_004_fig_fig_2_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "75ab9eb23212bc2161d10b5a6823eeb7c1d4a520fdc2ad99c14f9c8f7a81a024",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_004_fig_fig_2_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_004.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 4,
+        "caption": "Method overview of HOST. (A) Coupling prediction targets to the demonstration. HOST maps the robot trajectory",
+        "bbox_pt": [
+          74.6078109741211,
+          78.55754089355469,
+          525.7700805664062,
+          532.6658325195312
+        ],
+        "normalized_bbox": [
+          0.121908,
+          0.099189,
+          0.859101,
+          0.672558
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 3",
+      "source_id": "Fig 3",
+      "kind": "figure",
+      "label": "Fig 3",
+      "caption": "Qualitative and quantitative performance overview of HOST. (A) HOST acquires manipulation skills from a single",
+      "pages": [
+        6
+      ],
+      "section_id": "sec:results",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_006_fig_fig_3_review.png",
+      "relative_markdown_embed": "![Fig 3](images/page_006_fig_fig_3_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_006_fig_fig_3_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "770905c7ff14230eea8a14f92beedbd0f8316af5353013d6af2fb097d9a70e07",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_006_fig_fig_3_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_006.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 6,
+        "caption": "Qualitative and quantitative performance overview of HOST. (A) HOST acquires manipulation skills from a single",
+        "bbox_pt": [
+          67.51628112792969,
+          70.6564712524414,
+          546.1192626953125,
+          439.3311767578125
+        ],
+        "normalized_bbox": [
+          0.110321,
+          0.089213,
+          0.892352,
+          0.554711
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 4",
+      "source_id": "Fig 4",
+      "kind": "figure",
+      "label": "Fig 4",
+      "caption": "HOST acquires manipulation skills from a single human video across 50 novel manipulation tasks. The 50",
+      "pages": [
+        7
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 5",
+      "source_id": "Fig 5",
+      "kind": "figure",
+      "label": "Fig 5",
+      "caption": "Success rates on novel manipulation tasks. HOST acquires each skill from a single human video without any",
+      "pages": [
+        8
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 6",
+      "source_id": "Fig 6",
+      "kind": "figure",
+      "label": "Fig 6",
+      "caption": "HOST surpasses supervised fine-tuning in success rate, data efficiency and time efficiency. (A) Success rates",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 7",
+      "source_id": "Fig 7",
+      "kind": "figure",
+      "label": "Fig 7",
+      "caption": "HOST retains its performance on previously mastered tasks while supervised fine-tuning erodes it. (A) Success",
+      "pages": [
+        11
+      ],
+      "section_id": "sec:results",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_011_fig_fig_7_review.png",
+      "relative_markdown_embed": "![Fig 7](images/page_011_fig_fig_7_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_011_fig_fig_7_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "b5f84eb39e467690cfdb529838862b047bd0c38f29a4ead96ab79bdb37ab898f",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_011_fig_fig_7_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_011.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 11,
+        "caption": "HOST retains its performance on previously mastered tasks while supervised fine-tuning erodes it. (A) Success",
+        "bbox_pt": [
+          68.0,
+          74.0113525390625,
+          543.8585205078125,
+          601.2949829101562
+        ],
+        "normalized_bbox": [
+          0.111111,
+          0.093449,
+          0.888658,
+          0.759211
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 8",
+      "source_id": "Fig 8",
+      "kind": "figure",
+      "label": "Fig 8",
+      "caption": "HOST remains robust to deployment perturbations. HOST maintains strong performance under lighting variation,",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:results",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_012_fig_fig_8_review.png",
+      "relative_markdown_embed": "![Fig 8](images/page_012_fig_fig_8_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_012_fig_fig_8_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "21c4d6370c362dcccf9c06caf7b1ddeecc9c2f10cc98dee32d97ff5c53cfcfcd",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_012_fig_fig_8_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_012.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 12,
+        "caption": "HOST remains robust to deployment perturbations. HOST maintains strong performance under lighting variation,",
+        "bbox_pt": [
+          68.0,
+          74.11831665039062,
+          543.912841796875,
+          372.5409851074219
+        ],
+        "normalized_bbox": [
+          0.111111,
+          0.093584,
+          0.888746,
+          0.47038
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Fig 9D",
+      "source_id": "Fig 9D",
+      "kind": "figure",
+      "label": "Fig 9D",
+      "caption": "establishes that correspondence based on clock time yields a mean absolute progress difference of",
+      "pages": [
+        12
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 9",
+      "source_id": "Fig 9",
+      "kind": "figure",
+      "label": "Fig 9",
+      "caption": "Coupling prediction targets to the demonstration turns the video demonstration from a passive conditioning",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:results",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Fig 10",
+      "source_id": "Fig 10",
+      "kind": "figure",
+      "label": "Fig 10",
+      "caption": "Resolving execution through self-grounded prediction improves performance on novel tasks at each stage,",
+      "pages": [
+        15
+      ],
+      "section_id": "sec:results",
+      "decision": "review_pending",
+      "reason": "这张图或表直接承载主结果，适合放在关键结果部分。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "main_result",
+      "source_image_filename": "page_015_fig_fig_10_review.png",
+      "relative_markdown_embed": "![Fig 10](images/page_015_fig_fig_10_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_015_fig_fig_10_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "156b4a28f5cebce112f61fe116e670901dc37adda0a6c842c155c393395df04c",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_015_fig_fig_10_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_015.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 15,
+        "caption": "Resolving execution through self-grounded prediction improves performance on novel tasks at each stage,",
+        "bbox_pt": [
+          67.9906005859375,
+          71.4631576538086,
+          546.9580078125,
+          550.289794921875
+        ],
+        "normalized_bbox": [
+          0.111096,
+          0.090231,
+          0.893722,
+          0.69481
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Supplementary Table 1",
+      "source_id": "Supplementary Table 1",
+      "kind": "table",
+      "label": "Supplementary Table 1",
+      "caption": "Table 1 Alignment module hyperparameters.",
+      "pages": [
+        33
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 1",
+      "source_id": "Table 1",
+      "kind": "table",
+      "label": "Table 1",
+      "caption": "Alignment module hyperparameters.",
+      "pages": [
+        33
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "placeholder",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result"
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Autoregressive diffusion model architecture hyperparameters.",
+      "pages": [
+        35
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "placeholder",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview"
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Training hyperparameters (shared by Stage 1 and Stage 2).",
+      "pages": [
+        36
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "placeholder",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview"
+    },
+    {
+      "item_id": "table:Supplementary Table 4",
+      "source_id": "Supplementary Table 4",
+      "kind": "table",
+      "label": "Supplementary Table 4",
+      "caption": "Table 4 Data processing hyperparameters.",
+      "pages": [
+        37
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "visual_defect",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_037_fig_supplementary_table_4.png",
+      "relative_markdown_embed": "![Supplementary Table 4](images/page_037_fig_supplementary_table_4.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_037_fig_supplementary_table_4.png"
+    },
+    {
+      "item_id": "table:Table 4",
+      "source_id": "Table 4",
+      "kind": "table",
+      "label": "Table 4",
+      "caption": "Data processing hyperparameters.",
+      "pages": [
+        37
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "placeholder",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview"
+    },
+    {
+      "item_id": "table:Table 5",
+      "source_id": "Table 5",
+      "kind": "table",
+      "label": "Table 5",
+      "caption": "Inference hyperparameters.",
+      "pages": [
+        37
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "review_pending",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_037_fig_table_5_review.png",
+      "relative_markdown_embed": "![Table 5](images/page_037_fig_table_5_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_037_fig_table_5_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "fd3080085c6046f914f3c12fc40fddf574a4f9a98d487bbca6aebc4373c804de",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_037_fig_table_5_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_037.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 37,
+        "caption": "Inference hyperparameters.",
+        "bbox_pt": [
+          187.0590057373047,
+          483.337646484375,
+          320.4333801269531,
+          570.0999755859375
+        ],
+        "normalized_bbox": [
+          0.305652,
+          0.610275,
+          0.523584,
+          0.719823
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 6",
+      "source_id": "Table 6",
+      "kind": "table",
+      "label": "Table 6",
+      "caption": "Summary of notation used in the main text.",
+      "pages": [
+        38
+      ],
+      "section_id": "sec:appendix-b",
+      "decision": "review_pending",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result",
+      "source_image_filename": "page_038_fig_table_6_review.png",
+      "relative_markdown_embed": "![Table 6](images/page_038_fig_table_6_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_038_fig_table_6_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "04e3771841a848eb07b6cd39704a0eb83ecd4f15acb6997ebf70ea97591108f1",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/images/page_038_fig_table_6_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/HOSTRobots_Acquire_Manipulation_Skills_in_Seconds_from_a_Single_Human_Video/page_previews/page_038.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_host_260720033/paper.pdf",
+        "source_page": 38,
+        "caption": "Summary of notation used in the main text.",
+        "bbox_pt": [
+          170.6309814453125,
+          96.93592834472656,
+          437.9899597167969,
+          231.6553955078125
+        ],
+        "normalized_bbox": [
+          0.278809,
+          0.122394,
+          0.71567,
+          0.292494
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    }
+  ],
+  "summary": {
+    "total": 25,
+    "insert": 6,
+    "placeholder": 4,
+    "low_priority": 7,
+    "visual_defect": 1
+  }
+}

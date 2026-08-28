@@ -1,0 +1,197 @@
+{
+  "paper_id": "arxiv:2607.20033",
+  "title": "HOST: Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+  "paper_type": "AI_method",
+  "paper_type_rationale": "HOST is a novel AI method for robot skill acquisition from a single human video via cascade self-grounded prediction. Three-stage architecture (Localization → Vision → Action) plus retrieval-based skill retention. Strong empirical results on 7 real-robot tasks.",
+  "dominant_domain": "robot_learning/imitation_from_observation",
+  "must_cover": [
+    "核心信息: title, authors, affiliations, arxiv_id, date",
+    "原文摘要翻译: abstract Chinese translation",
+    "创新点: cascade self-grounded prediction, coupling prediction targets to demonstration via progress manifold, training-free one-shot skill acquisition, anti-catastrophic-forgetting retrieval module",
+    "一句话总结: single sentence thesis",
+    "研究问题: one-shot human video to robot skill + retain old skills",
+    "数据与任务定义: data sources (cross-embodiment human video), evaluation tasks (7 real + simulated)",
+    "方法主线: mechanism flow 3-4 steps, three-stage cascade, progress manifold coupling, retrieval-based skill retention",
+    "关键结果: 62% success on novel tasks, 50× data saving, 507× time saving (29s), +56% skill retention vs baselines, robustness under 5 perturbations",
+    "深度分析: why cascade self-grounded beats video-video matching, data scaling 8%->62%, limitations",
+    "局限: wrist camera gap, depends on progress manifold quality, novel skill ceiling 62%",
+    "我的笔记: connection to WALL-SS / X2-Robot team, engineering reproduction notes",
+    "引用: arxiv id + URL"
+  ],
+  "key_numbers": [
+    "novel_task_avg_success: 62%",
+    "vs_zero_shot_baseline: +45%",
+    "vs_SFT50_demos: exceeds with 50× fewer demos, 507× faster",
+    "skill_acquisition_time: 29s (avg)",
+    "skill_retention_50_demos: HOST 99% vs baseline 20-43% (+56%)",
+    "progress_prediction_R2: 0.996",
+    "progress_prediction_MAE: 0.013",
+    "data_scaling_8_to_100_pct: 0% -> 33% -> 43% -> 53% -> 62%",
+    "robustness_perturbation_drop: Lighting -1%, Object -4%, Scene -6%, Human perturbation -9%",
+    "fig_3_specific_tasks: Place_fruits=50; Pick_pen=55; Stack_bowls=75; Wipe_plate=60; Insert_pen=50; Cover_book=60; Stack_pots=65; Fold_socks=80"
+  ],
+  "real_comparisons": [
+    {
+      "name": "Figure 3 — 4 quantitative axes vs AWDA baseline",
+      "axis": "Performance / Data efficiency / Time efficiency / Skill retention",
+      "evidence_fig": "Figure 3",
+      "comparison": "HOST 62% vs AWDA 19% (+43%) on novel tasks; 50× data; 507× time; 99% vs 43% retention"
+    },
+    {
+      "name": "Figure 7 — Skill retention over 50 demos",
+      "axis": "4 methods × 3 demo counts × 7 tasks",
+      "evidence_fig": "Figure 7",
+      "models": [
+        "π0.5 + SFT",
+        "Wall-OSS + SFT",
+        "HOST-base + SFT",
+        "HOST (ours)"
+      ],
+      "key_finding": "HOST 99% retention at 50 demos vs π0.5=20%, Wall-OSS=43%, HOST-base=22%"
+    },
+    {
+      "name": "Figure 8 — Robustness under 5 perturbation conditions",
+      "axis": "Lighting / Object / Scene / Human / Default",
+      "evidence_fig": "Figure 8",
+      "max_drop": "-9% (Human perturbation)"
+    },
+    {
+      "name": "Figure 10 — Component ablation cascade",
+      "axis": "Action only → +Localization → +Visual pred. → +Causal (Full)",
+      "evidence_fig": "Figure 10A",
+      "ablation_steps": [
+        34,
+        43,
+        55,
+        62
+      ]
+    }
+  ],
+  "central_claims": [
+    {
+      "claim": "Cascade self-grounded prediction (Localization → Vision → Action) enables one-shot skill acquisition from a single human video, without any robot demonstrations or fine-tuning.",
+      "supporting_evidence": [
+        "Fig 3B: Novel task success 62% vs AWDA 19% (+43pp)",
+        "Fig 10A ablation: Action only 34% → +Loc 43% → +Vis 55% → +Causal 62%",
+        "T_i skill acquisition time: 29s average per task"
+      ],
+      "what_it_actually_proves": "The three-stage self-grounded cascade is sufficient to learn manipulation skills from a single human video, bypassing the video-video matching bottleneck that plagues prior cross-embodiment work.",
+      "what_it_does_not_prove": "Whether the method scales beyond tabletop manipulation (no mobile/humanoid validation); whether progress manifold capacity limits how many distinct skills can be stored."
+    },
+    {
+      "claim": "Coupling prediction targets to the demonstration via a shared progress manifold bypasses cross-embodiment video-video matching.",
+      "supporting_evidence": [
+        "Fig 10B: Progress prediction R²=0.996, MAE=0.013 (near-perfect)",
+        "Fig 1B: HOST avoids Embodiment/Object/Scene/Viewpoint mismatch via progress coupling",
+        "Pipeline shows training objective (SDTW + TCC) and inference (Localization→Vision→Action) are aligned"
+      ],
+      "what_it_actually_proves": "Progress is a cross-embodiment invariant, and projecting human video + robot trajectory onto a shared progress manifold eliminates the need for explicit video-video correspondence.",
+      "what_it_does_not_prove": "Whether the progress manifold generalizes to multi-modal tasks (e.g., language-conditioned) or scales to thousands of distinct skills."
+    },
+    {
+      "claim": "Retrieval-based skill retention module preserves previously mastered skills (99% retention after 50 demos) by reusing past trajectory memory.",
+      "supporting_evidence": [
+        "Fig 7: HOST 99% vs π0.5+SFT 20% vs Wall-OSS+SFT 43% (50 demos)",
+        "Fig 10E: Retrieval accuracy 100%/100% on mastered tasks at δ*=0.68",
+        "Retrieval-execution gap only -1% (mastered) / -2% (novel)"
+      ],
+      "what_it_actually_proves": "Storing past demonstrations in a retrieval index and reusing them at inference time is a sufficient anti-forgetting mechanism for continual skill acquisition.",
+      "what_it_does_not_prove": "Whether the retrieval index scales to thousands of skills (no upper-bound evaluation); whether retrieval-based methods can match EWC/replay-buffer accuracy in domain-shifted settings."
+    },
+    {
+      "claim": "29-second average skill acquisition time + 62% novel-task success rate + 507× speed-up over SFT-50 baseline demonstrates practical value.",
+      "supporting_evidence": [
+        "Fig 3B Time efficiency: HOST 29s vs SFT-10/20/50 at 2.5/3.0/4.0 hours",
+        "Fig 3B Data efficiency: 1 video = 62% vs 50 demos = 56%",
+        "Success rate: 62% novel task avg with single video"
+      ],
+      "what_it_actually_proves": "The 1-video + 29-second acquisition workflow is genuinely competitive with full SFT pipelines, supporting the practical value of one-shot from-human-video skill acquisition.",
+      "what_it_does_not_prove": "Whether 62% is sufficient for production deployment (depends on task criticality); whether the speed-up holds when scaling to thousands of new skills over time."
+    }
+  ],
+  "claim_boundaries": [
+    "62% absolute success — still well below 1.0; method is a 'first 30 seconds' tool, not full autonomy.",
+    "Progress manifold quality caps the upper bound; visual-prediction errors compound at long horizons.",
+    "Human perturbation drops performance 9%; not yet robust to dynamic environmental changes.",
+    "Evaluated only on tabletop manipulation; not validated on mobile / humanoid / long-horizon loco-manipulation."
+  ],
+  "negative_or_limiting_results": [
+    "Human perturbation -9% — single biggest robustness drop",
+    "Insert pen task lowest at 50% — fine-grained alignment is hard",
+    "Stage-1 pretraining is required: 0% without pretraining, scaling log-linear to 62%"
+  ],
+  "mechanism_result_map": [
+    {
+      "mechanism": "Cascade self-grounded prediction",
+      "result": "62% novel task success (+45% vs baseline)"
+    },
+    {
+      "mechanism": "Progress manifold coupling",
+      "result": "R² = 0.996 progress prediction accuracy"
+    },
+    {
+      "mechanism": "Visual prediction head",
+      "result": "Self-generated future observation -> action grounding"
+    },
+    {
+      "mechanism": "Retrieval-based skill retention",
+      "result": "99% retention after 50 demos (+56% vs baseline)"
+    },
+    {
+      "mechanism": "Stage-1 large-scale pretraining",
+      "result": "From 0% (no pretrain) to 62% (full pretrain)"
+    }
+  ],
+  "comparative_positioning": [
+    "HOST sits between one-shot imitation (no fine-tuning but lower success) and full SFT (high success but slow + catastrophic forgetting). The breakthrough is the **cascade self-grounded** mechanism that decouples skill acquisition from robot embodiment, paired with retrieval-based retention that solves the catastrophic forgetting problem of continual learning. Compared to WALL-SS (same team's earlier work on world models), HOST targets the lower-level skill acquisition loop rather than the world-model loop."
+  ],
+  "reuse_takeaways": [
+    "Cascade self-grounded prediction is a credible alternative to cross-embodiment video-video matching.",
+    "Coupling via shared progress manifold is reusable whenever two trajectories share semantic task structure but differ in embodiment.",
+    "Retrieval-based retention is the lighter alternative to EWC / replay buffers for continual learning on robots.",
+    "29-second acquisition suggests near-real-time teleop+correction workflows are feasible."
+  ],
+  "followup_questions": [
+    "Can cascade self-grounded combine with WALL-SS-style world models for closed-loop deployment?",
+    "What is the upper bound on progress manifold capacity — how many distinct skills can one model store?",
+    "How transferable is Stage-1 pretraining across robot embodiments (Franka / UR / ALOHA)?",
+    "Does HOST extend to mobile / humanoid / bimanual non-tabletop tasks?"
+  ],
+  "section_plan": [
+    {
+      "section_id": "sec:introduction",
+      "evidence_sources": [
+        "sec:introduction"
+      ],
+      "writing_target": "研究问题"
+    },
+    {
+      "section_id": "sec:methods",
+      "evidence_sources": [
+        "sec:methods"
+      ],
+      "writing_target": "方法主线"
+    },
+    {
+      "section_id": "sec:results",
+      "evidence_sources": [
+        "sec:results"
+      ],
+      "writing_target": "关键结果"
+    },
+    {
+      "section_id": "sec:discussion",
+      "evidence_sources": [
+        "sec:discussion"
+      ],
+      "writing_target": "深度分析 + 局限"
+    },
+    {
+      "section_id": "sec:references",
+      "evidence_sources": [
+        "sec:references"
+      ],
+      "writing_target": "引用"
+    }
+  ]
+}

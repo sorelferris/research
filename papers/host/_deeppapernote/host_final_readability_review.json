@@ -1,0 +1,32 @@
+{
+  "language_consistency": true,
+  "language_consistency_evidence": [
+    "正文中文 + proper noun (HOST, Wan2.2-TI2V-5B, WanVideoVAE, SDTW, TCC, D2TW, Qwen3-VL, π0.5, Wall-OSS, AWDA, DeepSpeed ZeRO, AdamW, FSDP2, DTensor, ZMQ, VLA, LeRobot 等) 保留英文",
+    "技术术语翻译: '自接地预测' (self-grounded prediction), '进度流形' (progress manifold), '级联' (cascade), '检索式技能保留' (retrieval-based skill retention), '灾难性遗忘' (catastrophic forgetting), '视觉锚点' (visual anchor), '动作 chunk' (action chunk)"
+  ],
+  "sentence_naturalness": true,
+  "sentence_naturalness_evidence": [
+    "W34-style bullet structure: 1. 🤖 **主题名** + 子 bullet `  - emoji 关键词 + : + 描述`",
+    "无机械翻译伪影 (KV缓存 of / 批量ing / In相关 Researcher 类)"
+  ],
+  "no_english_leftover": true,
+  "no_english_leftover_evidence": [
+    "除 proper noun 外的英文短语均已翻译成中文",
+    "style_gate mixed_language 警告来自 proper noun (SKILL.md 接受)"
+  ],
+  "no_filler_invented_facts": true,
+  "no_filler_invented_facts_evidence": [
+    "所有数字 (62% / 29s / +56% / 99% / R²=0.996 / MAE=0.013) 均有 Fig 3/7/8/10 数据源",
+    "复现 checklist 来自论文 Section B.1/B.2 + Table 1-3 附录",
+    "基线比较 / 鲁棒性数据 / ablation 步骤均来自 Fig 3/7/10"
+  ],
+  "section_balance": true,
+  "section_balance_evidence": [
+    "12 个 must_cover section 全部覆盖, 字数分布合理: 方法主线 ~22%, 关键结果 ~25%, 深度分析 ~18%, 局限 ~12%, 我的笔记 ~13%, 其他 ~10%"
+  ],
+  "figure_caption_completeness": true,
+  "figure_caption_completeness_evidence": [
+    "6 张图 (Fig 1, 2, 3, 7, 8, 10) 均嵌入, 每张图下一行有斜体 caption"
+  ],
+  "summary": "Final readability review passed all 6 checks. Chinese prose natural, W34-style bullet structure applied, proper nouns kept, technical terms consistently translated, figure captions complete."
+}
