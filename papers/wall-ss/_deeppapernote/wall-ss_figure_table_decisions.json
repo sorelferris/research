@@ -1,0 +1,501 @@
+{
+  "status": "ok",
+  "script": "plan_figure_table_decisions.py",
+  "paper_id": "arxiv:2608.26239",
+  "decisions": [
+    {
+      "decision_id": "fig_figure_1",
+      "label": "Figure 1",
+      "kind": "figure",
+      "page_number": 2,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_1.png",
+      "source_image_path": "/tmp/lark-work/dpn_wall_ss_260826239/images/pfigure_1.png",
+      "source_image_sha256": "052de95ffeef7512994db35f1ccb532a6ea10044821d52fcabab6a7cfb64c556",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "052de95ffeef7512994db35f1ccb532a6ea10044821d52fcabab6a7cfb64c556",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 1 identified as key asset."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 1,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_2",
+      "label": "Figure 2",
+      "kind": "figure",
+      "page_number": 3,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_2.png",
+      "source_image_path": "/tmp/lark-work/dpn_wall_ss_260826239/images/pfigure_2.png",
+      "source_image_sha256": "e2bd79a1d694d0748d392f043b2f6a3a4a2bd94abd11ab2a568f05b7052528d2",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "e2bd79a1d694d0748d392f043b2f6a3a4a2bd94abd11ab2a568f05b7052528d2",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 2 identified as key asset."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 2,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_3",
+      "label": "Figure 3",
+      "kind": "figure",
+      "page_number": 7,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_3.png",
+      "source_image_path": "/tmp/lark-work/dpn_wall_ss_260826239/images/pfigure_3.png",
+      "source_image_sha256": "8bcb51fc69f7c5254373bb01cb63ea1e1d077f95fb282d91c1317d9a2e4eb99c",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "8bcb51fc69f7c5254373bb01cb63ea1e1d077f95fb282d91c1317d9a2e4eb99c",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 3 identified as key asset."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 1,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_6",
+      "label": "Figure 6",
+      "kind": "figure",
+      "page_number": 15,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_6.png",
+      "source_image_path": "/tmp/lark-work/dpn_wall_ss_260826239/images/pfigure_6.png",
+      "source_image_sha256": "1359c3d522ba47dbe06c91a5bc5274d2d92e5d9a035494d3aa661a9c967308c7",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "1359c3d522ba47dbe06c91a5bc5274d2d92e5d9a035494d3aa661a9c967308c7",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 6 identified as key asset."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 2,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_figure_14",
+      "label": "Figure 14",
+      "kind": "figure",
+      "page_number": 22,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "pfigure_14.png",
+      "source_image_path": "/tmp/lark-work/dpn_wall_ss_260826239/images/pfigure_14.png",
+      "source_image_sha256": "80184a5c3c20947aacee5aab86a63f5b8c4e15e6733662839ef550586822ae5d",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "80184a5c3c20947aacee5aab86a63f5b8c4e15e6733662839ef550586822ae5d",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Figure 14 identified as key asset."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 2,
+      "selected_for_note": true
+    },
+    {
+      "decision_id": "fig_table_1",
+      "label": "Table 1",
+      "kind": "table",
+      "page_number": 15,
+      "visual_quality_status": "usable_candidate",
+      "decision": "insert",
+      "source_image_filename": "ptable_1.png",
+      "source_image_path": "/tmp/lark-work/dpn_wall_ss_260826239/images/ptable_1.png",
+      "source_image_sha256": "c15323e9b25dc864ace6d4afb76a43d6605453e3f851fb9e513816fabbc1305c",
+      "visual_review": {
+        "status": "pass",
+        "reviewed_asset_sha256": "c15323e9b25dc864ace6d4afb76a43d6605453e3f851fb9e513816fabbc1305c",
+        "preserved_scientific_elements": [
+          "title",
+          "main components",
+          "data"
+        ],
+        "reviewer_note": "Reviewed by model (vision_analyze). Table 1 identified as key asset."
+      },
+      "caption_text": null,
+      "caption_source": "auto_extracted",
+      "priority": 1,
+      "selected_for_note": true
+    },
+    {
+      "item_id": "figure:Figure 4",
+      "source_id": "Figure 4",
+      "kind": "figure",
+      "label": "Figure 4",
+      "caption": "Overview of the training-data composition and curation pipeline. Public robot data, private robot and",
+      "pages": [
+        10
+      ],
+      "section_id": "sec:related-work",
+      "decision": "review_pending",
+      "reason": "这张图概括了整体方法或系统流程；如果匹配置信度足够高，最适合放在 `### 机制流程` 帮助快速建立执行链理解。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 1,
+      "target_section": "机制流程",
+      "plan_kind": "method_overview",
+      "source_image_filename": "page_010_fig_figure_4_review.png",
+      "relative_markdown_embed": "![Figure 4](images/page_010_fig_figure_4_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_010_fig_figure_4_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "86bc689f00dfd2bde6fa6c8bff1bfc04e117a3feffcd4b7336baf9c827fc6754",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_010_fig_figure_4_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/page_previews/page_010.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "source_page": 10,
+        "caption": "Overview of the training-data composition and curation pipeline. Public robot data, private robot and",
+        "bbox_pt": [
+          66.86599731445312,
+          59.78138732910156,
+          545.1298828125,
+          268.544189453125
+        ],
+        "normalized_bbox": [
+          0.109258,
+          0.075482,
+          0.890735,
+          0.339071
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 5",
+      "source_id": "Figure 5",
+      "kind": "figure",
+      "label": "Figure 5",
+      "caption": "On-policy visual alignment and closed-loop evaluation. (a) Under a fixed initial observation, instruction, and",
+      "pages": [
+        13
+      ],
+      "section_id": "sec:related-work",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 7",
+      "source_id": "Figure 7",
+      "kind": "figure",
+      "label": "Figure 7",
+      "caption": "Counterfactual action-conditioned rollouts. Starting from the same initial observation, we vary only the",
+      "pages": [
+        16
+      ],
+      "section_id": "sec:background",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 8",
+      "source_id": "Figure 8",
+      "kind": "figure",
+      "label": "Figure 8",
+      "caption": "Long-horizon action following in a streaming rollout. For a single continuous rollout, shown as keyframes",
+      "pages": [
+        17
+      ],
+      "section_id": "sec:background",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 9",
+      "source_id": "Figure 9",
+      "kind": "figure",
+      "label": "Figure 9",
+      "caption": "Long-horizon action-conditioned rollout dynamics. All variants start from the same synchronized observation",
+      "pages": [
+        18
+      ],
+      "section_id": "sec:background",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "figure:Figure 10",
+      "source_id": "Figure 10",
+      "kind": "figure",
+      "label": "Figure 10",
+      "caption": "Perceptual quality over a 60-second autoregressive rollout. PSNR (↑), FID (↓), and FVD (↓) are measured in",
+      "pages": [
+        18
+      ],
+      "section_id": "sec:background",
+      "decision": "review_pending",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_018_fig_figure_10_review.png",
+      "relative_markdown_embed": "![Figure 10](images/page_018_fig_figure_10_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_018_fig_figure_10_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "6dabcb329c454450e735900a74b99c1a48669f3af86f1208eaaa29606c469a3d",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_018_fig_figure_10_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/page_previews/page_018.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "source_page": 18,
+        "caption": "Perceptual quality over a 60-second autoregressive rollout. PSNR (↑), FID (↓), and FVD (↓) are measured in",
+        "bbox_pt": [
+          66.86599731445312,
+          306.43499755859375,
+          545.149169921875,
+          482.1409912109375
+        ],
+        "normalized_bbox": [
+          0.109258,
+          0.386913,
+          0.890767,
+          0.608764
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 11",
+      "source_id": "Figure 11",
+      "kind": "figure",
+      "label": "Figure 11",
+      "caption": "Cross-view consistency. WALL-SS achieves",
+      "pages": [
+        19
+      ],
+      "section_id": "sec:background",
+      "decision": "visual_defect",
+      "reason": "这张图更适合作为补充图，放在深度分析部分帮助解释作者论点。",
+      "skip_reason": "visual_quality_gate_rejected_candidate",
+      "visual_quality_status": "reject_visual_quality",
+      "priority": 3,
+      "target_section": "深度分析",
+      "plan_kind": "supporting_figure",
+      "source_image_filename": "page_019_fig_figure_11.png",
+      "relative_markdown_embed": "![Figure 11](images/page_019_fig_figure_11.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_019_fig_figure_11.png"
+    },
+    {
+      "item_id": "figure:Figure 12",
+      "source_id": "Figure 12",
+      "kind": "figure",
+      "label": "Figure 12",
+      "caption": "Closed-loop calibration and within-task checkpoint ranking. (a) Task-level success-rate calibration between",
+      "pages": [
+        20
+      ],
+      "section_id": "sec:background",
+      "decision": "review_pending",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_020_fig_figure_12_review.png",
+      "relative_markdown_embed": "![Figure 12](images/page_020_fig_figure_12_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_020_fig_figure_12_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "5282b917a2f57e6819334cefbdddc1ff4d094d58cbd1e6ee46a7ce147cb5e1b6",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_020_fig_figure_12_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/page_previews/page_020.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "source_page": 20,
+        "caption": "Closed-loop calibration and within-task checkpoint ranking. (a) Task-level success-rate calibration between",
+        "bbox_pt": [
+          66.86599731445312,
+          59.778778076171875,
+          545.1351318359375,
+          255.406982421875
+        ],
+        "normalized_bbox": [
+          0.109258,
+          0.075478,
+          0.890744,
+          0.322484
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "figure:Figure 13",
+      "source_id": "Figure 13",
+      "kind": "figure",
+      "label": "Figure 13",
+      "caption": "Closed-loop fidelity across outcomes and subtask transitions. (a) Confusion matrix of WALL-SS and real-",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:background",
+      "decision": "review_pending",
+      "reason": "这张图更像任务设定或数据说明，放在数据与任务定义最合适。",
+      "skip_reason": "",
+      "visual_quality_status": "usable_candidate",
+      "priority": 3,
+      "target_section": "数据与任务定义",
+      "plan_kind": "data_or_task",
+      "source_image_filename": "page_021_fig_figure_13_review.png",
+      "relative_markdown_embed": "![Figure 13](images/page_021_fig_figure_13_review.png)",
+      "source_image_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_021_fig_figure_13_review.png",
+      "materialization_status": "pending",
+      "source_image_sha256": "ae3be7f7f4b93c3774984422270cc73c79a127efeeda39728842bdfcb1f9464f",
+      "review_evidence": {
+        "candidate_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/images/page_021_fig_figure_13_review.png",
+        "page_preview_path": "/home/sorel/tmp/DeepPaperNote/assets/WALL_SS_Scaling_Long_horizon_World_Models_via_Next_Scale_Autoregression/page_previews/page_021.png",
+        "source_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "source_page": 21,
+        "caption": "Closed-loop fidelity across outcomes and subtask transitions. (a) Confusion matrix of WALL-SS and real-",
+        "bbox_pt": [
+          71.56999969482422,
+          38.92064666748047,
+          559.296630859375,
+          198.99200439453125
+        ],
+        "normalized_bbox": [
+          0.116944,
+          0.049142,
+          0.913883,
+          0.251253
+        ],
+        "render_dpi": 300
+      },
+      "visual_review": {
+        "status": "pending",
+        "reviewed_asset_sha256": "",
+        "preserved_scientific_elements": [],
+        "omitted_scientific_elements": [],
+        "notes": "",
+        "failure_reason": "",
+        "repair_attempts": 0,
+        "revised_bbox": []
+      }
+    },
+    {
+      "item_id": "table:Table 2",
+      "source_id": "Table 2",
+      "kind": "table",
+      "label": "Table 2",
+      "caption": "Tasks for closed-loop policy consistency evaluation. A variety of manipulation tasks are decomposed into",
+      "pages": [
+        20
+      ],
+      "section_id": "sec:background",
+      "decision": "low_priority",
+      "reason": "caption_detected_but_not_selected_by_figure_plan",
+      "skip_reason": "",
+      "visual_quality_status": "",
+      "priority": 99,
+      "target_section": ""
+    },
+    {
+      "item_id": "table:Table 3",
+      "source_id": "Table 3",
+      "kind": "table",
+      "label": "Table 3",
+      "caption": "Closed-loop outcome alignment. Generated and real rollouts are compared at three levels: success-rate calibration",
+      "pages": [
+        21
+      ],
+      "section_id": "sec:background",
+      "decision": "placeholder",
+      "reason": "这是关键结果表，适合放在关键结果部分辅助定位核心数值。",
+      "skip_reason": "asset_candidate_missing",
+      "visual_quality_status": "",
+      "priority": 2,
+      "target_section": "关键结果",
+      "plan_kind": "table_result"
+    }
+  ],
+  "summary": {
+    "total": 17,
+    "insert": 6,
+    "placeholder": 1,
+    "review_pending": 4,
+    "low_priority": 5,
+    "visual_defect": 1
+  }
+}

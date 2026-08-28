@@ -1,0 +1,175 @@
+{
+  "paper_id": "arxiv:2608.26239",
+  "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+  "paper_type": "AI_method",
+  "paper_type_rationale": "World model with a new autoregressive paradigm (next-scale AR) plus three contributions: action-conditioned next-scale prediction, scale-compressed long-horizon memory, on-policy alignment. New state-of-the-art on quantitative metrics + real robot.",
+  "dominant_domain": "robot_learning/world_model",
+  "must_cover": [
+    "核心信息: ['title', 'authors', 'institutions', 'arxiv_id', 'date']",
+    "原文摘要翻译: ['abstract Chinese translation']",
+    "创新点: ['next-scale autoregression paradigm', 'action-conditioned next-scale prediction', 'scale-compressed memory', 'on-policy alignment']",
+    "一句话总结: ['single sentence thesis']",
+    "研究问题: ['long-horizon action-controllable world model']",
+    "数据与任务定义: ['data corpus (AgiBotWorld + X2 + UMI)', 'evaluation tasks']",
+    "方法主线: ['mechanism flow 3-4 steps', 'action-conditioned next-scale prediction detail', 'scale-compressed memory detail', 'on-policy alignment detail']",
+    "关键结果: ['Table 1 quantitative', 'Table 3 closed-loop alignment', 'Figure 14 real-robot task progress']",
+    "深度分析: ['why next-scale > next-token + diffusion', \"what scaling 'on scales' buys\", 'where the method breaks']",
+    "局限: ['Motion Smoothness -9.8%', 'sub-task conditional bias +0.12 on contact-intensive transitions', 'optimism bias (+0.028)']",
+    "我的笔记: ['connection to VLA / pi05 / DreamZero', 'engineering reproduction notes']",
+    "引用: ['arxiv id + URL']"
+  ],
+  "key_numbers": [
+    "table_1_wall_ss_vs_best_baseline: Trajectory_Accuracy=0.539 vs 0.251 (+114.7%); Action_Following=0.290 vs 0.044 (+559%); Instruction_Following=0.471 vs 0.410 (+14.9%); Semantic_Alignment=0.912 vs 0.903 (+0.9%); Motion_Smoothness=0.715 vs 0.793 (-9.8%, WORST)",
+    "table_3_closed_loop_calibration: MAE_30_cells=0.062; signed_bias=+0.028; calibration_slope=0.84; pairwise_accuracy_59_untied=0.93; mean_spearman_per_task=0.88; balanced_acc_600_pairs=0.88; false_positive_rate=0.136",
+    "fig_14_real_robot: Task_Progress_avg_WALL_SS=69.1; pi05=49.6; DreamZero=44.1; LingBot_VA=34.0; Pick_Items_into_Basket=98.5",
+    "training_data: AgiBotWorld_Beta=1,003,672 trajectories, 100+ robots, 100+ scenarios"
+  ],
+  "real_comparisons": [
+    {
+      "name": "Video generation vs Action-Cond Diffusion vs WALL-SS",
+      "axis": "paradigm",
+      "evidence_fig": "Figure 2",
+      "comparison": "diffusion (no action) vs conditional diffusion (action + iterative) vs streaming action-causal AR (scales)"
+    },
+    {
+      "name": "Table 1 quantitative across 13 metrics",
+      "axis": "13 dimensions grouped into 4 categories",
+      "evidence_table": "Table 1",
+      "models": [
+        "InfinityStar",
+        "Wan2.1-1.3B",
+        "Wan2.2-14B",
+        "CogVideoX-5B",
+        "Cosmos3-Nano",
+        "WALL-SS"
+      ],
+      "wall_ss_leads_on": 12,
+      "wall_ss_worst_on": [
+        "Motion Smoothness (-9.8% vs Wan2.2-14B)"
+      ]
+    },
+    {
+      "name": "Real-robot task progress vs pi0.5 / LingBot-VA / DreamZero",
+      "axis": "7 tabletop tasks",
+      "evidence_fig": "Figure 14",
+      "wall_ss_avg": 69.1,
+      "baseline_avg_max": 49.6,
+      "advantage_pp": "+19.5"
+    }
+  ],
+  "central_claims": [
+    {
+      "claim": "Next-scale autoregression (coarse→fine × time) extends next-token AR to support long-horizon visual generation with bounded memory.",
+      "supporting_evidence": [
+        "Table 1 整体 13 项指标中 11 项最高",
+        "Figure 14 平均 Task Progress 69.1 vs 最强基线 49.6",
+        "Figure 1 中心 'Coarse → Mid → Fine' 尺度金字塔 + Bounded Time-scale Memory 4 桶"
+      ],
+      "what_it_actually_proves": "Wall-SS 的 next-scale AR 范式在长视频生成 + 闭环控制上同时优于扩散与 next-token AR。",
+      "what_it_does_not_prove": "该范式在 Motion Smoothness(-9.8%)与跨 embodiment 迁移上的表现未知。"
+    },
+    {
+      "claim": "Action-conditioned next-scale prediction 在每一尺度层显式注入尺度对齐动作,使 Action Following 与 Trajectory Accuracy 数量级跃升。",
+      "supporting_evidence": [
+        "Table 1 Action Following 0.290 vs 0.044(基线 Cosmos3-Nano)+559%",
+        "Table 1 Trajectory Accuracy 0.539 vs 0.251 +114.7%"
+      ],
+      "what_it_actually_proves": "动作信号需要被显式注入到每个尺度层级,而不是作为全局条件均匀稀释。",
+      "what_it_does_not_prove": "Action Following 0.290 仍远低于 1.0,完全动作跟随仍未解决。"
+    },
+    {
+      "claim": "Scale-compressed memory (4 桶:Anchor/Distant/Mid/Recent) 让有界显存支持分钟级流式展开。",
+      "supporting_evidence": [
+        "Figure 1 中央 'Bounded Time-scale Memory' 模块",
+        "Figure 3 主干中 Time-Scale KV Memory 4 桶结构"
+      ],
+      "what_it_actually_proves": "时间尺度压缩记忆可作为长视频世界模型的可行 KV 缓存方案。",
+      "what_it_does_not_prove": "在显存严格受限(单卡 <40GB)场景的可行性未验证;跨小时级生成的可行性未验证。"
+    },
+    {
+      "claim": "On-policy alignment 用 PPO/GRPO + Reference KL + AR Replay 改善动作漂移与长时程不一致,且保留视觉分布。",
+      "supporting_evidence": [
+        "Table 3 FPR 0.136(并非完全乐观)",
+        "Figure 6 定性:30s/60s 帧 WALL-SS 仍绿框成功,基线全红框失败"
+      ],
+      "what_it_actually_proves": "同策略视觉对齐不会摧毁预训练视觉分布,且对长时程鲁棒性有显著改善。",
+      "what_it_does_not_prove": "如果 evaluator 与 actor 同源(或共享 backbone),FPR 会否飙升未知;evaluator 选型的最佳实践未给出。"
+    }
+  ],
+  "claim_boundaries": [
+    "Action Following 0.290 absolute — still well below 1.0 (i.e., not solved, just 6.6x better than prior).",
+    "Motion Smoothness regressed (-9.8%) — coarse-to-fine may introduce mild jitter.",
+    "Closed-loop task progress avg 69.1 vs 49.6 best baseline — gap closes on simple tasks but stays on long-history ones.",
+    "On-policy alignment relies on evaluator quality — if the evaluator is optimistic (false-positive rate 0.136), optimization could promote weak checkpoints."
+  ],
+  "negative_or_limiting_results": [
+    "Motion Smoothness 0.715 vs Wan2.2-14B 0.793 (-9.8%) — sole regression among 13 metrics",
+    "Conditional transition bias +0.12 on insertion tasks (contact-intensive stages)",
+    "False-positive rate 0.136 — generated rollouts over-predict success when real failed"
+  ],
+  "mechanism_result_map": [
+    {
+      "mechanism": "Action-conditioned next-scale prediction",
+      "result": "Action Following +559%, Trajectory Accuracy +114.7%"
+    },
+    {
+      "mechanism": "Scale-compressed memory (4 buckets)",
+      "result": "minute-long streaming rollout under bounded memory"
+    },
+    {
+      "mechanism": "On-policy alignment with PPO/GRPO + Reference KL",
+      "result": "reduces action drift + long-horizon inconsistency (qualitative Fig 6)"
+    }
+  ],
+  "comparative_positioning": [
+    "Among world-model + VLA baselines: out-performs DreamZero (44.1), pi0.5 (49.6), LingBot-VA (34.0) on task progress. Among video generation baselines: 12/13 metrics best, only Motion Smoothness lost. Implies WALL-SS sits at the intersection of 'large video model' and 'action-relevant world model', unlike pure video models that fail on action following."
+  ],
+  "reuse_takeaways": [
+    "Scale-wise autoregression + bounded time-scale memory is a credible alternative to next-token video diffusion for long-horizon generation.",
+    "Action following is the dimension where world models most need to beat diffusion — quantitative gap here is the most decisive test.",
+    "On-policy alignment requires careful evaluator design — false-positive rate is a leading indicator of self-bias."
+  ],
+  "followup_questions": [
+    "Can the next-scale AR paradigm be combined with a large VLA head for closed-loop deployment without retraining?",
+    "What is the scaling law across scales (not tokens) — how does performance grow with #scales vs #params?",
+    "How transferable is the pre-trained WALL-SS backbone to non-X2 robot embodiments?"
+  ],
+  "section_plan": [
+    {
+      "section_id": "sec:introduction",
+      "evidence_sources": [
+        "sec:introduction"
+      ],
+      "writing_target": "研究问题"
+    },
+    {
+      "section_id": "sec:model",
+      "evidence_sources": [
+        "sec:model-2",
+        "sec:background"
+      ],
+      "writing_target": "方法主线"
+    },
+    {
+      "section_id": "sec:experiments",
+      "evidence_sources": [
+        "sec:experiments"
+      ],
+      "writing_target": "关键结果"
+    },
+    {
+      "section_id": "sec:discussion",
+      "evidence_sources": [
+        "sec:discussion"
+      ],
+      "writing_target": "深度分析 + 局限"
+    },
+    {
+      "section_id": "sec:references",
+      "evidence_sources": [
+        "sec:references"
+      ],
+      "writing_target": "引用"
+    }
+  ]
+}

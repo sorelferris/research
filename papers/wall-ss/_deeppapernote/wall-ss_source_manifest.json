@@ -1,0 +1,1100 @@
+{
+  "status": "ok",
+  "script": "extract_source_text.py",
+  "schema_version": 1,
+  "paper_id": "arxiv:2608.26239",
+  "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+  "source_kind": "pdf_text",
+  "raw_sections_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_raw_sections.jsonl",
+  "full_text_md_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_full_text.md",
+  "pdf": {
+    "path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "total_pages": 27,
+    "text_pages_extracted": 27,
+    "text_max_pages": null,
+    "text_truncated": false
+  },
+  "coverage": {
+    "total_pages": 27,
+    "text_max_pages": null,
+    "text_pages_extracted": 27,
+    "text_pages_scanned": 27,
+    "text_truncated": false,
+    "truncated_due_to_page_limit": false,
+    "appendix_detected": false,
+    "appendix_start_page": null,
+    "references_start_page": 24
+  },
+  "sections": [
+    {
+      "section_id": "sec:preamble",
+      "kind": "preamble",
+      "title": "preamble",
+      "page_start": 1,
+      "page_end": 1,
+      "char_count": 2808,
+      "text_hash_sha256": "2f0f008136d82d2db6aa65509e3acf938c6f2e719acae7ba12bf4c17f986db24"
+    },
+    {
+      "section_id": "sec:introduction",
+      "kind": "introduction",
+      "title": "Introduction",
+      "page_start": 1,
+      "page_end": 4,
+      "char_count": 11825,
+      "text_hash_sha256": "e168be4fc5414875158864848b7ce856eb4a029c27956e6653bc3cdbd7712e91"
+    },
+    {
+      "section_id": "sec:related-work",
+      "kind": "introduction",
+      "title": "Related Work",
+      "page_start": 4,
+      "page_end": 14,
+      "char_count": 39628,
+      "text_hash_sha256": "ccbe6d7d89102485317ba5524dec315f9d19b3bf735c5ba8855eb79f68d2d305"
+    },
+    {
+      "section_id": "sec:experiments",
+      "kind": "experiment",
+      "title": "Experiments",
+      "page_start": 14,
+      "page_end": 14,
+      "char_count": 2689,
+      "text_hash_sha256": "af4bfabb87ec0a1d9b3661772242978d99f18ea525986b11aaad6657e1c185b2"
+    },
+    {
+      "section_id": "sec:model",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 15,
+      "page_end": 15,
+      "char_count": 183,
+      "text_hash_sha256": "9c2a0e9d72813c29fa496bad6e48c55fb44da3ab57ebd4fba2e8e9e7926ed014"
+    },
+    {
+      "section_id": "sec:background",
+      "kind": "introduction",
+      "title": "Background",
+      "page_start": 15,
+      "page_end": 21,
+      "char_count": 21388,
+      "text_hash_sha256": "a96227038e7a5c167cd7ec9f5d9bbae63bca8bd31cccdd93077ccf91d1acab07"
+    },
+    {
+      "section_id": "sec:model-2",
+      "kind": "method",
+      "title": "Model",
+      "page_start": 21,
+      "page_end": 22,
+      "char_count": 5528,
+      "text_hash_sha256": "f0c95bcc8662852603e9f60b497aecc5e6a1260d90b8f36f712de4f9a02111f1"
+    },
+    {
+      "section_id": "sec:discussion",
+      "kind": "conclusion",
+      "title": "Discussion",
+      "page_start": 22,
+      "page_end": 23,
+      "char_count": 1912,
+      "text_hash_sha256": "5d7ebb918c81790d4160fef473313bd3e4b9eb7ce427b2a76c0474a5a49f4227"
+    },
+    {
+      "section_id": "sec:references",
+      "kind": "references",
+      "title": "References",
+      "page_start": 24,
+      "page_end": 27,
+      "char_count": 19273,
+      "text_hash_sha256": "67d81addf0c2be00a2698ff67b467491f01f7090404a8a98d8f2737ffef1be39"
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "char_count": 4133,
+      "section_ids": [
+        "sec:preamble",
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 2,
+      "char_count": 3538,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 3,
+      "char_count": 3593,
+      "section_ids": [
+        "sec:introduction"
+      ]
+    },
+    {
+      "page": 4,
+      "char_count": 4500,
+      "section_ids": [
+        "sec:introduction",
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 5,
+      "char_count": 4312,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 6,
+      "char_count": 4292,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 7,
+      "char_count": 3112,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 8,
+      "char_count": 3123,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 9,
+      "char_count": 3909,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 10,
+      "char_count": 4021,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 11,
+      "char_count": 5124,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 12,
+      "char_count": 4805,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 13,
+      "char_count": 4205,
+      "section_ids": [
+        "sec:related-work"
+      ]
+    },
+    {
+      "page": 14,
+      "char_count": 4466,
+      "section_ids": [
+        "sec:related-work",
+        "sec:experiments"
+      ]
+    },
+    {
+      "page": 15,
+      "char_count": 3387,
+      "section_ids": [
+        "sec:model",
+        "sec:background"
+      ]
+    },
+    {
+      "page": 16,
+      "char_count": 3405,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 17,
+      "char_count": 3069,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 18,
+      "char_count": 2769,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 19,
+      "char_count": 4377,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 20,
+      "char_count": 3655,
+      "section_ids": [
+        "sec:background"
+      ]
+    },
+    {
+      "page": 21,
+      "char_count": 3875,
+      "section_ids": [
+        "sec:background",
+        "sec:model-2"
+      ]
+    },
+    {
+      "page": 22,
+      "char_count": 3475,
+      "section_ids": [
+        "sec:model-2",
+        "sec:discussion"
+      ]
+    },
+    {
+      "page": 23,
+      "char_count": 1377,
+      "section_ids": [
+        "sec:discussion"
+      ]
+    },
+    {
+      "page": 24,
+      "char_count": 5310,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 25,
+      "char_count": 5644,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 26,
+      "char_count": 5621,
+      "section_ids": [
+        "sec:references"
+      ]
+    },
+    {
+      "page": 27,
+      "char_count": 2718,
+      "section_ids": [
+        "sec:references"
+      ]
+    }
+  ],
+  "captions": {
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Overview of WALL-SS. WALL-SS learns action-grounded visual dynamics from heterogeneous robot and UMI",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Fig 2",
+        "caption": "highlights the structural difference between conventional video diffusion, action-conditioned diffusion,",
+        "page": 2,
+        "pages": [
+          2
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Comparison of generative world-model formulations. (a) Conventional video diffusion predicts a future",
+        "page": 3,
+        "pages": [
+          3
+        ],
+        "section_id": "sec:introduction"
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Overall framework of WALL-SS. WALL-SS unifies action-conditioned next-scale visual prediction, streaming",
+        "page": 7,
+        "pages": [
+          7
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Overview of the training-data composition and curation pipeline. Public robot data, private robot and",
+        "page": 10,
+        "pages": [
+          10
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 5",
+        "caption": "On-policy visual alignment and closed-loop evaluation. (a) Under a fixed initial observation, instruction, and",
+        "page": 13,
+        "pages": [
+          13
+        ],
+        "section_id": "sec:related-work"
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Qualitative comparison of long-horizon video rollouts. Rows correspond to Wan2.1-1.3B, Wan2.2-14B,",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Counterfactual action-conditioned rollouts. Starting from the same initial observation, we vary only the",
+        "page": 16,
+        "pages": [
+          16
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Long-horizon action following in a streaming rollout. For a single continuous rollout, shown as keyframes",
+        "page": 17,
+        "pages": [
+          17
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 9",
+        "caption": "Long-horizon action-conditioned rollout dynamics. All variants start from the same synchronized observation",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 10",
+        "caption": "Perceptual quality over a 60-second autoregressive rollout. PSNR (↑), FID (↓), and FVD (↓) are measured in",
+        "page": 18,
+        "pages": [
+          18
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 11",
+        "caption": "Cross-view consistency. WALL-SS achieves",
+        "page": 19,
+        "pages": [
+          19
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 12",
+        "caption": "Closed-loop calibration and within-task checkpoint ranking. (a) Task-level success-rate calibration between",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 13",
+        "caption": "Closed-loop fidelity across outcomes and subtask transitions. (a) Confusion matrix of WALL-SS and real-",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Figure 14",
+        "caption": "Diverse real-robot manipulation. Task Progress on tabletop tasks covering direct physical manipulation,",
+        "page": 22,
+        "pages": [
+          22
+        ],
+        "section_id": "sec:model-2"
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Quantitative evaluation of embodied video generation. Quantitative comparisons against representative",
+        "page": 15,
+        "pages": [
+          15
+        ],
+        "section_id": "sec:model"
+      },
+      {
+        "id": "Table 2",
+        "caption": "Tasks for closed-loop policy consistency evaluation. A variety of manipulation tasks are decomposed into",
+        "page": 20,
+        "pages": [
+          20
+        ],
+        "section_id": "sec:background"
+      },
+      {
+        "id": "Table 3",
+        "caption": "Closed-loop outcome alignment. Generated and real rollouts are compared at three levels: success-rate calibration",
+        "page": 21,
+        "pages": [
+          21
+        ],
+        "section_id": "sec:background"
+      }
+    ]
+  },
+  "math_index": [
+    {
+      "text": "LAR = −𝔼D𝔼(𝑐,ℓ,𝑟)∼Bal",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝐾= 1",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝐾= 2",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝐾= 3",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "At each retained pre-prediction boundary 𝑠∈S𝑀, we materialize the synchro-",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "prefix. Each state is paired with the action bank A𝑢= {X𝐴",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝑢,𝑗} 𝑗∈S𝐴for the same physical interval:",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "B𝑢,𝑠= \u0000Hpre",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝑠∈S𝑀,",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "M𝑐= {Hanc} ∪",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "B𝑐−𝛿,𝑠(𝛿) | 𝛿∈D𝑐",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "D𝑐= {1, . . . , min(𝑊𝑀, 𝑐−1)} ,",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝛿1 < 𝛿2 =⇒𝑠(𝛿1) ≥𝑠(𝛿2).",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "= {Hanc} ∪",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "\u0001 ≤𝐵KV.",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "Lself = −log 𝑝𝜃",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "Llong = LAR + 𝜆corLcor + 𝜆selfLself.",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝑐= 𝐹𝐴",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝑐,𝑗= Γ𝑗(b𝐴𝑐, 𝑠𝑐) from Sec. 3.2; the visual model never reads private expert states.",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "Lcotrain = Llong + 𝜆𝐴Lact,",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝜃(· | 𝜉𝑛) = S𝜂[𝑝𝜃(· | 𝜉𝑛)]. For each 𝑥= (O0, A1:𝐶, 𝑔),",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "a frozen behavior copy samples 𝐾≥2 trajectories, which are decoded for reward evaluation. All samples in a",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "a rolling window. With 𝑏𝑐= max(1, 𝑐−𝑊+ 1) and bV 𝑖",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "0 = O0,",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝑟𝑖,𝑐= 𝜆act𝑅act",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "We aggregate clip rewards as 𝐺𝑖,𝑐= Í𝐶",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝑢=𝑐𝛾𝑢−𝑐𝑟𝑖,𝑢and normalize them",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "across the 𝐾rollouts to obtain b𝐴𝑖,𝑐= sg[(𝐺𝑖,𝑐−𝜇𝑐)/(𝜎𝑐+ 𝜖)]. This supplies a group-relative baseline without a",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "𝜌𝑖,𝑛(𝜃) =",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "LPG = −𝔼bal",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "Lalign = LPG + 𝛽𝔼𝜉∼Dbal",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "∈{0, 1} indicate whether sample 𝑖passes",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "Dac = {(v𝑖, a𝑖, l𝑖) : 𝑚cal",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "= 1},",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "Dvid = {(v𝑖, l𝑖) : 𝑚cal",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "= 0},",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "eu = KℎTℎ←𝑒ex𝑒,",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "u = (e𝑢/e",
+      "section_id": "sec:related-work",
+      "page_start": 4,
+      "page_end": 14
+    },
+    {
+      "text": "t=5s",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "t=30s",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "t=60s",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "t=5s",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "t=30s",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "t=60s",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "y = x",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "y = 0.844x + 0.098",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "r = 0.926",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "ρ = 0.82",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "ρ = 0.97",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "ρ = 0.90",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "ρ = 0.76",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "ρ = 0.90",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "ρ = 0.90",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "on six held-out tasks with 20 matched initial configurations, yielding 6 × 5 × 20 = 600 generated–real rollout",
+      "section_id": "sec:background",
+      "page_start": 15,
+      "page_end": 21
+    },
+    {
+      "text": "𝑁= 20 trials per cell, we interpret aggregate trends rather than individual cell differences.",
+      "section_id": "sec:model-2",
+      "page_start": 21,
+      "page_end": 22
+    },
+    {
+      "text": "mean per-task Spearman ¯𝜌= 0.88, and selects the best checkpoint on four of six tasks (Fig. 12(b)). Regret is",
+      "section_id": "sec:model-2",
+      "page_start": 21,
+      "page_end": 22
+    },
+    {
+      "text": "𝑅𝑞= max",
+      "section_id": "sec:model-2",
+      "page_start": 21,
+      "page_end": 22
+    },
+    {
+      "text": "ˆ𝑝𝑞= arg max",
+      "section_id": "sec:model-2",
+      "page_start": 21,
+      "page_end": 22
+    }
+  ],
+  "appendix_index": {
+    "appendix_detected": false,
+    "start_page": null,
+    "sections": [],
+    "figure_captions": [],
+    "table_captions": []
+  },
+  "language_hint": "en",
+  "text_hash_sha256": "df5cdd190f035a80f464e1fba3d09443fb75a9a71a580ad7fe4e91c0a98a38a9",
+  "identity_contract": {
+    "artifact_type": "canonical_identity",
+    "schema_version": 2,
+    "paper_id": "arxiv:2608.26239",
+    "identity_verdict": "accepted",
+    "work_level_identity": {
+      "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+      "translated_title": "",
+      "authors": [
+        "Maeve Zhang",
+        "Rain Sun",
+        "Xiang Wang",
+        "Cyril Zhang",
+        "Shalfun Li",
+        "Meng Cao",
+        "Howard Lu",
+        "Ethan Chen",
+        "Harry Jhou",
+        "KZ Zheng",
+        "Lights Shi",
+        "Regis Cheng",
+        "Lorenzin",
+        "Robert Wang",
+        "Victor Yao",
+        "Gody Li",
+        "Elise Mon",
+        "Yohann Tang",
+        "Ryan Yu",
+        "PS Zhang",
+        "Vincent Chen",
+        "Hang Su",
+        "Roy Gan",
+        "Hao Wang",
+        "Qian Wang"
+      ],
+      "year": "2026",
+      "venue": "",
+      "doi": "",
+      "arxiv_id": "2608.26239",
+      "zotero_key": ""
+    },
+    "source_manifestation": {
+      "source_kind": "local_pdf",
+      "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+      "year": "",
+      "venue": "",
+      "source_url": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2608.26239v1",
+      "local_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "doi": "",
+      "arxiv_id": "2608.26239",
+      "zotero_key": ""
+    },
+    "accepted_metadata": {
+      "status": "ok",
+      "source_type": "local_pdf",
+      "source_url": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "local_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+      "metadata_sources": [
+        "local_pdf",
+        "arxiv"
+      ],
+      "local_pdf_title_source": "pdf_metadata_title_used",
+      "arxiv_id": "2608.26239",
+      "paper_id": "arxiv:2608.26239",
+      "identity_confidence": "high",
+      "identity_confidence_reasons": [
+        "arxiv_id_present",
+        "pdf_metadata_title_used"
+      ],
+      "script": "resolve_paper.py",
+      "source": "arxiv",
+      "url": "http://arxiv.org/abs/2608.26239v1",
+      "abstract": "Generative world models provide robots with predictive models of how the world evolves under interaction, with growing potential for simulation, planning, policy evaluation, and robot learning. Beyond clip-level future prediction, a unified generative formulation should relate actions to consequences, support flexible horizons and continuous interaction, and enable reward-driven optimization. We introduce WALL-SS, a world model that generates visual futures through Scale-wise autoregressive Scaling, enabling action-controllable and long-horizon robotic simulation. WALL-SS represents embodied trajectories as causal sequences of temporally interleaved observations and actions, making action-dependent state transitions explicit while naturally supporting variable-length generation, streaming extension through reusable causal states, and direct optimization through sequence probabilities. To make this formulation effective over long horizons, we generate each future observation in a coarse-to-fine manner and develop three complementary components within the same hierarchy. Action-conditioned next-scale prediction injects scale-aligned action representations to improve action-future coupling and model both successful and failed behaviors. Scale-compressed long-horizon memory retains recent interactions at fine resolution while compressing distant observations and actions, with scale-wise dream forcing enhancing robustness to self-generated context. Finally, on-policy alignment optimizes autoregressive visual dynamics with action-following and long-term consistency rewards while preserving the pretrained visual distribution. Experiments show that WALL-SS improves action following and trajectory accuracy, supports coherent minute-long streaming rollout under bounded memory, and consistently benefits from on-policy alignment in reducing action drift and long-horizon inconsistency.",
+      "authors": [
+        "Maeve Zhang",
+        "Rain Sun",
+        "Xiang Wang",
+        "Cyril Zhang",
+        "Shalfun Li",
+        "Meng Cao",
+        "Howard Lu",
+        "Ethan Chen",
+        "Harry Jhou",
+        "KZ Zheng",
+        "Lights Shi",
+        "Regis Cheng",
+        "Lorenzin",
+        "Robert Wang",
+        "Victor Yao",
+        "Gody Li",
+        "Elise Mon",
+        "Yohann Tang",
+        "Ryan Yu",
+        "PS Zhang",
+        "Vincent Chen",
+        "Hang Su",
+        "Roy Gan",
+        "Hao Wang",
+        "Qian Wang"
+      ],
+      "published": "2026-08-26T17:57:12Z",
+      "year": "2026",
+      "pdf_url": "https://arxiv.org/pdf/2608.26239v1"
+    },
+    "bound_sources": [
+      {
+        "kind": "local_pdf",
+        "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "trusted_input"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.26239.pdf",
+        "provider": "local_pdf",
+        "binding_reason": "accepted_identifier_derived"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.26239v1",
+        "provider": "arxiv",
+        "binding_reason": "shared_identifier"
+      }
+    ],
+    "field_provenance": {
+      "title": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26239"
+        }
+      },
+      "arxiv_id": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26239"
+        }
+      },
+      "source_url": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26239"
+        }
+      },
+      "local_pdf_path": {
+        "provider": "local_pdf",
+        "retrieved_by": {
+          "kind": "input",
+          "value": "arxiv:2608.26239"
+        }
+      },
+      "authors": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26239"
+        }
+      },
+      "year": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26239"
+        }
+      },
+      "abstract": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26239"
+        }
+      },
+      "pdf_url": {
+        "provider": "arxiv",
+        "retrieved_by": {
+          "kind": "arxiv_id",
+          "value": "2608.26239"
+        }
+      }
+    },
+    "selected_identity_evidence": [
+      {
+        "kind": "arxiv_id",
+        "value": "2608.26239",
+        "trust": "strong",
+        "source": "metadata"
+      },
+      {
+        "kind": "title",
+        "value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "trust": "metadata",
+        "source": "metadata"
+      },
+      {
+        "kind": "trusted_source_path",
+        "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "trust": "strong",
+        "source": "source_manifestation"
+      },
+      {
+        "kind": "pdf_url",
+        "value": "https://arxiv.org/pdf/2608.26239v1",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "trust": "source_manifestation",
+        "source": "metadata"
+      },
+      {
+        "kind": "source_url",
+        "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+        "trust": "source_manifestation",
+        "source": "source_manifestation"
+      }
+    ],
+    "equivalence_decision": {
+      "status": "equivalent",
+      "reason": "shared_work_identifier",
+      "location_binding": "source_manifestation",
+      "evidence": [
+        {
+          "kind": "shared_identifier",
+          "value": "arxiv_id:2608.26239"
+        },
+        {
+          "kind": "title_similarity",
+          "status": "match",
+          "score": 1.0,
+          "source_value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+          "work_value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression"
+        }
+      ]
+    },
+    "warnings": [],
+    "repair_trace_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_identity_repair_trace.json",
+    "provenance": {
+      "resolve_artifact_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_resolve.json",
+      "metadata_artifact_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_metadata.json"
+    }
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26239v1",
+    "local_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "doi": "",
+    "arxiv_id": "2608.26239",
+    "zotero_key": ""
+  }
+}

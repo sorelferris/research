@@ -1,0 +1,119 @@
+{
+  "status": "ok",
+  "source_type": "local_pdf",
+  "source_url": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+  "local_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+  "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+  "metadata_sources": [
+    "local_pdf"
+  ],
+  "local_pdf_title_source": "pdf_metadata_title_used",
+  "arxiv_id": "2608.26239",
+  "paper_id": "arxiv:2608.26239",
+  "identity_confidence": "high",
+  "identity_confidence_reasons": [
+    "arxiv_id_present",
+    "pdf_metadata_title_used"
+  ],
+  "script": "collect_metadata.py",
+  "identity_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26239"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26239v1",
+        "url": "http://arxiv.org/abs/2608.26239v1",
+        "arxiv_id": "2608.26239",
+        "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "abstract": "Generative world models provide robots with predictive models of how the world evolves under interaction, with growing potential for simulation, planning, policy evaluation, and robot learning. Beyond clip-level future prediction, a unified generative formulation should relate actions to consequences, support flexible horizons and continuous interaction, and enable reward-driven optimization. We introduce WALL-SS, a world model that generates visual futures through Scale-wise autoregressive Scaling, enabling action-controllable and long-horizon robotic simulation. WALL-SS represents embodied trajectories as causal sequences of temporally interleaved observations and actions, making action-dependent state transitions explicit while naturally supporting variable-length generation, streaming extension through reusable causal states, and direct optimization through sequence probabilities. To make this formulation effective over long horizons, we generate each future observation in a coarse-to-fine manner and develop three complementary components within the same hierarchy. Action-conditioned next-scale prediction injects scale-aligned action representations to improve action-future coupling and model both successful and failed behaviors. Scale-compressed long-horizon memory retains recent interactions at fine resolution while compressing distant observations and actions, with scale-wise dream forcing enhancing robustness to self-generated context. Finally, on-policy alignment optimizes autoregressive visual dynamics with action-following and long-term consistency rewards while preserving the pretrained visual distribution. Experiments show that WALL-SS improves action following and trajectory accuracy, supports coherent minute-long streaming rollout under bounded memory, and consistently benefits from on-policy alignment in reducing action drift and long-horizon inconsistency.",
+        "authors": [
+          "Maeve Zhang",
+          "Rain Sun",
+          "Xiang Wang",
+          "Cyril Zhang",
+          "Shalfun Li",
+          "Meng Cao",
+          "Howard Lu",
+          "Ethan Chen",
+          "Harry Jhou",
+          "KZ Zheng",
+          "Lights Shi",
+          "Regis Cheng",
+          "Lorenzin",
+          "Robert Wang",
+          "Victor Yao",
+          "Gody Li",
+          "Elise Mon",
+          "Yohann Tang",
+          "Ryan Yu",
+          "PS Zhang",
+          "Vincent Chen",
+          "Hang Su",
+          "Roy Gan",
+          "Hao Wang",
+          "Qian Wang"
+        ],
+        "published": "2026-08-26T17:57:12Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26239v1"
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression"
+      },
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26239v1",
+        "url": "http://arxiv.org/abs/2608.26239v1",
+        "arxiv_id": "2608.26239",
+        "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "abstract": "Generative world models provide robots with predictive models of how the world evolves under interaction, with growing potential for simulation, planning, policy evaluation, and robot learning. Beyond clip-level future prediction, a unified generative formulation should relate actions to consequences, support flexible horizons and continuous interaction, and enable reward-driven optimization. We introduce WALL-SS, a world model that generates visual futures through Scale-wise autoregressive Scaling, enabling action-controllable and long-horizon robotic simulation. WALL-SS represents embodied trajectories as causal sequences of temporally interleaved observations and actions, making action-dependent state transitions explicit while naturally supporting variable-length generation, streaming extension through reusable causal states, and direct optimization through sequence probabilities. To make this formulation effective over long horizons, we generate each future observation in a coarse-to-fine manner and develop three complementary components within the same hierarchy. Action-conditioned next-scale prediction injects scale-aligned action representations to improve action-future coupling and model both successful and failed behaviors. Scale-compressed long-horizon memory retains recent interactions at fine resolution while compressing distant observations and actions, with scale-wise dream forcing enhancing robustness to self-generated context. Finally, on-policy alignment optimizes autoregressive visual dynamics with action-following and long-term consistency rewards while preserving the pretrained visual distribution. Experiments show that WALL-SS improves action following and trajectory accuracy, supports coherent minute-long streaming rollout under bounded memory, and consistently benefits from on-policy alignment in reducing action drift and long-horizon inconsistency.",
+        "authors": [
+          "Maeve Zhang",
+          "Rain Sun",
+          "Xiang Wang",
+          "Cyril Zhang",
+          "Shalfun Li",
+          "Meng Cao",
+          "Howard Lu",
+          "Ethan Chen",
+          "Harry Jhou",
+          "KZ Zheng",
+          "Lights Shi",
+          "Regis Cheng",
+          "Lorenzin",
+          "Robert Wang",
+          "Victor Yao",
+          "Gody Li",
+          "Elise Mon",
+          "Yohann Tang",
+          "Ryan Yu",
+          "PS Zhang",
+          "Vincent Chen",
+          "Hang Su",
+          "Roy Gan",
+          "Hao Wang",
+          "Qian Wang"
+        ],
+        "published": "2026-08-26T17:57:12Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26239v1"
+      }
+    }
+  ]
+}

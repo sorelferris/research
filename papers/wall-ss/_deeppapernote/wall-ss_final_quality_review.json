@@ -1,0 +1,53 @@
+{
+  "central_evidence_chain_complete": true,
+  "central_evidence_chain_evidence": [
+    "Table 1: WALL-SS 11/13 SOTA quantitative, Action Following +559%, Trajectory Acc +114.7%",
+    "Table 3: Closed-loop MAE 0.062, balanced acc 0.88, FPR 0.136",
+    "Figure 14: Real-robot Task Progress avg 69.1 vs best baseline 49.6",
+    "Figure 6: Qualitative 30s/60s frames — WALL-SS green, baselines red"
+  ],
+  "key_settings_and_numbers_present": true,
+  "key_settings_evidence": [
+    "AgiBotWorld-Beta 1,003,672 trajectories, 100+ robots, 100+ scenarios",
+    "Frozen VideoVAE Encoder/Decoder + N-layer Causal Transformer Block",
+    "Memory: 4 buckets (Anchor/Distant-Coarse/Mid-range/Recent-Fine)",
+    "On-policy: PPO/GRPO + Reference KL + AR Replay, K=1,2,3 rollouts"
+  ],
+  "mechanisms_mapped_to_results": true,
+  "mechanism_map_evidence": [
+    "Action-conditioned next-scale prediction → Action Following +559%",
+    "Scale-compressed memory → minute-long streaming under bounded memory",
+    "On-policy alignment → reduces action drift (Fig 6) and long-horizon inconsistency"
+  ],
+  "comparisons_against_strong_baselines": true,
+  "comparison_evidence": [
+    "Video gen: 5 baselines (InfinityStar, Wan2.1-1.3B, Wan2.2-14B, CogVideoX-5B, Cosmos3-Nano)",
+    "Real robot: 3 baselines (π0.5, LingBot-VA, DreamZero)",
+    "Paradigm: 3 formulations compared in Figure 2 (Diffusion / Action-Cond Diffusion / Streaming Action-Causal AR)"
+  ],
+  "limitations_explained_mechanistically": true,
+  "limitations_evidence": [
+    "Motion Smoothness -9.8% explained as 'coarse-to-fine 嵌套引入跨尺度抖动'",
+    "FPR 0.136 explained as 'evaluator 与 actor 同源时的乐观偏置风险'",
+    "Conditional transition bias +0.12 on insertion explained as 'contact-intensive transitions 是世界模型最薄弱环节'"
+  ],
+  "proven_vs_unproven_separated": true,
+  "proven_unproven_evidence": [
+    "Proven: 11/13 视频指标 SOTA, 7 任务平均 69.1 任务进度, 闭环校准 MAE 0.062",
+    "Proven but bounded: Action Following 0.290 仍远低于 1.0, 30 cell sample size 仅 N=20",
+    "Unproven: 跨 embodiment 迁移, 单卡显存严格受限(<40GB) 表现, evaluator 同源风险"
+  ],
+  "takeaways_specific_reusable": true,
+  "takeaways_evidence": [
+    "可复用工程清单: next-scale AR 训练循环 + 4 桶记忆 + Frozen VideoVAE + PPO/GRPO 闭环",
+    "可复用模式: 动作信号需要按尺度切片注入而非全局条件",
+    "可复用警示: 同策略对齐 evaluator 必须独立于 actor 自身"
+  ],
+  "followup_questions_specific": true,
+  "followup_questions_evidence": [
+    "跨 embodiment 迁移的具体协议",
+    "#scales 与 #params 的 scaling law 比较",
+    "FPR 与 evaluator 同源性的定量关系"
+  ],
+  "summary": "Final quality review passed all 8 checks. Note contains complete evidence chain, all key numbers (Table 1, Table 3, Figure 14), mechanism→result mapping, strong baselines, mechanistic limitation explanations, separated proven/unproven, and reusable engineering takeaways."
+}

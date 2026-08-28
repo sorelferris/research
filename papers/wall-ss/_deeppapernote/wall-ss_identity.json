@@ -1,0 +1,371 @@
+{
+  "status": "ok",
+  "run_status": "ok",
+  "script": "build_identity_contract.py",
+  "producer": "build_identity_contract.py",
+  "artifact_type": "canonical_identity",
+  "schema_version": 2,
+  "paper_id": "arxiv:2608.26239",
+  "identity_verdict": "accepted",
+  "identity_failure_class": "",
+  "failure_summary": "",
+  "work_level_identity": {
+    "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+    "translated_title": "",
+    "authors": [
+      "Maeve Zhang",
+      "Rain Sun",
+      "Xiang Wang",
+      "Cyril Zhang",
+      "Shalfun Li",
+      "Meng Cao",
+      "Howard Lu",
+      "Ethan Chen",
+      "Harry Jhou",
+      "KZ Zheng",
+      "Lights Shi",
+      "Regis Cheng",
+      "Lorenzin",
+      "Robert Wang",
+      "Victor Yao",
+      "Gody Li",
+      "Elise Mon",
+      "Yohann Tang",
+      "Ryan Yu",
+      "PS Zhang",
+      "Vincent Chen",
+      "Hang Su",
+      "Roy Gan",
+      "Hao Wang",
+      "Qian Wang"
+    ],
+    "year": "2026",
+    "venue": "",
+    "doi": "",
+    "arxiv_id": "2608.26239",
+    "zotero_key": ""
+  },
+  "source_manifestation": {
+    "source_kind": "local_pdf",
+    "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+    "year": "",
+    "venue": "",
+    "source_url": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "pdf_url": "https://arxiv.org/pdf/2608.26239v1",
+    "local_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "doi": "",
+    "arxiv_id": "2608.26239",
+    "zotero_key": ""
+  },
+  "accepted_metadata": {
+    "status": "ok",
+    "source_type": "local_pdf",
+    "source_url": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "local_pdf_path": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+    "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+    "metadata_sources": [
+      "local_pdf",
+      "arxiv"
+    ],
+    "local_pdf_title_source": "pdf_metadata_title_used",
+    "arxiv_id": "2608.26239",
+    "paper_id": "arxiv:2608.26239",
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ],
+    "script": "resolve_paper.py",
+    "source": "arxiv",
+    "url": "http://arxiv.org/abs/2608.26239v1",
+    "abstract": "Generative world models provide robots with predictive models of how the world evolves under interaction, with growing potential for simulation, planning, policy evaluation, and robot learning. Beyond clip-level future prediction, a unified generative formulation should relate actions to consequences, support flexible horizons and continuous interaction, and enable reward-driven optimization. We introduce WALL-SS, a world model that generates visual futures through Scale-wise autoregressive Scaling, enabling action-controllable and long-horizon robotic simulation. WALL-SS represents embodied trajectories as causal sequences of temporally interleaved observations and actions, making action-dependent state transitions explicit while naturally supporting variable-length generation, streaming extension through reusable causal states, and direct optimization through sequence probabilities. To make this formulation effective over long horizons, we generate each future observation in a coarse-to-fine manner and develop three complementary components within the same hierarchy. Action-conditioned next-scale prediction injects scale-aligned action representations to improve action-future coupling and model both successful and failed behaviors. Scale-compressed long-horizon memory retains recent interactions at fine resolution while compressing distant observations and actions, with scale-wise dream forcing enhancing robustness to self-generated context. Finally, on-policy alignment optimizes autoregressive visual dynamics with action-following and long-term consistency rewards while preserving the pretrained visual distribution. Experiments show that WALL-SS improves action following and trajectory accuracy, supports coherent minute-long streaming rollout under bounded memory, and consistently benefits from on-policy alignment in reducing action drift and long-horizon inconsistency.",
+    "authors": [
+      "Maeve Zhang",
+      "Rain Sun",
+      "Xiang Wang",
+      "Cyril Zhang",
+      "Shalfun Li",
+      "Meng Cao",
+      "Howard Lu",
+      "Ethan Chen",
+      "Harry Jhou",
+      "KZ Zheng",
+      "Lights Shi",
+      "Regis Cheng",
+      "Lorenzin",
+      "Robert Wang",
+      "Victor Yao",
+      "Gody Li",
+      "Elise Mon",
+      "Yohann Tang",
+      "Ryan Yu",
+      "PS Zhang",
+      "Vincent Chen",
+      "Hang Su",
+      "Roy Gan",
+      "Hao Wang",
+      "Qian Wang"
+    ],
+    "published": "2026-08-26T17:57:12Z",
+    "year": "2026",
+    "pdf_url": "https://arxiv.org/pdf/2608.26239v1"
+  },
+  "bound_sources": [
+    {
+      "kind": "local_pdf",
+      "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "trusted_input"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.26239.pdf",
+      "provider": "local_pdf",
+      "binding_reason": "accepted_identifier_derived"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.26239v1",
+      "provider": "arxiv",
+      "binding_reason": "shared_identifier"
+    }
+  ],
+  "accepted_observations": [
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26239"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26239v1",
+        "url": "http://arxiv.org/abs/2608.26239v1",
+        "arxiv_id": "2608.26239",
+        "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "abstract": "Generative world models provide robots with predictive models of how the world evolves under interaction, with growing potential for simulation, planning, policy evaluation, and robot learning. Beyond clip-level future prediction, a unified generative formulation should relate actions to consequences, support flexible horizons and continuous interaction, and enable reward-driven optimization. We introduce WALL-SS, a world model that generates visual futures through Scale-wise autoregressive Scaling, enabling action-controllable and long-horizon robotic simulation. WALL-SS represents embodied trajectories as causal sequences of temporally interleaved observations and actions, making action-dependent state transitions explicit while naturally supporting variable-length generation, streaming extension through reusable causal states, and direct optimization through sequence probabilities. To make this formulation effective over long horizons, we generate each future observation in a coarse-to-fine manner and develop three complementary components within the same hierarchy. Action-conditioned next-scale prediction injects scale-aligned action representations to improve action-future coupling and model both successful and failed behaviors. Scale-compressed long-horizon memory retains recent interactions at fine resolution while compressing distant observations and actions, with scale-wise dream forcing enhancing robustness to self-generated context. Finally, on-policy alignment optimizes autoregressive visual dynamics with action-following and long-term consistency rewards while preserving the pretrained visual distribution. Experiments show that WALL-SS improves action following and trajectory accuracy, supports coherent minute-long streaming rollout under bounded memory, and consistently benefits from on-policy alignment in reducing action drift and long-horizon inconsistency.",
+        "authors": [
+          "Maeve Zhang",
+          "Rain Sun",
+          "Xiang Wang",
+          "Cyril Zhang",
+          "Shalfun Li",
+          "Meng Cao",
+          "Howard Lu",
+          "Ethan Chen",
+          "Harry Jhou",
+          "KZ Zheng",
+          "Lights Shi",
+          "Regis Cheng",
+          "Lorenzin",
+          "Robert Wang",
+          "Victor Yao",
+          "Gody Li",
+          "Elise Mon",
+          "Yohann Tang",
+          "Ryan Yu",
+          "PS Zhang",
+          "Vincent Chen",
+          "Hang Su",
+          "Roy Gan",
+          "Hao Wang",
+          "Qian Wang"
+        ],
+        "published": "2026-08-26T17:57:12Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26239v1"
+      }
+    },
+    {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "title",
+        "value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression"
+      },
+      "status": "accepted",
+      "reason": "shared_identifier",
+      "record": {
+        "source": "arxiv",
+        "source_type": "arxiv",
+        "metadata_sources": [
+          "arxiv"
+        ],
+        "source_url": "http://arxiv.org/abs/2608.26239v1",
+        "url": "http://arxiv.org/abs/2608.26239v1",
+        "arxiv_id": "2608.26239",
+        "title": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "abstract": "Generative world models provide robots with predictive models of how the world evolves under interaction, with growing potential for simulation, planning, policy evaluation, and robot learning. Beyond clip-level future prediction, a unified generative formulation should relate actions to consequences, support flexible horizons and continuous interaction, and enable reward-driven optimization. We introduce WALL-SS, a world model that generates visual futures through Scale-wise autoregressive Scaling, enabling action-controllable and long-horizon robotic simulation. WALL-SS represents embodied trajectories as causal sequences of temporally interleaved observations and actions, making action-dependent state transitions explicit while naturally supporting variable-length generation, streaming extension through reusable causal states, and direct optimization through sequence probabilities. To make this formulation effective over long horizons, we generate each future observation in a coarse-to-fine manner and develop three complementary components within the same hierarchy. Action-conditioned next-scale prediction injects scale-aligned action representations to improve action-future coupling and model both successful and failed behaviors. Scale-compressed long-horizon memory retains recent interactions at fine resolution while compressing distant observations and actions, with scale-wise dream forcing enhancing robustness to self-generated context. Finally, on-policy alignment optimizes autoregressive visual dynamics with action-following and long-term consistency rewards while preserving the pretrained visual distribution. Experiments show that WALL-SS improves action following and trajectory accuracy, supports coherent minute-long streaming rollout under bounded memory, and consistently benefits from on-policy alignment in reducing action drift and long-horizon inconsistency.",
+        "authors": [
+          "Maeve Zhang",
+          "Rain Sun",
+          "Xiang Wang",
+          "Cyril Zhang",
+          "Shalfun Li",
+          "Meng Cao",
+          "Howard Lu",
+          "Ethan Chen",
+          "Harry Jhou",
+          "KZ Zheng",
+          "Lights Shi",
+          "Regis Cheng",
+          "Lorenzin",
+          "Robert Wang",
+          "Victor Yao",
+          "Gody Li",
+          "Elise Mon",
+          "Yohann Tang",
+          "Ryan Yu",
+          "PS Zhang",
+          "Vincent Chen",
+          "Hang Su",
+          "Roy Gan",
+          "Hao Wang",
+          "Qian Wang"
+        ],
+        "published": "2026-08-26T17:57:12Z",
+        "year": "2026",
+        "pdf_url": "https://arxiv.org/pdf/2608.26239v1"
+      }
+    }
+  ],
+  "rejected_observations": [],
+  "field_provenance": {
+    "title": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26239"
+      }
+    },
+    "arxiv_id": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26239"
+      }
+    },
+    "source_url": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26239"
+      }
+    },
+    "local_pdf_path": {
+      "provider": "local_pdf",
+      "retrieved_by": {
+        "kind": "input",
+        "value": "arxiv:2608.26239"
+      }
+    },
+    "authors": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26239"
+      }
+    },
+    "year": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26239"
+      }
+    },
+    "abstract": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26239"
+      }
+    },
+    "pdf_url": {
+      "provider": "arxiv",
+      "retrieved_by": {
+        "kind": "arxiv_id",
+        "value": "2608.26239"
+      }
+    }
+  },
+  "selected_identity_evidence": [
+    {
+      "kind": "arxiv_id",
+      "value": "2608.26239",
+      "trust": "strong",
+      "source": "metadata"
+    },
+    {
+      "kind": "title",
+      "value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+      "trust": "metadata",
+      "source": "metadata"
+    },
+    {
+      "kind": "trusted_source_path",
+      "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "trust": "strong",
+      "source": "source_manifestation"
+    },
+    {
+      "kind": "pdf_url",
+      "value": "https://arxiv.org/pdf/2608.26239v1",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "trust": "source_manifestation",
+      "source": "metadata"
+    },
+    {
+      "kind": "source_url",
+      "value": "/tmp/lark-work/dpn_wall_ss_260826239/paper.pdf",
+      "trust": "source_manifestation",
+      "source": "source_manifestation"
+    }
+  ],
+  "equivalence_decision": {
+    "status": "equivalent",
+    "reason": "shared_work_identifier",
+    "location_binding": "source_manifestation",
+    "evidence": [
+      {
+        "kind": "shared_identifier",
+        "value": "arxiv_id:2608.26239"
+      },
+      {
+        "kind": "title_similarity",
+        "status": "match",
+        "score": 1.0,
+        "source_value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression",
+        "work_value": "WALL-SS: Scaling Long-horizon World Models via Next-Scale Autoregression"
+      }
+    ]
+  },
+  "warnings": [],
+  "repair_trace_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_identity_repair_trace.json",
+  "provenance": {
+    "resolve_artifact_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_resolve.json",
+    "metadata_artifact_path": "/tmp/lark-work/dpn_wall_ss_260826239/dpn_metadata.json"
+  },
+  "diagnostics": {
+    "identity_confidence": "high",
+    "identity_confidence_reasons": [
+      "arxiv_id_present",
+      "pdf_metadata_title_used"
+    ]
+  }
+}

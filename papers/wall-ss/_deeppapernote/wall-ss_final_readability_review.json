@@ -1,0 +1,32 @@
+{
+  "language_consistency": true,
+  "language_consistency_evidence": [
+    "正文为中文,proper noun (WALL-SS, AgiBotWorld, π0.5, LingBot-VA, DreamZero, Cosmos3-Nano, Wan2.x, CogVideoX-5B, InfinityStar, VideoVAE, PPO/GRPO, KL, AR Replay, On-Policy Alignment, Time-Scale Memory, Next-Scale AR 等)保留英文",
+    "技术术语翻译: '动作跟随' (Action Following), '轨迹精度' (Trajectory Accuracy), '动作漂移' (Action Drift), '长时程不一致' (Long-horizon Inconsistency), '梦境强迫' (Dream Forcing), '尺度压缩' (Scale-Compressed), '时间尺度记忆' (Time-Scale Memory)"
+  ],
+  "sentence_naturalness": true,
+  "sentence_naturalness_evidence": [
+    "未发现机械翻译伪影(如 'KV缓存 of' / '批量ing' / 'In相关 Researcher' 等)",
+    "复合句控制在合理长度(< 80 字),关键定义与定性句子单独成段"
+  ],
+  "no_english_leftover": true,
+  "no_english_leftover_evidence": [
+    "除 proper noun 外的英文短语均已翻译成中文",
+    "style_gate 35 mixed-language warnings 全部由 proper noun 触发(LIBERO, RLBench 类),非可避免残留"
+  ],
+  "no_filler_invented_facts": true,
+  "no_filler_invented_facts_evidence": [
+    "所有数字(0.290, 0.539, 0.062, 0.88, 69.1 等)均有 Table 1 / Table 3 / Figure 14 数据源",
+    "策略判断均来自论文 claim_boundaries / mechanism_result_map",
+    "未发现 invented placeholder 或 filler 句"
+  ],
+  "section_balance": true,
+  "section_balance_evidence": [
+    "12 个 must_cover section 全部覆盖,字数分布合理: 方法主线 ~25%, 关键结果 ~20%, 深度分析 ~20%, 局限 ~10%, 我的笔记 ~15%, 其他 ~10%"
+  ],
+  "figure_caption_completeness": true,
+  "figure_caption_completeness_evidence": [
+    "6 张图(Table 1 + Figure 1, 2, 3, 6, 14)均嵌入 note,每张图下一行有斜体 caption 描述,符合 lint_note.py figure_gate"
+  ],
+  "summary": "Final readability review passed all 6 checks. Chinese prose is natural, no mechanical translation artifacts, proper nouns are kept, technical terms are consistently translated, and figure captions are complete. Style gate false-positive from proper nouns is acceptable per SKILL.md guidance."
+}
